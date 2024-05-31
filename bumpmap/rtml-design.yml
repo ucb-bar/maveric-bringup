@@ -1,0 +1,778 @@
+# Common settings
+vlsi.inputs.power_spec_mode: "auto"
+vlsi.inputs.power_spec_type: "cpf"
+vlsi.inputs.supplies.power: [
+  {name: "vdd" , voltage: "0.85", pins: ["vcc", "vcc_nom", "vccdig_nom", "vccdist_nom", "vnnaon_nom", "vddp"]},
+  {name: "vddv", voltage: "1.2" , pins: ["vccio", "vccldo_hv", "vddh"]}
+]
+vlsi.inputs.supplies.ground: [
+  {name: "vss", pins: ["vssx", "vss", "vssp", "vssb"]}
+]
+par.generate_power_straps_options.by_tracks.power_nets: ["vdd"]
+par.blockage_spacing: 2.7
+
+synthesis.inputs.retime_modules: ["Mesh", "Mesh_*", "PE*", "AccumulatorScale*", "VectorScalarMultiplier*", "AccScalePipe*", "AccPipe*",  "ScalePipe*", "Transposer*", "FPUFMA*"]
+
+vlsi.inputs.hierarchical:
+  mode: hierarchical
+  top_module: RTMLChipTop
+  config_source: manual
+  manual_modules:
+    - RTMLChipTop:
+        - ScratchpadBank
+        - RocketTile
+        - InclusiveCacheBankScheduler
+        - ReRoCCManagerTile
+#        - RocketTile_4
+
+  constraints:
+    - RTMLChipTop:
+      - vlsi.inputs.clocks: [
+        {name: "clock"                  , path: "[get_pins hpin:RTMLChipTop/west_io_7/outi_2]", period: "2.0ns" , uncertainty: "50ps"},
+        {name: "jtag_tck"               , path: "[get_pins hpin:RTMLChipTop/west_io_2/outi_1]", period: "10.0ns" , uncertainty: "100ps"},
+        {name: "serial_tl_bringup_clock", path: "[get_pins hpin:RTMLChipTop/west_io_3/outi_1]", period: "10.0ns", uncertainty: "100ps"},
+
+        {name: "selector_uncore_clock", path: "[get_pins hpin:RTMLChipTop/system/prci_ctrl_domain/clockSelector/auto_clock_out_member_allClocks_uncore_clock]", period: "2.0ns", uncertainty: "50ps"},
+        {name: "divider_uncore_clock" , path: "[get_pins hpin:RTMLChipTop/system/prci_ctrl_domain/clockDivider/auto_clock_out_member_allClocks_uncore_clock]", period: "2.0ns", uncertainty: "50ps"}
+      ]
+
+      - vlsi.inputs.pin_mode: none
+      - vlsi.inputs.delays: [
+
+        { name: "bump_2_15_net"      , direction: "output", clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-in-ready
+        { name: "bump_5_16_net"      , direction: "input" , clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-in-valid
+        { name: "bump_5_18_net"      , direction: "input" , clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-in-bits0
+        { name: "bump_2_17_net"      , direction: "input" , clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-in-bits1
+        { name: "bump_4_17_net"      , direction: "input" , clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-in-bits2
+        { name: "bump_1_16_net"      , direction: "input" , clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-in-bits3
+
+        { name: "bump_1_18_net"      , direction: "input" , clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-out-ready
+        { name: "bump_4_19_net"      , direction: "output", clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-out-valid
+        { name: "bump_4_21_net"      , direction: "output", clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-out-bits0
+        { name: "bump_1_20_net"      , direction: "output", clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-out-bits1
+        { name: "bump_5_20_net"      , direction: "output", clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-out-bits2
+        { name: "bump_2_19_net"      , direction: "output", clock: "serial_tl_bringup_clock", delay: "100ps" }, # sertlb-out-bits3
+
+        { name: "bump_2_13_net"      , direction: "input" , clock: "jtag_tck", delay: "100ps" }, # jtag_tms
+        { name: "bump_5_14_net"      , direction: "input" , clock: "jtag_tck", delay: "100ps" }, # jtag_tdi
+        { name: "bump_1_14_net"      , direction: "output", clock: "jtag_tck", delay: "100ps" }  # jtag_tdo
+      ]
+      - vlsi.inputs.custom_sdc_constraints: [
+        "set_false_path -from bump_5_22_net",   # reset
+        "set_false_path -from bump_1_12_net",   # uart-rxd
+        "set_false_path -to   bump_5_12_net",   # uart-txd
+        "set_false_path -through hpin:RTMLChipTop/west_io_7/outi_3", # reset
+        "set_false_path -through hpin:RTMLChipTop/system/prci_ctrl_domain/clockDivider/divider_io_resetAsync_stretcher/io_reset_out",
+        "set_false_path -from    pin:RTMLChipTop/system/prci_ctrl_domain/pll/pll/clkpll",
+        "set_false_path -from    pin:RTMLChipTop/system/prci_ctrl_domain/pll/pll/clkpll0",
+        "set_false_path -from    pin:RTMLChipTop/system/prci_ctrl_domain/pll/pll/clkpll1",
+        "set_false_path -from    pin:RTMLChipTop/system/prci_ctrl_domain/pll/pll/lock"
+      ]
+      - vlsi.inputs.bumps.cell: "c4bx54mgb"
+      - vlsi.inputs.bumps.global_x_offset: 0.0
+      - vlsi.inputs.bumps.global_y_offset: 0.0
+      - vlsi.inputs.bumps.pitch_x: 77.976
+      - vlsi.inputs.bumps.pitch_y: 78.12
+      - vlsi.inputs.bumps.x: 49
+      - vlsi.inputs.bumps.y: 51
+      - vlsi.inputs.bumps_mode: "manual"
+      - technology.intech22.diffgrid_bbox: [17.28, 18.90, 3904.44, 4066.02]
+      - par.generate_power_straps_options.by_tracks.strap_layers: [m3, m4, m5, m6, m7, m8, gmz, gm0]
+      - par.generate_power_straps_options.by_tracks.pin_layers: [gm0]
+      - par.innovus.design_flow_effort: "extreme"
+      - par.innovus.opt_design_rounds: 2
+
+    - ScratchpadBank:
+      - vlsi.inputs.pin_mode: generated
+      - vlsi.inputs.pin.assignments: [{pins: "*", layers: ["m5", "m7"], side: "top"}]
+      - vlsi.inputs.clocks: [{name: "clock", period: "2.0ns", uncertainty: "120ps"}]
+      - vlsi.inputs.delays: [
+        { name: "reset"           , direction: "input", clock: "clock", delay: "100ps" },
+        { name: "auto_xbar_in_d_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_xbar_in_d_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_xbar_in_a_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_xbar_in_a_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_xbar_in_a_ready" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_xbar_in_d_valid" , direction: "output", clock: "clock", delay: "100ps" }
+      ]
+      - par.generate_power_straps_options.by_tracks.strap_layers: [m3, m4, m5, m6, m7, m8]
+      - par.generate_power_straps_options.by_tracks.pin_layers: [m8]
+
+    - RocketTile:
+      - vlsi.inputs.pin_mode: generated
+      - vlsi.inputs.pin.assignments: [{pins: "*", layers: ["m5", "m7"], side: "bottom"}]
+      - vlsi.inputs.clocks: [{name: "clock", period: "2.0ns", uncertainty: "100ps"}]
+      - vlsi.inputs.delays: [
+        { name: "reset"           , direction: "input", clock: "clock", delay: "350ps" },
+        { name: "auto_buffer_out_a_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_a_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_a_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_b_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_b_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_b_ready" , direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_c_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_c_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_c_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_d_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_d_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_d_ready" , direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_e_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_e_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_e_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_int_*"              , direction: "input" , clock: "clock", delay: "200ps" },
+
+        { name: "auto_rerocc_buffer_out_req_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_rerocc_buffer_out_req_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_rerocc_buffer_out_resp_ready", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_rerocc_buffer_out_resp_valid" , direction: "input", clock: "clock", delay: "100ps" },
+        { name: "auto_rerocc_buffer_out_resp_bits_*", direction: "input", clock: "clock", delay: "100ps" },
+        { name: "auto_rerocc_buffer_out_req_ready"  , direction: "input", clock: "clock", delay: "100ps" }
+      ]
+      - par.generate_power_straps_options.by_tracks.strap_layers: [m3, m4, m5, m6, m7, m8]
+      - par.generate_power_straps_options.by_tracks.pin_layers: [m8]
+
+    - RocketTile_4:
+      - vlsi.inputs.pin_mode: generated
+      - vlsi.inputs.pin.assignments: [{pins: "*", layers: ["m4", "m6"], side: "right"}]
+      - vlsi.inputs.clocks: [{name: "clock", period: "2.0ns", uncertainty: "100ps"}]
+      - vlsi.inputs.delays: [
+        { name: "reset"           , direction: "input", clock: "clock", delay: "350ps" },
+        { name: "auto_buffer_out_a_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_a_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_a_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_b_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_b_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_b_ready" , direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_c_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_c_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_c_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_d_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_d_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_d_ready" , direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_e_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_e_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_e_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_int_*"              , direction: "input" , clock: "clock", delay: "200ps" }
+      ]
+      - par.generate_power_straps_options.by_tracks.strap_layers: [m3, m4, m5, m6, m7, m8]
+      - par.generate_power_straps_options.by_tracks.pin_layers: [m8]
+
+    - ReRoCCManagerTile:
+      - vlsi.inputs.pin_mode: generated
+      - vlsi.inputs.pin.assignments: [{pins: "*", layers: ["m5", "m7"], side: "bottom"}]
+      - vlsi.inputs.clocks: [{name: "clock", period: "2.0ns", uncertainty: "100ps"}]
+      - vlsi.inputs.delays: [
+        { name: "reset"           , direction: "input", clock: "clock", delay: "350ps" },
+        { name: "auto_buffer_out_a_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_a_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_a_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_b_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_b_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_b_ready" , direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_c_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_c_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_c_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_d_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_d_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_d_ready" , direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_buffer_out_e_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_e_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "auto_buffer_out_e_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "auto_re_ro_cc_in_req_valid" , direction: "input", clock: "clock", delay: "100ps" },
+        { name: "auto_re_ro_cc_in_req_bits_*", direction: "input", clock: "clock", delay: "100ps" },
+        { name: "auto_re_ro_cc_in_resp_ready", direction: "input", clock: "clock", delay: "100ps" },
+
+        { name: "auto_re_ro_cc_in_resp_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_re_ro_cc_in_resp_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+        { name: "auto_re_ro_cc_in_req_ready"  , direction: "output", clock: "clock", delay: "100ps" }
+      ]
+      - par.generate_power_straps_options.by_tracks.strap_layers: [m3, m4, m5, m6, m7, m8]
+      - par.generate_power_straps_options.by_tracks.pin_layers: [m8]
+
+    - InclusiveCacheBankScheduler:
+      - vlsi.inputs.pin_mode: generated
+      - vlsi.inputs.pin.assignments: [{pins: "*", layers: ["m4", "m6"], side: "left"}]
+      - vlsi.inputs.clocks: [{name: "clock", period: "2.0ns", uncertainty: "100ps"}]
+      - vlsi.inputs.delays: [
+        { name: "reset"         , direction: "input", clock: "clock", delay: "500ps" },
+        { name: "io_in_a_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_in_a_ready" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_in_a_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+
+        { name: "io_in_b_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_in_b_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_in_b_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+
+        { name: "io_in_c_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_in_c_ready" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_in_c_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+
+        { name: "io_in_d_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_in_d_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_in_d_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+
+        { name: "io_in_e_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_in_e_ready" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_in_e_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+
+        { name: "io_out_a_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_out_a_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_out_a_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "io_out_b_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_out_b_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_out_b_ready" , direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "io_out_c_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_out_c_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_out_c_bits_*", direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "io_out_d_valid" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_out_d_bits_*", direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_out_d_ready" , direction: "output", clock: "clock", delay: "100ps" },
+
+        { name: "io_out_e_valid" , direction: "output", clock: "clock", delay: "100ps" },
+        { name: "io_out_e_ready" , direction: "input" , clock: "clock", delay: "100ps" },
+        { name: "io_out_e_bits_*", direction: "output", clock: "clock", delay: "100ps" }
+      ]
+      - par.generate_power_straps_options.by_tracks.strap_layers: [m3, m4, m5, m6, m7, m8]
+      - par.generate_power_straps_options.by_tracks.pin_layers: [m8]
+
+  manual_placement_constraints_meta: append
+  manual_placement_constraints:
+    - RTMLChipTop:
+      - {path: RTMLChipTop, type: toplevel, x: 0, y: 0, width: 3924.72, height: 4084.92, margins: {left: 17.28, right: 17.28, top: 18.9, bottom: 18.9}}
+
+      - {path: RTMLChipTop/system/prci_ctrl_domain/pll/pll, type: hardmacro, master: "ringpll", orientation: my, x: 246.348, y: 1035.81, width: 201.96, height: 413.28, top_layer: m7}
+      - {path: RTMLChipTop/PLLOBS, type: obstruction, x: 239.5, y: 1030, width: 215.5, height: 425,  obs_types: ["place", "power"], layers: [m1, m2, m3, m4, m5, m6]}
+
+      - {path: RTMLChipTop/system/uartClockDomainWrapper, type: placement, x: 200, y: 1000, width: 200, height: 1000}
+      - {path: RTMLChipTop/system/subsystem_cbus        , type: placement, x: 200, y: 1000, width: 200, height: 1000}
+      - {path: RTMLChipTop/system/subsystem_mbus        , type: placement, x: 200, y: 1000, width: 200, height: 1000}
+      - {path: RTMLChipTop/system/subsystem_pbus        , type: placement, x: 200, y: 1000, width: 200, height: 1000}
+      - {path: RTMLChipTop/system/bootROMDomainWrapper  , type: placement, x: 200, y: 1000, width: 200, height: 1000}
+
+      - {path: RTMLChipTop/system/bank  , type: hierarchical, x: 1249.92, y: 1638, master: "ScratchpadBank"}
+      - {path: RTMLChipTop/system/bank_1, type: hierarchical, x: 1900.98, y: 1638, master: "ScratchpadBank"}
+      - {path: RTMLChipTop/system/bank_2, type: hierarchical, x: 2550.00, y: 1638, master: "ScratchpadBank"}
+      - {path: RTMLChipTop/system/bank_3, type: hierarchical, x: 3201.93, y: 1638, master: "ScratchpadBank"}
+      - {path: RTMLChipTop/system/bank_4, type: hierarchical, x: 1249.92, y: 3132, master: "ScratchpadBank"}
+      - {path: RTMLChipTop/system/bank_5, type: hierarchical, x: 1900.98, y: 3132, master: "ScratchpadBank"}
+      - {path: RTMLChipTop/system/bank_6, type: hierarchical, x: 2550.00, y: 3132, master: "ScratchpadBank"}
+      - {path: RTMLChipTop/system/bank_7, type: hierarchical, x: 3201.93, y: 3132, master: "ScratchpadBank"}
+
+      - {path: RTMLChipTop/system/rerocc_tile  , type: hierarchical, x: 1249.92, y: 2150.1, master: "ReRoCCManagerTile"}
+      - {path: RTMLChipTop/system/rerocc_tile_1, type: hierarchical, x: 1900.98, y: 2150.1, master: "ReRoCCManagerTile"}
+      - {path: RTMLChipTop/system/rerocc_tile_2, type: hierarchical, x: 2550.00, y: 2150.1, master: "ReRoCCManagerTile"}
+      - {path: RTMLChipTop/system/rerocc_tile_3, type: hierarchical, x: 3201.93, y: 2150.1, master: "ReRoCCManagerTile"}
+      - {path: RTMLChipTop/system/rerocc_tile_4, type: hierarchical, x: 1249.92, y:  656.1, master: "ReRoCCManagerTile"}
+      - {path: RTMLChipTop/system/rerocc_tile_5, type: hierarchical, x: 1900.98, y:  656.1, master: "ReRoCCManagerTile"}
+      - {path: RTMLChipTop/system/rerocc_tile_6, type: hierarchical, x: 2550.00, y:  656.1, master: "ReRoCCManagerTile"}
+      - {path: RTMLChipTop/system/rerocc_tile_7, type: hierarchical, x: 3201.93, y:  656.1, master: "ReRoCCManagerTile"}
+  
+      - {path: RTMLChipTop/system/tile_prci_domain/tile_reset_domain_tile    , type: hierarchical, x: 2042.19, y: 3654, master: "RocketTile"}
+      - {path: RTMLChipTop/system/tile_prci_domain_1/tile_reset_domain_tile  , type: hierarchical, x: 2493.18, y: 3654, master: "RocketTile"}
+      - {path: RTMLChipTop/system/tile_prci_domain_2/tile_reset_domain_tile  , type: hierarchical, x: 2944.17, y: 3654, master: "RocketTile"}
+      - {path: RTMLChipTop/system/tile_prci_domain_3/tile_reset_domain_tile  , type: hierarchical, x: 3395.16, y: 3654, master: "RocketTile"}
+      #- {path: RTMLChipTop/system/tile_prci_domain_4/tile_reset_domain_tile  , type: hierarchical, x:  225.0 , y: 2106, master: "RocketTile_4"}
+
+      - {path: RTMLChipTop/system/subsystem_l2_wrapper/l2/inclusive_cache_bank_sched   , x: 650.07, y:  756, type: hierarchical, master: "InclusiveCacheBankScheduler"}
+      - {path: RTMLChipTop/system/subsystem_l2_wrapper/l2/inclusive_cache_bank_sched_1 , x: 650.07, y: 1413, type: hierarchical, master: "InclusiveCacheBankScheduler"}
+      - {path: RTMLChipTop/system/subsystem_l2_wrapper/l2/inclusive_cache_bank_sched_2 , x: 650.07, y: 2250, type: hierarchical, master: "InclusiveCacheBankScheduler"}
+      - {path: RTMLChipTop/system/subsystem_l2_wrapper/l2/inclusive_cache_bank_sched_3 , x: 650.07, y: 2925, type: hierarchical, master: "InclusiveCacheBankScheduler"}
+
+      - {path: RTMLChipTop/UPPERIOM3OBS   , type: obstruction, x: 179.2, y: 3704  , width: 1744.3, height: 2.0 , obs_types: ["route", "power"], layers: [m3]}
+      - {path: RTMLChipTop/UPPERIOM4OBS   , type: obstruction, x: 179.2, y: 3704  , width: 1744.3, height: 2.0 , obs_types: ["route", "power"], layers: [m4]}
+      - {path: RTMLChipTop/UPPERIOM5OBS   , type: obstruction, x: 179.2, y: 3702  , width: 1744.3, height: 4.0 , obs_types: ["power"]         , layers: [m5]}
+      - {path: RTMLChipTop/UPPERIOM6OBS   , type: obstruction, x: 179.2, y: 3704  , width: 1744.3, height: 2.0 , obs_types: ["route"]         , layers: [m6]}
+      - {path: RTMLChipTop/UPPERIOGMZOBS  , type: obstruction, x: 179.2, y: 3700  , width: 1744.3, height: 5   , obs_types: ["power"]         , layers: [gmz]}
+
+      - {path: RTMLChipTop/LOWERIOM3OBS   , type: obstruction, x: 179.2, y: 379   , width: 1744.3, height: 2.2 , obs_types: ["route", "power"], layers: [m3]}
+      - {path: RTMLChipTop/LOWERIOM4OBS   , type: obstruction, x: 179.2, y: 379   , width: 1744.3, height: 1.9 , obs_types: ["route", "power"], layers: [m4]}
+      - {path: RTMLChipTop/LOWERIOM5OBS   , type: obstruction, x: 179.2, y: 379   , width: 1744.3, height: 3.5 , obs_types: ["power"]         , layers: [m5]}
+      - {path: RTMLChipTop/LOWERIOM6OBS   , type: obstruction, x: 179.2, y: 379   , width: 1744.3, height: 1.9 , obs_types: ["route"]         , layers: [m6]}
+
+      - {path: RTMLChipTop/LEFTIOM4OBS    , type: obstruction, x: 177  , y: 380   , width: 2.5   , height: 3323, obs_types: ["power"]         , layers: [m4]}
+      - {path: RTMLChipTop/LEFTIOM5OBS    , type: obstruction, x: 177  , y: 380   , width: 2.5   , height: 3323, obs_types: ["power"]         , layers: [m5]}
+      - {path: RTMLChipTop/LEFTIOM6OBS    , type: obstruction, x: 177  , y: 380   , width: 2.5   , height: 3323, obs_types: ["route", "power"], layers: [m6]}
+
+      - {path: RTMLChipTop/LEFTOBS        , type: obstruction, x: 17.28, y: 2002.2, width: 162.54, height: 80.58, obs_types: ["place", "route", "power"], layers: [m1, m2, m3, m4, m5, m6, m7, m8, gmz, gm0, gmb]}
+
+      - {path: RTMLChipTop/UROBS    , x: 3847.5, y: 4003.02  , width: 60.48, height: 63.0000, type: obstruction, obs_types: ["place", "route", "power"], layers: [m1, m2, m3, m4, m5, m6, m7, m8, gmz, gm0, gmb]}
+      - {path: RTMLChipTop/UROBS2   , x: 16.74 , y: 18.18    , width: 60.48, height: 58.0155, type: obstruction, obs_types: ["place", "route", "power"], layers: [m1, m2, m3, m4, m5, m6, m7, m8, gmz, gm0, gmb]}
+
+      - {path: RTMLChipTop/DICREGilwicb_ll, type: hardmacro, master: "fdk22tic4m1_dicreg_cont", create_physical: true, x:  700.00,   y:  603, top_layer: m6}
+      - {path: RTMLChipTop/DICCDilwicb_ll , type: hardmacro, master: "fdk22tic4m1_diccd_cont" , create_physical: true, x:  722.04,   y:  603, top_layer: m6}
+      - {path: RTMLChipTop/DICREGilwicb_lm, type: hardmacro, master: "fdk22tic4m1_dicreg_cont", create_physical: true, x: 2000.00,   y:  603, top_layer: m6}
+      - {path: RTMLChipTop/DICCDilwicb_lm , type: hardmacro, master: "fdk22tic4m1_diccd_cont" , create_physical: true, x: 2022.04,   y:  603, top_layer: m6}
+      - {path: RTMLChipTop/DICREGilwicb_lr, type: hardmacro, master: "fdk22tic4m1_dicreg_cont", create_physical: true, x: 3300.00,   y:  603, top_layer: m6}
+      - {path: RTMLChipTop/DICCDilwicb_lr , type: hardmacro, master: "fdk22tic4m1_diccd_cont" , create_physical: true, x: 3322.04,   y:  603, top_layer: m6}
+      - {path: RTMLChipTop/DICREGilwicb_ml, type: hardmacro, master: "fdk22tic4m1_dicreg_cont", create_physical: true, x:  700.00,   y: 2007, top_layer: m6}
+      - {path: RTMLChipTop/DICCDilwicb_ml , type: hardmacro, master: "fdk22tic4m1_diccd_cont" , create_physical: true, x:  722.04,   y: 2007, top_layer: m6}
+      - {path: RTMLChipTop/DICREGilwicb_mm, type: hardmacro, master: "fdk22tic4m1_dicreg_cont", create_physical: true, x: 2000.00,   y: 2007, top_layer: m6}
+      - {path: RTMLChipTop/DICCDilwicb_mm , type: hardmacro, master: "fdk22tic4m1_diccd_cont" , create_physical: true, x: 2022.04,   y: 2007, top_layer: m6}
+      - {path: RTMLChipTop/DICREGilwicb_mr, type: hardmacro, master: "fdk22tic4m1_dicreg_cont", create_physical: true, x: 3300.00,   y: 2007, top_layer: m6}
+      - {path: RTMLChipTop/DICCDilwicb_mr , type: hardmacro, master: "fdk22tic4m1_diccd_cont" , create_physical: true, x: 3322.04,   y: 2007, top_layer: m6}
+      - {path: RTMLChipTop/DICREGilwicb_ul, type: hardmacro, master: "fdk22tic4m1_dicreg_cont", create_physical: true, x:  700.00,   y: 3501, top_layer: m6}
+      - {path: RTMLChipTop/DICCDilwicb_ul , type: hardmacro, master: "fdk22tic4m1_diccd_cont" , create_physical: true, x:  722.04,   y: 3501, top_layer: m6}
+      - {path: RTMLChipTop/DICREGilwicb_um, type: hardmacro, master: "fdk22tic4m1_dicreg_cont", create_physical: true, x: 2000.00,   y: 3501, top_layer: m6}
+      - {path: RTMLChipTop/DICCDilwicb_um , type: hardmacro, master: "fdk22tic4m1_diccd_cont" , create_physical: true, x: 2022.04,   y: 3501, top_layer: m6}
+      - {path: RTMLChipTop/DICREGilwicb_ur, type: hardmacro, master: "fdk22tic4m1_dicreg_cont", create_physical: true, x: 3300.00,   y: 3501, top_layer: m6}
+      - {path: RTMLChipTop/DICCDilwicb_ur , type: hardmacro, master: "fdk22tic4m1_diccd_cont" , create_physical: true, x: 3322.04,   y: 3501, top_layer: m6}
+
+      # NoC
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain    , type: placement, x:  450, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain     , type: placement, x:  450, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain                           , type: placement, x:  450, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_1  , type: placement, x: 1100, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_1   , type: placement, x: 1100, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_1                         , type: placement, x: 1100, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_2  , type: placement, x: 1750, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_2   , type: placement, x: 1750, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_2                         , type: placement, x: 1750, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_3  , type: placement, x: 2400, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_3   , type: placement, x: 2400, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_3                         , type: placement, x: 2400, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_4  , type: placement, x: 3050, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_4   , type: placement, x: 3050, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_4                         , type: placement, x: 3050, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_5  , type: placement, x: 3700, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_5   , type: placement, x: 3700, y: 600, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_5                         , type: placement, x: 3700, y: 600, width: 200, height: 150}
+
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_6  , type: placement, x:  450, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_6   , type: placement, x:  450, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_6                         , type: placement, x:  450, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_7  , type: placement, x: 1100, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_7   , type: placement, x: 1100, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_7                         , type: placement, x: 1100, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_8  , type: placement, x: 1750, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_8   , type: placement, x: 1750, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_8                         , type: placement, x: 1750, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_9  , type: placement, x: 2400, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_9   , type: placement, x: 2400, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_9                         , type: placement, x: 2400, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_10 , type: placement, x: 3050, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_10  , type: placement, x: 3050, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_10                        , type: placement, x: 3050, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_11 , type: placement, x: 3700, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_11  , type: placement, x: 3700, y: 1900, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_11                        , type: placement, x: 3700, y: 1900, width: 200, height: 150}
+
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_12 , type: placement, x:  450, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_12  , type: placement, x:  450, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_12                        , type: placement, x:  450, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_13 , type: placement, x: 1100, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_13  , type: placement, x: 1100, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_13                        , type: placement, x: 1100, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_14 , type: placement, x: 1750, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_14  , type: placement, x: 1750, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_14                        , type: placement, x: 1750, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_15 , type: placement, x: 2400, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_15  , type: placement, x: 2400, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_15                        , type: placement, x: 2400, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_16 , type: placement, x: 3050, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_16  , type: placement, x: 3050, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_16                        , type: placement, x: 3050, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_17 , type: placement, x: 3700, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_17  , type: placement, x: 3700, y: 2100, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_17                        , type: placement, x: 3700, y: 2100, width: 200, height: 150}
+
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_18 , type: placement, x:  450, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_18  , type: placement, x:  450, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_18                        , type: placement, x:  450, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_19 , type: placement, x: 1100, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_19  , type: placement, x: 1100, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_19                        , type: placement, x: 1100, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_20 , type: placement, x: 1750, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_20  , type: placement, x: 1750, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_20                        , type: placement, x: 1750, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_21 , type: placement, x: 2400, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_21  , type: placement, x: 2400, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_21                        , type: placement, x: 2400, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_22 , type: placement, x: 3050, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_22  , type: placement, x: 3050, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_22                        , type: placement, x: 3050, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/acd_noc/noc/router_sink_domain_23 , type: placement, x: 3700, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/subsystem_sbus/system_bus_noc/be_noc/noc/router_sink_domain_23  , type: placement, x: 3700, y: 3400, width: 200, height: 150}
+      - {path: RTMLChipTop/system/rerocc_bus/noc/noc/router_sink_domain_23                        , type: placement, x: 3700, y: 3400, width: 200, height: 150}
+
+      # Set DR construct
+      - {path: RTMLChipTop/die_ring, type: overlap, master: "uni2_4x4_c4_er_edm_prs_top", x: 0, y: 0, create_physical: true}
+
+      - {path: RTMLChipTop/west_io_0/hl_west_io_inst, type: hardmacro, x: 17.28, y: 595.98, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_1/hl_west_io_inst, type: hardmacro, x: 17.28, y: 752.22, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_2/hl_west_io_inst, type: hardmacro, x: 17.28, y: 908.46, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_3/hl_west_io_inst, type: hardmacro, x: 17.28, y: 1064.7, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_4/hl_west_io_inst, type: hardmacro, x: 17.28, y: 1220.94, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_5/hl_west_io_inst, type: hardmacro, x: 17.28, y: 1377.18, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_6/hl_west_io_inst, type: hardmacro, x: 17.28, y: 1533.42, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_7/hl_west_io_inst, type: hardmacro, x: 17.28, y: 1689.66, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_8/hl_west_io_inst, type: hardmacro, x: 17.28, y: 1845.9, top_layer: gmb}
+      - {path: RTMLChipTop/corner_io_0/hl_corner_io_inst, type: hardmacro, x: 17.28, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_0/hl_south_io_inst, type: hardmacro, x: 518.832, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_1/hl_south_io_inst, type: hardmacro, x: 674.784, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_2/hl_south_io_inst, type: hardmacro, x: 830.736, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_3/hl_south_io_inst, type: hardmacro, x: 986.688, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_4/hl_south_io_inst, type: hardmacro, x: 1142.64, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_5/hl_south_io_inst, type: hardmacro, x: 1298.592, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_6/hl_south_io_inst, type: hardmacro, x: 1454.544, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_7/hl_south_io_inst, type: hardmacro, x: 1610.496, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_8/hl_south_io_inst, type: hardmacro, x: 1766.448, y: 18.9, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_9/hl_west_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 3332.7, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_10/hl_west_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 3176.46, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_11/hl_west_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 3020.22, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_12/hl_west_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 2863.98, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_13/hl_west_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 2707.74, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_14/hl_west_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 2551.5, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_15/hl_west_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 2395.26, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_16/hl_west_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 2239.02, top_layer: gmb}
+      - {path: RTMLChipTop/west_io_17/hl_west_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 2082.78, top_layer: gmb}
+      - {path: RTMLChipTop/corner_io_1/hl_corner_io_inst, type: hardmacro, orientation: "mx", x: 17.28, y: 3488.94, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_9/hl_south_io_inst, type: hardmacro, orientation: "mx", x: 518.832, y: 3705.66, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_10/hl_south_io_inst, type: hardmacro, orientation: "mx", x: 674.784, y: 3705.66, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_11/hl_south_io_inst, type: hardmacro, orientation: "mx", x: 830.736, y: 3705.66, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_12/hl_south_io_inst, type: hardmacro, orientation: "mx", x: 986.688, y: 3705.66, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_13/hl_south_io_inst, type: hardmacro, orientation: "mx", x: 1142.64, y: 3705.66, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_14/hl_south_io_inst, type: hardmacro, orientation: "mx", x: 1298.592, y: 3705.66, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_15/hl_south_io_inst, type: hardmacro, orientation: "mx", x: 1454.544, y: 3705.66, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_16/hl_south_io_inst, type: hardmacro, orientation: "mx", x: 1610.496, y: 3705.66, top_layer: gmb}
+      - {path: RTMLChipTop/south_io_17/hl_south_io_inst, type: hardmacro, orientation: "mx", x: 1766.448, y: 3705.66, top_layer: gmb}
+      - {path: RTMLChipTop/ll_corner_obs, x: 17.28, y: 18.9, width: 58.32, height: 57.96, type: obstruction, obs_types: ["place", "route", "power"], layers: [m1, m2, m3, m4, m5, m6, m7, m8, gm0, gmz, gmb]}
+      - {path: RTMLChipTop/ul_corner_obs, x: 17.28, y: 4008.06, width: 58.32, height: 57.96, type: obstruction, obs_types: ["place", "route", "power"], layers: [m1, m2, m3, m4, m5, m6, m7, m8, gm0, gmz, gmb]}
+
+    - ScratchpadBank:
+      - {path: ScratchpadBank, type: toplevel, x: 0, y: 0, width: 510, height: 261, margins: {left: 0, right: 0, top: 0, bottom: 0}}
+      # 247.148 x 117.54 (247.148, 235.08)
+      - {path: ScratchpadBank/ram/mem/mem_ext/mem_0_0  , type: hardmacro, x:   9.404, y: 0     , top_layer: m4}
+      - {path: ScratchpadBank/ram/mem/mem_ext/mem_0_1  , type: hardmacro, x: 256.552, y: 0     , top_layer: m4}
+      - {path: ScratchpadBank/ram/mem/mem_ext/mem_1_0  , type: hardmacro, x:   9.404, y: 117.54, top_layer: m4}
+      - {path: ScratchpadBank/ram/mem/mem_ext/mem_1_1  , type: hardmacro, x: 256.552, y: 117.54, top_layer: m4}
+
+    - RocketTile:
+      - {path: RocketTile, type: toplevel, x: 0, y: 0, width: 450, height: 410, margins: {left: 0, right: 0, top: 0, bottom: 0}}
+
+      # I-Cache
+      ### Tag
+      # 51.452 x 85.14
+      - {path: RocketTile/frontend/icache/tag_array/tag_array_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x:  1.53 , y: 316.08}
+      - {path: RocketTile/frontend/icache/tag_array/tag_array_0_ext/mem_0_1, type: hardmacro, top_layer: m4, x: 52.982, y: 316.08}
+      ### Data Banks
+      # 51.452 x 117.54
+      - {path: RocketTile/frontend/icache/data_arrays_0/data_arrays_0_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x:  1.53 , y: 81}
+      - {path: RocketTile/frontend/icache/data_arrays_0/data_arrays_0_0_ext/mem_0_1, type: hardmacro, top_layer: m4, x: 52.982, y: 81}
+      - {path: RocketTile/frontend/icache/data_arrays_1/data_arrays_0_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x:  1.53 , y: 198.54}
+      - {path: RocketTile/frontend/icache/data_arrays_1/data_arrays_0_0_ext/mem_0_1, type: hardmacro, top_layer: m4, x: 52.982, y: 198.54}
+
+      # D-Cache
+      ### Tag
+      # 51.452 x 88.38
+      - {path: RocketTile/dcache/tag_array/tag_array_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 347.096, y: 316.08}
+      - {path: RocketTile/dcache/tag_array/tag_array_ext/mem_0_1, type: hardmacro, top_layer: m4, x: 398.548, y: 316.08}
+      ### Data Banks
+      - {path: RocketTile/dcache/data/data_arrays_0/data_arrays_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 347.096, y: 81}
+      - {path: RocketTile/dcache/data/data_arrays_0/data_arrays_0_ext/mem_0_1, type: hardmacro, top_layer: m4, x: 398.548, y: 81}
+      - {path: RocketTile/dcache/data/data_arrays_0/data_arrays_0_ext/mem_0_2, type: hardmacro, top_layer: m4, x: 347.096, y: 198.54}
+      - {path: RocketTile/dcache/data/data_arrays_0/data_arrays_0_ext/mem_0_3, type: hardmacro, top_layer: m4, x: 398.548, y: 198.54}
+
+    - RocketTile_4:
+      - {path: RocketTile_4, type: toplevel, x: 0, y: 0, width: 252, height: 1503, margins: {left: 0, right: 0, top: 0, bottom: 0}}
+
+      # I-Cache
+      ### Tag
+      # 51.452 x 85.14
+      - {path: RocketTile_4/frontend/icache/tag_array/tag_array_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x:  1.53 , y: 316.08}
+      - {path: RocketTile_4/frontend/icache/tag_array/tag_array_0_ext/mem_0_1, type: hardmacro, top_layer: m4, x: 52.982, y: 316.08}
+      ### Data Banks
+      # 51.452 x 117.54
+      - {path: RocketTile_4/frontend/icache/data_arrays_0/data_arrays_0_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x:  1.53 , y: 81}
+      - {path: RocketTile_4/frontend/icache/data_arrays_0/data_arrays_0_0_ext/mem_0_1, type: hardmacro, top_layer: m4, x: 52.982, y: 81}
+      - {path: RocketTile_4/frontend/icache/data_arrays_1/data_arrays_0_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x:  1.53 , y: 198.54}
+      - {path: RocketTile_4/frontend/icache/data_arrays_1/data_arrays_0_0_ext/mem_0_1, type: hardmacro, top_layer: m4, x: 52.982, y: 198.54}
+
+      # D-Cache
+      ### Tag
+      # 51.452 x 88.38
+      - {path: RocketTile_4/dcache/tag_array/tag_array_ext/mem_0_0, type: hardmacro, top_layer: m4, x:   1.53 , y: 636.80}
+      - {path: RocketTile_4/dcache/tag_array/tag_array_ext/mem_0_1, type: hardmacro, top_layer: m4, x:  52.982, y: 636.80}
+      ### Data Banks
+      - {path: RocketTile_4/dcache/data/data_arrays_0/data_arrays_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x:   1.53 , y: 401.22}
+      - {path: RocketTile_4/dcache/data/data_arrays_0/data_arrays_0_ext/mem_0_1, type: hardmacro, top_layer: m4, x:  52.982, y: 401.22}
+      - {path: RocketTile_4/dcache/data/data_arrays_0/data_arrays_0_ext/mem_0_2, type: hardmacro, top_layer: m4, x:   1.54 , y: 518.76}
+      - {path: RocketTile_4/dcache/data/data_arrays_0/data_arrays_0_ext/mem_0_3, type: hardmacro, top_layer: m4, x:  52.982, y: 518.76}
+
+    - InclusiveCacheBankScheduler:
+      - {path: InclusiveCacheBankScheduler, type: toplevel, x: 0, y: 0, width: 450, height: 470.16, margins: {left: 0, right: 0, top: 0, bottom: 0}}
+      ### cc banks (min margin=92.16)
+      # 134.396x117.54
+      - {path: InclusiveCacheBankScheduler/bankedStore/cc_banks_0/cc_banks_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 179.1, y: 0}
+      - {path: InclusiveCacheBankScheduler/bankedStore/cc_banks_1/cc_banks_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 314.1, y: 0}
+      - {path: InclusiveCacheBankScheduler/bankedStore/cc_banks_2/cc_banks_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 179.1, y: 117.54}
+      - {path: InclusiveCacheBankScheduler/bankedStore/cc_banks_3/cc_banks_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 314.1, y: 117.54}
+      - {path: InclusiveCacheBankScheduler/bankedStore/cc_banks_4/cc_banks_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 179.1, y: 235.08}
+      - {path: InclusiveCacheBankScheduler/bankedStore/cc_banks_5/cc_banks_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 314.1, y: 235.08}
+      - {path: InclusiveCacheBankScheduler/bankedStore/cc_banks_6/cc_banks_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 179.1, y: 352.62}
+      - {path: InclusiveCacheBankScheduler/bankedStore/cc_banks_7/cc_banks_0_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 314.1, y: 352.62}
+      - {path: InclusiveCacheBankScheduler/POWEROBS, type: obstruction, x: 176.8, y: 0, width: 273.2, height: 470.16, obs_types: ["power"], layers: [m1, m2, m3, m4]}
+
+      ### Cache-Coherence Directory bnks (min margin=23.04)
+      # 52.452 x 34.92
+      # 247.148 x 65.7 (4096x32)
+      #- {path: InclusiveCacheBankScheduler/directory/cc_dir/cc_dir_ext/mem_0_0, type: hardmacro, x: 600, y: 169.38}
+      #- {path: InclusiveCacheBankScheduler/directory/cc_dir/cc_dir_ext/mem_1_0, type: hardmacro, x: 600, y: 235.08}
+      # 51.452 x 143.4
+      - {path: InclusiveCacheBankScheduler/directory/cc_dir/cc_dir_ext/mem_0_0, type: hardmacro, top_layer: m4, x: 78, y:   0.00}
+      - {path: InclusiveCacheBankScheduler/directory/cc_dir/cc_dir_ext/mem_0_1, type: hardmacro, top_layer: m4, x: 78, y: 144.27}
+      - {path: InclusiveCacheBankScheduler/directory/cc_dir/cc_dir_ext/mem_0_2, type: hardmacro, top_layer: m4, x: 78, y: 288.00}
+
+
+    # integer
+    - ReRoCCManagerTile:
+      - {path: ReRoCCManagerTile, type: toplevel, x: 0, y: 0, width: 510, height: 981, margins: {left: 0, right: 0, top: 0, bottom: 0}}
+      # Dcache 51.452x117.54
+      - {path: ReRoCCManagerTile/dcache/data/data_arrays_0/data_arrays_0_1_ext/mem_0_0, type: hardmacro, x: 4.208, y: 142.74}
+      #- {path: ReRoCCManagerTile/dcache/data/data_arrays_0/data_arrays_0_1_ext/mem_0_0, type: hardmacro, x: 130.244, y: 0}
+      #- {path: ReRoCCManagerTile/dcache/data/data_arrays_1/data_arrays_0_1_ext/mem_0_0, type: hardmacro, x: 192.148, y: 117.54}
+      # Dcache tag 51.452x52.74
+      - {path: ReRoCCManagerTile/dcache/tag_array_0/tag_array_0_0_ext/mem_0_0, type: hardmacro, x: 4.208, y: 90}
+      # L2 TLB 51.452x88.38
+      - {path: ReRoCCManagerTile/ptw/l2_tlb_ram_0/l2_tlb_ram_0_ext/mem_0_0, type: hardmacro, x: 454.658, y: 153}
+
+      # Spad
+      # 1024x64 -> 79.1x117.54 351.8
+      - {path: ReRoCCManagerTile/gemmini/spad/spad_mems_0/mem/mem_0_ext/mem_0_0, type: hardmacro, x: 4.208, y: 298.8}
+      - {path: ReRoCCManagerTile/gemmini/spad/spad_mems_0/mem/mem_0_ext/mem_0_1, type: hardmacro, x: 83.308, y: 298.8}
+      - {path: ReRoCCManagerTile/gemmini/spad/spad_mems_1/mem/mem_0_ext/mem_0_0, type: hardmacro, x: 347.558, y: 298.8}
+      - {path: ReRoCCManagerTile/gemmini/spad/spad_mems_1/mem/mem_0_ext/mem_0_1, type: hardmacro, x: 426.658, y: 298.8}
+      - {path: ReRoCCManagerTile/gemmini/spad/spad_mems_2/mem/mem_0_ext/mem_0_0, type: hardmacro, x: 4.208, y: 416.34}
+      - {path: ReRoCCManagerTile/gemmini/spad/spad_mems_2/mem/mem_0_ext/mem_0_1, type: hardmacro, x: 83.308, y: 416.34}
+      - {path: ReRoCCManagerTile/gemmini/spad/spad_mems_3/mem/mem_0_ext/mem_0_0, type: hardmacro, x: 347.558, y: 416.34}
+      - {path: ReRoCCManagerTile/gemmini/spad/spad_mems_3/mem/mem_0_ext/mem_0_1, type: hardmacro, x: 426.658, y: 416.34}
+
+      # Acc
+      # 256x128 -> 79.856x113.58
+      # 128x128 -> 47.996x113.58
+      - {path: ReRoCCManagerTile/gemmini/spad/acc_mems_0/mem/mem/mem_1_ext/mem_0_0, orientation: my, type: hardmacro, x: 84.09, y: 867.42}
+      - {path: ReRoCCManagerTile/gemmini/spad/acc_mems_0/mem/mem/mem_1_ext/mem_0_1, orientation: my, type: hardmacro, x: 84.09, y: 753.84}
+      - {path: ReRoCCManagerTile/gemmini/spad/acc_mems_1/mem/mem/mem_1_ext/mem_0_0, type: hardmacro, x: 4.234, y: 867.42}
+      - {path: ReRoCCManagerTile/gemmini/spad/acc_mems_1/mem/mem/mem_1_ext/mem_0_1, type: hardmacro, x: 4.234, y: 753.84}
+
+      - {path: ReRoCCManagerTile/gemmini/spad/acc_mems_0/mem/mem/mem_1_ext/mem_0_2, type: hardmacro, x: 344.434, y: 867.42}
+      - {path: ReRoCCManagerTile/gemmini/spad/acc_mems_1/mem/mem/mem_1_ext/mem_0_2, type: hardmacro, x: 344.434, y: 753.84}
+      - {path: ReRoCCManagerTile/gemmini/spad/acc_mems_0/mem/mem/mem_1_ext/mem_0_3, orientation: my, type: hardmacro, x: 424.29, y: 753.84}
+      - {path: ReRoCCManagerTile/gemmini/spad/acc_mems_1/mem/mem/mem_1_ext/mem_0_3, orientation: my, type: hardmacro, x: 424.29, y: 867.42}
+
+      - {path: ReRoCCManagerTile/LOWERM5OBS, type: obstruction, x: 0, y: 0, width: 510, height: 0.63, obs_types: ["power"], layers: [m5]}
+      - {path: ReRoCCManagerTile/LOWERM7OBS, type: obstruction, x: 0, y: 0, width: 510, height: 0.63, obs_types: ["power"], layers: [m7]}
+
+vlsi.technology.extra_libraries_meta: "append"
+vlsi.technology.extra_libraries:
+  # 4x4 Die Ring
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/frame_4x4/uni2_4x4_c4_er_edm_prs_top_1_0_3.gds"
+      lef_file: "/tools/intech22/local/shared_resources/frame_4x4/uni2_4x4_c4_er_edm_prs_top.lef"
+
+  # hl_4slice_west_io
+  # Analyzed at corner: psss_0p765_1p080_max.PS_125.prcs
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/gpio_univ/hl_4slice_west_io.gds"
+      nldm_liberty_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_4slice_west_io/lib/hl_4slice_west_io.max.etm.lib.lib"
+      lef_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_4slice_west_io/lef/hl_4slice_west_io.fill.lef"
+      spice_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/rtl/hl_4slice_west_io.sp"
+      verilog_synth: "/tools/intech22/local/shared_resources/gpio_univ/hl_4slice_west_io_container.v"
+      verilog_sim: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_4slice_west_io/rtl/hl_4slice_west_io.v"
+      corner:
+        nmos: slow
+        pmos: slow
+        temperature: "125 C"
+      supplies:
+        VDD: "0.720 V"
+        GND: "0 V"
+  # Analyzed at corner: pfff_1p050_1p320_min.PF_m40.prcf
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/gpio_univ/hl_4slice_west_io.gds"
+      nldm_liberty_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_4slice_west_io/lib/hl_4slice_west_io.min.etm.lib.lib"
+      lef_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_4slice_west_io/lef/hl_4slice_west_io.fill.lef"
+      spice_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/rtl/hl_4slice_west_io.sp"
+      verilog_synth: "/tools/intech22/local/shared_resources/gpio_univ/hl_4slice_west_io_container.v"
+      verilog_sim: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_4slice_west_io/rtl/hl_4slice_west_io.v"
+      corner:
+        nmos: fast
+        pmos: fast
+        temperature: "-40 C"
+      supplies:
+        VDD: "0.880 V"
+        GND: "0 V"
+  # WARNING: This is a repurposed lib for TT.
+  # This is merely to get MMMC to function.
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/gpio_univ/hl_4slice_west_io.gds"
+      nldm_liberty_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_4slice_west_io/lib/hl_4slice_west_io.min.etm.lib.lib"
+      lef_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_4slice_west_io/lef/hl_4slice_west_io.fill.lef"
+      spice_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/rtl/hl_4slice_west_io.sp"
+      verilog_synth: "/tools/intech22/local/shared_resources/gpio_univ/hl_4slice_west_io_container.v"
+      verilog_sim: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_4slice_west_io/rtl/hl_4slice_west_io.v"
+      corner:
+        nmos: typical
+        pmos: typical
+        temperature: "25 C"
+      supplies:
+        VDD: "0.800 V"
+        GND: "0 V"
+
+  # hl_8slice_south_io
+  # Analyzed at corner: psss_0p765_1p080_max.PS_125.prcs
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/gpio_univ/hl_8slice_south_io.gds"
+      nldm_liberty_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/lib/hl_8slice_south_io.max.etm.lib.lib"
+      lef_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/lef/hl_8slice_south_io.fill.lef"
+      spice_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/spice_netlist/hl_8slice_south_io.sp"
+      verilog_synth: "/tools/intech22/local/shared_resources/gpio_univ/hl_4slice_south_io_container.v"
+      verilog_sim: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/rtl/hl_8slice_south_io.v"
+      corner:
+        nmos: slow
+        pmos: slow
+        temperature: "125 C"
+      supplies:
+        VDD: "0.720 V"
+        GND: "0 V"
+  # Analyzed at corner: pfff_1p050_1p320_min.PF_m40.prcf
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/gpio_univ/hl_8slice_south_io.gds"
+      nldm_liberty_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/lib/hl_8slice_south_io.min.etm.lib.lib"
+      lef_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/lef/hl_8slice_south_io.fill.lef"
+      spice_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/spice_netlist/hl_8slice_south_io.sp"
+      verilog_synth: "/tools/intech22/local/shared_resources/gpio_univ/hl_4slice_south_io_container.v"
+      verilog_sim: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/rtl/hl_8slice_south_io.v"
+      corner:
+        nmos: fast
+        pmos: fast
+        temperature: "-40 C"
+      supplies:
+        "VDD": "0.880 V"
+        "GND": "0 V"
+  # WARNING: This is a repurposed lib for TT.
+  # This is merely to get MMMC to function.
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/gpio_univ/hl_8slice_south_io.gds"
+      nldm_liberty_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/lib/hl_8slice_south_io.min.etm.lib.lib"
+      lef_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/lef/hl_8slice_south_io.fill.lef"
+      spice_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/spice_netlist/hl_8slice_south_io.sp"
+      verilog_synth: "/tools/intech22/local/shared_resources/gpio_univ/hl_4slice_south_io_container.v"
+      verilog_sim: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_8slice_south_io/rtl/hl_8slice_south_io.v"
+      corner:
+        nmos: typical
+        pmos: typical
+        temperature: "25 C"
+      supplies:
+        VDD: "0.800 V"
+        GND: "0 V"
+
+  # hl_corner_io
+  # Analyzed at corner: psss_0p765_1p080_max.PS_125.prcs
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/gpio_univ/hl_corner_io.gds"
+      nldm_liberty_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/lib/hl_corner_io.max.etm.lib.lib"
+      lef_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/lef/hl_corner_io.fill.lef"
+      spice_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/spice_netlist/hl_corner_io.sp"
+      verilog_synth: "/tools/intech22/local/shared_resources/gpio_univ/hl_corner_io_container.v"
+      verilog_sim: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/rtl/hl_corner_io.v"
+      corner:
+        nmos: "slow"
+        pmos: "slow"
+        temperature: "125 C"
+      supplies:
+        VDD: "0.720 V"
+        GND: "0 V"
+  # Analyzed at corner: pfff_1p050_1p320_min.PF_m40.prcf
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/gpio_univ/hl_corner_io.gds"
+      nldm_liberty_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/lib/hl_corner_io.max.etm.lib.lib"
+      lef_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/lef/hl_corner_io.fill.lef"
+      spice_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/spice_netlist/hl_corner_io.sp"
+      verilog_synth: "/tools/intech22/local/shared_resources/gpio_univ/hl_corner_io_container.v"
+      verilog_sim: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/rtl/hl_corner_io.v"
+      corner:
+        nmos: "fast"
+        pmos: "fast"
+        temperature: "-40 C"
+      supplies:
+        VDD: "0.880 V"
+        GND: "0 V"
+  # WARNING: This is a repurposed lib for TT.
+  # This is merely to get MMMC to function.
+  - library:
+      gds_file: "/tools/intech22/local/shared_resources/gpio_univ/hl_corner_io.gds"
+      nldm_liberty_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/lib/hl_corner_io.max.etm.lib.lib"
+      lef_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/lef/hl_corner_io.fill.lef"
+      spice_file: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/spice_netlist/hl_corner_io.sp"
+      verilog_synth: "/tools/intech22/local/shared_resources/gpio_univ/hl_corner_io_container.v"
+      verilog_sim: "/tools/intech22/local/UCB1222/USP/design_challenge/Final_2mar2023/USP_IO_HIP/hl_corner_io/rtl/hl_corner_io.v"
+      corner:
+        nmos: typical
+        pmos: typical
+        temperature: "25 C"
+      supplies:
+        VDD: "0.800 V"
+        GND: "0 V"
+
+  - library:
+      gds_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/gds/ringpll.gds"
+      nldm_liberty_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/lib/ringpll_pfff_0p890_min.PF_m40.prcf.lib"
+      lef_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/lef/ringpll.lef"
+      spice_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/spice/ringpll.sp"
+      verilog_synth: "/tools/C/ee290-sp23/ringpll_synth.sv"
+      verilog_sim: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/rtl/src/rtl/ringpll.sv"
+      corner:
+        nmos: "fast"
+        pmos: "fast"
+        temperature: "-40 C"
+      supplies:
+        VDD: "0.880 V"
+        GND: "0 V"
+  - library:
+      gds_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/gds/ringpll.gds"
+      nldm_liberty_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/lib/ringpll_psss_0p765_max.PS_125.prcs.lib"
+      lef_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/lef/ringpll.lef"
+      spice_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/spice/ringpll.sp"
+      verilog_synth: "/tools/C/ee290-sp23/ringpll_synth.sv"
+      verilog_sim: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/rtl/src/rtl/ringpll.sv"
+      corner:
+        nmos: "slow"
+        pmos: "slow"
+        temperature: "125 C"
+      supplies:
+        VDD: "0.720 V"
+        GND: "0 V"
+  # WARNING: This is a repurposed lib for TT.
+  # This is merely to get MMMC to function.
+  - library:
+      gds_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/gds/ringpll.gds"
+      nldm_liberty_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/lib/ringpll_psss_0p765_max.PS_125.prcs.lib"
+      lef_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/lef/ringpll.lef"
+      spice_file: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/spice/ringpll.sp"
+      verilog_synth: "/tools/C/ee290-sp23/ringpll_synth.sv"
+      verilog_sim: "/tools/intech22/LIB/ip224_1.5/ip224_ringpll/rtl/src/rtl/ringpll.sv"
+      corner:
+        nmos: typical
+        pmos: typical
+        temperature: "25 C"
+      supplies:
+        VDD: "0.800 V"
+        GND: "0 V"
