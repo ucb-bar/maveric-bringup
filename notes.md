@@ -100,6 +100,10 @@
 ### Chip Board to FPGA Connector
 
 - Just use FMC, don't bother with adding the FMC EEPROM, loop FMC I2C and JTAG on the board with no daisy chaining
+  - [FMC FAQ](https://www.vita.com/FMC-FAQ)
+    - Attaching a LPC mezzanine to a HPC carrier is just fine as long as none of the HPC pins are used on the mezzanine (this is likely doable for us)
+  - [Samtec's VITA 57.1 part picker](https://www.samtec.com/standards/vita/fmc/)
+    - We can choose any HPC/LPC connector with/without leaded solder depending on what connectors are [in stock at JLCPCB](https://jlcpcb.com/parts/all-electronic-components)
 - FMC powergood (C2M)
   - Add LED with driver FET
   - Add header probe
@@ -108,21 +112,27 @@
 
 ### Considerations
 
-- Hyperscale test plan: https://docs.google.com/presentation/d/1U_Xe0r3WAxrghMTiEDUyeD21PqD4RekB/edit#slide=id.g2c498c81fbe_0_5
+- [Hyperscale test plan slides](https://docs.google.com/presentation/d/1U_Xe0r3WAxrghMTiEDUyeD21PqD4RekB/edit#slide=id.g2c498c81fbe_0_5S)
   - Contains some clocking and PLL and reset notes
 - Plan is to use JLCPCB with 6+ layer 2mm board, 2U" ENIG, epoxy filled vias (if via-in-pad is required), 0.15mm min vias, uncontrolled impedance
   - Ideally I can relax the min via diameter, but it may not be possible with the fine BGA pitch. Via-in-pad might be necessary to make routing doable with few layers. Increase layers if required: maybe we can get away with 4 even.
   - Plan is to also do assembly with JLCPCB and get just fully assembled boards. Might need to special order FMC terminals, but otherwise OK
-- https://jlcpcb.com/capabilities/pcb-capabilities
+- [JLCPCB PCB Design Rules](https://jlcpcb.com/capabilities/pcb-capabilities)
   - min 0.25mm BGA pads - OK
   - hole to hole clearance 0.5mm - OK
   - 0.09mm min trace width, 0.09 min trace spacing - seems sufficient for BGA escape
   - Everything looks good enough, no need for fancy board house
-- https://jlcpcb.com/help/article/243-BGA-Design-Guidelines---PCB-Layout-Recommendations-for-BGA-packages
+- [JLCPCB BGA Design Notes](https://jlcpcb.com/help/article/243-BGA-Design-Guidelines---PCB-Layout-Recommendations-for-BGA-packages)
   - 0.10mm min trace to BGA pad spacing
   - Everything still seems good enough
-- https://jlcpcb.com/help/article/122-Via-Covering:-Tented,-Untented,-Plugged,-Epoxy-Filled-and-Copper-epoxy-filled
+- [JLCPCB via-in-pad notes](https://jlcpcb.com/help/article/122-Via-Covering:-Tented,-Untented,-Plugged,-Epoxy-Filled-and-Copper-epoxy-filled)
   - 6+ layer boards come with epoxy filled vias for free! Pricing is insanely cheap for via-in-pad. Vias must be smaller than 0.5mm for full coverage.
-- Someone has drafted KiCad DRC rules for JLCPCB which I can use for reference: https://gist.github.com/darkxst/f713268e5469645425eed40115fb8b49?permalink_comment_id=4818217
-- Someone has tried to escape 0.5mm pitch BGA (https://www.eevblog.com/forum/altium/altium-jlcpcb-and-0-65mm-bga/) and it seems fine - just need to relax some design rules and make sure the hole clearance rule is specified correctly
-- Another via-in-pad attempt for 0.5mm pitch BGA (https://electronics.stackexchange.com/questions/676149/how-to-escape-0-5mm-ball-grid-array-pins) - seems possible with via-in-pad
+- Someone has drafted [KiCad DRC rules for JLCPCB](https://gist.github.com/darkxst/f713268e5469645425eed40115fb8b49?permalink_comment_id=4818217) which I can use for reference
+- Someone has tried to [escape a 0.5mm pitch BGA](https://www.eevblog.com/forum/altium/altium-jlcpcb-and-0-65mm-bga/) and it seems fine - just need to relax some design rules and make sure the hole clearance rule is specified correctly
+- Another [via-in-pad attempt for 0.5mm pitch BGA](https://electronics.stackexchange.com/questions/676149/how-to-escape-0-5mm-ball-grid-array-pins) - seems possible with via-in-pad
+
+### Stackup
+
+- [JLCPCB Stackups](https://jlcpcb.com/impedance)
+- [JLCPCB Controlled Impedance Calculator](https://jlcpcb.com/pcb-impedance-calculator)
+  - Just match the stackup in the previous link with the one here and it will give you a trace width for a single-ended non-coplanar trace (for the PLL refclk)
