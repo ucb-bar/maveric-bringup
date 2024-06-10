@@ -136,3 +136,15 @@
 - [JLCPCB Stackups](https://jlcpcb.com/impedance)
 - [JLCPCB Controlled Impedance Calculator](https://jlcpcb.com/pcb-impedance-calculator)
   - Just match the stackup in the previous link with the one here and it will give you a trace width for a single-ended non-coplanar trace (for the PLL refclk)
+
+### Design Notes
+
+#### UNI2 Socket
+
+- Unit A-D: HSDIFF_{1-18}_{Q1-4}
+- Unit E-H: IODIFF_{1-41}_{Q1-4}
+- Unit I/J: Q1_{VDD, VDDV/VDDH}
+- Unit K/L: Q2_{VDD, VDDV/VDDH}
+- Unit M/N: Q3_{VDD, VDDV/VDDH}
+- Unit O/P: Q4_{VDD, VDDV/VDDH}
+- Unit Q-Y: VSS
