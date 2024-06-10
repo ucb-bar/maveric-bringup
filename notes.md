@@ -169,9 +169,10 @@ Also noting stock from JLCPCB.
 
 ## Tasks
 
-- [ ] Check FMC connector footprint [d:6/10]
-  - Specifically check solderpaste layer expansion
-- [ ] Add FMC LPC symbol [d:6/10]
+- [x] Check FMC connector footprint [d:6/10]
+  - [x] Dimension check: All dimensions check out, I drew some additional things on the silkscreen
+  - [x] Solderpaste check: Specifically check solderpaste layer expansion. Pad 25 mils, soldermask expansion 4 mils (default, not that critical), solder paste 35 mils! So yes I adjusted the solder paste clearance.
+- [x] Add FMC LPC symbol [d:6/10]
 - [ ] Wire FMC connector on schematic [d:6/10]
   - Connect power supplies
   - Connect various things to GND / PWR
