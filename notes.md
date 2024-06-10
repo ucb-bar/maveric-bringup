@@ -1,4 +1,4 @@
-# RTML Bringup
+# Maveric Bringup
 
 ## Strategy
 
@@ -163,3 +163,21 @@ Also noting stock from JLCPCB.
   - 0 stock, listed as unavailable
 - 10mm, lead-free, LPC: ASP-134604-01
   - 9 stock, $15.30 / part, still requires pre-order
+
+- C2M = FPGA to motherboard = connector outputs
+- M2C = motherboard to FPGA = connector inputs
+
+## Tasks
+
+- [ ] Check FMC connector footprint [d:6/10]
+  - Specifically check solderpaste layer expansion
+- [ ] Add FMC LPC symbol [d:6/10]
+- [ ] Wire FMC connector on schematic [d:6/10]
+  - Connect power supplies
+  - Connect various things to GND / PWR
+  - Connect chip signals to FMC
+- [ ] Add debug headers [d:6/10]
+- [ ] Add UART headers + jumpers
+- [ ] Add JTAG headers
+- [ ] Add clock nets with impedance control
+- [ ] Add clock probe pads

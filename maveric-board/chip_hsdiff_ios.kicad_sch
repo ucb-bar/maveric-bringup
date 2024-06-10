@@ -6,8 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Maveric Board")
-		(date "2024-06-09")
+		(date "2024-06-10")
 		(rev "0")
+		(comment 1 "Drawn By: Vighnesh Iyer")
 	)
 	(lib_symbols
 		(symbol "maveric-parts:TESTCHIP_UNI2"

@@ -5,8 +5,10 @@
 	(uuid "ae861d46-65fb-4872-932f-ad48addb0154")
 	(paper "A4")
 	(title_block
-		(date "2024-06-09")
+		(title "Maveric Board")
+		(date "2024-06-10")
 		(rev "0")
+		(comment 1 "Drawn By: Vighnesh Iyer")
 	)
 	(lib_symbols)
 	(sheet
