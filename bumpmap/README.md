@@ -21,6 +21,7 @@ These files [came from this branch](https://bwrcrepo.eecs.berkeley.edu/kimsea820
 | (2, 15) | serial_tl_in_ready    | output  | HSDIFF_15_P_Q4  |
 | (2, 17) | serial_tl_in\[1\]     | input   | HSDIFF_14_P_Q4  |
 | (2, 19) | serial_tl_out\[3\]    | output  | HSDIFF_13_P_Q4  |
+| (2, 23) | pll_refclk            | input   | HSDIFF_11_P_Q4  |
 | (4, 13) | jtag_tck              | input   | HSDIFF_7_P_Q4   |
 | (4, 15) | serial_tl_clock       | input   | HSDIFF_6_P_Q4   |
 | (4, 17) | serial_tl_in\[2\]     | input   | HSDIFF_5_P_Q4   |
