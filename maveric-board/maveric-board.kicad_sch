@@ -164,6 +164,44 @@
 		)
 	)
 	(sheet
+		(at 199.39 16.51)
+		(size 43.18 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e15b93e7-51a8-4d13-b8d2-0ff507080d35")
+		(property "Sheetname" "FMC Connector"
+			(at 199.39 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fmc_connector.kicad_sch"
+			(at 199.39 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 15.24 36.83)
 		(size 25.4 3.81)
 		(fields_autoplaced yes)

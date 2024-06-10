@@ -176,9 +176,12 @@ Also noting stock from JLCPCB.
 - [ ] Wire FMC connector on schematic [d:6/10]
   - Connect power supplies
   - Connect various things to GND / PWR
-  - Connect chip signals to FMC
+  - Connect chip signals to FMC. Pin planning: want roughly equal delays on all serialtl nets.
 - [ ] Add debug headers [d:6/10]
 - [ ] Add UART headers + jumpers
 - [ ] Add JTAG headers
 - [ ] Add clock nets with impedance control
 - [ ] Add clock probe pads
+- [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
+- [ ] Add GND/VADJ drivers for unused FMC nets
+  - Just to make sure FPGA can read things off the FMC connector

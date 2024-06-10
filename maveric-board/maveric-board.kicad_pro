@@ -406,6 +406,10 @@
     [
       "936f32b4-6238-45aa-ab9a-176e0112a0c7",
       "Chip VSS"
+    ],
+    [
+      "e15b93e7-51a8-4d13-b8d2-0ff507080d35",
+      "FMC Connector"
     ]
   ],
   "text_variables": {}
