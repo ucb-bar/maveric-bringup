@@ -148,3 +148,18 @@
 - Unit M/N: Q3_{VDD, VDDV/VDDH}
 - Unit O/P: Q4_{VDD, VDDV/VDDH}
 - Unit Q-Y: VSS
+
+#### FMC Terminal Selection
+
+Possible parts [we can choose from](https://www.samtec.com/standards/vita/fmc/).
+I would avoid tin-lead parts just because JLCPCB uses non-leaded solderpaste, and I'm unsure if reflow will work properly.
+Also noting stock from JLCPCB.
+
+- 8.5mm, lead-free, HPC: ASP-134602-01
+  - 0 stock, $24.63 / part
+- 8.5mm, lead-free, LPC: ASP-134606-01
+  - 0 stock, $22.24 / part
+- 10mm, lead-free, HPC: ASP-134488-01
+  - 0 stock, listed as unavailable
+- 10mm, lead-free, LPC: ASP-134604-01
+  - 9 stock, $15.30 / part, still requires pre-order
