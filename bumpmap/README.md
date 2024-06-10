@@ -11,7 +11,7 @@ These files [came from this branch](https://bwrcrepo.eecs.berkeley.edu/kimsea820
 
 | (chip bump x, chip bump y) | Design signal name | Direction (from chip perspective) | Package/socket signal name |
 | ---     | ---                   | ---     | --- |
-| (1, 12) | uart_rx               | output  | HSDIFF_16_N_Q4  |
+| (1, 12) | uart_rx               | input   | HSDIFF_16_N_Q4  |
 | (1, 14) | jtag_tdo              | output  | HSDIFF_15_N_Q4  |
 | (1, 16) | serial_tl_in\[3\]     | input   | HSDIFF_14_N_Q4  |
 | (1, 18) | serial_tl_out_ready   | input   | HSDIFF_13_N_Q4  |

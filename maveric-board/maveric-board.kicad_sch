@@ -1,5 +1,207 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ae861d46-65fb-4872-932f-ad48addb0154")
+	(paper "A4")
+	(title_block
+		(date "2024-06-09")
+		(rev "0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 15.24 16.51)
+		(size 30.48 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a6f98c4-aa5e-45bf-95dd-7d1e294518d2")
+		(property "Sheetname" "Chip IODIFF IOs"
+			(at 15.24 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chip_iodiff_ios.kicad_sch"
+			(at 15.24 20.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 26.67)
+		(size 24.13 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b1b864a-b857-4263-84a2-ef6eb7628e45")
+		(property "Sheetname" "Chip VDD"
+			(at 15.24 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chip_vdd.kicad_sch"
+			(at 15.24 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 46.99)
+		(size 24.13 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "936f32b4-6238-45aa-ab9a-176e0112a0c7")
+		(property "Sheetname" "Chip VSS"
+			(at 15.24 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chip_vss.kicad_sch"
+			(at 15.24 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 79.375 15.875)
+		(size 45.085 37.465)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d741604b-a788-4cfa-8679-fc6e466b5431")
+		(property "Sheetname" "Chip HSDIFF IOs"
+			(at 79.375 15.1634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chip_hsdiff_ios.kicad_sch"
+			(at 79.375 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 36.83)
+		(size 25.4 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e298f94f-7e65-4ace-92f5-b6c14efcef75")
+		(property "Sheetname" "Chip VDDV"
+			(at 15.24 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chip_vddv.kicad_sch"
+			(at 15.24 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
