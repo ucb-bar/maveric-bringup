@@ -167,6 +167,34 @@ Also noting stock from JLCPCB.
 - C2M = FPGA to motherboard = connector outputs
 - M2C = motherboard to FPGA = connector inputs
 
+#### FMC Pin to Socket Pin Mapping
+
+- Use [XEM7350 Pins](https://pins.opalkelly.com/pin_list/XEM7350#) as reference for length matching. Keep all pins on the same FPGA IO bank ideally. We can choose from IO banks 15 or 16. We should keep to trace lengths (FMC socket to FPGA) around 80mm (78-82mm).
+
+| signal                    | FMC net name  | FMC pin | trace length on XEM7350 (mm)  | FPGA IO Bank  | notes |
+| ---                       | ---           | ---     | ---                           | ---           | ---   |
+| serial_tl_clock           | LA_00_P_CC    | G6      | 79.41                         | 15            |       |
+| serial_tl_in_ready        | LA_03_P       | G9      | 79.53                         | 15            |       |
+| serial_tl_in_valid        | LA_03_N       | G10     | 79.51                         | 15            |       |
+| serial_tl_in_bits\[0\]    | LA_06_P       | C10     | 79.61                         | 15            |       |
+| serial_tl_in_bits\[1\]    | LA_06_N       | C11     | 79.65                         | 15            |       |
+| serial_tl_in_bits\[2\]    | LA_10_P       | C14     | 79.66                         | 15            |       |
+| serial_tl_in_bits\[3\]    | LA_10_N       | C15     | 79.65                         | 15            |       |
+| serial_tl_out_ready       | LA_05_P       | D11     | 78.61                         | 15            |       |
+| serial_tl_out_valid       | LA_05_N       | D12     | 78.63                         | 15            |       |
+| serial_tl_out_bits\[0\]   | LA_09_P       | D14     | 79.63                         | 15            |       |
+| serial_tl_out_bits\[1\]   | LA_09_N       | D15     | 79.63                         | 15            |       |
+| serial_tl_out_bits\[2\]   | LA_15_P       | H19     | 79.79                         | 15            |       |
+| serial_tl_out_bits\[3\]   | LA_15_N       | H20     | 79.74                         | 15            |       |
+| clock                     | LA_01_P_CC    | D8      | 79.68                         | 15            | via SMA cable jumper |
+| reset                     | LA_21_P       | H25     | 80.45                         | 15            | direct connection with LED indicator |
+| uart_rx                   | LA_20_P       | G21     | 81.48                         | 15            | via selection jumper |
+| uart_tx                   | LA_20_N       | G22     | 81.48                         | 15            | via selection jumper |
+
+#### Questions
+
+- What is the deal with clocking? The FPGA will drive a LVCMOS12 IO standard, so the output impedance should be quite low. And we're driving into a high Z load on the chip side. Can we just elide termination even on the SMA jumpers?
+
 ## Tasks
 
 - [x] Check FMC connector footprint [d:6/10]

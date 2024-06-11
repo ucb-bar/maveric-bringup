@@ -127,7 +127,7 @@
 	)
 	(sheet
 		(at 79.375 15.875)
-		(size 45.085 37.465)
+		(size 45.085 73.025)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -147,13 +147,233 @@
 			)
 		)
 		(property "Sheetfile" "chip_hsdiff_ios.kicad_sch"
-			(at 79.375 53.9246 0)
+			(at 79.375 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "clock" input
+			(at 124.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9b6f726-184a-43a7-a5b9-a7f0b9ba92c2")
+		)
+		(pin "pll_refclk" input
+			(at 124.46 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a888541-b4a7-406b-8829-eeeb58c8e548")
+		)
+		(pin "serial_tl_in_3" input
+			(at 124.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ad7a964-355a-4577-b74f-498c992a0193")
+		)
+		(pin "serial_tl_out_3" output
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4eb4c149-3163-41e1-83e4-a92a93ff8a00")
+		)
+		(pin "serial_tl_in_ready" output
+			(at 124.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "237758df-862d-4852-9d11-6f0765181f9b")
+		)
+		(pin "serial_tl_out_ready" input
+			(at 124.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "27d15c5f-0d0d-45cd-8986-5e5a71774faf")
+		)
+		(pin "serial_tl_in_1" input
+			(at 124.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99d475ce-c52a-4c31-b149-cbf1270001a7")
+		)
+		(pin "serial_tl_out_1" output
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb535c4e-6cba-4b0e-9d97-d3cdda3dbb9d")
+		)
+		(pin "jtag_tdo" output
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e7d29b5-61d2-4c81-8d7b-0e49cddc56b9")
+		)
+		(pin "jtag_tms" input
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "105be2e3-c154-4a42-a724-677739fc4e94")
+		)
+		(pin "uart_rx" input
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2338e759-d4c5-4910-9381-6ff2d023d9b6")
+		)
+		(pin "serial_tl_out_0" output
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57916b49-1309-42d0-965a-95eb5b438c2f")
+		)
+		(pin "reset" input
+			(at 124.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "60b87dc0-7566-4b69-9a2b-ac4dacbe887e")
+		)
+		(pin "serial_tl_out_2" output
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df91e24c-0e2d-4517-99d1-03c12d8ab4d2")
+		)
+		(pin "jtag_tck" input
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec0608c9-8c15-4fe3-b614-4fb08e139e70")
+		)
+		(pin "uart_tx" output
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e80fe48-d459-483c-8f3f-d1eb57a7b2f3")
+		)
+		(pin "jtag_tdi" input
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "739f3547-8ab6-4462-90aa-7ca1706de11a")
+		)
+		(pin "serial_tl_in_2" input
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58b055fa-dc3a-464e-b355-c3cd3978163a")
+		)
+		(pin "serial_tl_out_valid" output
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a240589-e1d7-4fe0-8dc0-ec97de6d8af6")
+		)
+		(pin "serial_tl_clock" input
+			(at 124.46 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "48507a06-f722-46ca-9ad6-be817efb6e37")
+		)
+		(pin "serial_tl_in_valid" input
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be4c8341-c418-4d36-a8b6-5e226ac83e66")
+		)
+		(pin "serial_tl_in_0" input
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "39a6ac2e-e2b3-4a8c-8182-d8d4b745b4ac")
 		)
 		(instances
 			(project "maveric-board"
