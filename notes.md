@@ -156,13 +156,13 @@ I would avoid tin-lead parts just because JLCPCB uses non-leaded solderpaste, an
 Also noting stock from JLCPCB.
 
 - 8.5mm, lead-free, HPC: ASP-134602-01
-  - 0 stock, $24.63 / part
+    - 0 stock, $24.63 / part
 - 8.5mm, lead-free, LPC: ASP-134606-01
-  - 0 stock, $22.24 / part
+    - 0 stock, $22.24 / part
 - 10mm, lead-free, HPC: ASP-134488-01
-  - 0 stock, listed as unavailable
+    - 0 stock, listed as unavailable
 - 10mm, lead-free, LPC: ASP-134604-01
-  - 9 stock, $15.30 / part, still requires pre-order
+    - 9 stock, $15.30 / part, still requires pre-order
 
 - C2M = FPGA to motherboard = connector outputs
 - M2C = motherboard to FPGA = connector inputs
