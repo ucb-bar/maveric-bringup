@@ -190,6 +190,10 @@ Also noting stock from JLCPCB.
 | reset                     | LA_21_P       | H25     | 80.45                         | 15            | direct connection with LED indicator |
 | uart_rx                   | LA_20_P       | G21     | 81.48                         | 15            | via selection jumper |
 | uart_tx                   | LA_20_N       | G22     | 81.48                         | 15            | via selection jumper |
+| fpga_gpio\[0\]            | LA_13_P       | D17     | 81.70                         | 15            | to header + LED |
+| fpga_gpio\[1\]            | LA_13_N       | D18     | 81.70                         | 15            | to header + LED |
+| fpga_gpio\[2\]            | LA_25_P       | G27     | 82.45                         | 15            | to header + LED |
+| fpga_gpio\[3\]            | LA_25_N       | G28     | 82.46                         | 15            | to header + LED |
 
 #### Questions
 
@@ -201,15 +205,22 @@ Also noting stock from JLCPCB.
   - [x] Dimension check: All dimensions check out, I drew some additional things on the silkscreen
   - [x] Solderpaste check: Specifically check solderpaste layer expansion. Pad 25 mils, soldermask expansion 4 mils (default, not that critical), solder paste 35 mils! So yes I adjusted the solder paste clearance.
 - [x] Add FMC LPC symbol [d:6/10]
-- [ ] Wire FMC connector on schematic [d:6/10]
-  - Connect power supplies
-  - Connect various things to GND / PWR
-  - Connect chip signals to FMC. Pin planning: want roughly equal delays on all serialtl nets.
+- [x] Wire FMC connector on schematic [d:6/10]
+  - [x] Connect power supplies to globals and hierarchical outputs
+  - [x] Add FPGA GPIOs
+  - [x] Connect various things to GND / PWR
+  - [x] Connect chip signals to FMC. Pin planning: want roughly equal delays on all serialtl nets.
+  - [x] Add GND/VADJ drivers for unused FMC nets
+    - Just to make sure FPGA can read things off the FMC connector
 - [ ] Add debug headers [d:6/10]
+- [ ] Add serialTL debug
+- [ ] Add terminal blocks for external supplies
+- [ ] Split FPGA and external supplies
+- [ ] Check on socket footprint
+  - Check non-plated through holes, check pad spacing and diameter, check centerline
 - [ ] Add UART headers + jumpers
 - [ ] Add JTAG headers
 - [ ] Add clock nets with impedance control
 - [ ] Add clock probe pads
 - [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
-- [ ] Add GND/VADJ drivers for unused FMC nets
-  - Just to make sure FPGA can read things off the FMC connector
+- [ ] Add decap on power rails (core + IO power domains, large decap)
