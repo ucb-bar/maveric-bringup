@@ -2076,6 +2076,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 180.34) (xy 43.18 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168d100b-9512-4a7e-97e2-80f03a4cbbec")
+	)
+	(wire
+		(pts
 			(xy 194.31 77.47) (xy 194.31 109.22)
 		)
 		(stroke
@@ -2236,6 +2246,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 186.69) (xy 43.18 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35859f69-9830-4d64-b617-843814f90343")
+	)
+	(wire
+		(pts
 			(xy 237.49 107.95) (xy 237.49 109.22)
 		)
 		(stroke
@@ -2253,6 +2273,16 @@
 			(type default)
 		)
 		(uuid "37fdddfb-8fd4-4380-b188-3da3b51c042f")
+	)
+	(wire
+		(pts
+			(xy 218.44 102.87) (xy 219.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388d0e6c-0620-4d8a-a664-ca81ccfd69cc")
 	)
 	(wire
 		(pts
@@ -2426,6 +2456,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 196.85) (xy 43.18 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d98ab1-47fc-40ee-a28a-e2974946fe06")
+	)
+	(wire
+		(pts
 			(xy 246.38 81.28) (xy 232.41 81.28)
 		)
 		(stroke
@@ -2496,6 +2536,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 198.12) (xy 34.29 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f75b45-e03e-4885-ac22-4190c6157c8a")
+	)
+	(wire
+		(pts
 			(xy 124.46 57.15) (xy 186.69 57.15)
 		)
 		(stroke
@@ -2556,6 +2606,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 200.66) (xy 45.72 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c95b35-39e5-4162-8ab2-cc7b696fa195")
+	)
+	(wire
+		(pts
 			(xy 316.23 71.12) (xy 308.61 71.12)
 		)
 		(stroke
@@ -2593,6 +2653,16 @@
 			(type default)
 		)
 		(uuid "7e4ca7a4-c7bc-4fbd-8e2f-00085f40d18b")
+	)
+	(wire
+		(pts
+			(xy 43.18 186.69) (xy 43.18 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c4ddf1-2127-4c34-a8be-cefd013f106e")
 	)
 	(wire
 		(pts
@@ -2636,13 +2706,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 101.6) (xy 219.71 109.22)
+			(xy 308.61 81.28) (xy 316.23 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9193c2ef-ee34-46ab-9321-028f0e429428")
+		(uuid "915c418c-a224-43b9-92cc-5e0cf8634efc")
 	)
 	(wire
 		(pts
@@ -2656,6 +2726,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 181.61) (xy 34.29 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fcb5ea-232c-4276-b1a7-d13cb8e7c06e")
+	)
+	(wire
+		(pts
 			(xy 34.29 149.86) (xy 40.64 149.86)
 		)
 		(stroke
@@ -2663,6 +2743,16 @@
 			(type default)
 		)
 		(uuid "95742d10-3682-42fd-b85a-2c2a1914fbac")
+	)
+	(wire
+		(pts
+			(xy 34.29 184.15) (xy 45.72 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983c3ce5-fa00-4932-a547-d9959935d50f")
 	)
 	(wire
 		(pts
@@ -2936,6 +3026,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 203.2) (xy 43.18 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b947fc-5452-4a5e-8e03-959d4abe414a")
+	)
+	(wire
+		(pts
 			(xy 234.95 106.68) (xy 234.95 109.22)
 		)
 		(stroke
@@ -2993,6 +3093,16 @@
 			(type default)
 		)
 		(uuid "cd95b9fa-a804-4d84-bebf-7cfdd9530f1c")
+	)
+	(wire
+		(pts
+			(xy 219.71 102.87) (xy 219.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf174c20-28aa-48f6-8edf-f6e38ef8927d")
 	)
 	(wire
 		(pts
@@ -3206,6 +3316,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 203.2) (xy 43.18 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a6b706-257a-4376-a825-ea51845aa986")
+	)
+	(wire
+		(pts
 			(xy 252.73 78.74) (xy 252.73 106.68)
 		)
 		(stroke
@@ -3305,7 +3425,7 @@
 		)
 		(uuid "126e1337-f1aa-4964-aac8-30bbe42b7c02")
 	)
-	(label "VDDV_external"
+	(label "VDDV_EXT"
 		(at 40.64 165.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3359,6 +3479,17 @@
 			(justify left bottom)
 		)
 		(uuid "229d2d98-702a-4823-9bf6-e478e9c6999c")
+	)
+	(label "VADJ"
+		(at 43.18 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "273e07c0-f700-4f60-8584-66c3a930f0ce")
 	)
 	(label "fpga_gpio_3"
 		(at 316.23 73.66 0)
@@ -3424,13 +3555,13 @@
 		(uuid "73d6baad-62ad-4406-be60-a29124eb8afd")
 	)
 	(label "pg_c2m"
-		(at 219.71 107.95 90)
+		(at 218.44 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "88a0d618-c02b-4270-81d3-029aab86d5fd")
 	)
@@ -3466,6 +3597,17 @@
 			(justify left bottom)
 		)
 		(uuid "99b34d44-9f39-4561-8602-865d117aae9f")
+	)
+	(label "VADJ"
+		(at 316.23 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d60fca9-a087-4403-be44-a17fbf67cc04")
 	)
 	(label "serial_tl_in_bits_1"
 		(at 246.38 104.14 90)
@@ -3522,6 +3664,17 @@
 		)
 		(uuid "c5c70eaa-ee19-4a7e-a7bf-57f89fd7a312")
 	)
+	(label "VDDV_EXT"
+		(at 43.18 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cac419ae-c7f1-410a-9f39-24ac3cd7645f")
+	)
 	(label "pg_c2m"
 		(at 316.23 60.96 0)
 		(effects
@@ -3543,7 +3696,7 @@
 		)
 		(uuid "dc582c14-c9f6-424c-afb9-9a993c9d1257")
 	)
-	(label "VDD_external"
+	(label "VDD_EXT"
 		(at 40.64 149.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3553,6 +3706,17 @@
 			(justify left bottom)
 		)
 		(uuid "e280463e-bcf4-4f47-9829-74f06351a9d1")
+	)
+	(label "VDD_EXT"
+		(at 43.18 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e48e273a-9046-472c-a3fe-6d2b0abd6422")
 	)
 	(label "serial_tl_in_bits_3"
 		(at 219.71 97.79 90)
@@ -3564,6 +3728,17 @@
 			(justify left bottom)
 		)
 		(uuid "ede51bd0-5c3f-4267-a26b-948801ca0173")
+	)
+	(label "VADJ"
+		(at 43.18 204.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5484efc-e325-461e-9cdf-ae2dd7893dc1")
 	)
 	(label "fpga_gpio_1"
 		(at 316.23 68.58 0)
@@ -3577,7 +3752,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 182.88 165.1 0)
+		(at 29.21 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3586,25 +3761,23 @@
 		(fields_autoplaced yes)
 		(uuid "0a12c4e1-ef36-45e5-9486-70a5dde14565")
 		(property "Reference" "J3"
-			(at 185.42 163.8299 0)
+			(at 29.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "68001-103HLF"
-			(at 185.42 166.3699 0)
+			(at 29.21 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "maveric-parts:AMPHENOL_68001-103HLF"
-			(at 182.88 165.1 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 165.1 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3795,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
-			(at 182.88 165.1 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3804,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C598608"
-			(at 182.88 165.1 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,6 +3976,153 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 29.21 200.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bf7a3df-9d5b-40a7-838e-352f93fe87b9")
+		(property "Reference" "J8"
+			(at 29.21 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68001-103HLF"
+			(at 29.21 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "maveric-parts:AMPHENOL_68001-103HLF"
+			(at 29.21 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
+			(at 29.21 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C598608"
+			(at 29.21 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0c82fadc-07ab-4e31-8bf6-e66b403836a9")
+		)
+		(pin "2"
+			(uuid "d6903a9c-aa50-4ca7-8d3a-1809fecbcff4")
+		)
+		(pin "1"
+			(uuid "052d302b-2f0a-4aa9-8b12-2d95723546d9")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "maveric-parts:VDDV")
+		(at 45.72 200.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d116f11-4970-4300-a673-698e8c60927a")
+		(property "Reference" "#PWR071"
+			(at 45.72 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDV"
+			(at 49.53 200.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip IO Voltage"
+			(at 45.72 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a45416d-78c6-427e-a358-8a73159669a4")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "maveric-parts:Banana_Plug_Socket")
 		(at 26.67 162.56 0)
 		(unit 1)
@@ -3828,7 +4148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:24.243.1"
 			(at 26.67 162.56 0)
 			(effects
 				(font
@@ -3874,6 +4194,73 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 45.72 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5348a0c4-4b40-4bdb-be82-af1d0d507ac8")
+		(property "Reference" "#PWR070"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 49.53 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 45.72 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41d13999-ea8f-45d2-be9e-67d49c4a4ade")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4038,7 +4425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:24.243.2"
 			(at 26.67 130.81 0)
 			(effects
 				(font
@@ -5222,7 +5609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:24.243.1"
 			(at 26.67 147.32 0)
 			(effects
 				(font

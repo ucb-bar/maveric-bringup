@@ -232,15 +232,15 @@ Also noting stock from JLCPCB.
   - [x] 0 Ohm resistor symbol + footprint + part
   - [x] Add serialTL debug via 0Ohm resistors
   - [x] Add GPIO debug (direct)
-- [ ] Add terminal blocks for external supplies
-  - [ ] Add black banana plug symbol + footprint + part
-  - [ ] Add red banana plug symbol + footprint + part
-- [ ] Add power domain probe points
-- [ ] Split FPGA and external supplies
+- [x] Add terminal blocks for external supplies
+  - [x] Add black banana plug symbol + footprint + part
+  - [x] Add red banana plug symbol + footprint + part
+- [x] Split FPGA and external supplies via jumper [d:6/12]
+- [ ] Add power domain probe points [d:6/12]
+- [ ] Add UART headers + jumpers [d:6/12]
+- [ ] Add UART level shifter [d:6/12]
 - [ ] Add and check UNI2 socket footprint
   - Check non-plated through holes, check pad spacing and diameter, check centerline
-- [ ] Add UART headers + jumpers
-- [ ] Add UART level shifter
 - [ ] Add JTAG headers
 - [ ] Add JLCPCB part for chip 10u decap
 - [ ] Add clock nets with impedance control
