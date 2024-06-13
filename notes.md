@@ -199,6 +199,20 @@ Also noting stock from JLCPCB.
 
 - What is the deal with clocking? The FPGA will drive a LVCMOS12 IO standard, so the output impedance should be quite low. And we're driving into a high Z load on the chip side. Can we just elide termination even on the SMA jumpers?
 
+#### Extra Things to Buy
+
+- Olimex JTAG debugger
+- PMOD USB-UART
+- Random jumper cables
+- M2 standoffs
+- FPGA devboard
+- Header pin jumpers
+
+#### Assembly Notes
+
+- DNP the UNI2 socket
+- Do not wave solder any through-hole components, hand-solder instead
+
 ## Tasks
 
 - [x] Check FMC connector footprint [d:6/10]
@@ -212,14 +226,23 @@ Also noting stock from JLCPCB.
   - [x] Connect chip signals to FMC. Pin planning: want roughly equal delays on all serialtl nets.
   - [x] Add GND/VADJ drivers for unused FMC nets
     - Just to make sure FPGA can read things off the FMC connector
-- [ ] Add debug headers [d:6/10]
-- [ ] Add serialTL debug
+- [x] Add debug headers [d:6/10]
+  - [x] 20pin header symbol + footprint + part
+  - [x] 3pin header symbol + footprint + part
+  - [x] 0 Ohm resistor symbol + footprint + part
+  - [x] Add serialTL debug via 0Ohm resistors
+  - [x] Add GPIO debug (direct)
 - [ ] Add terminal blocks for external supplies
+  - [ ] Add black banana plug symbol + footprint + part
+  - [ ] Add red banana plug symbol + footprint + part
+- [ ] Add power domain probe points
 - [ ] Split FPGA and external supplies
-- [ ] Check on socket footprint
+- [ ] Add and check UNI2 socket footprint
   - Check non-plated through holes, check pad spacing and diameter, check centerline
 - [ ] Add UART headers + jumpers
+- [ ] Add UART level shifter
 - [ ] Add JTAG headers
+- [ ] Add JLCPCB part for chip 10u decap
 - [ ] Add clock nets with impedance control
 - [ ] Add clock probe pads
 - [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
