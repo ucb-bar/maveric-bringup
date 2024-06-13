@@ -247,5 +247,5 @@ Also noting stock from JLCPCB.
 - [ ] Add and check UNI2 socket footprint
   - Check non-plated through holes, check pad spacing and diameter, check centerline
 - [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
-- [ ] Add decap on power rails (core + IO power domains, large decap)
+- [ ] Add decap on power rails (VDD, VDDV, core + IO power domains, large decap)
   - [ ] Add decap on 3v3 rail too
