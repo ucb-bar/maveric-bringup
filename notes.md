@@ -53,7 +53,7 @@
   - Not going to expose this interface on this board, it's not worth it
 - **UART**
   1. Wire through FMC if we want to use the FPGA to drive chip UART
-  2. Break out to headers for [FTDI USB-UART cable](https://www.sparkfun.com/products/9718)
+  2. Break out to headers to jump into the [Digilent Pmod USBUART](https://digilent.com/reference/pmod/pmodusbuart/reference-manual?redirect=1)
     - Break out into headers that directly plug into the cable socket
     - Requires level translation from 1.2V to 3.3/5V
   - Jumpers to select between the 1) and 2) options for interacting with the chip via UART
@@ -203,10 +203,10 @@ Also noting stock from JLCPCB.
 
 - Olimex JTAG debugger
 - PMOD USB-UART
-- Random jumper cables
-- M2 standoffs
-- FPGA devboard
+- A set of jumper cables (male to female)
+- M2 standoff kit
 - Header pin jumpers
+- FPGA devboard
 
 #### Assembly Notes
 
@@ -236,14 +236,16 @@ Also noting stock from JLCPCB.
   - [x] Add black banana plug symbol + footprint + part
   - [x] Add red banana plug symbol + footprint + part
 - [x] Split FPGA and external supplies via jumper [d:6/12]
-- [ ] Add power domain probe points [d:6/12]
-- [ ] Add UART headers + jumpers [d:6/12]
+- [x] Add power domain probe points [d:6/12]
+- [x] Add UART headers + jumpers [d:6/12]
 - [ ] Add UART level shifter [d:6/12]
-- [ ] Add and check UNI2 socket footprint
-  - Check non-plated through holes, check pad spacing and diameter, check centerline
 - [ ] Add JTAG headers
 - [ ] Add JLCPCB part for chip 10u decap
+- [ ] Add PG and reset LEDs
 - [ ] Add clock nets with impedance control
 - [ ] Add clock probe pads
+- [ ] Add and check UNI2 socket footprint
+  - Check non-plated through holes, check pad spacing and diameter, check centerline
 - [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
 - [ ] Add decap on power rails (core + IO power domains, large decap)
+  - [ ] Add decap on 3v3 rail too
