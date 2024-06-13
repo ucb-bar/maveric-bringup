@@ -238,8 +238,8 @@ Also noting stock from JLCPCB.
 - [x] Split FPGA and external supplies via jumper [d:6/12]
 - [x] Add power domain probe points [d:6/12]
 - [x] Add UART headers + jumpers [d:6/12]
-- [ ] Add UART level shifter [d:6/12]
-- [ ] Add JTAG headers
+- [x] Add UART level shifter [d:6/12]
+- [x] Add JTAG headers
 - [ ] Add JLCPCB part for chip 10u decap
 - [ ] Add PG and reset LEDs
 - [ ] Add clock nets with impedance control
