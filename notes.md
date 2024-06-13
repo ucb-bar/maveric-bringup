@@ -240,7 +240,7 @@ Also noting stock from JLCPCB.
 - [x] Add UART headers + jumpers [d:6/12]
 - [x] Add UART level shifter [d:6/12]
 - [x] Add JTAG headers
-- [ ] Add JLCPCB part for chip 10u decap
+- [x] Add JLCPCB part for chip 10u decap
 - [ ] Add PG and reset LEDs
 - [ ] Add clock nets with impedance control
 - [ ] Add clock probe pads
