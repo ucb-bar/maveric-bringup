@@ -992,6 +992,16 @@
 		)
 		(uuid "eb6ebda1-bb32-46b4-ab32-63dd0a78e861")
 	)
+	(text "Vgs, max = 0.9V @ Id = 100uA, Vds = Vgs\nCin = 36pF"
+		(exclude_from_sim no)
+		(at 85.598 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcc35ba2-c136-4795-8501-a667afee53d6")
+	)
 	(hierarchical_label "led_on_1v2"
 		(shape input)
 		(at 29.21 53.34 180)
@@ -1171,7 +1181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100R"
 			(at 48.26 31.7499 0)
 			(effects
 				(font
@@ -1198,7 +1208,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0402WGF1000TCE"
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25076"
 			(at 45.72 30.48 0)
 			(effects
 				(font

@@ -245,11 +245,10 @@ Also noting stock from JLCPCB.
   - The LEDs on the hyperscale board seem like a waste. Seeing an 'on' LED for VDD doesn't prove anything lol.
   - I only care about the GPIOs and PG from the carrier to mezzanine (which are all slow signals)
   - No need to add an LED on the reset net, we already have a probe point which is sufficient (adding a LED will add NMOS gate cap and shunt resistor, which could retard the rise/fall time)
-  - [ ] Pick out all the components (2 resistors, MOSFET, LED)
+  - [x] Pick out all the components (2 resistors, MOSFET, LED)
   - [x] LED footprint + 3D
-  - [ ] Define a custom LED symbol to make sure pin numbers line up with cathode/anode
   - [x] MOSFET footprint + 3D
-  - [x] Define custom MOSFET symbol to make sure pin numbers line up
+  - [ ] Pick current limit resistor
 - [ ] Add clock nets with impedance control [d:6/14]
   - Fpga output impedance is uncontrolled (veryu low) impedance lvcmos12 IO standard
   - Terminate with shunt 50 Ohm that the Fpga can use
@@ -264,3 +263,6 @@ Also noting stock from JLCPCB.
 - [ ] Sketch out mechanical stuff of fpga devboard and chip board with fmc mating, describe standoffs + positions + hole diameters
 - ~~[ ] Add clock probe pads~~
   - ???: Not a good idea when using shunt termination
+- [ ] Footprint and symbol finalization
+  - [ ] Define custom MOSFET symbol to make sure pin numbers line up (for led driver)
+  - [ ] Define a custom LED symbol to make sure pin numbers line up with cathode/anode (for led driver)
