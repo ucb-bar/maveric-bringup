@@ -241,11 +241,18 @@ Also noting stock from JLCPCB.
 - [x] Add UART level shifter [d:6/12]
 - [x] Add JTAG headers
 - [x] Add JLCPCB part for chip 10u decap
-- [ ] Add PG and reset LEDs
-- [ ] Add clock nets with impedance control
-- [ ] Add clock probe pads
+- [ ] Add PG and reset FPGA GPIO LEDs [d:6/14]
+- [ ] Add clock nets with impedance control [d:6/14]
+  - Fpga output impedance is uncontrolled (veryu low) impedance lvcmos12 IO standard
+  - Terminate with shunt 50 Ohm that the Fpga can use
+  - The clock generator will have to output 2x Vpp swing
+  - [ ] Sketch out clocking strategy
+  - [ ] Extra trigger refclk for the fpga pll to lock serial tl clock to core clock (if needed to mitigate async crossing issues)
 - [ ] Add and check UNI2 socket footprint
   - Check non-plated through holes, check pad spacing and diameter, check centerline
 - [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
 - [ ] Add decap on power rails (VDD, VDDV, core + IO power domains, large decap)
   - [ ] Add decap on 3v3 rail too
+- [ ] Sketch out mechanical stuff of fpga devboard and chip board with fmc mating, describe standoffs + positions + hole diameters
+- ~~[ ] Add clock probe pads~~
+  - ???: Not a good idea when using shunt termination
