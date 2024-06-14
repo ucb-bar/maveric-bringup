@@ -4,8 +4,8 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "10x2 pin headers")
-	(property "Reference" "J**"
-		(at -11.8 -3.65 0)
+	(property "Reference" "REF**"
+		(at -11 -3.65 0)
 		(layer "F.SilkS")
 		(uuid "3f1c63cd-8ad5-4503-b750-7a1e1d19fe84")
 		(effects

@@ -4,8 +4,8 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "10mm mating height, lead-free, FMC LPC terminal")
-	(property "Reference" "P**"
-		(at -26.25 -9.5 0)
+	(property "Reference" "REF**"
+		(at -25.35 -10.25 0)
 		(layer "F.SilkS")
 		(uuid "b07f0286-a70d-453b-bf32-9aea0f9dc62f")
 		(effects

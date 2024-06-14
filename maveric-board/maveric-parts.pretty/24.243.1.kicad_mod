@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Red Banana Plug Socket")
 	(tags "Connector")
-	(property "Reference" "J**"
+	(property "Reference" "REF**"
 		(at 8.5 0.3 0)
 		(layer "F.SilkS")
 		(uuid "44c77c2d-e6ec-4e96-88e3-76eb3588db26")
