@@ -2563,6 +2563,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 69.85) (xy 347.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b33a2f-1330-41e7-bbbb-732c0ec2c2bd")
+	)
+	(wire
+		(pts
 			(xy 209.55 187.96) (xy 226.06 187.96)
 		)
 		(stroke
@@ -2603,7 +2613,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 68.58) (xy 327.66 68.58)
+			(xy 327.66 68.58) (xy 347.98 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2640,6 +2650,16 @@
 			(type default)
 		)
 		(uuid "096383d8-0f1d-463a-b8be-13769e323b24")
+	)
+	(wire
+		(pts
+			(xy 367.03 57.15) (xy 347.98 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0967a967-7f10-42c6-adf8-debb39f54127")
 	)
 	(wire
 		(pts
@@ -2923,6 +2943,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 82.55) (xy 347.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cec4afd-d98d-4f48-a01b-ec915de3ed7a")
+	)
+	(wire
+		(pts
 			(xy 205.74 59.69) (xy 284.48 59.69)
 		)
 		(stroke
@@ -2983,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 76.2) (xy 327.66 76.2)
+			(xy 327.66 76.2) (xy 346.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3030,6 +3060,16 @@
 			(type default)
 		)
 		(uuid "3694b384-c6f8-4f84-9522-59bc03ea9700")
+	)
+	(wire
+		(pts
+			(xy 367.03 44.45) (xy 335.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f645fe-f9dd-4ef5-88c0-d3a527a67298")
 	)
 	(wire
 		(pts
@@ -3090,6 +3130,16 @@
 			(type default)
 		)
 		(uuid "3cb9d586-dca3-408f-9e53-b48ca5b8606e")
+	)
+	(wire
+		(pts
+			(xy 346.71 95.25) (xy 346.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce8fac8-0305-4e24-a4a2-058d956fc350")
 	)
 	(wire
 		(pts
@@ -3633,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 73.66) (xy 327.66 73.66)
+			(xy 327.66 73.66) (xy 347.98 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4153,6 +4203,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 95.25) (xy 346.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97670d3-9659-4a65-bbe8-faebbb12802a")
+	)
+	(wire
+		(pts
 			(xy 245.11 48.26) (xy 245.11 72.39)
 		)
 		(stroke
@@ -4220,6 +4280,16 @@
 			(type default)
 		)
 		(uuid "bb4b569f-717a-426c-b65e-50de8a58faf3")
+	)
+	(wire
+		(pts
+			(xy 335.28 44.45) (xy 335.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce929d3-6023-42e7-ad07-b50bac4ec545")
 	)
 	(wire
 		(pts
@@ -4423,6 +4493,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 73.66) (xy 347.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7672e9-1c35-4a9e-a26a-cdc288dc4eb1")
+	)
+	(wire
+		(pts
 			(xy 243.84 111.76) (xy 243.84 101.6)
 		)
 		(stroke
@@ -4573,7 +4653,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 71.12) (xy 327.66 71.12)
+			(xy 327.66 71.12) (xy 347.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4783,6 +4863,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 57.15) (xy 347.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45251e4-5c61-4e4f-844c-f13999b3b945")
+	)
+	(wire
+		(pts
 			(xy 55.88 186.69) (xy 58.42 186.69)
 		)
 		(stroke
@@ -4920,6 +5010,16 @@
 			(type default)
 		)
 		(uuid "feb3ecff-3858-4cf4-aa5f-ccc1ee8647e1")
+	)
+	(wire
+		(pts
+			(xy 367.03 69.85) (xy 347.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff66c107-3fec-4307-b898-d5c5e27f5754")
 	)
 	(text "VDDV is the chip IO supply\nIt can come from VADJ or an external supply"
 		(exclude_from_sim no)
@@ -10036,6 +10136,102 @@
 		)
 	)
 	(sheet
+		(at 367.03 54.61)
+		(size 19.05 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04d5a329-5af7-4fa0-b263-ed8b9ef94f0b")
+		(property "Sheetname" "Active High 1v2 LED1"
+			(at 367.03 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "active_high_1v2_led.kicad_sch"
+			(at 367.03 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "led_on_1v2" input
+			(at 367.03 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a89220ab-dd8b-4ec7-8d0c-2bfd618274e4")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 367.03 67.31)
+		(size 19.05 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07de628d-3b41-4acd-98a7-6b7c73c5b4dd")
+		(property "Sheetname" "Active High 1v2 LED2"
+			(at 367.03 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "active_high_1v2_led.kicad_sch"
+			(at 367.03 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "led_on_1v2" input
+			(at 367.03 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d15a630-2390-4c82-8390-af22b7a9fdfd")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 15.24 16.51)
 		(size 30.48 3.81)
 		(fields_autoplaced yes)
@@ -10069,6 +10265,54 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 367.03 80.01)
+		(size 19.05 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "482467b2-b94e-4ec7-a3c4-312d002b6711")
+		(property "Sheetname" "Active High 1v2 LED3"
+			(at 367.03 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "active_high_1v2_led.kicad_sch"
+			(at 367.03 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "led_on_1v2" input
+			(at 367.03 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f763115-510c-49da-8cd4-0416b40f6267")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "11")
 				)
 			)
 		)
@@ -10150,8 +10394,8 @@
 		)
 	)
 	(sheet
-		(at 328.93 191.77)
-		(size 19.05 10.16)
+		(at 367.03 41.91)
+		(size 19.05 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -10162,7 +10406,7 @@
 		)
 		(uuid "9dce5c8c-15df-41df-971c-7c9355dface0")
 		(property "Sheetname" "Active High 1v2 LED"
-			(at 328.93 191.0584 0)
+			(at 367.03 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10415,7 @@
 			)
 		)
 		(property "Sheetfile" "active_high_1v2_led.kicad_sch"
-			(at 328.93 202.5146 0)
+			(at 367.03 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10179,10 +10423,68 @@
 				(justify left top)
 			)
 		)
+		(pin "led_on_1v2" input
+			(at 367.03 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31c51657-d402-47de-8a8d-009cfeb6433d")
+		)
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 367.03 92.71)
+		(size 19.05 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d720b503-5d41-4e8c-a69b-3a22cbc341eb")
+		(property "Sheetname" "Active High 1v2 LED4"
+			(at 367.03 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "active_high_1v2_led.kicad_sch"
+			(at 367.03 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "led_on_1v2" input
+			(at 367.03 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4701475-4dd2-41b7-848f-a2c3d85d90a2")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "12")
 				)
 			)
 		)

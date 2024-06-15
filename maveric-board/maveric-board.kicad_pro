@@ -606,6 +606,22 @@
     [
       "9dce5c8c-15df-41df-971c-7c9355dface0",
       "Active High 1v2 LED"
+    ],
+    [
+      "04d5a329-5af7-4fa0-b263-ed8b9ef94f0b",
+      "Active High 1v2 LED1"
+    ],
+    [
+      "07de628d-3b41-4acd-98a7-6b7c73c5b4dd",
+      "Active High 1v2 LED2"
+    ],
+    [
+      "482467b2-b94e-4ec7-a3c4-312d002b6711",
+      "Active High 1v2 LED3"
+    ],
+    [
+      "d720b503-5d41-4e8c-a69b-3a22cbc341eb",
+      "Active High 1v2 LED4"
     ]
   ],
   "text_variables": {}

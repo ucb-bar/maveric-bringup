@@ -241,16 +241,16 @@ Also noting stock from JLCPCB.
 - [x] Add UART level shifter [d:6/12]
 - [x] Add JTAG headers
 - [x] Add JLCPCB part for chip 10u decap
-- [ ] Add PG FPGA GPIO LEDs [d:6/14]
+- [x] Add PG FPGA GPIO LEDs [d:6/14]
   - The LEDs on the hyperscale board seem like a waste. Seeing an 'on' LED for VDD doesn't prove anything lol.
   - I only care about the GPIOs and PG from the carrier to mezzanine (which are all slow signals)
   - No need to add an LED on the reset net, we already have a probe point which is sufficient (adding a LED will add NMOS gate cap and shunt resistor, which could retard the rise/fall time)
   - [x] Pick out all the components (2 resistors, MOSFET, LED)
   - [x] LED footprint + 3D
   - [x] MOSFET footprint + 3D
-  - [ ] Pick current limit resistor
+  - [x] Pick current limit resistor
 - [ ] Add clock nets with impedance control [d:6/14]
-  - Fpga output impedance is uncontrolled (veryu low) impedance lvcmos12 IO standard
+  - Fpga output impedance is uncontrolled (very low) impedance lvcmos12 IO standard
   - Terminate with shunt 50 Ohm that the Fpga can use
   - The clock generator will have to output 2x Vpp swing
   - [ ] Sketch out clocking strategy
