@@ -34,7 +34,7 @@
 
 ### Chip Signals + Debug
 
-[Bump map](https://bwrcrepo.eecs.berkeley.edu/kimsea8209/rtml-intech22-chipyard/-/blob/rtml-jerry/vlsi/specs/rtml-bumps.yml?ref_type=heads) is saved in the `bumpmap` folder. I still have some questions.
+[Bump map](https://bwrcrepo.eecs.berkeley.edu/kimsea8209/rtml-intech22-chipyard/-/blob/rtml-jerry/vlsi/specs/rtml-bumps.yml?ref_type=heads) is saved in the `bumpmap` folder.
 
 #### Signals
 
@@ -48,65 +48,71 @@
     - 2 rows × 10 pins at 0.1" step
     - [This will do, Digikey link](https://www.digikey.com/en/products/detail/sullins-connector-solutions/SBH11-PBPC-D10-ST-BK/1990065)
     - [Another Molex alternative that's much more expensive for some reason](https://www.digikey.com/en/products/detail/molex/0702462002/760185)
-- **DDR DFI**
-  - Input pins to the chip should be grounded and output pins should be left floating
-  - Not going to expose this interface on this board, it's not worth it
 - **UART**
   1. Wire through FMC if we want to use the FPGA to drive chip UART
   2. Break out to headers to jump into the [Digilent Pmod USBUART](https://digilent.com/reference/pmod/pmodusbuart/reference-manual?redirect=1)
-    - Break out into headers that directly plug into the cable socket
-    - Requires level translation from 1.2V to 3.3/5V
-  - Jumpers to select between the 1) and 2) options for interacting with the chip via UART
+    - Requires level translation from 1.2V to 3.3V
+  - Use jumpers to select between the 1) and 2) options for interacting with the chip via UART
     - Use standard 0.1" pitch 3x1 male headers and a shorting jumper for each wire (RX/TX)
     - [Shorting jumper - Digikey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262)
 - **Serial TL**
-  - Break out every signal (4 data + 1 valid = 5 pins/direction, 10+1 clock) to header pins via 0 Ohm resistor
+  - Break out every signal (4 data + 1 valid + 1 ready = 6 pins/direction, 12+1 clock) to header pins via 0 Ohm resistor
   - Length match all signals roughly, within ~5-10 mm
   - Make sure all signals land in same FPGA IO bank and land on pins with roughly the same [routing length on the devboard](https://pins.opalkelly.com/pin_list/XEM7350)
 - **Chip reset**
-  - **TODO**: Check if reset is active low or high. I suspect active high as usual.
-  - Breakout reset to header pin
-  - Drive a LED to indicate reset state with driver FET (make sure V_{gs,max} << 1.2V)
+  - Reset is active high. It is asynchronous. It is internally synchronized to the core clock domain on the falling reset edge.
+  - Break out reset to header pin
+  - ~~Drive a LED to indicate reset state with driver FET (make sure V_{gs,max} << 1.2V)~~ (bad idea to add more load on the reset net)
 
 #### Clocking
 
-- Serial TL clock: always driven from FPGA FMC along with rest of serial TL signals
-- Core clock + PLL refclk
-  - Check termination (?), I think both should be regular high-impedance CMOS
-  - FMC pins from FPGA drive SMA female port
-  - Another SMA female port drives the chip
-  - Short SMA bridge cable can be used for FPGA clock driving, otherwise use bench clock generator
-  - Controlled impedance and 50 Ohm termination is unnecessary - we are driving high-Z inputs anyways so max frequency will be quite low
+- **Serial TL clock**
+  - Always driven from FPGA FMC along with the rest of serial TL signals
+  - No impedance control, but serial TL traces are roughly length matched
+- **Core clock**
+  - Can be driven by:
+    1. FPGA via a regular GPIO pin over FMC
+    2. External clock generator
+  - Trace should have 50 Ohm impedance. Use SMAs to jump the FPGA clock to the chip clock and to receive the external clock (3x SMA total).
+  - [Use shunt 50 Ohm termination near the chip clock pin](https://electronics.stackexchange.com/questions/646896/cannot-trigger-digital-logic-because-half-of-source-voltage-is-lost-in-impedance)
+    - This works fine for the FPGA clock driver since it has low-Z output impedance. It will drive rail-to-rail 1.2Vpp at the chip.
+    - This is a problem for the external clock generator since it has 50 Ohm series output impedance. It will drive 0.6Vpp at the chip nominally, so it will have to drive 2.4Vpp at the source for the chip to see 1.2Vpp.
+    - **TODO**: check that our fast clock generator can actually do 2.4Vpp. Use a 50Ohm termination scope to validate.
+- **PLL refclk**
+  - Only comes from external clock generator with 50 Ohm driving impedance
+  - Since it drives a high-Z GPIO, no termination is required, and Vpp on the generator should be set to 1.2V
 
 #### Power
 
-- Chip has 2 power inputs (VDD = core, VDDH = IO)
-- VDDH driven by Vadj
-  - There should be a VDDH moat we can flood on the power plane
-- VDD driven by banana plug input from bench supply
-  - There will be a core VDD area under the socket we can flood
-- GND is shared among everything, also driven by banana plug input
-  - Short all grounds together, uniform flood plane
-- FMC provides 3.3V, 5V, and 12V supplies, which we won't use for anything except driving LEDs
-- **TODO**: check if there is any issue with driving the IO and core with different supplies
-  - Perhaps provide mode to short VDD with Vadj (but this is risky - we lose current limiter)
+- Chip has 2 power inputs (VDD = core, VDDV = IO)
+- VDDV and VDD can come from:
+  1. External supply via banana plug (for current measurement)
+  2. VADJ from FMC (nominally 1.2V) ()
+  - Jumpers are used to select between 1) and 2)
+- PCB considerations
+  - Use 2 separate layers for VDD and VDDV so we can via directly to them from anywhere
+  - Use 2 separate layers for GND
+  - Front and back copper used for signal routing + ground pour
+  - Route 3V3 FMC supply on top copper (we aren't using the other FMC supplies like 3V3AUX and 12V)
+- Short all grounds together (FMC + banana plug ground)
 - Headers for Vadj, VDD, GND, all FMC provided supplies
 
-### Decap
+##### Decap
 
 - Same strategy as hyperscale chip
 - 10uF caps, 0603, place on backside of socket. Be wary of backside KOZ which are quite unusual.
+- Use 100uF caps on VDD, VDDV, 3V3 supplies
+- Use 10uF caps for decap near level shifters
 
 ### Chip Board to FPGA Connector
 
-- Just use FMC, don't bother with adding the FMC EEPROM, loop FMC I2C and JTAG on the board with no daisy chaining
+- Just use FMC, don't bother with adding the FMC EEPROM, loop FMC JTAG on the board with no daisy chaining, N/C FMC I2C
   - [FMC FAQ](https://www.vita.com/FMC-FAQ)
-    - Attaching a LPC mezzanine to a HPC carrier is just fine as long as none of the HPC pins are used on the mezzanine (this is likely doable for us)
+    - Attaching a LPC mezzanine to a HPC carrier is just fine as long as none of the HPC pins are used on the mezzanine
   - [Samtec's VITA 57.1 part picker](https://www.samtec.com/standards/vita/fmc/)
     - We can choose any HPC/LPC connector with/without leaded solder depending on what connectors are [in stock at JLCPCB](https://jlcpcb.com/parts/all-electronic-components)
 - FMC powergood (C2M)
-  - Add LED with driver FET
-  - Add header probe
+  - Add LED indicator + header probe point
 
 ## PCB CAD
 
@@ -195,10 +201,6 @@ Also noting stock from JLCPCB.
 | fpga_gpio\[2\]            | LA_25_P       | G27     | 82.45                         | 15            | to header + LED |
 | fpga_gpio\[3\]            | LA_25_N       | G28     | 82.46                         | 15            | to header + LED |
 
-#### Questions
-
-- What is the deal with clocking? The FPGA will drive a LVCMOS12 IO standard, so the output impedance should be quite low. And we're driving into a high Z load on the chip side. Can we just elide termination even on the SMA jumpers?
-
 #### Extra Things to Buy
 
 - Olimex JTAG debugger
@@ -254,15 +256,17 @@ Also noting stock from JLCPCB.
   - Terminate with shunt 50 Ohm that the Fpga can use
   - The clock generator will have to output 2x Vpp swing
   - [ ] Sketch out clocking strategy
-  - [ ] Extra trigger refclk for the fpga pll to lock serial tl clock to core clock (if needed to mitigate async crossing issues)
+- [ ] Add extra trigger refclk for the fpga pll to lock serial tl clock to core clock (if needed to mitigate async crossing issues)
 - [ ] Add and check UNI2 socket footprint
   - Check non-plated through holes, check pad spacing and diameter, check centerline
 - [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
 - [ ] Add decap on power rails (VDD, VDDV, core + IO power domains, large decap)
   - [ ] Add decap on 3v3 rail too
+  - [ ] Add decap around level shifters too
 - [ ] Sketch out mechanical stuff of fpga devboard and chip board with fmc mating, describe standoffs + positions + hole diameters
-- ~~[ ] Add clock probe pads~~
-  - ???: Not a good idea when using shunt termination
 - [ ] Footprint and symbol finalization
   - [ ] Define custom MOSFET symbol to make sure pin numbers line up (for led driver)
   - [ ] Define a custom LED symbol to make sure pin numbers line up with cathode/anode (for led driver)
+- [ ] Add probe for FMC powergood (PG)
+- ~~[ ] Add clock probe pads~~
+  - ???: Not a good idea when using shunt termination

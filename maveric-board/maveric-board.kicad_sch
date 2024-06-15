@@ -10491,7 +10491,7 @@
 	)
 	(sheet
 		(at 98.425 19.05)
-		(size 45.085 218.44)
+		(size 45.085 261.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -10511,7 +10511,7 @@
 			)
 		)
 		(property "Sheetfile" "chip_hsdiff_ios.kicad_sch"
-			(at 98.425 238.0746 0)
+			(at 98.425 281.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10520,7 +10520,7 @@
 			)
 		)
 		(pin "clock" input
-			(at 143.51 20.32 0)
+			(at 143.51 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +10530,7 @@
 			(uuid "e9b6f726-184a-43a7-a5b9-a7f0b9ba92c2")
 		)
 		(pin "pll_refclk" input
-			(at 143.51 25.4 0)
+			(at 143.51 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
