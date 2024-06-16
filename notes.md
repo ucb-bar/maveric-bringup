@@ -77,7 +77,6 @@
   - [Use shunt 50 Ohm termination near the chip clock pin](https://electronics.stackexchange.com/questions/646896/cannot-trigger-digital-logic-because-half-of-source-voltage-is-lost-in-impedance)
     - This works fine for the FPGA clock driver since it has low-Z output impedance. It will drive rail-to-rail 1.2Vpp at the chip.
     - This is a problem for the external clock generator since it has 50 Ohm series output impedance. It will drive 0.6Vpp at the chip nominally, so it will have to drive 2.4Vpp at the source for the chip to see 1.2Vpp.
-    - **TODO**: check that our fast clock generator can actually do 2.4Vpp. Use a 50Ohm termination scope to validate.
 - **PLL refclk**
   - Only comes from external clock generator with 50 Ohm driving impedance
   - Since it drives a high-Z GPIO, no termination is required, and Vpp on the generator should be set to 1.2V
@@ -276,11 +275,11 @@ Also noting stock from JLCPCB.
   - [x] LED footprint + 3D
   - [x] MOSFET footprint + 3D
   - [x] Pick current limit resistor
-- [ ] Add clock nets with impedance control [d:6/14]
+- [x] Add clock nets with impedance control [d:6/14]
   - Fpga output impedance is uncontrolled (very low) impedance lvcmos12 IO standard
   - Terminate with shunt 50 Ohm that the Fpga can use
   - The clock generator will have to output 2x Vpp swing
-  - [ ] Sketch out clocking strategy
+  - [x] Sketch out clocking strategy
 - [ ] Add extra trigger refclk for the fpga pll to lock serial tl clock to core clock (if needed to mitigate async crossing issues)
 - [ ] Add and check UNI2 socket footprint
   - Check non-plated through holes, check pad spacing and diameter, check centerline

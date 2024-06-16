@@ -465,6 +465,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50 Ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -472,7 +489,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "50 Ohm",
+        "pattern": "/fpga_fmc_clock_out"
+      },
+      {
+        "netclass": "50 Ohm",
+        "pattern": "/sma_clock"
+      },
+      {
+        "netclass": "50 Ohm",
+        "pattern": "/sma_pll_refclk"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -635,6 +665,10 @@
     [
       "d720b503-5d41-4e8c-a69b-3a22cbc341eb",
       "FPGA GPIO3 LED"
+    ],
+    [
+      "b6ee1a75-95b9-4253-bea7-e151c2254d7b",
+      "Clocking diagram"
     ]
   ],
   "text_variables": {}
