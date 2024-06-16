@@ -1,6 +1,6 @@
 # Maveric Bringup
 
-## Strategy
+## Test Plan
 
 ### FPGA Devboard
 
@@ -28,13 +28,14 @@
 
 #### Mechanical Sketch
 
-- https://docs.opalkelly.com/wp-content/uploads/2022/05/XEM7350-MechanicalDrawing.pdf
+- [XEM7350 Mechanical Drawing](https://docs.opalkelly.com/wp-content/uploads/2022/05/XEM7350-MechanicalDrawing.pdf)
   - 4x standoffs for the FPGA devboard that exceed 6.5mm in height, 2.70mm hole diameter (use M2 standoff kit, M2 has clearance hole diameter of 2.6mm)
   - 2x standoffs for the chip motherboard that are likely around 18.5mm (will use same hole diameter)
 
 ### Chip Signals + Debug
 
 [Bump map](https://bwrcrepo.eecs.berkeley.edu/kimsea8209/rtml-intech22-chipyard/-/blob/rtml-jerry/vlsi/specs/rtml-bumps.yml?ref_type=heads) is saved in the `bumpmap` folder.
+See the `README.md` in that folder for details.
 
 #### Signals
 
@@ -57,7 +58,7 @@
     - [Shorting jumper - Digikey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262)
 - **Serial TL**
   - Break out every signal (4 data + 1 valid + 1 ready = 6 pins/direction, 12+1 clock) to header pins via 0 Ohm resistor
-  - Length match all signals roughly, within ~5-10 mm
+  - Length match all signals roughly, within 10 mm
   - Make sure all signals land in same FPGA IO bank and land on pins with roughly the same [routing length on the devboard](https://pins.opalkelly.com/pin_list/XEM7350)
 - **Chip reset**
   - Reset is active high. It is asynchronous. It is internally synchronized to the core clock domain on the falling reset edge.
@@ -68,7 +69,7 @@
 
 - **Serial TL clock**
   - Always driven from FPGA FMC along with the rest of serial TL signals
-  - No impedance control, but serial TL traces are roughly length matched
+  - No impedance control, but serial TL traces are roughly length matched (yeah I know this is overkill)
 - **Core clock**
   - Can be driven by:
     1. FPGA via a regular GPIO pin over FMC
@@ -80,6 +81,7 @@
 - **PLL refclk**
   - Only comes from external clock generator with 50 Ohm driving impedance
   - Since it drives a high-Z GPIO, no termination is required, and Vpp on the generator should be set to 1.2V
+  - **???: what is the input impedance of the chip PLL refclk pin?**
 
 #### Power
 
@@ -121,12 +123,11 @@
   - Contains some clocking and PLL and reset notes
 - Plan is to use JLCPCB with 6+ layer 2mm board, 2U" ENIG, epoxy filled vias (if via-in-pad is required), 0.15mm min vias, uncontrolled impedance
   - Ideally I can relax the min via diameter, but it may not be possible with the fine BGA pitch. Via-in-pad might be necessary to make routing doable with few layers. Increase layers if required: maybe we can get away with 4 even.
-  - Plan is to also do assembly with JLCPCB and get just fully assembled boards. Might need to special order FMC terminals, but otherwise OK
+  - Plan is to also do assembly with JLCPCB and get just fully assembled boards. I have verified all parts are in stock and all symbols on schematic are annotated with their 'JLCPCB Part #'.
 - [JLCPCB PCB Design Rules](https://jlcpcb.com/capabilities/pcb-capabilities)
   - min 0.25mm BGA pads - OK
   - hole to hole clearance 0.5mm - OK
   - 0.09mm min trace width, 0.09 min trace spacing - seems sufficient for BGA escape
-  - Everything looks good enough, no need for fancy board house
 - [JLCPCB BGA Design Notes](https://jlcpcb.com/help/article/243-BGA-Design-Guidelines---PCB-Layout-Recommendations-for-BGA-packages)
   - 0.10mm min trace to BGA pad spacing
   - Everything still seems good enough
@@ -140,7 +141,7 @@
 
 - [JLCPCB Stackups](https://jlcpcb.com/impedance)
 - 6 layer, 2mm thickness, 1oz outer copper weight, 0.5oz inner copper weight
-- **Stackup name**: JLC06201H-3313
+- **Chosen Stackup**: JLC06201H-3313
 
 | Layer     | Material Type | Thickness | Purpose           |
 | ---       | ---           | ---       | ---               |
@@ -156,7 +157,7 @@
 | Prepreg   | 3313*1        | 0.0994mm  | -                 |
 | B.Cu      | Copper        | 0.035mm   | GND               |
 
-- The stackup looks like (F.Cu, In1.Cu) | (In2.Cu, In3.Cu) | (In4.Cu, B.Cu)
+- The stackup looks like (F.Cu, In1.Cu) | (In2.Cu, In3.Cu) | (In4.Cu, B.Cu) (i.e. 2-2-2)
 - The first and third pairs are strongly coupled and the second pair has more separation
 - [See this video](https://www.youtube.com/watch?v=60RxCiZuD9E)
   - Only need a ground via when going from layer 1 to 5
@@ -164,7 +165,7 @@
 ### Controlled Impedance Traces
 
 - [JLCPCB Controlled Impedance Calculator](https://jlcpcb.com/pcb-impedance-calculator)
-  - With the above stackup for 50 Ohm single-ended (non coplanar) on top copper with ground on In2.Cu
+  - With the above stackup for 50 Ohm single-ended (non coplanar) (microstrip) on top copper with ground on In1.Cu
   - Trace width: **6.16 mils**
 
 ### Design Notes
@@ -232,7 +233,7 @@ Also noting stock from JLCPCB.
 - PMOD USB-UART
 - A set of jumper cables (male to female)
 - M2 standoff kit
-- Header pin jumpers
+- Header pin shorting jumpers
 - FPGA devboard
 
 #### Assembly Notes

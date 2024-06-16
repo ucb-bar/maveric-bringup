@@ -32932,7 +32932,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a79d19ce-40c1-45cd-99a9-fa95e0c8aba6")
 		(property "Reference" "U3"
@@ -38193,7 +38193,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aa6a10af-16c7-4468-9727-0125d6e02669")
 		(property "Reference" "U3"
@@ -43454,7 +43454,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c8c8ba70-45d8-4855-8129-06e6a17a5a20")
 		(property "Reference" "U3"
@@ -48715,7 +48715,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fb2a449c-ce18-4b98-bd6d-5d9557a1c675")
 		(property "Reference" "U3"
