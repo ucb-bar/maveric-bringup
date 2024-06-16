@@ -201,30 +201,30 @@ Also noting stock from JLCPCB.
 
 - Use [XEM7350 Pins](https://pins.opalkelly.com/pin_list/XEM7350#) as reference for length matching. Keep all pins on the same FPGA IO bank ideally. We can choose from IO banks 15 or 16. We should keep to trace lengths (FMC socket to FPGA) around 80mm (78-82mm).
 
-| signal                    | FMC net name  | FMC pin | trace length on XEM7350 (mm)  | FPGA IO Bank  | notes |
-| ---                       | ---           | ---     | ---                           | ---           | ---   |
-| serial_tl_clock           | LA_00_P_CC    | G6      | 79.41                         | 15            |       |
-| serial_tl_in_ready        | LA_03_P       | G9      | 79.53                         | 15            |       |
-| serial_tl_in_valid        | LA_03_N       | G10     | 79.51                         | 15            |       |
-| serial_tl_in_bits\[0\]    | LA_06_P       | C10     | 79.61                         | 15            |       |
-| serial_tl_in_bits\[1\]    | LA_06_N       | C11     | 79.65                         | 15            |       |
-| serial_tl_in_bits\[2\]    | LA_10_P       | C14     | 79.66                         | 15            |       |
-| serial_tl_in_bits\[3\]    | LA_10_N       | C15     | 79.65                         | 15            |       |
-| serial_tl_out_ready       | LA_05_P       | D11     | 78.61                         | 15            |       |
-| serial_tl_out_valid       | LA_05_N       | D12     | 78.63                         | 15            |       |
-| serial_tl_out_bits\[0\]   | LA_09_P       | D14     | 79.63                         | 15            |       |
-| serial_tl_out_bits\[1\]   | LA_09_N       | D15     | 79.63                         | 15            |       |
-| serial_tl_out_bits\[2\]   | LA_15_P       | H19     | 79.79                         | 15            |       |
-| serial_tl_out_bits\[3\]   | LA_15_N       | H20     | 79.74                         | 15            |       |
-| clock                     | LA_01_P_CC    | D8      | 79.68                         | 15            | via SMA cable jumper |
-| reset                     | LA_21_P       | H25     | 80.45                         | 15            | direct connection with LED indicator |
-| uart_rx                   | LA_20_P       | G21     | 81.48                         | 15            | via selection jumper |
-| uart_tx                   | LA_20_N       | G22     | 81.48                         | 15            | via selection jumper |
-| fpga_gpio\[0\]            | LA_13_P       | D17     | 81.70                         | 15            | to header + LED |
-| fpga_gpio\[1\]            | LA_13_N       | D18     | 81.70                         | 15            | to header + LED |
-| fpga_gpio\[2\]            | LA_25_P       | G27     | 82.45                         | 15            | to header + LED |
-| fpga_gpio\[3\]            | LA_25_N       | G28     | 82.46                         | 15            | to header + LED |
-| fpga_refclk               | CLK0_M2C_P    | H4      | 82.74                         | 15            | for locking FPGA PLL to external clock source |
+| Signal                    | FMC Net Name  | FMC Pin | Trace Length on XEM7350 (mm)  | FPGA IO Bank  | FPGA Pin  | Notes |
+| ---                       | ---           | ---     | ---                           | ---           | ---       | ---   |
+| serial_tl_clock           | LA_00_P_CC    | G6      | 79.41                         | 15            | H17       |       |
+| serial_tl_in_ready        | LA_03_P       | G9      | 79.53                         | 15            | A18       |       |
+| serial_tl_in_valid        | LA_03_N       | G10     | 79.51                         | 15            | A19       |       |
+| serial_tl_in_bits\[0\]    | LA_06_P       | C10     | 79.61                         | 15            | C19       |       |
+| serial_tl_in_bits\[1\]    | LA_06_N       | C11     | 79.65                         | 15            | B19       |       |
+| serial_tl_in_bits\[2\]    | LA_10_P       | C14     | 79.66                         | 15            | B17       |       |
+| serial_tl_in_bits\[3\]    | LA_10_N       | C15     | 79.65                         | 15            | A17       |       |
+| serial_tl_out_ready       | LA_05_P       | D11     | 78.61                         | 15            | C17       |       |
+| serial_tl_out_valid       | LA_05_N       | D12     | 78.63                         | 15            | C18       |       |
+| serial_tl_out_bits\[0\]   | LA_09_P       | D14     | 79.63                         | 15            | L19       |       |
+| serial_tl_out_bits\[1\]   | LA_09_N       | D15     | 79.63                         | 15            | L20       |       |
+| serial_tl_out_bits\[2\]   | LA_15_P       | H19     | 79.79                         | 15            | K16       |       |
+| serial_tl_out_bits\[3\]   | LA_15_N       | H20     | 79.74                         | 15            | K17       |       |
+| clock                     | LA_01_P_CC    | D8      | 79.68                         | 15            | G17       | via SMA cable jumper |
+| reset                     | LA_21_P       | H25     | 80.45                         | 15            | G15       |       |
+| uart_rx                   | LA_20_P       | G21     | 81.48                         | 15            | L17       | via selection jumper |
+| uart_tx                   | LA_20_N       | G22     | 81.48                         | 15            | K18       | via selection jumper |
+| fpga_gpio\[0\]            | LA_13_P       | D17     | 81.70                         | 15            | E15       | to header + LED |
+| fpga_gpio\[1\]            | LA_13_N       | D18     | 81.70                         | 15            | E16       | to header + LED |
+| fpga_gpio\[2\]            | LA_25_P       | G27     | 82.45                         | 15            | J15       | to header + LED |
+| fpga_gpio\[3\]            | LA_25_N       | G28     | 82.46                         | 15            | J16       | to header + LED |
+| fpga_refclk               | CLK0_M2C_P    | H4      | 82.74                         | 15            | E18       | for locking FPGA PLL to external clock source |
 
 #### Extra Things to Buy
 
@@ -296,12 +296,14 @@ Also noting stock from JLCPCB.
 
 ### Final Re-Checks
 
-- [ ] Footprint and symbol finalization [d:6/16]
-  - [ ] Define custom MOSFET symbol to make sure pin numbers line up (for led driver)
-  - [ ] Define a custom LED symbol to make sure pin numbers line up with cathode/anode (for led driver)
-- [ ] Redo check of FMC symbol (pin name to pin coordinate mapping) [d:6/16]
+- [x] Footprint and symbol finalization [d:6/16]
+  - [x] Define custom MOSFET symbol to make sure pin numbers line up (for led driver)
+  - [x] Define a custom LED symbol to make sure pin numbers line up with cathode/anode (for led driver)
+- [x] Redo check of FMC symbol (pin name to pin coordinate mapping) [d:6/16]
+- [ ] Check chip IOs are represented and properly connected [d:6/16]
+  - Against the Hyperscale schematic
 
-### Things to Check
+### Things to Check During Review
 
 - [ ] Make sure all the chip IOs are represented and properly connected
   - [ ] Check this against the Hyperscale schematic too
