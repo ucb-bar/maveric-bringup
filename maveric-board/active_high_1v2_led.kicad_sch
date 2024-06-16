@@ -663,7 +663,7 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -680,7 +680,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -706,7 +706,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -724,7 +724,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -762,7 +762,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1044,7 +1044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604bbac0-fdaa-43c8-9e06-71ca5538577e")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR095"
 			(at 45.72 74.93 0)
 			(effects
 				(font
@@ -1094,23 +1094,23 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "#PWR091")
-					(unit 1)
-				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
-					(reference "#PWR093")
-					(unit 1)
-				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
 					(reference "#PWR095")
 					(unit 1)
 				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
+					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
+					(reference "#PWR099")
+					(unit 1)
+				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
-					(reference "#PWR068")
+					(reference "#PWR093")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "#PWR097")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1153,7 +1153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -1162,7 +1162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET N-CH 20V 300MA SOT23-3"
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 43.18 53.34 0)
 			(effects
 				(font
@@ -1173,6 +1173,33 @@
 		)
 		(property "JLCPCB Part #" "C260950"
 			(at 43.18 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 43.18 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 43.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,6 +1230,10 @@
 					(reference "Q4")
 					(unit 1)
 				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
+					(reference "Q1")
+					(unit 1)
+				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
 					(reference "Q5")
 					(unit 1)
@@ -1220,7 +1251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8eeb1c-c1fc-4375-a41e-f60e9da36bb7")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 48.26 26.6699 0)
 			(effects
 				(font
@@ -1256,7 +1287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402WGF1000TCE"
+		(property "Description" "Resistor, US symbol"
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -1283,19 +1314,105 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
-					(reference "R21")
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "R23")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 45.72 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2dcda95-1d97-4e85-8e70-e3c8ba7db60d")
+		(property "Reference" "#PWR092"
+			(at 45.72 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 45.72 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed2f7941-5574-4e71-b879-5eb2392cf212")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
+					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1311,7 +1428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbde946d-70d0-4157-97b1-a9dff8ab7db4")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 34.29 58.4199 0)
 			(effects
 				(font
@@ -1347,7 +1464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF1003T5E"
+		(property "Description" "Resistor, US symbol"
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -1374,15 +1491,15 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
@@ -1390,7 +1507,7 @@
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -1441,7 +1558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green 525nm LED Indication - Discrete 2.65V 0805 (2012 Metric)"
+		(property "Description" "Light emitting diode"
 			(at 82.042 44.45 90)
 			(effects
 				(font
@@ -1478,90 +1595,12 @@
 					(reference "D4")
 					(unit 1)
 				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
+					(reference "D1")
+					(unit 1)
+				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 45.72 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8ddf514-b616-42c8-becf-16f6a885cecb")
-		(property "Reference" "#PWR069"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 45.72 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 45.72 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba90e5c7-8587-47b2-a89a-c0c1213fd2e9")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "#PWR069")
-					(unit 1)
-				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
-					(reference "#PWR092")
-					(unit 1)
-				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
-					(reference "#PWR094")
-					(unit 1)
-				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
-					(reference "#PWR066")
-					(unit 1)
-				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "#PWR096")
 					(unit 1)
 				)
 			)
