@@ -10147,7 +10147,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "04d5a329-5af7-4fa0-b263-ed8b9ef94f0b")
-		(property "Sheetname" "Active High 1v2 LED1"
+		(property "Sheetname" "FPGA GPIO0 LED"
 			(at 367.03 53.8984 0)
 			(effects
 				(font
@@ -10195,7 +10195,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "07de628d-3b41-4acd-98a7-6b7c73c5b4dd")
-		(property "Sheetname" "Active High 1v2 LED2"
+		(property "Sheetname" "FPGA GPIO1 LED"
 			(at 367.03 66.5984 0)
 			(effects
 				(font
@@ -10281,7 +10281,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "482467b2-b94e-4ec7-a3c4-312d002b6711")
-		(property "Sheetname" "Active High 1v2 LED3"
+		(property "Sheetname" "FPGA GPIO2 LED"
 			(at 367.03 79.2984 0)
 			(effects
 				(font
@@ -10405,7 +10405,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9dce5c8c-15df-41df-971c-7c9355dface0")
-		(property "Sheetname" "Active High 1v2 LED"
+		(property "Sheetname" "PG C2M LED"
 			(at 367.03 41.1984 0)
 			(effects
 				(font
@@ -10453,7 +10453,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d720b503-5d41-4e8c-a69b-3a22cbc341eb")
-		(property "Sheetname" "Active High 1v2 LED4"
+		(property "Sheetname" "FPGA GPIO3 LED"
 			(at 367.03 91.9984 0)
 			(effects
 				(font

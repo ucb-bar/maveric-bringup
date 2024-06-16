@@ -140,8 +140,33 @@
 ### Stackup
 
 - [JLCPCB Stackups](https://jlcpcb.com/impedance)
+- 6 layer, 2mm thickness, 1oz outer copper weight, 0.5oz inner copper weight
+- **Stackup name**: JLC06201H-3313
+
+| Layer     | Material Type | Thickness | Purpose           |
+| ---       | ---           | ---       | ---               |
+| F.Cu      | Copper        | 0.035mm   | Signal, 3V3       |
+| Prepreg   | 3313*1        | 0.0994mm  | -                 |
+| In1.Cu    | Copper        | 0.0152mm  | GND               |
+| Core      | Core          | 0.7mm     | -                 |
+| In2.Cu    | Copper        | 0.0152mm  | VDD               |
+| Prepreg   | 7628*1        | 0.2028mm  | -                 |
+| In3.Cu    | Copper        | 0.0152mm  | GND               |
+| Core      | Core          | 0.7mm     | -                 |
+| In4.Cu    | Copper        | 0.0152mm  | VDDV, Signal      |
+| Prepreg   | 3313*1        | 0.0994mm  | -                 |
+| B.Cu      | Copper        | 0.035mm   | GND               |
+
+- The stackup looks like (F.Cu, In1.Cu) | (In2.Cu, In3.Cu) | (In4.Cu, B.Cu)
+- The first and third pairs are strongly coupled and the second pair has more separation
+- [See this video](https://www.youtube.com/watch?v=60RxCiZuD9E)
+  - Only need a ground via when going from layer 1 to 5
+
+### Controlled Impedance Traces
+
 - [JLCPCB Controlled Impedance Calculator](https://jlcpcb.com/pcb-impedance-calculator)
-  - Just match the stackup in the previous link with the one here and it will give you a trace width for a single-ended non-coplanar trace (for the PLL refclk)
+  - With the above stackup for 50 Ohm single-ended (non coplanar) on top copper with ground on In2.Cu
+  - Trace width: **6.16 mils**
 
 ### Design Notes
 
@@ -270,3 +295,7 @@ Also noting stock from JLCPCB.
 - [ ] Add probe for FMC powergood (PG)
 - ~~[ ] Add clock probe pads~~
   - ???: Not a good idea when using shunt termination
+
+## Layout
+
+- [ ] Add stiching vias for ground planes
