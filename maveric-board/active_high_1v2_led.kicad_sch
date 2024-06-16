@@ -1044,7 +1044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604bbac0-fdaa-43c8-9e06-71ca5538577e")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0111"
 			(at 45.72 74.93 0)
 			(effects
 				(font
@@ -1094,23 +1094,23 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "#PWR095")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
-					(reference "#PWR097")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
-					(reference "#PWR099")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
-					(reference "#PWR093")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "#PWR0101")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -1346,7 +1346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2dcda95-1d97-4e85-8e70-e3c8ba7db60d")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0110"
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -1396,23 +1396,23 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "#PWR092")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
-					(reference "#PWR094")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
-					(reference "#PWR096")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
-					(reference "#PWR023")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "#PWR098")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)

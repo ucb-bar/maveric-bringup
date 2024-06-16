@@ -37847,7 +37847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03f1c0a8-7f9f-4284-8146-a73c00535304")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR058"
 			(at 265.43 27.94 0)
 			(effects
 				(font
@@ -37897,7 +37897,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR041")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -37913,7 +37913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d053870-f5fa-47d6-b961-8aae393f283c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR056"
 			(at 209.55 39.37 0)
 			(effects
 				(font
@@ -37963,7 +37963,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR039")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -37979,7 +37979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1110b25f-8e7e-4d61-a724-3d7ded9f9abb")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR062"
 			(at 358.14 27.94 0)
 			(effects
 				(font
@@ -38029,7 +38029,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR045")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -38045,7 +38045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "150f72da-c677-4e0e-ba98-bca326e4f183")
-		(property "Reference" "C5"
+		(property "Reference" "C15"
 			(at 115.57 27.9399 0)
 			(effects
 				(font
@@ -38108,7 +38108,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C5")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -38124,7 +38124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18fd1b2b-31cc-4b1e-812e-2ca587f8e3da")
-		(property "Reference" "C1"
+		(property "Reference" "C11"
 			(at 22.86 27.9399 0)
 			(effects
 				(font
@@ -38187,7 +38187,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C1")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -38203,7 +38203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ebdde6a-0403-4717-96e6-b81a21cecfb5")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR053"
 			(at 133.35 27.94 0)
 			(effects
 				(font
@@ -38253,7 +38253,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR036")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -38269,7 +38269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c0964b0-543e-4f48-99c2-854fc927b7f8")
-		(property "Reference" "C11"
+		(property "Reference" "C21"
 			(at 274.32 27.9399 0)
 			(effects
 				(font
@@ -38332,7 +38332,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C11")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -38348,7 +38348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d7bd3cf-c082-4044-a382-90d4ffb49bcc")
-		(property "Reference" "C16"
+		(property "Reference" "C26"
 			(at 379.73 27.9399 0)
 			(effects
 				(font
@@ -38411,7 +38411,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C16")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -38427,7 +38427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3563661a-614e-40c1-8128-cb7f6ae1d5a9")
-		(property "Reference" "C6"
+		(property "Reference" "C16"
 			(at 128.27 27.9399 0)
 			(effects
 				(font
@@ -38490,7 +38490,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C6")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -38506,7 +38506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b603df3-69fa-4515-ba9b-47378f707d34")
-		(property "Reference" "C4"
+		(property "Reference" "C14"
 			(at 102.87 27.9399 0)
 			(effects
 				(font
@@ -38569,7 +38569,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C4")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -38585,7 +38585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ee00e2c-93ae-4f2c-84fd-7b63eb8ccada")
-		(property "Reference" "C9"
+		(property "Reference" "C19"
 			(at 207.01 27.9399 0)
 			(effects
 				(font
@@ -38648,7 +38648,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C9")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -38664,7 +38664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4730502a-c879-4447-8b10-ceebae065b4d")
-		(property "Reference" "C14"
+		(property "Reference" "C24"
 			(at 312.42 27.9399 0)
 			(effects
 				(font
@@ -38727,7 +38727,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C14")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -38743,7 +38743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b25adf8-88c4-4903-9262-61036847c34c")
-		(property "Reference" "C7"
+		(property "Reference" "C17"
 			(at 182.88 27.9399 0)
 			(effects
 				(font
@@ -38806,7 +38806,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C7")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -38822,7 +38822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c0a0722-0482-415b-b338-4cadd5accab4")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR055"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -38872,7 +38872,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR038")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -38888,7 +38888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "669d64c1-598c-4737-aaa7-ebbc80cef97c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR050"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -38938,7 +38938,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR033")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -38954,7 +38954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e23d47-c4c7-4f9b-b9f9-3ce71a2b887d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR052"
 			(at 118.11 39.37 0)
 			(effects
 				(font
@@ -39004,7 +39004,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR035")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -49542,7 +49542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c708c8d-8afc-415e-b488-9b57299ca85f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR060"
 			(at 302.26 39.37 0)
 			(effects
 				(font
@@ -49592,7 +49592,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR043")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -49608,7 +49608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7c36f4-0d18-4070-afef-aaf4287cfe03")
-		(property "Reference" "C15"
+		(property "Reference" "C25"
 			(at 367.03 27.9399 0)
 			(effects
 				(font
@@ -49671,7 +49671,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C15")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -49687,7 +49687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a29d9c56-655c-4ded-be8c-dc5a488069b7")
-		(property "Reference" "C10"
+		(property "Reference" "C20"
 			(at 219.71 27.9399 0)
 			(effects
 				(font
@@ -49750,7 +49750,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C10")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -49766,7 +49766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4acb22f-0b6b-44bd-88e0-4e5451e5cf97")
-		(property "Reference" "C12"
+		(property "Reference" "C22"
 			(at 287.02 27.9399 0)
 			(effects
 				(font
@@ -49829,7 +49829,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C12")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -55106,7 +55106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b26c7aa3-229a-40b0-8e47-a57376ef3a4d")
-		(property "Reference" "C8"
+		(property "Reference" "C18"
 			(at 195.58 27.9399 0)
 			(effects
 				(font
@@ -55169,7 +55169,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C8")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -55185,7 +55185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2928458-31d2-4056-8d30-c7345ad8bc88")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR063"
 			(at 369.57 39.37 0)
 			(effects
 				(font
@@ -55235,7 +55235,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR046")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -55251,7 +55251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c981eb17-56be-4779-b528-f03c735eb25d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR061"
 			(at 317.5 27.94 0)
 			(effects
 				(font
@@ -55301,7 +55301,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR044")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -55317,7 +55317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd57fd1d-3e91-4810-b30c-f63054c5f73e")
-		(property "Reference" "C2"
+		(property "Reference" "C12"
 			(at 35.56 27.9399 0)
 			(effects
 				(font
@@ -55380,7 +55380,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C2")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -55396,7 +55396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfad5f8e-8360-418d-8a01-06935174f84c")
-		(property "Reference" "C3"
+		(property "Reference" "C13"
 			(at 90.17 27.9399 0)
 			(effects
 				(font
@@ -55459,7 +55459,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C3")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -55475,7 +55475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1d0df19-e820-4cef-99c7-0b52090d379d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR048"
 			(at 25.4 39.37 0)
 			(effects
 				(font
@@ -55525,7 +55525,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR031")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -55541,7 +55541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df1db072-12f2-43a0-b571-b89b6179b7ee")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR051"
 			(at 92.71 39.37 0)
 			(effects
 				(font
@@ -55591,7 +55591,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR034")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -55607,7 +55607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e04079f8-a0e7-4bd1-ba7a-238513d010ec")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR049"
 			(at 40.64 27.94 0)
 			(effects
 				(font
@@ -55657,7 +55657,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR032")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -55673,7 +55673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e19a45b5-a83b-4d84-9946-a1bd835e4cf3")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR057"
 			(at 224.79 27.94 0)
 			(effects
 				(font
@@ -55723,7 +55723,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR040")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -55739,7 +55739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e21fbd48-9e34-429e-8383-5f4dfe3a7737")
-		(property "Reference" "C13"
+		(property "Reference" "C23"
 			(at 299.72 27.9399 0)
 			(effects
 				(font
@@ -55802,7 +55802,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "C13")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -55818,7 +55818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3cc2cb0-ec15-41c8-ab4f-a6cae6e5fdb6")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR059"
 			(at 276.86 39.37 0)
 			(effects
 				(font
@@ -55868,7 +55868,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR042")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -61145,7 +61145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f687a1c7-4287-471a-9686-6bcaf4970724")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR054"
 			(at 173.99 27.94 0)
 			(effects
 				(font
@@ -61195,7 +61195,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/8b1b864a-b857-4263-84a2-ef6eb7628e45"
-					(reference "#PWR037")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

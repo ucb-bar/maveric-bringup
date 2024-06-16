@@ -288,8 +288,9 @@ Also noting stock from JLCPCB.
   - [x] Add decap on 3v3 rail too
   - [x] Add decap around level shifters too
 - [x] Sketch out mechanical stuff of fpga devboard and chip board with fmc mating, describe standoffs + positions + hole diameters [d:6/16]
-- [ ] Add probe for FMC powergood (PG) [d:6/16]
-- [ ] Check that FMC powergood is actually at VADJ level (1.2V) [d:6/16]
+- [x] Add probe for FMC powergood (PG) [d:6/16]
+- [x] Check that FMC powergood is actually at VADJ level (1.2V) [d:6/16]
+  - Yes this seems to be the case (from checking ZC706 schematic)
 - ~~[ ] Add clock probe pads~~
   - ???: Not a good idea when using shunt termination
 
@@ -298,7 +299,17 @@ Also noting stock from JLCPCB.
 - [ ] Footprint and symbol finalization [d:6/16]
   - [ ] Define custom MOSFET symbol to make sure pin numbers line up (for led driver)
   - [ ] Define a custom LED symbol to make sure pin numbers line up with cathode/anode (for led driver)
-- [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
+- [ ] Redo check of FMC symbol (pin name to pin coordinate mapping) [d:6/16]
+
+### Things to Check
+
+- [ ] Make sure all the chip IOs are represented and properly connected
+  - [ ] Check this against the Hyperscale schematic too
+- [ ] Make sure decap is sufficient
+- [ ] Make sure power topology is correct
+- [ ] Make sure all debug functionality is available
+- [ ] Does the stackup look reasonable?
+- [ ] Is everything sane mechanically?
 
 ## Layout
 

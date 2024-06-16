@@ -185,21 +185,21 @@
 		(layer "F.Fab")
 		(uuid "10ae4a89-4f16-4926-8ab0-c0563ac45cb6")
 	)
-	(pad "A" smd roundrect
-		(at 0.975 0)
-		(size 0.86 1.36)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.102)
-		(uuid "9a78d544-bb82-43df-b2ff-1cac7d24dd8d")
-	)
-	(pad "C" smd roundrect
+	(pad "1" smd roundrect
 		(at -0.975 0)
 		(size 0.86 1.36)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.102)
 		(uuid "eee85923-0f6d-4902-9e76-fdb6005b88e5")
+	)
+	(pad "2" smd roundrect
+		(at 0.975 0)
+		(size 0.86 1.36)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "9a78d544-bb82-43df-b2ff-1cac7d24dd8d")
 	)
 	(model "${KIPRJMOD}/APT2012LZGCK.step"
 		(offset
