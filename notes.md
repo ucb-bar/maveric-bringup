@@ -284,9 +284,9 @@ Also noting stock from JLCPCB.
 - [x] Add extra trigger refclk for the fpga pll to lock serial tl clock to core clock (if needed to mitigate async crossing issues) [d:6/16]
 - [x] Add and check UNI2 socket footprint [d:6/16]
   - Check non-plated through holes, check pad spacing and diameter, check centerline
-- [ ] Add decap on power rails (VDD, VDDV, core + IO power domains, large decap) [d:6/16]
-  - [ ] Add decap on 3v3 rail too
-  - [ ] Add decap around level shifters too
+- [x] Add decap on power rails (VDD, VDDV, core + IO power domains, large decap) [d:6/16]
+  - [x] Add decap on 3v3 rail too
+  - [x] Add decap around level shifters too
 - [ ] Sketch out mechanical stuff of fpga devboard and chip board with fmc mating, describe standoffs + positions + hole diameters [d:6/16]
 - [ ] Add probe for FMC powergood (PG) [d:6/16]
 - [ ] Check that FMC powergood is actually at VADJ level (1.2V) [d:6/16]
