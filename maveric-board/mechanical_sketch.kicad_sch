@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Maveric Board")
-		(date "2024-06-10")
+		(date "2024-06-16")
 		(rev "0")
 		(comment 1 "Drawn By: Vighnesh Iyer")
 	)
@@ -168,7 +168,7 @@
 		)
 		(uuid "af7c93dd-f8e9-474c-975c-da0e3a1edd0f")
 	)
-	(text "4x 2.7mm hole"
+	(text "4x 2.70mm hole"
 		(exclude_from_sim no)
 		(at 76.708 58.42 0)
 		(effects
@@ -178,7 +178,7 @@
 		)
 		(uuid "c8328de1-6fcd-4635-9b24-db5537474a82")
 	)
-	(text "Standoffs > 6.5mm"
+	(text "Standoffs > 6.5mm height"
 		(exclude_from_sim no)
 		(at 76.708 55.626 0)
 		(effects
