@@ -1,0 +1,191 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e1fd2e99-96fd-4ef6-96f7-8d4ad55c82b1")
+	(paper "A4")
+	(title_block
+		(title "Maveric Board")
+		(date "2024-06-10")
+		(rev "0")
+		(comment 1 "Drawn By: Vighnesh Iyer")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 132.588 38.1)
+		(end 146.558 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 22da59e2-a530-4e53-960a-ebcb0a0ca4c4)
+	)
+	(rectangle
+		(start 52.324 52.07)
+		(end 53.594 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 269f05ed-2442-4aa4-8cdb-5d76575583c5)
+	)
+	(rectangle
+		(start 109.22 43.18)
+		(end 114.3 46.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c1475dc-7f95-42cb-b404-c424d6106837)
+	)
+	(rectangle
+		(start 107.95 40.64)
+		(end 158.75 43.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2cb1307b-76cb-41d0-8592-3bbce9a335f2)
+	)
+	(rectangle
+		(start 107.95 44.45)
+		(end 115.57 48.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 704fa1c2-ca27-4b60-ab49-e35d987effd5)
+	)
+	(rectangle
+		(start 50.8 48.26)
+		(end 118.11 52.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 792b5fdf-a0eb-4fb4-b083-ffc982726cb2)
+	)
+	(rectangle
+		(start 154.94 43.18)
+		(end 156.21 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca828455-0d81-4af7-b639-22fcda30cc81)
+	)
+	(rectangle
+		(start 100.584 52.07)
+		(end 101.854 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e964eacc-84f6-4ce8-8aa7-79c92df831c2)
+	)
+	(text "2mm"
+		(exclude_from_sim no)
+		(at 162.56 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "180bbfac-1cad-479f-995a-1da0ab8fbd58")
+	)
+	(text "2.03mm"
+		(exclude_from_sim no)
+		(at 45.974 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29e43216-5594-4d38-8596-d591c8a15d67")
+	)
+	(text "XEM7350"
+		(exclude_from_sim no)
+		(at 58.166 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "538960d2-bc0d-42ba-a788-9a166ed19d82")
+	)
+	(text "FMC\n10mm mating height"
+		(exclude_from_sim no)
+		(at 106.68 45.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "848a091a-cbfc-439c-a5ac-4ef38df6a425")
+	)
+	(text "2x 2.70mm hole"
+		(exclude_from_sim no)
+		(at 145.542 46.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "95891d91-153c-4e86-9613-efa542ce6de8")
+	)
+	(text "UNI2 Socket"
+		(exclude_from_sim no)
+		(at 139.446 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af7c93dd-f8e9-474c-975c-da0e3a1edd0f")
+	)
+	(text "4x 2.7mm hole"
+		(exclude_from_sim no)
+		(at 76.708 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8328de1-6fcd-4635-9b24-db5537474a82")
+	)
+	(text "Standoffs > 6.5mm"
+		(exclude_from_sim no)
+		(at 76.708 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6d98269-84de-429f-a42c-f1b63dd5be3d")
+	)
+)

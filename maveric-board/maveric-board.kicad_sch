@@ -13704,6 +13704,44 @@
 		)
 	)
 	(sheet
+		(at 302.26 104.14)
+		(size 24.13 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "136b0619-ac29-4f55-8403-000431e2f2d5")
+		(property "Sheetname" "Mechanical Sketch"
+			(at 302.26 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mechanical_sketch.kicad_sch"
+			(at 302.26 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 331.47 80.01)
 		(size 19.05 5.08)
 		(fields_autoplaced yes)

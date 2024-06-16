@@ -287,7 +287,7 @@ Also noting stock from JLCPCB.
 - [x] Add decap on power rails (VDD, VDDV, core + IO power domains, large decap) [d:6/16]
   - [x] Add decap on 3v3 rail too
   - [x] Add decap around level shifters too
-- [ ] Sketch out mechanical stuff of fpga devboard and chip board with fmc mating, describe standoffs + positions + hole diameters [d:6/16]
+- [x] Sketch out mechanical stuff of fpga devboard and chip board with fmc mating, describe standoffs + positions + hole diameters [d:6/16]
 - [ ] Add probe for FMC powergood (PG) [d:6/16]
 - [ ] Check that FMC powergood is actually at VADJ level (1.2V) [d:6/16]
 - ~~[ ] Add clock probe pads~~
