@@ -300,16 +300,20 @@ Also noting stock from JLCPCB.
   - [x] Define custom MOSFET symbol to make sure pin numbers line up (for led driver)
   - [x] Define a custom LED symbol to make sure pin numbers line up with cathode/anode (for led driver)
 - [x] Redo check of FMC symbol (pin name to pin coordinate mapping) [d:6/16]
-- [ ] Check chip IOs are represented and properly connected [d:6/16]
+- [x] Check chip IOs are represented and properly connected [d:6/16]
   - Against the Hyperscale schematic
 
 ### Things to Check During Review
 
 - [ ] Make sure all the chip IOs are represented and properly connected
-  - [ ] Check this against the Hyperscale schematic too
-- [ ] Make sure decap is sufficient
+  - We seem to have used HSDIFF Q4 bumps (Hyperscale chip used HSDIFF Q3 for chip A and HSDIFF Q4 for chip B)
+  - There are no clock taps, there isn't a `custom_boot` pin either
+- [ ] Check clocking
+  - [ ] Is the PLL refclk terminated on-chip?
+- [ ] Verify UART directionality
 - [ ] Make sure power topology is correct
 - [ ] Make sure all debug functionality is available
+- [ ] Make sure decap is sufficient
 - [ ] Does the stackup look reasonable?
 - [ ] Is everything sane mechanically?
 
