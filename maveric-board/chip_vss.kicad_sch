@@ -45029,7 +45029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
 			(at 294.64 22.86 0)
 			(effects
 				(font
@@ -50290,7 +50290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
 			(at 214.63 22.86 0)
 			(effects
 				(font
@@ -55551,7 +55551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
 			(at 255.27 22.86 0)
 			(effects
 				(font
@@ -60812,7 +60812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
 			(at 57.15 22.86 0)
 			(effects
 				(font
@@ -66271,7 +66271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
 			(at 96.52 22.86 0)
 			(effects
 				(font
@@ -71862,7 +71862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
 			(at 172.72 22.86 0)
 			(effects
 				(font
@@ -77123,7 +77123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
 			(at 134.62 22.86 0)
 			(effects
 				(font
@@ -82516,7 +82516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
 			(at 12.7 22.86 0)
 			(effects
 				(font
@@ -87777,7 +87777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
 			(at 335.28 22.86 0)
 			(effects
 				(font

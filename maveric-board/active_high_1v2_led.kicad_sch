@@ -1269,7 +1269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 46.736 28.194 90)
 			(effects
 				(font
@@ -1287,7 +1287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0603WAF1000T5E"
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -1296,7 +1296,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25076"
+		(property "JLCPCB Part #" "C22775"
 			(at 45.72 27.94 0)
 			(effects
 				(font

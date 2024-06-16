@@ -3843,10 +3843,6 @@
 		(uuid "fbec675c-3181-45a9-ac55-0c765a86e72f")
 	)
 	(no_connect
-		(at 198.12 35.56)
-		(uuid "019c8c1c-62ca-415a-a98d-ca82028e166d")
-	)
-	(no_connect
 		(at 45.72 30.48)
 		(uuid "0708e60f-dad4-4634-94be-3071461b494a")
 	)
@@ -5777,6 +5773,18 @@
 			(justify right)
 		)
 		(uuid "a83d36b3-19e0-4fc8-8f49-b49a412cc1f5")
+	)
+	(hierarchical_label "fpga_refclk"
+		(shape input)
+		(at 198.12 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b288d66a-91e4-4799-be87-7a961b1561df")
 	)
 	(hierarchical_label "serial_tl_in_bits_1"
 		(shape output)

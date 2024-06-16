@@ -224,6 +224,7 @@ Also noting stock from JLCPCB.
 | fpga_gpio\[1\]            | LA_13_N       | D18     | 81.70                         | 15            | to header + LED |
 | fpga_gpio\[2\]            | LA_25_P       | G27     | 82.45                         | 15            | to header + LED |
 | fpga_gpio\[3\]            | LA_25_N       | G28     | 82.46                         | 15            | to header + LED |
+| fpga_refclk               | CLK0_M2C_P    | H4      | 82.74                         | 15            | for locking FPGA PLL to external clock source |
 
 #### Extra Things to Buy
 
@@ -280,20 +281,24 @@ Also noting stock from JLCPCB.
   - Terminate with shunt 50 Ohm that the Fpga can use
   - The clock generator will have to output 2x Vpp swing
   - [x] Sketch out clocking strategy
-- [ ] Add extra trigger refclk for the fpga pll to lock serial tl clock to core clock (if needed to mitigate async crossing issues)
-- [ ] Add and check UNI2 socket footprint
+- [x] Add extra trigger refclk for the fpga pll to lock serial tl clock to core clock (if needed to mitigate async crossing issues) [d:6/16]
+- [x] Add and check UNI2 socket footprint [d:6/16]
   - Check non-plated through holes, check pad spacing and diameter, check centerline
-- [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
-- [ ] Add decap on power rails (VDD, VDDV, core + IO power domains, large decap)
+- [ ] Add decap on power rails (VDD, VDDV, core + IO power domains, large decap) [d:6/16]
   - [ ] Add decap on 3v3 rail too
   - [ ] Add decap around level shifters too
-- [ ] Sketch out mechanical stuff of fpga devboard and chip board with fmc mating, describe standoffs + positions + hole diameters
-- [ ] Footprint and symbol finalization
-  - [ ] Define custom MOSFET symbol to make sure pin numbers line up (for led driver)
-  - [ ] Define a custom LED symbol to make sure pin numbers line up with cathode/anode (for led driver)
-- [ ] Add probe for FMC powergood (PG)
+- [ ] Sketch out mechanical stuff of fpga devboard and chip board with fmc mating, describe standoffs + positions + hole diameters [d:6/16]
+- [ ] Add probe for FMC powergood (PG) [d:6/16]
+- [ ] Check that FMC powergood is actually at VADJ level (1.2V) [d:6/16]
 - ~~[ ] Add clock probe pads~~
   - ???: Not a good idea when using shunt termination
+
+### Final Re-Checks
+
+- [ ] Footprint and symbol finalization [d:6/16]
+  - [ ] Define custom MOSFET symbol to make sure pin numbers line up (for led driver)
+  - [ ] Define a custom LED symbol to make sure pin numbers line up with cathode/anode (for led driver)
+- [ ] Redo check of FMC symbol (pin name to pin coordinate mapping)
 
 ## Layout
 
