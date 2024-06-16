@@ -11920,7 +11920,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "clocking _diagram.kicad_sch"
+		(property "Sheetfile" "clocking_diagram.kicad_sch"
 			(at 190.754 237.0586 0)
 			(effects
 				(font
