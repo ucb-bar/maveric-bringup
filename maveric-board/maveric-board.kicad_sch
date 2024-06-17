@@ -2514,6 +2514,12 @@
 		(uuid "05597cf1-5048-4ca7-93a0-ff6910042e35")
 	)
 	(junction
+		(at 36.83 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0668e67d-a6b9-4687-864b-1b3b670349c7")
+	)
+	(junction
 		(at 194.31 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2550,6 +2556,12 @@
 		(uuid "19b9e3cc-bd0a-4d2f-bec6-2daaca17a37b")
 	)
 	(junction
+		(at 80.01 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1be37467-f5c3-46eb-b340-614934cde77f")
+	)
+	(junction
 		(at 224.79 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2584,6 +2596,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b13d4c3-bff9-4e57-8053-47691f122518")
+	)
+	(junction
+		(at 73.66 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ea205b4-6176-4501-8209-98f90b89eeef")
 	)
 	(junction
 		(at 49.53 186.69)
@@ -2626,6 +2644,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "448a0744-7838-4496-bafe-36af660e8136")
+	)
+	(junction
+		(at 41.91 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ab7ad3c-5a3b-4af8-accb-cc1b1f606b76")
+	)
+	(junction
+		(at 39.37 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57d6f9fd-43bd-4291-9e51-960a4c7805a8")
 	)
 	(junction
 		(at 236.22 167.64)
@@ -2844,6 +2874,12 @@
 		(uuid "dcdfcf61-9852-4b79-8c5e-118ea8df4ce5")
 	)
 	(junction
+		(at 74.93 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd39288f-4b34-4f6e-935b-59b9464f15e1")
+	)
+	(junction
 		(at 219.71 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2856,10 +2892,22 @@
 		(uuid "ea5ed429-c467-4fc9-9dca-a8be2085c620")
 	)
 	(junction
+		(at 77.47 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed925d17-887d-47a4-971b-15ba5995dce7")
+	)
+	(junction
 		(at 171.45 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eed90773-0210-496b-a02b-783a79941d20")
+	)
+	(junction
+		(at 72.39 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f31e8f5d-7184-4273-aecb-946dcd950213")
 	)
 	(junction
 		(at 55.88 213.36)
@@ -2890,6 +2938,16 @@
 	(no_connect
 		(at 156.21 203.2)
 		(uuid "f5c998c3-7b8c-48e0-a3d9-410e9c014236")
+	)
+	(wire
+		(pts
+			(xy 74.93 144.78) (xy 74.93 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00694547-8a1b-412d-b2ff-e2ab6591e397")
 	)
 	(wire
 		(pts
@@ -3133,6 +3191,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 140.97) (xy 41.91 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3ae4b2-e544-4451-b5c0-619bb4046f95")
+	)
+	(wire
+		(pts
 			(xy 252.73 125.73) (xy 265.43 125.73)
 		)
 		(stroke
@@ -3183,6 +3251,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 149.86) (xy 77.47 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24437401-ace3-498b-bb64-fa84f6ab433f")
+	)
+	(wire
+		(pts
 			(xy 34.29 80.01) (xy 34.29 82.55)
 		)
 		(stroke
@@ -3230,6 +3308,16 @@
 			(type default)
 		)
 		(uuid "265f5507-f8bf-4f89-bace-34f116ef8eb1")
+	)
+	(wire
+		(pts
+			(xy 72.39 134.62) (xy 72.39 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278c9a39-3f39-45cb-9d02-9f3f0192603a")
 	)
 	(wire
 		(pts
@@ -3290,6 +3378,16 @@
 			(type default)
 		)
 		(uuid "2a6e04b5-860a-4ace-923c-d81230ee3500")
+	)
+	(wire
+		(pts
+			(xy 36.83 153.67) (xy 36.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdff12e-16f3-4a1d-a202-fad7519338b7")
 	)
 	(wire
 		(pts
@@ -3363,6 +3461,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 165.1) (xy 81.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a4d88b-fc7f-4467-9d44-d80723734476")
+	)
+	(wire
+		(pts
 			(xy 186.69 67.31) (xy 186.69 97.79)
 		)
 		(stroke
@@ -3410,6 +3518,16 @@
 			(type default)
 		)
 		(uuid "34685f3b-4239-402c-b297-dd87cb7bed52")
+	)
+	(wire
+		(pts
+			(xy 77.47 161.29) (xy 81.28 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34728b21-4a4e-4116-a116-af5147adb18e")
 	)
 	(wire
 		(pts
@@ -3483,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 165.1) (xy 49.53 165.1)
+			(xy 35.56 165.1) (xy 41.91 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3693,6 +3811,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 172.72) (xy 81.28 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd38fc7-1d21-462a-97a1-08026624d3d0")
+	)
+	(wire
+		(pts
 			(xy 255.27 67.31) (xy 255.27 97.79)
 		)
 		(stroke
@@ -3833,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 138.43) (xy 36.83 139.7)
+			(xy 80.01 110.49) (xy 80.01 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3953,6 +4081,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 157.48) (xy 81.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fee3ff1-0a60-439c-84b2-5fc64ec75d77")
+	)
+	(wire
+		(pts
 			(xy 251.46 67.31) (xy 255.27 67.31)
 		)
 		(stroke
@@ -4043,7 +4181,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 139.7) (xy 27.94 139.7)
+			(xy 80.01 111.76) (xy 71.12 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4123,7 +4261,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 157.48) (xy 54.61 157.48)
+			(xy 35.56 157.48) (xy 36.83 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4183,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 39.37 142.24)
+			(xy 71.12 114.3) (xy 82.55 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4260,6 +4398,16 @@
 			(type default)
 		)
 		(uuid "7a0acc8f-ae4a-44b4-a512-7939aac3d716")
+	)
+	(wire
+		(pts
+			(xy 80.01 144.78) (xy 74.93 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4f892f-d551-4dea-914d-8e833ff58579")
 	)
 	(wire
 		(pts
@@ -4353,6 +4501,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 140.97) (xy 41.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8504c3b3-6108-459c-b508-bded3ce8e0d0")
+	)
+	(wire
+		(pts
 			(xy 163.83 215.9) (xy 166.37 215.9)
 		)
 		(stroke
@@ -4370,6 +4528,26 @@
 			(type default)
 		)
 		(uuid "87681766-1c04-40ef-af71-7e21a5b4c3cf")
+	)
+	(wire
+		(pts
+			(xy 77.47 149.86) (xy 77.47 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883e22bb-40b4-4706-90e2-6cdfc2768b3c")
+	)
+	(wire
+		(pts
+			(xy 36.83 147.32) (xy 39.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1b7d59-0db0-483f-9a34-83f29c4e3006")
 	)
 	(wire
 		(pts
@@ -4430,6 +4608,16 @@
 			(type default)
 		)
 		(uuid "8cba0cc2-1609-40b1-b72c-4de11a671d99")
+	)
+	(wire
+		(pts
+			(xy 39.37 147.32) (xy 39.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecfff0c-c4dc-445f-991f-fefc26ffb899")
 	)
 	(wire
 		(pts
@@ -4573,13 +4761,33 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 168.91) (xy 81.28 168.91)
+			(xy 80.01 154.94) (xy 80.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98fad247-5b0b-4b8f-b0ce-de2e26a656dd")
+	)
+	(wire
+		(pts
+			(xy 64.77 168.91) (xy 73.66 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99d4d6b5-9e86-479b-8015-c44852bf6eb5")
+	)
+	(wire
+		(pts
+			(xy 39.37 161.29) (xy 52.07 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fc5221-9f50-470d-9299-42c21becbab7")
 	)
 	(wire
 		(pts
@@ -4700,6 +4908,16 @@
 			(type default)
 		)
 		(uuid "a866f4ec-54df-4561-9a89-c34f55bda3ae")
+	)
+	(wire
+		(pts
+			(xy 80.01 139.7) (xy 73.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9bf741-e8f7-4bf8-bf5b-3c88233b9ec2")
 	)
 	(wire
 		(pts
@@ -4923,6 +5141,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 134.62) (xy 72.39 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88618b1-5fb6-48c2-a23f-d1588c195cf6")
+	)
+	(wire
+		(pts
 			(xy 331.47 95.25) (xy 311.15 95.25)
 		)
 		(stroke
@@ -5113,13 +5341,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 172.72) (xy 81.28 172.72)
+			(xy 67.31 172.72) (xy 72.39 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c3e97552-4f38-4da8-851f-25c02670df2e")
+	)
+	(wire
+		(pts
+			(xy 36.83 157.48) (xy 54.61 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4342eb2-5a54-434c-b308-7e61213f7e81")
 	)
 	(wire
 		(pts
@@ -5133,13 +5371,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 144.78) (xy 36.83 146.05)
+			(xy 80.01 116.84) (xy 80.01 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5b947fc-5452-4a5e-8e03-959d4abe414a")
+	)
+	(wire
+		(pts
+			(xy 73.66 139.7) (xy 73.66 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64fe47e-10e0-41fe-b22a-ebda7a9cef77")
 	)
 	(wire
 		(pts
@@ -5260,6 +5508,16 @@
 			(type default)
 		)
 		(uuid "ce328279-879f-4541-befb-cc91d5c67910")
+	)
+	(wire
+		(pts
+			(xy 73.66 168.91) (xy 81.28 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce822262-224f-4c0c-a619-595d7ce1e2d2")
 	)
 	(wire
 		(pts
@@ -5413,7 +5671,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 157.48) (xy 81.28 157.48)
+			(xy 57.15 157.48) (xy 80.01 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5543,6 +5801,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 165.1) (xy 49.53 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e172e308-5acf-41ef-a88e-5ca707842eb5")
+	)
+	(wire
+		(pts
 			(xy 224.79 111.76) (xy 227.33 111.76)
 		)
 		(stroke
@@ -5633,7 +5901,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 161.29) (xy 52.07 161.29)
+			(xy 35.56 161.29) (xy 39.37 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5753,7 +6021,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 144.78) (xy 36.83 144.78)
+			(xy 71.12 116.84) (xy 80.01 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5783,7 +6051,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 161.29) (xy 81.28 161.29)
+			(xy 59.69 161.29) (xy 77.47 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5823,7 +6091,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 165.1) (xy 81.28 165.1)
+			(xy 62.23 165.1) (xy 74.93 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5901,9 +6169,9 @@
 		)
 		(uuid "13ec33a9-3260-46d4-9572-8ee84178c412")
 	)
-	(text "VDDV is the chip IO supply\nIt can come from VADJ or an external supply"
+	(text "VDDV is the chip IO supply\nDriven by VADJ / external supply"
 		(exclude_from_sim no)
-		(at 44.45 150.876 0)
+		(at 73.66 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5971,9 +6239,9 @@
 		)
 		(uuid "d308c9c2-323c-4eff-b73f-da56f7e97311")
 	)
-	(text "VDD is the chip core supply\nIt can come from VADJ or an external supply"
+	(text "VDD is the chip core supply\nDriven by VADJ / external supply"
 		(exclude_from_sim no)
-		(at 42.926 125.222 0)
+		(at 33.274 122.682 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6410,7 +6678,7 @@
 		(uuid "c7a5574f-e80e-4ef8-b731-ca3386a02476")
 	)
 	(label "VDDV_EXT"
-		(at 36.83 138.43 0)
+		(at 80.01 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6520,7 +6788,7 @@
 		(uuid "ede51bd0-5c3f-4267-a26b-948801ca0173")
 	)
 	(label "VADJ"
-		(at 36.83 146.05 0)
+		(at 80.01 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6573,6 +6841,73 @@
 			(justify left bottom)
 		)
 		(uuid "fec571d8-015f-4460-8900-5c0df6925050")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 80.01 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b76ceb-cd66-48a4-a093-db8971291e26")
+		(property "Reference" "TP6"
+			(at 83.82 131.7624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 83.82 134.3024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TP-60X60_SQ-SMT"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 80.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "096158fe-5fed-4b60-80d8-cb8fbc3eef69")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -7407,6 +7742,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 80.01 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19d8e155-f919-4b9a-bca4-3d2ffe594fe0")
+		(property "Reference" "TP5"
+			(at 83.82 136.8424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 83.82 139.3824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TP-60X60_SQ-SMT"
+			(at 85.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 80.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab4ef0a2-b043-4527-8d85-479666ed2cf2")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 181.61 167.64 0)
 		(unit 1)
@@ -7467,6 +7869,70 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 36.83 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fd453d8-fc13-4191-a916-771be9fda955")
+		(property "Reference" "TP7"
+			(at 31.496 150.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 26.162 153.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "maveric-parts:TP-60X60_SQ-SMT"
+			(at 36.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 36.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c495470-f35a-446e-9565-0479ae7f89ca")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8155,7 +8621,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 22.86 142.24 180)
+		(at 66.04 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8163,7 +8629,7 @@
 		(dnp no)
 		(uuid "3bf7a3df-9d5b-40a7-838e-352f93fe87b9")
 		(property "Reference" "J5"
-			(at 22.86 133.35 0)
+			(at 66.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8637,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 22.86 135.89 0)
+			(at 66.04 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8645,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:AMPHENOL_68001-103HLF"
-			(at 22.86 142.24 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 142.24 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8663,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 142.24 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8672,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C598608"
-			(at 22.86 142.24 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +8681,7 @@
 			)
 		)
 		(property "Mfr Part #" "68001-103HLF"
-			(at 23.368 136.144 0)
+			(at 66.548 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8459,7 +8925,7 @@
 	)
 	(symbol
 		(lib_id "maveric-parts:VDDV")
-		(at 39.37 142.24 270)
+		(at 82.55 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8468,7 +8934,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d116f11-4970-4300-a673-698e8c60927a")
 		(property "Reference" "#PWR010"
-			(at 39.37 142.24 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,7 +8943,7 @@
 			)
 		)
 		(property "Value" "VDDV"
-			(at 43.18 142.2399 90)
+			(at 86.36 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,7 +8952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 142.24 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8495,7 +8961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 142.24 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,7 +8970,7 @@
 			)
 		)
 		(property "Description" "Chip IO Voltage"
-			(at 39.37 142.24 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,6 +10088,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 36.83 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67c0367b-4263-43ea-a800-958407fb5118")
+		(property "Reference" "TP8"
+			(at 31.496 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 26.162 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "maveric-parts:TP-60X60_SQ-SMT"
+			(at 36.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 36.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8378951-86a5-45c0-b194-c44a5183e41a")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 207.01 189.23 180)
 		(unit 1)
@@ -10335,6 +10865,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 36.83 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84c7488a-7a80-4197-8647-7d5ea20717f4")
+		(property "Reference" "TP9"
+			(at 31.496 137.922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 26.162 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "maveric-parts:TP-60X60_SQ-SMT"
+			(at 36.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 36.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c9eeb6b-13df-4c5c-8bcb-fca2f6c64d24")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 238.76 248.92 0)
 		(unit 1)
@@ -10974,6 +11568,73 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 80.01 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acde7056-3c9e-4ee4-8548-ba1a5fcdfff4")
+		(property "Reference" "TP2"
+			(at 83.82 152.0824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 83.82 154.6224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TP-60X60_SQ-SMT"
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68e90eec-0c82-4ebc-bcd3-2a4dbf485158")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -12007,6 +12668,73 @@
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 80.01 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c61b300e-594a-452c-9ce9-7f39c2b71c84")
+		(property "Reference" "TP4"
+			(at 83.82 141.9224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 83.82 144.4624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TP-60X60_SQ-SMT"
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 80.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "659bfb56-b067-4923-aaa9-dff2ec088bcc")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -13166,6 +13894,73 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 80.01 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d2d030-f697-4412-8bf9-b9b5ad351d7a")
+		(property "Reference" "TP3"
+			(at 83.82 147.0024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 83.82 149.5424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TP-60X60_SQ-SMT"
+			(at 85.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 80.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1ba1c9b-a6b4-4c64-9f7a-2ea7fb229cd0")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP3")
 					(unit 1)
 				)
 			)

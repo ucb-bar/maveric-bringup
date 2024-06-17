@@ -151,11 +151,11 @@ See the `README.md` in that folder for details.
 | Core      | Core          | 0.7mm     | -                 |
 | In2.Cu    | Copper        | 0.0152mm  | VDD               |
 | Prepreg   | 7628*1        | 0.2028mm  | -                 |
-| In3.Cu    | Copper        | 0.0152mm  | GND               |
+| In3.Cu    | Copper        | 0.0152mm  | VDDV              |
 | Core      | Core          | 0.7mm     | -                 |
-| In4.Cu    | Copper        | 0.0152mm  | VDDV, Signal      |
+| In4.Cu    | Copper        | 0.0152mm  | GND               |
 | Prepreg   | 3313*1        | 0.0994mm  | -                 |
-| B.Cu      | Copper        | 0.035mm   | GND               |
+| B.Cu      | Copper        | 0.035mm   | Signal            |
 
 - The stackup looks like (F.Cu, In1.Cu) | (In2.Cu, In3.Cu) | (In4.Cu, B.Cu) (i.e. 2-2-2)
 - The first and third pairs are strongly coupled and the second pair has more separation
