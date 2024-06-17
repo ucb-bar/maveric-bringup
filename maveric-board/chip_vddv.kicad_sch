@@ -31954,13 +31954,13 @@
 		)
 	)
 	(junction
-		(at 135.89 52.07)
+		(at 137.16 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "047ec76e-2cda-4f5c-b90b-3e0f766939c2")
 	)
 	(junction
-		(at 82.55 26.67)
+		(at 85.09 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06544982-2e4f-4295-a04c-0499635ed01a")
@@ -31978,31 +31978,25 @@
 		(uuid "080993df-b43f-474f-9d59-cf15e6ef7dd9")
 	)
 	(junction
-		(at 93.98 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0853df17-4abe-44b1-97c3-f9540e896f53")
-	)
-	(junction
-		(at 135.89 39.37)
+		(at 137.16 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08619d8f-3763-4440-bd7c-34b8d6fa51de")
 	)
 	(junction
-		(at 135.89 54.61)
+		(at 137.16 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bbdd8b4-449c-4cc5-86e4-adbefa07f617")
 	)
 	(junction
-		(at 179.07 29.21)
+		(at 180.34 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cd83ac4-5370-426a-adfa-8ada03a9dad0")
 	)
 	(junction
-		(at 179.07 44.45)
+		(at 180.34 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1496661e-e37f-4d54-aadf-de434a44760a")
@@ -32014,7 +32008,7 @@
 		(uuid "162d0aee-5305-4d92-9bb8-2a30cd380d61")
 	)
 	(junction
-		(at 82.55 49.53)
+		(at 85.09 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16fbb89c-c4bb-4605-8b52-b58f9418d30e")
@@ -32024,18 +32018,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cac94c5-0ae5-4eab-bdc3-2254d30914d7")
-	)
-	(junction
-		(at 87.63 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1eda6ae7-56a2-4f44-b173-86e22d8e4131")
-	)
-	(junction
-		(at 125.73 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21b5d31d-d00b-4414-aafa-7746d3981e51")
 	)
 	(junction
 		(at 39.37 104.14)
@@ -32050,25 +32032,19 @@
 		(uuid "271bb9fe-7c4e-486c-872d-b99c5619ed6a")
 	)
 	(junction
-		(at 184.15 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29359b40-aa97-4879-b12e-b41eb7fc197a")
-	)
-	(junction
 		(at 135.89 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cc301ee-8e21-4a41-9ff9-861c814edd9f")
 	)
 	(junction
-		(at 82.55 39.37)
+		(at 85.09 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ceafcf5-0e94-4e35-86fe-b3817c1764f9")
 	)
 	(junction
-		(at 82.55 41.91)
+		(at 85.09 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d055e25-22f2-4af3-b8bd-34159c20cccd")
@@ -32104,22 +32080,16 @@
 		(uuid "36ce94d9-eebb-4e2e-acc7-8f0b70067600")
 	)
 	(junction
-		(at 135.89 34.29)
+		(at 137.16 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37a6952e-49c3-44a0-960b-983d38c01265")
 	)
 	(junction
-		(at 39.37 36.83)
+		(at 41.91 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "382eee03-cc54-4a25-aa74-039a71902c0d")
-	)
-	(junction
-		(at 184.15 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c9c590d-8559-4222-a806-d6ff9cc0edd6")
 	)
 	(junction
 		(at 82.55 93.98)
@@ -32128,13 +32098,13 @@
 		(uuid "41dcc8d9-40d4-4982-bb0f-06797e0b356d")
 	)
 	(junction
-		(at 39.37 26.67)
+		(at 41.91 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "437fa649-5964-4d68-9158-51ec0792394c")
 	)
 	(junction
-		(at 82.55 34.29)
+		(at 85.09 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "440c39c2-4a09-400a-b813-f791b18f8c42")
@@ -32152,25 +32122,25 @@
 		(uuid "4ca8b225-40f3-4dc2-a088-0ae58885f6a3")
 	)
 	(junction
-		(at 179.07 31.75)
+		(at 180.34 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5098f243-c74e-410c-a384-8a1829cb5934")
 	)
 	(junction
-		(at 179.07 39.37)
+		(at 180.34 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "520b4477-3d6c-4b28-ae93-5f03491c0d61")
 	)
 	(junction
-		(at 135.89 26.67)
+		(at 137.16 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "529cf745-a48d-4f97-a389-81a294463d2a")
 	)
 	(junction
-		(at 39.37 46.99)
+		(at 41.91 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "562f1787-b2a2-4c51-a183-92e9ad51a2b2")
@@ -32182,13 +32152,7 @@
 		(uuid "56e26a83-c539-4487-9b2e-a499bb5a577e")
 	)
 	(junction
-		(at 120.65 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5933cb88-4661-4deb-ace0-9e9658a97ae6")
-	)
-	(junction
-		(at 39.37 44.45)
+		(at 41.91 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a6ca2dc-eba4-427c-ac6e-99d03d32bc0f")
@@ -32206,7 +32170,7 @@
 		(uuid "638cafd1-22a7-446c-a767-9c0f9555cf4f")
 	)
 	(junction
-		(at 39.37 49.53)
+		(at 41.91 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66a58806-dd76-422d-b7a1-22e242246911")
@@ -32224,34 +32188,10 @@
 		(uuid "6d14e171-0b38-4881-8827-3267c1188ad9")
 	)
 	(junction
-		(at 87.63 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "735128eb-ecb7-4b74-b81f-ca851af81665")
-	)
-	(junction
-		(at 120.65 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7739c4cd-1b07-459c-a1d7-8bb9aa29ff1c")
-	)
-	(junction
 		(at 179.07 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77855b8c-937f-4a96-8630-ea63b2b3ed38")
-	)
-	(junction
-		(at 93.98 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ae4a1fc-d1de-4bba-a318-3ee55c27b15d")
-	)
-	(junction
-		(at 24.13 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81b01965-7298-4128-88f1-56f0ce5aceb8")
 	)
 	(junction
 		(at 39.37 101.6)
@@ -32260,13 +32200,7 @@
 		(uuid "83e1a1c6-5eb2-4041-b9d1-a8b52cb8f519")
 	)
 	(junction
-		(at 190.5 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8687f483-5242-4a8d-950e-2421a4f24a08")
-	)
-	(junction
-		(at 39.37 54.61)
+		(at 41.91 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88cb5d4d-57ba-41b9-b0f9-d722c1a0d1bc")
@@ -32278,7 +32212,7 @@
 		(uuid "8a5fa6d6-468a-4aa4-922c-eabcc88b08b1")
 	)
 	(junction
-		(at 179.07 36.83)
+		(at 180.34 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a7086ea-dd0d-44b9-b4b8-99e122797aaa")
@@ -32290,7 +32224,7 @@
 		(uuid "8ba83257-38f0-49b4-b50a-c4316b4a350b")
 	)
 	(junction
-		(at 39.37 52.07)
+		(at 41.91 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d48911f-541a-45e7-b076-5cdd7eed9c64")
@@ -32308,25 +32242,19 @@
 		(uuid "9174a21d-cec2-42cf-b9bc-c107780ec90f")
 	)
 	(junction
-		(at 39.37 41.91)
+		(at 41.91 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "958a8550-7414-4b76-815c-d56167150ea0")
 	)
 	(junction
-		(at 135.89 49.53)
+		(at 137.16 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9681443b-c1c3-4a30-b194-2185d6aa625c")
 	)
 	(junction
-		(at 190.5 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "981d0f38-ad43-415e-b236-f5e4a9caf0df")
-	)
-	(junction
-		(at 82.55 46.99)
+		(at 85.09 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c408f18-91e8-4f2f-a372-f2df6a4ac315")
@@ -32344,7 +32272,7 @@
 		(uuid "a2966d7d-b005-49c6-8d24-2b10532e4926")
 	)
 	(junction
-		(at 135.89 41.91)
+		(at 137.16 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2e19b69-78cf-4345-b1a3-f5d2a8bf90be")
@@ -32362,19 +32290,7 @@
 		(uuid "ab62124a-d824-44c5-8b2c-428cb3f49ce0")
 	)
 	(junction
-		(at 24.13 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab69eea2-edf6-4ce5-996e-176d1f14d0f7")
-	)
-	(junction
-		(at 29.21 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abd3e873-2c1a-492b-94b4-6464afaa10fa")
-	)
-	(junction
-		(at 135.89 29.21)
+		(at 137.16 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b09f14e3-1b3c-4d1c-a34c-84a0f9029c92")
@@ -32392,7 +32308,7 @@
 		(uuid "b280fd56-a63e-4f17-9b94-9e30696febb9")
 	)
 	(junction
-		(at 135.89 36.83)
+		(at 137.16 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4b4456c-18ad-4626-9c97-6354518bdb36")
@@ -32404,31 +32320,19 @@
 		(uuid "b69ade50-fb1d-40d2-bebb-f740856e78ae")
 	)
 	(junction
-		(at 82.55 36.83)
+		(at 85.09 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b796e39c-5c83-4a4c-93f3-b5d3ae40079c")
 	)
 	(junction
-		(at 125.73 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b840c4e1-400f-469f-b598-6183213a67a2")
-	)
-	(junction
-		(at 39.37 34.29)
+		(at 41.91 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb4fc919-5791-418a-bdcf-d55d2d2ce19b")
 	)
 	(junction
-		(at 29.21 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdf501f4-ad55-458f-9f90-f7d2a7a19844")
-	)
-	(junction
-		(at 82.55 29.21)
+		(at 85.09 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be904673-2c8b-44e5-a9a4-ecba40d5a18f")
@@ -32440,13 +32344,13 @@
 		(uuid "bfe86ee3-4341-4e6e-96c2-4f3756784a6b")
 	)
 	(junction
-		(at 179.07 26.67)
+		(at 180.34 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c055d665-dd9c-4533-ab8b-b8def5757fbf")
 	)
 	(junction
-		(at 82.55 31.75)
+		(at 85.09 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4c1ab84-3965-4633-a84b-52610cdc265e")
@@ -32464,7 +32368,7 @@
 		(uuid "ce64663c-e11a-4a58-9655-1f2a2aa15fe9")
 	)
 	(junction
-		(at 135.89 44.45)
+		(at 137.16 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf154f41-fedd-4f7e-9e98-0627709daffd")
@@ -32476,19 +32380,19 @@
 		(uuid "dd8c9988-0158-4412-ac39-e6da94242370")
 	)
 	(junction
-		(at 82.55 44.45)
+		(at 85.09 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de71c34e-fdfe-47bc-b0b2-b58564a7b7bf")
 	)
 	(junction
-		(at 179.07 34.29)
+		(at 180.34 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e50ed70f-9df5-4302-b759-51b1a5614763")
 	)
 	(junction
-		(at 39.37 29.21)
+		(at 41.91 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e61097a0-0b05-473d-a494-98f744750311")
@@ -32500,13 +32404,13 @@
 		(uuid "ea573ef0-dca6-493c-a2c0-40a0f713e0b4")
 	)
 	(junction
-		(at 39.37 31.75)
+		(at 41.91 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb2b92a1-f32b-48c1-b22d-fea0758dfb23")
 	)
 	(junction
-		(at 39.37 39.37)
+		(at 41.91 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec8c99cf-4cb6-4869-b2e0-f27275759bf2")
@@ -32536,13 +32440,13 @@
 		(uuid "efb1beea-c897-41b6-8cf3-60f317a3ebd9")
 	)
 	(junction
-		(at 179.07 49.53)
+		(at 180.34 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f207c7a5-b1eb-4f9b-95da-8cbecb33f54d")
 	)
 	(junction
-		(at 135.89 31.75)
+		(at 137.16 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3246a16-847d-4f55-bfc6-9f1b88e2335d")
@@ -32554,19 +32458,19 @@
 		(uuid "f6382199-84b2-4a9d-a92b-757f68049247")
 	)
 	(junction
-		(at 179.07 41.91)
+		(at 180.34 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f77e8f88-a90d-4492-8303-e5101e4ed43b")
 	)
 	(junction
-		(at 135.89 46.99)
+		(at 137.16 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f88ac800-f1a2-4e78-9929-3c12d5c40992")
 	)
 	(junction
-		(at 179.07 46.99)
+		(at 180.34 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa07467d-4ff2-41cd-b2c0-be6d188deac7")
@@ -32579,7 +32483,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 22.86) (xy 179.07 26.67)
+			(xy 180.34 22.86) (xy 180.34 26.67)
 		)
 		(stroke
 			(width 0)
@@ -32589,7 +32493,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 26.67) (xy 39.37 29.21)
+			(xy 41.91 26.67) (xy 41.91 29.21)
 		)
 		(stroke
 			(width 0)
@@ -32599,7 +32503,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 34.29) (xy 82.55 36.83)
+			(xy 85.09 34.29) (xy 85.09 36.83)
 		)
 		(stroke
 			(width 0)
@@ -32609,7 +32513,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 39.37) (xy 179.07 41.91)
+			(xy 113.03 93.98) (xy 113.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e36670d-19db-4644-90c9-e6c24e2c9835")
+	)
+	(wire
+		(pts
+			(xy 180.34 39.37) (xy 180.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -32626,16 +32540,6 @@
 			(type default)
 		)
 		(uuid "147abc40-2065-4d42-b239-7dfa102cbeb1")
-	)
-	(wire
-		(pts
-			(xy 87.63 86.36) (xy 99.06 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1555c530-8d4d-4b16-bfda-a6708f5e001f")
 	)
 	(wire
 		(pts
@@ -32669,7 +32573,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 36.83) (xy 82.55 39.37)
+			(xy 85.09 36.83) (xy 85.09 39.37)
 		)
 		(stroke
 			(width 0)
@@ -32679,7 +32583,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 29.21) (xy 39.37 31.75)
+			(xy 41.91 29.21) (xy 41.91 31.75)
 		)
 		(stroke
 			(width 0)
@@ -32689,7 +32593,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 29.21) (xy 179.07 31.75)
+			(xy 180.34 29.21) (xy 180.34 31.75)
 		)
 		(stroke
 			(width 0)
@@ -32699,7 +32603,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 49.53) (xy 39.37 52.07)
+			(xy 41.91 49.53) (xy 41.91 52.07)
 		)
 		(stroke
 			(width 0)
@@ -32709,17 +32613,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 34.29) (xy 125.73 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24fd418f-a900-4961-bef8-bd0b86c13e67")
-	)
-	(wire
-		(pts
-			(xy 39.37 44.45) (xy 39.37 46.99)
+			(xy 41.91 44.45) (xy 41.91 46.99)
 		)
 		(stroke
 			(width 0)
@@ -32729,7 +32623,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 46.99) (xy 82.55 49.53)
+			(xy 113.03 86.36) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bc2b0c-de29-49c7-afca-a51b1c2928ec")
+	)
+	(wire
+		(pts
+			(xy 85.09 46.99) (xy 85.09 49.53)
 		)
 		(stroke
 			(width 0)
@@ -32749,7 +32653,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 31.75) (xy 179.07 34.29)
+			(xy 180.34 31.75) (xy 180.34 34.29)
 		)
 		(stroke
 			(width 0)
@@ -32759,33 +32663,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 26.67) (xy 99.06 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dc313a0-3488-4534-b5ed-26c0e97a41f4")
-	)
-	(wire
-		(pts
-			(xy 135.89 39.37) (xy 135.89 41.91)
+			(xy 137.16 39.37) (xy 137.16 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2e318d9c-8e71-4426-ab3c-5a5dc17de267")
-	)
-	(wire
-		(pts
-			(xy 17.78 86.36) (xy 29.21 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "303890b6-db96-4844-9e2e-006baf7f599f")
 	)
 	(wire
 		(pts
@@ -32829,27 +32713,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 93.98) (xy 195.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39854224-ce26-401c-bffb-69fb1c7b622f")
-	)
-	(wire
-		(pts
-			(xy 93.98 34.29) (xy 99.06 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39b609c0-7891-4f48-8c13-818f5e39c49f")
-	)
-	(wire
-		(pts
-			(xy 82.55 39.37) (xy 82.55 41.91)
+			(xy 85.09 39.37) (xy 85.09 41.91)
 		)
 		(stroke
 			(width 0)
@@ -32859,17 +32723,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 93.98) (xy 24.13 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1591d0-9918-4d66-9670-a3478b9e1a81")
-	)
-	(wire
-		(pts
-			(xy 179.07 26.67) (xy 179.07 29.21)
+			(xy 180.34 26.67) (xy 180.34 29.21)
 		)
 		(stroke
 			(width 0)
@@ -32879,7 +32733,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 41.91) (xy 39.37 44.45)
+			(xy 90.17 34.29) (xy 90.17 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ff4ed2-f997-4021-8934-7423ffed041d")
+	)
+	(wire
+		(pts
+			(xy 41.91 41.91) (xy 41.91 44.45)
 		)
 		(stroke
 			(width 0)
@@ -32889,7 +32753,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 49.53) (xy 82.55 52.07)
+			(xy 85.09 49.53) (xy 85.09 52.07)
 		)
 		(stroke
 			(width 0)
@@ -32899,7 +32763,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 44.45) (xy 82.55 46.99)
+			(xy 85.09 44.45) (xy 85.09 46.99)
 		)
 		(stroke
 			(width 0)
@@ -32929,33 +32793,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 49.53) (xy 179.07 52.07)
+			(xy 180.34 49.53) (xy 180.34 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c92f81a-d580-457a-9ab3-e2ded786e2ef")
-	)
-	(wire
-		(pts
-			(xy 82.55 86.36) (xy 87.63 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5628bb77-6004-4c74-891f-b77cd3c1291e")
-	)
-	(wire
-		(pts
-			(xy 125.73 86.36) (xy 135.89 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57de48c5-7aca-4577-a3cc-b7b87613d1fc")
 	)
 	(wire
 		(pts
@@ -32966,16 +32810,6 @@
 			(type default)
 		)
 		(uuid "5802f857-54c6-4724-a371-b1b5187aa889")
-	)
-	(wire
-		(pts
-			(xy 93.98 93.98) (xy 99.06 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cbde438-695b-4006-b7e0-4af2d6624ee0")
 	)
 	(wire
 		(pts
@@ -32999,17 +32833,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 26.67) (xy 29.21 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c193a1-dac3-4227-a271-1ccdc4729bc8")
-	)
-	(wire
-		(pts
-			(xy 82.55 29.21) (xy 82.55 31.75)
+			(xy 85.09 29.21) (xy 85.09 31.75)
 		)
 		(stroke
 			(width 0)
@@ -33049,7 +32873,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 41.91) (xy 135.89 44.45)
+			(xy 137.16 41.91) (xy 137.16 44.45)
 		)
 		(stroke
 			(width 0)
@@ -33099,7 +32923,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 22.86) (xy 39.37 26.67)
+			(xy 41.91 22.86) (xy 41.91 26.67)
 		)
 		(stroke
 			(width 0)
@@ -33109,7 +32933,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 52.07) (xy 135.89 54.61)
+			(xy 137.16 52.07) (xy 137.16 54.61)
 		)
 		(stroke
 			(width 0)
@@ -33119,13 +32943,33 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 26.67) (xy 39.37 26.67)
+			(xy 87.63 93.98) (xy 87.63 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "809bbef0-dc02-499e-83c5-e538e49b75d7")
+		(uuid "74d398db-9c4d-44d0-a33a-4f18a182c7b3")
+	)
+	(wire
+		(pts
+			(xy 180.34 26.67) (xy 185.42 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e360b9-ecd9-4e3b-adf0-a02add1fe4da")
+	)
+	(wire
+		(pts
+			(xy 179.07 86.36) (xy 184.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a89bbb0-8c98-4fdf-90eb-5291a996a04e")
 	)
 	(wire
 		(pts
@@ -33149,17 +32993,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 86.36) (xy 125.73 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "853dc35b-90e3-43a5-b7f3-c76e4a454ff9")
-	)
-	(wire
-		(pts
-			(xy 179.07 46.99) (xy 179.07 49.53)
+			(xy 180.34 46.99) (xy 180.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -33169,23 +33003,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 93.98) (xy 29.21 93.98)
+			(xy 114.3 34.29) (xy 114.3 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c72fc79-7076-4348-a0b9-99e173ae8ea0")
-	)
-	(wire
-		(pts
-			(xy 114.3 26.67) (xy 125.73 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d55fa32-37b5-4725-8be1-332f1e021a18")
+		(uuid "8931b5bd-9807-4969-82a2-b18134b22596")
 	)
 	(wire
 		(pts
@@ -33209,7 +33033,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 31.75) (xy 39.37 34.29)
+			(xy 41.91 31.75) (xy 41.91 34.29)
 		)
 		(stroke
 			(width 0)
@@ -33229,17 +33053,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 86.36) (xy 195.58 86.36)
+			(xy 15.24 93.98) (xy 15.24 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f9ac197-1084-41e0-84d3-35e6e54b2241")
+		(uuid "91b668ce-0b28-4444-aadd-9d5200fb7aae")
 	)
 	(wire
 		(pts
-			(xy 179.07 44.45) (xy 179.07 46.99)
+			(xy 180.34 44.45) (xy 180.34 46.99)
 		)
 		(stroke
 			(width 0)
@@ -33259,7 +33083,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 49.53) (xy 135.89 52.07)
+			(xy 137.16 49.53) (xy 137.16 52.07)
 		)
 		(stroke
 			(width 0)
@@ -33299,26 +33123,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 34.29) (xy 24.13 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9af2541b-2ba1-4242-9b37-09f0395d8f09")
-	)
-	(wire
-		(pts
-			(xy 114.3 93.98) (xy 120.65 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bac8981-e3f7-43bb-ae51-e45ff7811a7c")
-	)
-	(wire
-		(pts
 			(xy 135.89 93.98) (xy 135.89 96.52)
 		)
 		(stroke
@@ -33329,16 +33133,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 26.67) (xy 195.58 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d036444-18f1-4e6e-b340-d4879690717d")
-	)
-	(wire
-		(pts
 			(xy 135.89 96.52) (xy 135.89 99.06)
 		)
 		(stroke
@@ -33346,6 +33140,16 @@
 			(type default)
 		)
 		(uuid "9db32f76-c73e-4d1e-bc78-20c27b41c46f")
+	)
+	(wire
+		(pts
+			(xy 17.78 34.29) (xy 17.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00e8d5f-0e82-4216-a278-9b90eedf95d5")
 	)
 	(wire
 		(pts
@@ -33369,7 +33173,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 44.45) (xy 135.89 46.99)
+			(xy 137.16 44.45) (xy 137.16 46.99)
 		)
 		(stroke
 			(width 0)
@@ -33379,7 +33183,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 31.75) (xy 82.55 34.29)
+			(xy 85.09 31.75) (xy 85.09 34.29)
 		)
 		(stroke
 			(width 0)
@@ -33389,27 +33193,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 34.29) (xy 190.5 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2c8e5c9-784c-47e3-ad73-741d47cf5de0")
-	)
-	(wire
-		(pts
-			(xy 179.07 26.67) (xy 184.15 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5212fe2-0bc5-44b5-8bc9-479d9e82e6c7")
-	)
-	(wire
-		(pts
-			(xy 135.89 46.99) (xy 135.89 49.53)
+			(xy 137.16 46.99) (xy 137.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -33419,7 +33203,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 39.37) (xy 39.37 41.91)
+			(xy 41.91 39.37) (xy 41.91 41.91)
 		)
 		(stroke
 			(width 0)
@@ -33429,7 +33213,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 54.61) (xy 39.37 57.15)
+			(xy 41.91 54.61) (xy 41.91 57.15)
 		)
 		(stroke
 			(width 0)
@@ -33439,7 +33223,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 26.67) (xy 82.55 29.21)
+			(xy 85.09 26.67) (xy 85.09 29.21)
 		)
 		(stroke
 			(width 0)
@@ -33449,13 +33233,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 22.86) (xy 82.55 26.67)
+			(xy 85.09 22.86) (xy 85.09 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae892a6e-c232-4d87-a73f-940e7e4c4cbe")
+	)
+	(wire
+		(pts
+			(xy 15.24 86.36) (xy 39.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb3f359-1024-4346-aed9-5004d0685c35")
 	)
 	(wire
 		(pts
@@ -33469,26 +33263,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 34.29) (xy 29.21 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b16a5585-10b1-4ac4-b683-7c820334957f")
-	)
-	(wire
-		(pts
-			(xy 29.21 86.36) (xy 39.37 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4734268-d6c0-4f0f-af4b-d7499956e9d1")
-	)
-	(wire
-		(pts
 			(xy 135.89 109.22) (xy 135.89 111.76)
 		)
 		(stroke
@@ -33499,7 +33273,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 26.67) (xy 135.89 29.21)
+			(xy 137.16 26.67) (xy 137.16 29.21)
 		)
 		(stroke
 			(width 0)
@@ -33509,7 +33283,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 36.83) (xy 39.37 39.37)
+			(xy 41.91 36.83) (xy 41.91 39.37)
 		)
 		(stroke
 			(width 0)
@@ -33539,7 +33313,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 34.29) (xy 179.07 36.83)
+			(xy 180.34 34.29) (xy 180.34 36.83)
 		)
 		(stroke
 			(width 0)
@@ -33569,17 +33343,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 34.29) (xy 120.65 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5840af8-612c-4477-bc8d-5b93e49c2563")
-	)
-	(wire
-		(pts
-			(xy 135.89 36.83) (xy 135.89 39.37)
+			(xy 137.16 36.83) (xy 137.16 39.37)
 		)
 		(stroke
 			(width 0)
@@ -33589,13 +33353,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 34.29) (xy 195.58 34.29)
+			(xy 17.78 26.67) (xy 41.91 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca73b48a-739f-46cb-af73-1876ce8a1448")
+		(uuid "c80b3a4b-b461-4546-aa84-ae8053b6245b")
 	)
 	(wire
 		(pts
@@ -33609,7 +33373,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 46.99) (xy 39.37 49.53)
+			(xy 41.91 46.99) (xy 41.91 49.53)
 		)
 		(stroke
 			(width 0)
@@ -33619,13 +33383,43 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 41.91) (xy 82.55 44.45)
+			(xy 85.09 41.91) (xy 85.09 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d141d956-3a8b-4ef0-bd85-f0c80ac6a41b")
+	)
+	(wire
+		(pts
+			(xy 184.15 93.98) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d70a4b-accf-4c52-b4a7-c01de52b7f4b")
+	)
+	(wire
+		(pts
+			(xy 185.42 34.29) (xy 185.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57c01e0-6166-4e83-8f50-ac976e6d034a")
+	)
+	(wire
+		(pts
+			(xy 82.55 86.36) (xy 87.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58fc935-2ddc-4aa7-871c-333ac20ae09a")
 	)
 	(wire
 		(pts
@@ -33636,26 +33430,6 @@
 			(type default)
 		)
 		(uuid "d630a230-7587-47eb-a442-125911349ad4")
-	)
-	(wire
-		(pts
-			(xy 87.63 93.98) (xy 93.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d787c948-a0cb-46f5-8b02-bb3fdd8921c0")
-	)
-	(wire
-		(pts
-			(xy 120.65 93.98) (xy 125.73 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7d23b4-191e-47d9-96df-477fc47914e7")
 	)
 	(wire
 		(pts
@@ -33679,16 +33453,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 86.36) (xy 184.15 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df1a9e82-d180-4ff8-913f-03e8d9799583")
-	)
-	(wire
-		(pts
 			(xy 135.89 101.6) (xy 135.89 104.14)
 		)
 		(stroke
@@ -33699,7 +33463,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 26.67) (xy 87.63 26.67)
+			(xy 85.09 26.67) (xy 90.17 26.67)
 		)
 		(stroke
 			(width 0)
@@ -33709,7 +33473,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 26.67) (xy 135.89 26.67)
+			(xy 114.3 26.67) (xy 137.16 26.67)
 		)
 		(stroke
 			(width 0)
@@ -33719,7 +33483,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 52.07) (xy 39.37 54.61)
+			(xy 41.91 52.07) (xy 41.91 54.61)
 		)
 		(stroke
 			(width 0)
@@ -33739,7 +33503,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 22.86) (xy 135.89 26.67)
+			(xy 137.16 22.86) (xy 137.16 26.67)
 		)
 		(stroke
 			(width 0)
@@ -33749,7 +33513,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 135.89 57.15)
+			(xy 137.16 54.61) (xy 137.16 57.15)
 		)
 		(stroke
 			(width 0)
@@ -33769,7 +33533,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 36.83) (xy 179.07 39.37)
+			(xy 180.34 36.83) (xy 180.34 39.37)
 		)
 		(stroke
 			(width 0)
@@ -33779,7 +33543,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 31.75) (xy 135.89 34.29)
+			(xy 137.16 31.75) (xy 137.16 34.29)
 		)
 		(stroke
 			(width 0)
@@ -33789,17 +33553,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 34.29) (xy 93.98 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7f0088c-846e-428d-9b3a-5848e5f92fcc")
-	)
-	(wire
-		(pts
-			(xy 39.37 34.29) (xy 39.37 36.83)
+			(xy 41.91 34.29) (xy 41.91 36.83)
 		)
 		(stroke
 			(width 0)
@@ -33809,7 +33563,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 41.91) (xy 179.07 44.45)
+			(xy 180.34 41.91) (xy 180.34 44.45)
 		)
 		(stroke
 			(width 0)
@@ -33829,17 +33583,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 93.98) (xy 190.5 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc778940-366c-45e3-8a93-5fefc52a1dd0")
-	)
-	(wire
-		(pts
-			(xy 135.89 34.29) (xy 135.89 36.83)
+			(xy 137.16 34.29) (xy 137.16 36.83)
 		)
 		(stroke
 			(width 0)
@@ -33849,7 +33593,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 29.21) (xy 135.89 31.75)
+			(xy 137.16 29.21) (xy 137.16 31.75)
 		)
 		(stroke
 			(width 0)
@@ -33859,7 +33603,7 @@
 	)
 	(symbol
 		(lib_id "maveric-parts:VDDV")
-		(at 82.55 22.86 0)
+		(at 85.09 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -33867,8 +33611,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02b822b4-8a3d-42c3-9c04-ea2d9ba59eba")
-		(property "Reference" "#PWR068"
-			(at 82.55 22.86 0)
+		(property "Reference" "#PWR069"
+			(at 85.09 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33877,7 +33621,7 @@
 			)
 		)
 		(property "Value" "VDDV"
-			(at 82.55 17.78 0)
+			(at 85.09 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33885,7 +33629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 22.86 0)
+			(at 85.09 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33894,7 +33638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 22.86 0)
+			(at 85.09 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33903,7 +33647,7 @@
 			)
 		)
 		(property "Description" "Chip IO Voltage"
-			(at 82.55 22.86 0)
+			(at 85.09 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33917,42 +33661,24 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 195.58 90.17 0)
+		(lib_id "power:GND")
+		(at 185.42 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "137eb5ee-4d42-4edb-a856-bb5f92b0d39a")
-		(property "Reference" "C42"
-			(at 199.39 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 199.39 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 196.5452 93.98 0)
+		(uuid "0f483620-e349-48b0-a59e-c467579b9254")
+		(property "Reference" "#PWR079"
+			(at 185.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33960,385 +33686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 195.58 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 195.58 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 195.58 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "252965f4-3793-443e-a514-253e4867b8da")
-		)
-		(pin "1"
-			(uuid "062a4d5f-37b7-4bae-9383-5b1302b948ae")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1640db67-41ea-47cb-b5b9-a5bff2621d24")
-		(property "Reference" "C33"
-			(at 102.87 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 102.87 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 100.0252 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 99.06 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d54bbc0-de58-4dd9-a3c3-dd732334345e")
-		)
-		(pin "1"
-			(uuid "5f97d7f5-98f4-4cd8-919c-5aa9bf05ecc3")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 29.21 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bee8664-cff6-4feb-834b-42e9ae8921d1")
-		(property "Reference" "C30"
-			(at 33.02 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 33.02 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 30.1752 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 29.21 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 29.21 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50bbf4d0-6cf4-4c82-a41d-8fa5d707fdb2")
-		)
-		(pin "1"
-			(uuid "6160b5f9-f5cf-463d-8679-7dc6e4c40a53")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 87.63 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "205b8f76-b48e-4e0b-b230-20e82b139f2f")
-		(property "Reference" "C31"
-			(at 91.44 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 91.44 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 88.5952 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 87.63 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 87.63 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "87d8c0f8-2543-447b-af81-a6d8c6a2f68e")
-		)
-		(pin "1"
-			(uuid "9e5cedfc-8dcd-4b85-885e-8aa96f18e4d9")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 29.21 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30dc71d4-60c4-442b-b748-19fe4f579ff6")
-		(property "Reference" "C29"
-			(at 33.02 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 33.02 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 30.1752 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 29.21 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 29.21 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f32e682a-f830-4084-a300-62592be7b500")
-		)
-		(pin "1"
-			(uuid "bae3cd80-1d8a-429b-b232-b5e2a1232b5a")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "maveric-parts:VDDV")
-		(at 179.07 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "311ce803-8500-4338-b44f-64aa889c52a9")
-		(property "Reference" "#PWR076"
-			(at 179.07 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDV"
-			(at 179.07 17.78 0)
+		(property "Value" "GND"
+			(at 185.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34346,7 +33695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 22.86 0)
+			(at 185.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34355,7 +33704,139 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 22.86 0)
+			(at 185.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75668c30-9548-46f7-942c-26899ea70d31")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c9de1f8-cf42-46a4-b3d4-6025bcd272c2")
+		(property "Reference" "#PWR070"
+			(at 87.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3018d90f-fba7-458e-a33d-4e54fc425990")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "maveric-parts:VDDV")
+		(at 180.34 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "311ce803-8500-4338-b44f-64aa889c52a9")
+		(property "Reference" "#PWR077"
+			(at 180.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDV"
+			(at 180.34 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34364,7 +33845,7 @@
 			)
 		)
 		(property "Description" "Chip IO Voltage"
-			(at 179.07 22.86 0)
+			(at 180.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34378,7 +33859,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -34394,7 +33875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "324a278f-5d35-476e-8bd3-dbd7cc80f4ce")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR066"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -34444,7 +33925,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR067")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -34458,9 +33939,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3efe1ce9-8081-4edf-bd6d-cd5992f8913d")
-		(property "Reference" "C32"
+		(uuid "39128a81-7ee3-4a4b-9cbe-753fa94547f4")
+		(property "Reference" "C29"
 			(at 91.44 88.8999 0)
 			(effects
 				(font
@@ -34487,7 +33967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -34514,16 +33994,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "CL10A106KQ8NNNC"
+			(at 100.584 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "79bf6ef9-825a-4a64-81c7-040c1a22ce2b")
+			(uuid "e01627a5-6302-452e-beb2-efc59eb65aa8")
 		)
 		(pin "1"
-			(uuid "78828af1-71e6-42b9-89be-3403b0f89139")
+			(uuid "31365a2c-8e8b-4248-b4f8-1adf86ff0c78")
 		)
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C32")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -34531,16 +34019,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 90.17 0)
+		(at 15.24 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40b252b8-4b0c-44ff-a5b1-724540fe7f61")
-		(property "Reference" "C36"
-			(at 118.11 88.8999 0)
+		(uuid "3b18bc02-fda5-4886-b602-fd8e9928a0e3")
+		(property "Reference" "C27"
+			(at 19.05 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34549,7 +34036,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 118.11 91.4399 0)
+			(at 19.05 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34558,85 +34045,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.2652 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9d7a14d5-bf55-4a3d-b29f-cf3b19782b7a")
-		)
-		(pin "1"
-			(uuid "82e9ac08-44f1-409f-a2ec-cd180f5756e7")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4519d5d3-3df3-421b-934a-e0380e62c6c7")
-		(property "Reference" "#PWR070"
-			(at 93.98 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 34.29 0)
+			(at 16.2052 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34645,7 +34054,93 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 34.29 0)
+			(at 15.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 15.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95839"
+			(at 15.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL10A106KQ8NNNC"
+			(at 28.194 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e6473c2-7dec-432a-b4b2-d0c50a8d4f89")
+		)
+		(pin "1"
+			(uuid "e2ce8a73-ba0f-47e0-b2c3-15d64f1868a5")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4519d5d3-3df3-421b-934a-e0380e62c6c7")
+		(property "Reference" "#PWR071"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34654,7 +34149,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 34.29 0)
+			(at 90.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34668,152 +34163,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46f15da7-65d1-423f-b7bc-40b5f828a7a5")
-		(property "Reference" "#PWR073"
-			(at 120.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d66546da-6868-468d-8d91-ab352eef2df9")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5aa58997-3d67-4f9a-a4ed-afd5e43fa115")
-		(property "Reference" "C37"
-			(at 129.54 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 129.54 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 126.6952 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 125.73 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "02e3a0b6-c1dd-4235-b6f5-8eac845f1c1b")
-		)
-		(pin "1"
-			(uuid "0064dba4-c6c0-41d8-8b20-10b6e6951b99")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C37")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -34829,7 +34179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c138e67-f827-4bf8-875e-62c184c85eb0")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR074"
 			(at 135.89 82.55 0)
 			(effects
 				(font
@@ -34879,7 +34229,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR075")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -34895,7 +34245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fcc5bd1-ff90-4a8e-8311-762ad336df3d")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR068"
 			(at 82.55 82.55 0)
 			(effects
 				(font
@@ -34945,7 +34295,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR069")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -34959,9 +34309,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "69759fde-6def-4e24-8fe4-fa3bb743b02d")
-		(property "Reference" "C27"
+		(property "Reference" "C28"
 			(at 21.59 29.2099 0)
 			(effects
 				(font
@@ -34988,7 +34337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 17.78 30.48 0)
 			(effects
 				(font
@@ -35015,6 +34364,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "CL10A106KQ8NNNC"
+			(at 30.734 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e8e3f5f5-d062-4ee4-a7d2-1a0c285a7e14")
 		)
@@ -35024,7 +34381,93 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C27")
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c248fef-28a2-43a7-bc93-8fd3960cd565")
+		(property "Reference" "C34"
+			(at 189.23 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 189.23 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 186.3852 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95839"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL10A106KQ8NNNC"
+			(at 198.374 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f6c73f7-63e3-42be-b4f4-61620ff07faf")
+		)
+		(pin "1"
+			(uuid "c352435b-fa2c-4fe1-8a19-234537ef3ccf")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -35040,7 +34483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f05baf8-d668-4be1-b0ec-bd50319b7434")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR076"
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -35090,86 +34533,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 184.15 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f1809cf-0995-47c8-9b8b-bd6d45d55a37")
-		(property "Reference" "C40"
-			(at 187.96 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 187.96 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 185.1152 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 184.15 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 184.15 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36bd6bba-6075-4a70-8e82-05c5373c8934")
-		)
-		(pin "1"
-			(uuid "2074f445-5af8-4591-b530-90e22474281e")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C40")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -35177,7 +34541,7 @@
 	)
 	(symbol
 		(lib_id "maveric-parts:TESTCHIP_UNI2")
-		(at 143.51 21.59 0)
+		(at 144.78 21.59 0)
 		(unit 12)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35186,7 +34550,7 @@
 		(fields_autoplaced yes)
 		(uuid "7131a80b-cf09-4676-9b00-090fd99ba9e1")
 		(property "Reference" "U3"
-			(at 157.48 16.51 0)
+			(at 158.75 16.51 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -35194,7 +34558,7 @@
 			)
 		)
 		(property "Value" "Socket"
-			(at 157.48 20.32 0)
+			(at 158.75 20.32 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -35202,7 +34566,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
-			(at 130.81 21.59 0)
+			(at 132.08 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35211,7 +34575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 21.59 0)
+			(at 132.08 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35220,7 +34584,7 @@
 			)
 		)
 		(property "Description" "UNI2 interposer"
-			(at 130.81 21.59 0)
+			(at 132.08 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40438,16 +39802,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 17.78 90.17 0)
+		(at 90.17 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fc7d454-9a10-46d3-b418-e03aeddf848b")
-		(property "Reference" "C28"
-			(at 21.59 88.8999 0)
+		(uuid "8c324019-4fc0-452e-aa4e-5d8b3e3e930f")
+		(property "Reference" "C30"
+			(at 93.98 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40456,7 +39819,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 21.59 91.4399 0)
+			(at 93.98 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40465,243 +39828,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 18.7452 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 17.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 17.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0e3289e8-180f-4c45-a65b-160dbd25335d")
-		)
-		(pin "1"
-			(uuid "3970db4c-c701-4ba1-bb77-16e2270dba2f")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a581fd0-2be9-4b98-bbf1-f7c63222c2fd")
-		(property "Reference" "C38"
-			(at 129.54 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 129.54 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 126.6952 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1aecf29a-50ba-4634-bb53-7ece8355cf41")
-		)
-		(pin "1"
-			(uuid "b808ea2c-3a6a-41dd-af2d-61933074aabd")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 114.3 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8db305c3-f998-4398-a703-834dd41e6cfa")
-		(property "Reference" "C35"
-			(at 118.11 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 118.11 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.2652 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 114.3 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 114.3 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7997ab2a-de2b-47c8-a5b1-012c59aedc00")
-		)
-		(pin "1"
-			(uuid "4db8dcc7-81bd-4c7a-8ac1-6038b0a4bf96")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 24.13 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8de3c358-6561-44cc-86e9-6adc16635777")
-		(property "Reference" "#PWR065"
-			(at 24.13 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 93.98 0)
+			(at 91.1352 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40710,7 +39837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 93.98 0)
+			(at 90.17 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40718,22 +39845,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 93.98 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "JLCPCB Part #" "C95839"
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL10A106KQ8NNNC"
+			(at 103.124 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6b2ee1a-068b-48af-aef5-fecc59350826")
 		)
 		(pin "1"
-			(uuid "54f61787-5e6f-4bca-8875-307c8691bc97")
+			(uuid "e264bc40-3f19-492b-a6e2-33eb7acf97d5")
 		)
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR065")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -46001,74 +45148,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fa608c4-5ebb-40e1-9b3a-3e91c8a29e56")
-		(property "Reference" "#PWR079"
-			(at 190.5 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a808756f-296e-4e09-b27f-4cd0788e6ec8")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "maveric-parts:TESTCHIP_UNI2")
-		(at 46.99 21.59 0)
+		(at 49.53 21.59 0)
 		(unit 10)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46077,7 +45158,7 @@
 		(fields_autoplaced yes)
 		(uuid "a49c728f-7993-49b5-95df-e8103e1a7ae7")
 		(property "Reference" "U3"
-			(at 60.96 16.51 0)
+			(at 63.5 16.51 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -46085,7 +45166,7 @@
 			)
 		)
 		(property "Value" "Socket"
-			(at 60.96 20.32 0)
+			(at 63.5 20.32 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -46093,7 +45174,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:BGA-1733-.92-47.725x47.725"
-			(at 34.29 21.59 0)
+			(at 36.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46102,7 +45183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 21.59 0)
+			(at 36.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46111,7 +45192,7 @@
 			)
 		)
 		(property "Description" "UNI2 interposer"
-			(at 34.29 21.59 0)
+			(at 36.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51329,7 +50410,7 @@
 	)
 	(symbol
 		(lib_id "maveric-parts:VDDV")
-		(at 135.89 22.86 0)
+		(at 137.16 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -51337,8 +50418,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ec1c8a-0e5b-44ab-8890-bc475b97ac1f")
-		(property "Reference" "#PWR074"
-			(at 135.89 22.86 0)
+		(property "Reference" "#PWR075"
+			(at 137.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51347,7 +50428,7 @@
 			)
 		)
 		(property "Value" "VDDV"
-			(at 135.89 17.78 0)
+			(at 137.16 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51355,7 +50436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 22.86 0)
+			(at 137.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51364,7 +50445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 22.86 0)
+			(at 137.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51373,7 +50454,7 @@
 			)
 		)
 		(property "Description" "Chip IO Voltage"
-			(at 135.89 22.86 0)
+			(at 137.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51387,7 +50468,159 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR074")
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 15.24 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abe75f84-88a0-4f91-90d4-d29eb6a53a1e")
+		(property "Reference" "#PWR064"
+			(at 15.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 15.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 15.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 15.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd8641e2-54e1-4f08-9cb0-65b69b1549a7")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae2105a6-a857-4a30-a282-0bb33ef709b7")
+		(property "Reference" "C31"
+			(at 116.84 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 116.84 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.9952 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95839"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL10A106KQ8NNNC"
+			(at 125.984 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7bc4a6d3-de0c-4cee-9e10-d349d3333877")
+		)
+		(pin "1"
+			(uuid "45033955-7646-48c3-af01-e83d98c78898")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -56655,74 +55888,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 93.98 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3d0bc69-304d-416a-b7cf-b11fc469a4a1")
-		(property "Reference" "#PWR071"
-			(at 93.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4367256-281d-4efe-b204-965fe7a41199")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "maveric-parts:VDDV")
-		(at 39.37 22.86 0)
+		(at 41.91 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -56730,8 +55897,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9dd5f80-9fe1-4307-9043-bfa3ba383ffc")
-		(property "Reference" "#PWR066"
-			(at 39.37 22.86 0)
+		(property "Reference" "#PWR067"
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56740,7 +55907,7 @@
 			)
 		)
 		(property "Value" "VDDV"
-			(at 39.37 17.78 0)
+			(at 41.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56748,7 +55915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 22.86 0)
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56757,7 +55924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 22.86 0)
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56766,7 +55933,7 @@
 			)
 		)
 		(property "Description" "Chip IO Voltage"
-			(at 39.37 22.86 0)
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56780,7 +55947,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -56788,16 +55955,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 90.17 0)
+		(at 114.3 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e30c0a90-3bdd-4935-bc59-93252e591d07")
-		(property "Reference" "C34"
-			(at 102.87 88.8999 0)
+		(uuid "df535fa5-d2b4-4928-b076-01093442de1d")
+		(property "Reference" "C32"
+			(at 118.11 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56806,7 +55972,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 102.87 91.4399 0)
+			(at 118.11 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56815,85 +55981,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 100.0252 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3747153-e0df-45c9-877c-1e068b0d3b66")
-		)
-		(pin "1"
-			(uuid "7662c844-4810-4ede-8085-a03465c45466")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e37986c9-0376-461e-a884-521e1886227e")
-		(property "Reference" "#PWR078"
-			(at 190.5 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 34.29 0)
+			(at 115.2652 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56902,7 +55990,93 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 34.29 0)
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95839"
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL10A106KQ8NNNC"
+			(at 127.254 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "adb6a0e5-dc9b-4d0d-a3d2-957dbc513069")
+		)
+		(pin "1"
+			(uuid "50e5ef34-36ea-46cc-9b86-480d1e020244")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e966af7e-c002-4082-a9bc-7d3353f06e78")
+		(property "Reference" "#PWR078"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56911,7 +56085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 34.29 0)
+			(at 184.15 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56920,7 +56094,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54b2366a-2b36-41c6-ab33-e11b858e0269")
+			(uuid "fe3fb101-baf2-44eb-9ec2-0d56356c1f38")
 		)
 		(instances
 			(project "maveric-board"
@@ -56933,16 +56107,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 34.29 0)
+		(at 113.03 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ebb1f9f9-5c5a-45b6-9bce-37613b54942a")
+		(uuid "eb7f277d-6e11-494d-b122-b8af29525a92")
 		(property "Reference" "#PWR072"
-			(at 120.65 40.64 0)
+			(at 113.03 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56951,7 +56125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 39.37 0)
+			(at 113.03 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56959,7 +56133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 34.29 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56968,7 +56142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 34.29 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56977,7 +56151,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 34.29 0)
+			(at 113.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26968361-94b8-46eb-bf62-246742586927")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb1f9f9-5c5a-45b6-9bce-37613b54942a")
+		(property "Reference" "#PWR073"
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56991,41 +56231,41 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 34.29 0)
+		(lib_id "Device:C")
+		(at 184.15 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4c3a705-a9f6-4101-b293-3104520dadbf")
-		(property "Reference" "#PWR064"
-			(at 24.13 40.64 0)
+		(uuid "f35bec8e-3a7b-44ad-b09a-5c11a6262fb6")
+		(property "Reference" "C33"
+			(at 187.96 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 24.13 39.37 0)
+		(property "Value" "10uF"
+			(at 187.96 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 24.13 34.29 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 185.1152 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57034,7 +56274,93 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 34.29 0)
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95839"
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL10A106KQ8NNNC"
+			(at 197.104 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c9b2614d-6fe0-4887-9f3f-5045ceafe20f")
+		)
+		(pin "1"
+			(uuid "7ba9fe97-6a9f-49ef-8000-d90a9697b56d")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 17.78 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4c3a705-a9f6-4101-b293-3104520dadbf")
+		(property "Reference" "#PWR065"
+			(at 17.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57043,7 +56369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 34.29 0)
+			(at 17.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57057,165 +56383,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 195.58 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa2e2c87-d8d4-4870-82f7-3345a620bf92")
-		(property "Reference" "C41"
-			(at 199.39 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 199.39 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 196.5452 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 195.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 195.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1524dd8b-43e0-4f3b-8d91-beb8a5a39ac3")
-		)
-		(pin "1"
-			(uuid "7ae50bbc-6ed6-440b-b26f-9fc101f512ab")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 184.15 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc12bc85-9baa-43c0-8a14-254be049f7a6")
-		(property "Reference" "C39"
-			(at 187.96 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 187.96 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 185.1152 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95839"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bcd2c20e-1c79-43d2-9d93-61812ef3a966")
-		)
-		(pin "1"
-			(uuid "8ce640bf-18b8-4828-9de7-cf8ffb20fd28")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/e298f94f-7e65-4ace-92f5-b6c14efcef75"
-					(reference "C39")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)

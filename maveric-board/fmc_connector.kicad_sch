@@ -6406,7 +6406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASP-134604-01"
+		(property "Value" "~"
 			(at 55.626 23.368 0)
 			(effects
 				(font
@@ -6459,6 +6459,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "ASP-134604-01"
+			(at 66.04 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "G31"
@@ -6968,7 +6976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASP-134604-01"
+		(property "Value" "~"
 			(at 157.988 23.368 0)
 			(effects
 				(font
@@ -7021,6 +7029,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "ASP-134604-01"
+			(at 167.64 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "G31"
@@ -7596,7 +7612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASP-134604-01"
+		(property "Value" "~"
 			(at 107.442 23.114 0)
 			(effects
 				(font
@@ -7649,6 +7665,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "ASP-134604-01"
+			(at 117.602 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "G31"
@@ -8225,7 +8249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASP-134604-01"
+		(property "Value" "~"
 			(at 208.788 23.368 0)
 			(effects
 				(font
@@ -8278,6 +8302,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "ASP-134604-01"
+			(at 219.964 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "G31"

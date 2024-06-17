@@ -6575,6 +6575,92 @@
 		(uuid "fec571d8-015f-4460-8900-5c0df6925050")
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 219.71 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02dd6bfa-2364-43c8-ad71-946887192135")
+		(property "Reference" "R8"
+			(at 222.25 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 222.25 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 220.726 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 219.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 219.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 217.424 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a6edfd6-5076-4cd9-b900-0380239f9f3c")
+		)
+		(pin "2"
+			(uuid "1e9337ee-ff6f-4ad0-b498-e3a50cd459c3")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 229.87 127 90)
 		(unit 1)
@@ -6582,7 +6668,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "046e29fa-ea4d-46e0-975f-9757760874f8")
 		(property "Reference" "J15"
 			(at 234.95 125.7299 90)
@@ -6593,7 +6678,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68001-103HLF"
+		(property "Value" "~"
 			(at 234.95 128.2699 90)
 			(effects
 				(font
@@ -6611,7 +6696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 127 0)
 			(effects
 				(font
@@ -6638,6 +6723,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "68001-103HLF"
+			(at 242.316 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "60dee1f5-884f-4a8b-9904-00a283bd4ca0")
 		)
@@ -6651,6 +6744,92 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 251.46 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0502e07a-8606-4583-a722-e56b7ae5b929")
+		(property "Reference" "R13"
+			(at 254 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 254 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 252.476 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 249.174 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf95319a-ca73-414d-94b2-39c4cb212c76")
+		)
+		(pin "2"
+			(uuid "afa6647e-9f56-4b65-a32c-f7a73b094d34")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6731,7 +6910,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a12c4e1-ef36-45e5-9486-70a5dde14565")
 		(property "Reference" "J4"
 			(at 22.86 105.41 0)
@@ -6741,7 +6919,7 @@
 				)
 			)
 		)
-		(property "Value" "68001-103HLF"
+		(property "Value" "~"
 			(at 22.86 107.95 0)
 			(effects
 				(font
@@ -6758,7 +6936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 22.86 114.3 0)
 			(effects
 				(font
@@ -6783,6 +6961,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "68001-103HLF"
+			(at 23.368 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -6877,7 +7063,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0cb57988-3efa-4ec0-87fd-76d780eb086b")
 		(property "Reference" "J17"
 			(at 229.87 230.8469 0)
@@ -6888,7 +7073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5-1814832-2"
+		(property "Value" "~"
 			(at 229.87 228.3069 0)
 			(effects
 				(font
@@ -6906,7 +7091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 233.68 229.87 0)
 			(effects
 				(font
@@ -6931,6 +7116,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "5-1814832-2"
+			(at 222.758 228.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7346,85 +7539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 251.46 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20108816-b97d-4b23-bba1-feb23cc6bf90")
-		(property "Reference" "R13"
-			(at 254 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 254 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.476 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 251.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 251.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4188d4e-a429-4ea9-859a-52f7d4aaaa6f")
-		)
-		(pin "2"
-			(uuid "020346b4-bb6c-4934-937f-ecea280ee643")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 81.28 83.82 180)
 		(unit 1)
@@ -7697,7 +7811,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "31a90125-daeb-4f6b-ae65-c1a4682c9cb5")
 		(property "Reference" "J9"
 			(at 165.1 133.3499 0)
@@ -7708,7 +7821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68001-103HLF"
+		(property "Value" "~"
 			(at 165.1 135.8899 0)
 			(effects
 				(font
@@ -7726,7 +7839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 162.56 134.62 0)
 			(effects
 				(font
@@ -7751,6 +7864,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "68001-103HLF"
+			(at 172.466 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -7779,7 +7900,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3665b9c6-c2b0-4570-9db4-425eab085506")
 		(property "Reference" "C5"
 			(at 82.55 215.8999 0)
@@ -7808,7 +7928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 78.74 217.17 0)
 			(effects
 				(font
@@ -7835,6 +7955,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "CL31A107MQHNNNE"
+			(at 75.438 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46345433-ffc8-4f69-bc3b-10c18526085a")
 		)
@@ -7851,6 +7979,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 232.41 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36d48f37-f4b6-4692-9958-99dc5e8fd4d9")
+		(property "Reference" "R10"
+			(at 234.95 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 234.95 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.426 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 230.124 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1f92bf0-1706-4f1f-97ce-b19939e26473")
+		)
+		(pin "2"
+			(uuid "136e3766-5582-4a97-8632-5ce7b761e7d5")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 201.93 127 90)
 		(unit 1)
@@ -7858,7 +8072,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a4ed665-e191-485e-bf94-6e9468f551bc")
 		(property "Reference" "J13"
 			(at 207.01 125.7299 90)
@@ -7869,7 +8082,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68001-103HLF"
+		(property "Value" "~"
 			(at 207.01 128.2699 90)
 			(effects
 				(font
@@ -7887,7 +8100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 201.93 127 0)
 			(effects
 				(font
@@ -7912,6 +8125,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "68001-103HLF"
+			(at 214.376 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -7940,7 +8161,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3bf7a3df-9d5b-40a7-838e-352f93fe87b9")
 		(property "Reference" "J5"
 			(at 22.86 133.35 0)
@@ -7950,7 +8170,7 @@
 				)
 			)
 		)
-		(property "Value" "68001-103HLF"
+		(property "Value" "~"
 			(at 22.86 135.89 0)
 			(effects
 				(font
@@ -7967,7 +8187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 22.86 142.24 0)
 			(effects
 				(font
@@ -7994,6 +8214,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "68001-103HLF"
+			(at 23.368 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0c82fadc-07ab-4e31-8bf6-e66b403836a9")
 		)
@@ -8007,6 +8235,92 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 238.76 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "447d917e-ce38-45ff-b9b7-4c57c0d37c98")
+		(property "Reference" "R11"
+			(at 241.3 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 241.3 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 239.776 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 236.474 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f38cf091-c80d-4324-b138-b036025c42ab")
+		)
+		(pin "2"
+			(uuid "778c43e2-f071-40a0-a579-f11503049797")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8218,7 +8532,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d2646af-da9b-41e7-90ab-1fa83e231952")
 		(property "Reference" "C10"
 			(at 229.87 170.1799 0)
@@ -8247,7 +8560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 226.06 171.45 0)
 			(effects
 				(font
@@ -8272,6 +8585,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "GCM188R71H104KA57D"
+			(at 222.25 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8363,7 +8684,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5344794c-34ed-45e3-a1bd-f1f9e26e7251")
 		(property "Reference" "J3"
 			(at 24.13 88.9 0)
@@ -8373,7 +8693,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.1"
+		(property "Value" "~"
 			(at 24.13 91.44 0)
 			(effects
 				(font
@@ -8415,6 +8735,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "24.243.1"
+			(at 24.13 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8573,7 +8901,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5affc543-89ac-41eb-b3a0-6b375897197d")
 		(property "Reference" "C9"
 			(at 204.47 173.9899 0)
@@ -8602,7 +8929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 200.66 175.26 0)
 			(effects
 				(font
@@ -8629,6 +8956,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "GCM188R71H104KA57D"
+			(at 197.104 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c78adc5-8187-4d0f-b99d-99d5d5f14620")
 		)
@@ -8652,7 +8987,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d639a45-ff5d-4702-9329-01bbb6b93bfa")
 		(property "Reference" "J16"
 			(at 228.6 257.5169 0)
@@ -8663,7 +8997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5-1814832-2"
+		(property "Value" "~"
 			(at 228.6 254.9769 0)
 			(effects
 				(font
@@ -8681,7 +9015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 232.41 256.54 0)
 			(effects
 				(font
@@ -8706,6 +9040,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "5-1814832-2"
+			(at 221.488 255.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8929,7 +9271,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ff791a1-8116-4408-8496-f561bd94b361")
 		(property "Reference" "J12"
 			(at 161.29 105.4099 90)
@@ -8940,7 +9281,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "67996-220HLF"
+		(property "Value" "~"
 			(at 161.29 107.9499 90)
 			(effects
 				(font
@@ -8958,7 +9299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -8983,6 +9324,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "67996-220HLF"
+			(at 154.178 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "16"
@@ -9194,7 +9543,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64d2daee-3dcb-496e-bdbf-7d6e43add101")
 		(property "Reference" "R1"
 			(at 129.54 233.6799 0)
@@ -9223,7 +9571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 234.95 0)
 			(effects
 				(font
@@ -9248,6 +9596,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "0603WAF499JT5E"
+			(at 137.922 238.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9332,6 +9688,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c0e919-d0e9-4850-b7b3-eedf12fac595")
+		(property "Reference" "R9"
+			(at 228.6 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 228.6 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.076 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 223.774 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbd5de1e-ce5c-40b7-ae98-a86cfb3c7173")
+		)
+		(pin "2"
+			(uuid "4f871998-e3d7-49a3-a12a-53eb8250c22f")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 165.1 151.13 0)
 		(unit 1)
@@ -9339,7 +9781,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "72f1bac2-ef89-4f7d-bf04-cb2bd5873e7c")
 		(property "Reference" "C8"
 			(at 168.91 149.8599 0)
@@ -9368,7 +9809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 165.1 151.13 0)
 			(effects
 				(font
@@ -9395,6 +9836,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "GCM188R71H104KA57D"
+			(at 160.782 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c5f75501-af84-402b-aacf-7e4da7f62f2c")
 		)
@@ -9405,6 +9854,92 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 171.45 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73f8c8aa-6481-49e2-9f32-2cfb409adae3")
+		(property "Reference" "R3"
+			(at 173.99 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 173.99 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 172.466 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 169.164 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67c47481-3866-4d14-83c7-10cf4589a0de")
+		)
+		(pin "2"
+			(uuid "cd3d57ac-738e-4d7f-a4c7-0614bfa780cb")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9485,7 +10020,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7afd266d-648c-4068-b899-b331fc9c34df")
 		(property "Reference" "J1"
 			(at 24.13 57.15 0)
@@ -9495,7 +10029,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.2"
+		(property "Value" "~"
 			(at 24.13 59.69 0)
 			(effects
 				(font
@@ -9539,6 +10073,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "24.243.2"
+			(at 23.876 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed7b1409-0206-4a02-bba1-7e5b069ee4fd")
 		)
@@ -9549,6 +10091,92 @@
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 186.69 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7de4bd54-a427-4caa-82bf-9df1eb477159")
+		(property "Reference" "R5"
+			(at 189.23 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 189.23 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 187.706 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 184.404 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b164455-712d-41a7-b51a-8195d6bec67d")
+		)
+		(pin "2"
+			(uuid "a5124f09-62a5-4623-aedc-b34309c845ed")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9615,6 +10243,92 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 179.07 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "828b58fe-8011-403c-a8d3-72f74486819d")
+		(property "Reference" "R4"
+			(at 181.61 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 181.61 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 180.086 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 176.784 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7886d086-f8ce-48ef-baac-e6f093bba73f")
+		)
+		(pin "2"
+			(uuid "d48c9000-3006-4c22-b482-f83a10cc8703")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9770,7 +10484,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AVC1T45DBVR"
+		(property "Value" "~"
 			(at 163.83 167.64 0)
 			(effects
 				(font
@@ -9812,6 +10526,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "SN74AVC1T45DBVR"
+			(at 163.83 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -10040,85 +10762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 179.07 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c151999-2ab7-462b-8e43-6ed8bdc4cd96")
-		(property "Reference" "R4"
-			(at 181.61 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 181.61 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 180.086 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 179.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 179.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d9e19d2-3b03-4c2a-a8b2-c5ecb98a04c0")
-		)
-		(pin "2"
-			(uuid "579da33c-49d5-4e45-addd-b3861c29845f")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 81.28 63.5 0)
 		(unit 1)
@@ -10192,7 +10835,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9fc365da-9edc-41a8-b19d-09f813f5d137")
 		(property "Reference" "J7"
 			(at 152.4 264.4533 0)
@@ -10203,7 +10845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5-1814832-2"
+		(property "Value" "~"
 			(at 152.4 261.9133 0)
 			(effects
 				(font
@@ -10221,7 +10863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 148.59 262.89 0)
 			(effects
 				(font
@@ -10246,6 +10888,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "5-1814832-2"
+			(at 159.512 262.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10324,85 +10974,6 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 219.71 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a920219e-1064-421d-938e-8a088248df3a")
-		(property "Reference" "R8"
-			(at 222.25 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 222.25 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 220.726 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 219.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 219.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f30bffd5-cd6f-4885-90a5-172f273c7f1c")
-		)
-		(pin "2"
-			(uuid "312cfd2a-37ed-45b2-a96b-9201346739ff")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10608,164 +11179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 194.31 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3f67149-b4dd-419d-bdf1-6481b5f07194")
-		(property "Reference" "R6"
-			(at 196.85 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 196.85 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 195.326 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 194.31 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 194.31 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2517e263-c051-4f4a-adfe-996dc2f65b28")
-		)
-		(pin "2"
-			(uuid "fb3db6f8-fdb8-4fc2-81ca-1e5a7449d154")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 245.11 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4227220-d2dd-4f25-9ee9-541904bb3835")
-		(property "Reference" "R12"
-			(at 247.65 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 247.65 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 246.126 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 245.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 245.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "618bf1e6-da17-48e9-89c3-b129fde8d579")
-		)
-		(pin "2"
-			(uuid "17a2b53a-7a0d-41a6-a955-8fa3b810450d")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 229.87 134.62 0)
 		(unit 1)
@@ -10833,16 +11246,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 186.69 63.5 0)
+		(at 200.66 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b59bf8d4-bbcb-460a-8e8d-033a6cd60751")
-		(property "Reference" "R5"
-			(at 189.23 62.2299 0)
+		(uuid "b71b45a4-47c1-4226-b3b1-89a74631284e")
+		(property "Reference" "R7"
+			(at 203.2 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +11263,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 189.23 64.7699 0)
+			(at 203.2 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10860,7 +11272,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 187.706 63.754 90)
+			(at 201.676 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,8 +11280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 186.69 63.5 0)
+		(property "Datasheet" ""
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +11290,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 186.69 63.5 0)
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +11299,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C95177"
-			(at 186.69 63.5 0)
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10895,16 +11307,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 198.374 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "acc0daea-7891-4006-823f-0e53ca2347a3")
+			(uuid "4d0aa9b5-1208-47e6-9b0b-af336e4a9c68")
 		)
 		(pin "2"
-			(uuid "0db43297-82de-413a-9cd1-39d50671d13f")
+			(uuid "14774ac3-dca9-4c2f-bdf9-58583c3b61d6")
 		)
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10984,7 +11404,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b92320d9-b3a9-4c80-aebe-08434dc6b4f6")
 		(property "Reference" "J6"
 			(at 41.91 179.0699 90)
@@ -10995,7 +11414,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "67996-220HLF"
+		(property "Value" "~"
 			(at 41.91 181.6099 90)
 			(effects
 				(font
@@ -11013,7 +11432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 57.15 179.07 0)
 			(effects
 				(font
@@ -11038,6 +11457,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "67996-220HLF"
+			(at 35.052 181.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "16"
@@ -11176,6 +11603,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 245.11 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbc46cfa-273f-45fd-aee0-b046eaa7c054")
+		(property "Reference" "R12"
+			(at 247.65 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 247.65 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 246.126 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 242.824 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b24bc61a-2569-4c97-9c86-fca0dc0c9bc0")
+		)
+		(pin "2"
+			(uuid "a56a222d-20c2-40f8-bba4-233c5f7fe2bb")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 139.7 157.48 0)
 		(unit 1)
@@ -11183,7 +11696,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bd591565-f24f-4819-8405-f8df3fdc4701")
 		(property "Reference" "C7"
 			(at 143.51 156.2099 0)
@@ -11212,7 +11724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -11237,6 +11749,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "GCM188R71H104KA57D"
+			(at 135.636 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11328,7 +11848,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c14b8b45-dbaa-466a-b7b3-2393fdc6ceda")
 		(property "Reference" "J11"
 			(at 173.99 230.1633 0)
@@ -11339,7 +11858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5-1814832-2"
+		(property "Value" "~"
 			(at 173.99 227.6233 0)
 			(effects
 				(font
@@ -11357,7 +11876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 170.18 228.6 0)
 			(effects
 				(font
@@ -11384,6 +11903,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "5-1814832-2"
+			(at 181.102 227.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60d4a6cd-d569-4784-9b03-9d16832edfff")
 		)
@@ -11400,85 +11927,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 238.76 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1f18852-4c71-4b36-bab7-4479bc49ac2c")
-		(property "Reference" "R11"
-			(at 241.3 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 241.3 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 239.776 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 238.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 238.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d51c531e-496a-4eb3-ba44-3db14045006f")
-		)
-		(pin "2"
-			(uuid "a54f7931-4d41-425f-8e0d-c1191adb00bd")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 19.05 217.17 0)
 		(unit 1)
@@ -11486,7 +11934,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c3222fa8-66d5-41bd-aec1-da2832358582")
 		(property "Reference" "C1"
 			(at 22.86 215.8999 0)
@@ -11515,7 +11962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 19.05 217.17 0)
 			(effects
 				(font
@@ -11542,6 +11989,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr Part #" "CL31A107MQHNNNE"
+			(at 15.494 216.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "158e3e66-1a8a-4a3e-ac2f-06273de9338b")
 		)
@@ -11558,85 +12013,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 226.06 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4b9880d-a639-4021-9abd-a0c3039c8ccb")
-		(property "Reference" "R9"
-			(at 228.6 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 228.6 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 227.076 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f03630b5-57e9-4d6f-8df0-3ff480aabaf1")
-		)
-		(pin "2"
-			(uuid "8057be88-2560-4fa8-ad48-fa93d91a8c6b")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 62.23 217.17 0)
 		(unit 1)
@@ -11644,7 +12020,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c63aadf9-c6d7-4191-8d06-911b4d538539")
 		(property "Reference" "C4"
 			(at 66.04 215.8999 0)
@@ -11673,7 +12048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 217.17 0)
 			(effects
 				(font
@@ -11698,6 +12073,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL31A107MQHNNNE"
+			(at 59.182 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11782,85 +12165,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 232.41 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7569df8-01be-4a77-8f00-ccf07e3d6fcc")
-		(property "Reference" "R10"
-			(at 234.95 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 234.95 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 233.426 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf6e597f-67e4-4321-a368-ad36ef5e398d")
-		)
-		(pin "2"
-			(uuid "adb0780c-c0dd-41b2-9956-1879fc39b267")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 31.75 217.17 0)
 		(unit 1)
@@ -11868,7 +12172,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ca0a9d09-a0eb-483e-b105-a2bdf68e70f6")
 		(property "Reference" "C2"
 			(at 35.56 215.8999 0)
@@ -11897,7 +12200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 217.17 0)
 			(effects
 				(font
@@ -11907,7 +12210,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 31.75 217.17 0)
+			(at 33.528 220.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,6 +12225,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL31A107MQHNNNE"
+			(at 28.702 216.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11947,7 +12258,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ca70863e-304f-460e-834e-370bb47a2656")
 		(property "Reference" "R2"
 			(at 166.37 62.2299 0)
@@ -11976,7 +12286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -12001,6 +12311,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 161.544 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12092,7 +12410,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4cf43c8-69c6-454c-927c-56ee3ba8928d")
 		(property "Reference" "J10"
 			(at 148.59 208.2799 90)
@@ -12103,7 +12420,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "67996-220HLF"
+		(property "Value" "~"
 			(at 148.59 210.8199 90)
 			(effects
 				(font
@@ -12121,7 +12438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 163.83 208.28 0)
 			(effects
 				(font
@@ -12146,6 +12463,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "67996-220HLF"
+			(at 140.97 210.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "16"
@@ -12218,6 +12543,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d60a0755-f0ab-4115-a525-20601ebd8878")
+		(property "Reference" "R6"
+			(at 196.85 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 196.85 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.326 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 194.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 192.024 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17b55ac8-d18a-4ac6-b68a-0627f8bfec73")
+		)
+		(pin "2"
+			(uuid "0082de1d-6cfa-4665-bf5e-9fa73fc6e70d")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 162.56 123.19 0)
 		(unit 1)
@@ -12225,7 +12636,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d80e05db-c4e1-4398-9b78-a6ab44ffb4e7")
 		(property "Reference" "J8"
 			(at 165.1 121.9199 0)
@@ -12236,7 +12646,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68001-103HLF"
+		(property "Value" "~"
 			(at 165.1 124.4599 0)
 			(effects
 				(font
@@ -12254,7 +12664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 162.56 123.19 0)
 			(effects
 				(font
@@ -12279,6 +12689,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "68001-103HLF"
+			(at 172.466 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -12307,7 +12725,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "de8e0e7b-07a2-4404-b01b-348f49f9ebca")
 		(property "Reference" "C6"
 			(at 95.25 215.8999 0)
@@ -12336,7 +12753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 217.17 0)
 			(effects
 				(font
@@ -12361,6 +12778,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL31A107MQHNNNE"
+			(at 88.392 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12452,7 +12877,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1395639-2e26-4f24-b69b-64ad4b42eb9e")
 		(property "Reference" "J2"
 			(at 24.13 73.66 0)
@@ -12462,7 +12886,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.1"
+		(property "Value" "~"
 			(at 24.13 76.2 0)
 			(effects
 				(font
@@ -12504,6 +12928,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "24.243.1"
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12655,93 +13087,13 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 200.66 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6e5375f-54aa-4b56-9972-0de403a1dd40")
-		(property "Reference" "R7"
-			(at 203.2 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 203.2 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 201.676 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 200.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 200.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f9eebc1-2634-4272-a18f-6bba19a4dd05")
-		)
-		(pin "2"
-			(uuid "dac179b9-5d4e-445e-b218-c6dc1c2d17f8")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 259.08 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7c43d39-397c-4320-83eb-caebf1cbe79a")
+		(uuid "e7d51545-eaef-4143-a180-455298e6d975")
 		(property "Reference" "R14"
 			(at 261.62 62.2299 0)
 			(effects
@@ -12769,7 +13121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 259.08 63.5 0)
 			(effects
 				(font
@@ -12796,95 +13148,24 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "960aff6c-b7e1-4283-bc28-6ee2c8941a2b")
-		)
-		(pin "2"
-			(uuid "e955fad7-16a6-4c87-b2bb-061d3a836c66")
-		)
-		(instances
-			(project ""
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 171.45 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7f2c1b6-73e2-4de4-aad6-b402ef44c19f")
-		(property "Reference" "R3"
-			(at 173.99 62.2299 0)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 256.794 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 173.99 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 172.466 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C95177"
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "a74066e0-8451-4193-b134-f061e677ed66")
+			(uuid "0e846316-6c43-4fb3-8d8b-11b0a29efde9")
 		)
 		(pin "2"
-			(uuid "26402c16-2c7c-4f28-a5ac-05cbbc126a27")
+			(uuid "2a9bf059-fd04-4b3c-8899-81680b2f8957")
 		)
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R3")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12898,7 +13179,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb443286-2677-4f47-b761-4e89f10ec778")
 		(property "Reference" "J14"
 			(at 214.63 104.1399 90)
@@ -12909,7 +13189,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "67996-220HLF"
+		(property "Value" "~"
 			(at 214.63 106.6799 90)
 			(effects
 				(font
@@ -12927,7 +13207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 104.14 0)
 			(effects
 				(font
@@ -12952,6 +13232,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "67996-220HLF"
+			(at 207.518 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "16"
@@ -13031,7 +13319,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee05356e-49f0-478f-aa16-ccdca8c472db")
 		(property "Reference" "C3"
 			(at 53.34 215.8999 0)
@@ -13060,7 +13347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 49.53 217.17 0)
 			(effects
 				(font
@@ -13085,6 +13372,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CL31A107MQHNNNE"
+			(at 46.228 216.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13119,7 +13414,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AVC1T45DBVR"
+		(property "Value" "~"
 			(at 223.52 186.69 0)
 			(effects
 				(font
@@ -13161,6 +13456,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "SN74AVC1T45DBVR"
+			(at 223.266 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -13359,7 +13662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 336.55 34.29 0)
 			(effects
 				(font

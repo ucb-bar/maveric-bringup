@@ -1004,7 +1004,7 @@
 	)
 	(text "R_limit = (Vdd - Vf,min) / (If, max) = (3.3 - 2.2) / 20e-3 = 55 Ohm\nUse more conservative 100 Ohm R_limit"
 		(exclude_from_sim no)
-		(at 90.17 30.226 0)
+		(at 90.678 27.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1124,7 +1124,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "726c8e55-8b91-43b6-8af4-7c0c377f917e")
 		(property "Reference" "Q2"
 			(at 49.53 52.0699 0)
@@ -1135,7 +1134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMN2005K-7"
+		(property "Value" "~"
 			(at 49.53 54.6099 0)
 			(effects
 				(font
@@ -1153,7 +1152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" ""
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -1178,6 +1177,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "DMN2005K-7"
+			(at 56.134 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Sim.Device" "NMOS"
@@ -1249,7 +1256,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b8eeb1c-c1fc-4375-a41e-f60e9da36bb7")
 		(property "Reference" "R18"
 			(at 48.26 26.6699 0)
@@ -1260,7 +1266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100Ω"
 			(at 48.26 29.2099 0)
 			(effects
 				(font
@@ -1278,7 +1284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -1303,6 +1309,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "0603WAF1000T5E"
+			(at 56.388 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1426,7 +1440,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbde946d-70d0-4157-97b1-a9dff8ab7db4")
 		(property "Reference" "R17"
 			(at 34.29 58.4199 0)
@@ -1437,7 +1450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100kΩ"
 			(at 34.29 60.9599 0)
 			(effects
 				(font
@@ -1455,7 +1468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -1480,6 +1493,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "0603WAF1003T5E"
+			(at 42.672 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1531,7 +1552,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "APT2012LZGCK"
+		(property "Value" "~"
 			(at 49.53 42.2274 90)
 			(effects
 				(font
@@ -1549,7 +1570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 39.37 0)
 			(effects
 				(font
@@ -1564,6 +1585,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "JLCPCB Part #" "C5569446"
@@ -1573,6 +1595,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "APT2012LZGCK"
+			(at 56.896 42.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
