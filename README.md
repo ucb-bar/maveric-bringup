@@ -322,7 +322,7 @@ Also noting stock from JLCPCB.
 
 ### Setup
 
-- [ ] JLCPCB stackup + layer assignments [d:6/16]
+- [x] JLCPCB stackup + layer assignments [d:6/16]
 - [ ] JLCPCB constraints and design rules [d:6/16]
 - [ ] Import schematic parts + initial rough placement [d:6/16]
 - [ ] Sketch edge cuts + standoff holes [d:6/16]
