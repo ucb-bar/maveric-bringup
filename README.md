@@ -329,6 +329,18 @@ Also noting stock from JLCPCB.
 
 ### Routing
 
+- [ ] Route 3.3V
+- [ ] Route VADJ
+- [ ] Route VDD_EXT
+- [ ] Route VDDV_EXT
+- [ ] Route all power probe pins
+- [ ] Route all UART circuits
+- [ ] Route all JTAG pins
+- [ ] Route all 50Ohm traces
+- [ ] Route chip signal traces to FMC
+- [ ] Route chip signal probes via jumpers
+- [ ] Pour VDD and VDDV and GND
+
 ### Finalization
 
 - [ ] Add stiching vias for ground planes
