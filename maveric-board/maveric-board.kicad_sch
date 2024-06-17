@@ -7817,7 +7817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL31A107MQHNNNE"
+		(property "Description" "Unpolarized capacitor"
 			(at 78.74 217.17 0)
 			(effects
 				(font
@@ -8256,7 +8256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GCM188R71H104KA57D"
+		(property "Description" "Unpolarized capacitor"
 			(at 226.06 171.45 0)
 			(effects
 				(font
@@ -8611,7 +8611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GCM188R71H104KA57D"
+		(property "Description" "Unpolarized capacitor"
 			(at 200.66 175.26 0)
 			(effects
 				(font
@@ -9377,7 +9377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GCM188R71H104KA57D"
+		(property "Description" "Unpolarized capacitor"
 			(at 165.1 151.13 0)
 			(effects
 				(font
@@ -11221,7 +11221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GCM188R71H104KA57D"
+		(property "Description" "Unpolarized capacitor"
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -11524,7 +11524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL31A107MQHNNNE"
+		(property "Description" "Unpolarized capacitor"
 			(at 19.05 217.17 0)
 			(effects
 				(font
@@ -11682,7 +11682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL31A107MQHNNNE"
+		(property "Description" "Unpolarized capacitor"
 			(at 62.23 217.17 0)
 			(effects
 				(font
@@ -11906,7 +11906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL31A107MQHNNNE"
+		(property "Description" "Unpolarized capacitor"
 			(at 31.75 217.17 0)
 			(effects
 				(font
@@ -12345,7 +12345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL31A107MQHNNNE"
+		(property "Description" "Unpolarized capacitor"
 			(at 91.44 217.17 0)
 			(effects
 				(font
@@ -13069,7 +13069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL31A107MQHNNNE"
+		(property "Description" "Unpolarized capacitor"
 			(at 49.53 217.17 0)
 			(effects
 				(font
