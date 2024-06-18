@@ -329,17 +329,19 @@ Also noting stock from JLCPCB.
 
 ### Routing
 
-- [ ] Route 3.3V
-- [ ] Route VADJ
-- [ ] Route VDD_EXT
-- [ ] Route VDDV_EXT
-- [ ] Route all power probe pins
+- [ ] Route 3.3V [d:6/17]
+- [ ] Route VADJ [d:6/17]
+- [ ] Route VDD_EXT [d:6/17]
+- [ ] Route VDDV_EXT [d:6/17]
+- [ ] Route all power probe pins [d:6/17]
 - [ ] Route all 50Ohm traces
 - [ ] Route all UART circuits
 - [ ] Route all JTAG pins
 - [ ] Route chip signal traces to FMC
 - [ ] Route chip signal probes via jumpers
 - [ ] Pour VDD and VDDV and GND
+- [ ] Sprinkle ground pins near every signal that can be probed
+  - Just make sure every probe point has a ground pin nearby
 
 ### Finalization
 
