@@ -334,16 +334,16 @@ Also noting stock from JLCPCB.
 - [ ] Route VDD_EXT
 - [ ] Route VDDV_EXT
 - [ ] Route all power probe pins
+- [ ] Route all 50Ohm traces
 - [ ] Route all UART circuits
 - [ ] Route all JTAG pins
-- [ ] Route all 50Ohm traces
 - [ ] Route chip signal traces to FMC
 - [ ] Route chip signal probes via jumpers
 - [ ] Pour VDD and VDDV and GND
 
 ### Finalization
 
+- [x] Add JLC silk
 - [ ] Add stiching vias for ground planes
-- [ ] Add JLC silk
 - [ ] Add board name + chip + people silk
 - [ ] Add fun silk
