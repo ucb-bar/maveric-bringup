@@ -80,8 +80,7 @@ See the `README.md` in that folder for details.
     - This is a problem for the external clock generator since it has 50 Ohm series output impedance. It will drive 0.6Vpp at the chip nominally, so it will have to drive 2.4Vpp at the source for the chip to see 1.2Vpp.
 - **PLL refclk**
   - Only comes from external clock generator with 50 Ohm driving impedance
-  - Since it drives a high-Z GPIO, no termination is required, and Vpp on the generator should be set to 1.2V
-  - **???: what is the input impedance of the chip PLL refclk pin?**
+  - Since it drives a high-Z IO cell, no termination is required, and Vpp on the generator should be set to 1.2V
 
 #### Power
 
@@ -115,6 +114,31 @@ See the `README.md` in that folder for details.
 - FMC powergood (C2M)
   - Add LED indicator + header probe point
 
+## Schematic Review
+
+- [x] Make sure all the chip IOs are represented and properly connected
+  - ~~We seem to have used HSDIFF Q4 bumps (Hyperscale chip used HSDIFF Q3 for chip A and HSDIFF Q4 for chip B)~~
+  - There are no clock taps, there isn't a `custom_boot` pin either
+  - OH NO, I did make a mistake here. Refer to [this spreadsheet](https://docs.google.com/spreadsheets/d/1MSgKrY-m9DyHcFtSvew053FMCg2KrU9-J1SnmbLqwV8/edit#gid=0) for the correct mappings
+- [x] Check clocking
+  - [x] Is the PLL refclk terminated on-chip?
+- [x] Verify UART directionality
+- [x] Make sure power topology is correct
+- [x] Make sure all debug functionality is available
+- [x] Make sure decap is sufficient
+- [x] Does the stackup look reasonable?
+- [x] Is everything sane mechanically?
+
+### Notes from Review
+
+- [x] Add a 3 pin header to select reset coming from either FPGA or a button
+- [x] 6 pin female header for PMOD USBUART
+- [x] Add some more ground probe points (header pin + loop pin things) (4x around the PCB)
+- [x] bring in JTAG signals onto the FPGA too via FMC
+- [x] fix up the signal name mappings on the schematic
+- [x] allocate one more layer for signal routing, combine VDD/VDDV into one layer
+- [x] add holes next to FMC connector
+
 ## PCB CAD
 
 ### Considerations
@@ -143,24 +167,22 @@ See the `README.md` in that folder for details.
 - 6 layer, 2mm thickness, 1oz outer copper weight, 0.5oz inner copper weight
 - **Chosen Stackup**: JLC06201H-3313
 
-| Layer     | Material Type | Thickness | Purpose           |
-| ---       | ---           | ---       | ---               |
-| F.Cu      | Copper        | 0.035mm   | Signal, 3V3       |
-| Prepreg   | 3313*1        | 0.0994mm  | -                 |
-| In1.Cu    | Copper        | 0.0152mm  | GND               |
-| Core      | Core          | 0.7mm     | -                 |
-| In2.Cu    | Copper        | 0.0152mm  | VDD               |
-| Prepreg   | 7628*1        | 0.2028mm  | -                 |
-| In3.Cu    | Copper        | 0.0152mm  | VDDV              |
-| Core      | Core          | 0.7mm     | -                 |
-| In4.Cu    | Copper        | 0.0152mm  | GND               |
-| Prepreg   | 3313*1        | 0.0994mm  | -                 |
-| B.Cu      | Copper        | 0.035mm   | Signal            |
+| Layer     | Material Type | Thickness | Purpose               |
+| ---       | ---           | ---       | ---                   |
+| F.Cu      | Copper        | 0.035mm   | Signal, 3V3 (GND pour)|
+| Prepreg   | 3313*1        | 0.0994mm  | -                     |
+| In1.Cu    | Copper        | 0.0152mm  | GND                   |
+| Core      | Core          | 0.7mm     | -                     |
+| In2.Cu    | Copper        | 0.0152mm  | VDD, VDDV             |
+| Prepreg   | 7628*1        | 0.2028mm  | -                     |
+| In3.Cu    | Copper        | 0.0152mm  | Signal (GND pour)     |
+| Core      | Core          | 0.7mm     | -                     |
+| In4.Cu    | Copper        | 0.0152mm  | GND                   |
+| Prepreg   | 3313*1        | 0.0994mm  | -                     |
+| B.Cu      | Copper        | 0.035mm   | Signal (GND pour)     |
 
 - The stackup looks like (F.Cu, In1.Cu) | (In2.Cu, In3.Cu) | (In4.Cu, B.Cu) (i.e. 2-2-2)
 - The first and third pairs are strongly coupled and the second pair has more separation
-- [See this video](https://www.youtube.com/watch?v=60RxCiZuD9E)
-  - Only need a ground via when going from layer 1 to 5
 
 ### Controlled Impedance Traces
 
@@ -304,19 +326,23 @@ Also noting stock from JLCPCB.
 - [x] Check chip IOs are represented and properly connected [d:6/16]
   - Against the Hyperscale schematic
 
-### Things to Check During Review
+### Post-Review Fixes
 
-- [ ] Make sure all the chip IOs are represented and properly connected
-  - We seem to have used HSDIFF Q4 bumps (Hyperscale chip used HSDIFF Q3 for chip A and HSDIFF Q4 for chip B)
-  - There are no clock taps, there isn't a `custom_boot` pin either
-- [ ] Check clocking
-  - [ ] Is the PLL refclk terminated on-chip?
-- [ ] Verify UART directionality
-- [ ] Make sure power topology is correct
-- [ ] Make sure all debug functionality is available
-- [ ] Make sure decap is sufficient
-- [ ] Does the stackup look reasonable?
-- [ ] Is everything sane mechanically?
+- [ ] Fix chip IO mappings [d:6/19]
+  - Refer to [this spreadsheet](https://docs.google.com/spreadsheets/d/1MSgKrY-m9DyHcFtSvew053FMCg2KrU9-J1SnmbLqwV8/edit#gid=0)
+  - Delete all the garbage docs that confuse everyone
+- [ ] Add 3-pin header for reset selection + button [d:6/19]
+    - For the button path: pull down (1k || 100nF), button will pull reset high to VDDV
+    - For the FPGA path: FPGA drives reset directly via FMC
+- [ ] Add a 6-pin female header for plugging in the USBUART Pmod [d:6/19]
+- [ ] Add ground probe points around the PCB [d:6/19]
+  - [ ] Add 4x hook-style probes to GND around the board
+  - [ ] Sprinkle ground pins near every signal that can be probed
+    - Just make sure every probe point has a ground pin nearby
+- [ ] Replace the supply probes header pins with hook-style probes [d:6/19]
+- [ ] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
+- [x] Modify stackup to use one more layer for signal routing [d:6/19]
+- [ ] Add mounting holes next to FMC connector [d:6/19]
 
 ## Layout
 
@@ -329,19 +355,17 @@ Also noting stock from JLCPCB.
 
 ### Routing
 
-- [ ] Route 3.3V [d:6/17]
-- [ ] Route VADJ [d:6/17]
-- [ ] Route VDD_EXT [d:6/17]
-- [ ] Route VDDV_EXT [d:6/17]
-- [ ] Route all power probe pins [d:6/17]
+- [ ] Route 3.3V
+- [ ] Route VADJ
+- [ ] Route VDD_EXT
+- [ ] Route VDDV_EXT
+- [ ] Route all power probe pins
 - [ ] Route all 50Ohm traces
 - [ ] Route all UART circuits
 - [ ] Route all JTAG pins
 - [ ] Route chip signal traces to FMC
 - [ ] Route chip signal probes via jumpers
 - [ ] Pour VDD and VDDV and GND
-- [ ] Sprinkle ground pins near every signal that can be probed
-  - Just make sure every probe point has a ground pin nearby
 
 ### Finalization
 
