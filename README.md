@@ -138,6 +138,12 @@ See the `README.md` in that folder for details.
 - [x] fix up the signal name mappings on the schematic
 - [x] allocate one more layer for signal routing, combine VDD/VDDV into one layer
 - [x] add holes next to FMC connector
+- Length matching is unnecessary
+- Support UART to Pmod through FPGA and with board headers directly
+- Termination shouldn't cause any issues
+- Make sure you have lots of test points, lots of ground test points too, make sure every probe for a signal has a short path to ground nearby
+- Make sure the JTAG clock is exposed on a header pin
+- Make sure you have standoffs near the FMC connector
 
 ## PCB CAD
 
@@ -328,7 +334,7 @@ Also noting stock from JLCPCB.
 
 ### Post-Review Fixes
 
-- [ ] Fix chip IO mappings [d:6/19]
+- [x] Fix chip IO mappings [d:6/19]
   - Refer to [this spreadsheet](https://docs.google.com/spreadsheets/d/1MSgKrY-m9DyHcFtSvew053FMCg2KrU9-J1SnmbLqwV8/edit#gid=0)
   - Delete all the garbage docs that confuse everyone
 - [ ] Add 3-pin header for reset selection + button [d:6/19]
