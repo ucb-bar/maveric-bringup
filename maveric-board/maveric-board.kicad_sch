@@ -1510,6 +1510,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "maveric-parts:Banana_Plug_Socket"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2686,12 +2831,6 @@
 		(uuid "5d2d29f6-ac10-4e44-b2b9-6b551f3d8091")
 	)
 	(junction
-		(at 217.17 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "617e66c0-0911-4ed3-903b-7f8565020340")
-	)
-	(junction
 		(at 25.4 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2872,6 +3011,12 @@
 		(uuid "dcdfcf61-9852-4b79-8c5e-118ea8df4ce5")
 	)
 	(junction
+		(at 129.54 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e758aa-0150-44f0-8675-335a7c7cc56e")
+	)
+	(junction
 		(at 219.71 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2888,6 +3033,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eed90773-0210-496b-a02b-783a79941d20")
+	)
+	(junction
+		(at 129.54 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10a09d2-1044-4813-85cc-1f107d891b8d")
 	)
 	(junction
 		(at 55.88 213.36)
@@ -2918,6 +3069,16 @@
 	(no_connect
 		(at 156.21 203.2)
 		(uuid "f5c998c3-7b8c-48e0-a3d9-410e9c014236")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00616348-43e9-41d1-8bbc-a8fb4d3dff15")
 	)
 	(wire
 		(pts
@@ -2978,6 +3139,16 @@
 			(type default)
 		)
 		(uuid "03cd8613-ec7f-443c-80f0-3d26307d785c")
+	)
+	(wire
+		(pts
+			(xy 148.59 68.58) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b67b01-ddca-4aae-9b1c-3395d8dc5608")
 	)
 	(wire
 		(pts
@@ -3128,6 +3299,16 @@
 			(type default)
 		)
 		(uuid "1c23a55c-3153-48f5-b7a9-37ec4c8b5002")
+	)
+	(wire
+		(pts
+			(xy 262.89 69.85) (xy 262.89 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d380eb1-b82c-4350-9f8f-3074b05653b4")
 	)
 	(wire
 		(pts
@@ -3371,16 +3552,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 57.15) (xy 265.43 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e0195df-356c-4071-a673-017e2a346145")
-	)
-	(wire
-		(pts
 			(xy 154.94 171.45) (xy 151.13 171.45)
 		)
 		(stroke
@@ -3428,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "314754cb-adac-4af0-8e32-314970f9e349")
+	)
+	(wire
+		(pts
+			(xy 140.97 96.52) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bbad03-5d81-4879-93d4-cc29537bbb56")
 	)
 	(wire
 		(pts
@@ -3518,6 +3699,16 @@
 			(type default)
 		)
 		(uuid "37fdddfb-8fd4-4380-b188-3da3b51c042f")
+	)
+	(wire
+		(pts
+			(xy 217.17 90.17) (xy 222.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3856d589-e33f-4d38-99b2-135fec104c38")
 	)
 	(wire
 		(pts
@@ -4001,6 +4192,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 88.9) (xy 217.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4c49eb-d526-4962-ade0-221be60391c2")
+	)
+	(wire
+		(pts
 			(xy 80.01 157.48) (xy 81.28 157.48)
 		)
 		(stroke
@@ -4071,6 +4272,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 105.41) (xy 140.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678eb9a7-b147-4019-afd6-8fe22961bcde")
+	)
+	(wire
+		(pts
 			(xy 237.49 111.76) (xy 240.03 111.76)
 		)
 		(stroke
@@ -4128,6 +4339,16 @@
 			(type default)
 		)
 		(uuid "6e18a15b-f905-4258-b3f3-4a2b44098dee")
+	)
+	(wire
+		(pts
+			(xy 262.89 57.15) (xy 265.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec323db-a662-43e8-97a7-0d2269fc7d09")
 	)
 	(wire
 		(pts
@@ -4211,16 +4432,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 90.17) (xy 217.17 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75499df7-28f3-4da9-82d8-bad01000cc2a")
-	)
-	(wire
-		(pts
 			(xy 151.13 215.9) (xy 151.13 219.71)
 		)
 		(stroke
@@ -4278,6 +4489,16 @@
 			(type default)
 		)
 		(uuid "77efcbed-d2ae-4517-9fa8-0f3324499dbe")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 129.54 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7824f2ad-8905-4620-aa79-d3c42eab7946")
 	)
 	(wire
 		(pts
@@ -4391,6 +4612,26 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 57.15) (xy 138.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ca52fc-6937-48c6-95e6-f3bb59b9a6ab")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 129.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821537f8-47a5-4ef1-b87b-dbe4bb8a5e2a")
+	)
+	(wire
+		(pts
 			(xy 124.46 52.07) (xy 171.45 52.07)
 		)
 		(stroke
@@ -4438,6 +4679,16 @@
 			(type default)
 		)
 		(uuid "883e22bb-40b4-4706-90e2-6cdfc2768b3c")
+	)
+	(wire
+		(pts
+			(xy 214.63 78.74) (xy 217.17 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a20f84-4950-4701-82d2-330af37b40d6")
 	)
 	(wire
 		(pts
@@ -4508,6 +4759,16 @@
 			(type default)
 		)
 		(uuid "8f132039-604b-43a0-b299-aacd39331568")
+	)
+	(wire
+		(pts
+			(xy 129.54 105.41) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f500761-8190-46c9-91fd-42a0c33693e1")
 	)
 	(wire
 		(pts
@@ -4748,6 +5009,16 @@
 			(type default)
 		)
 		(uuid "a5e9c243-e755-4f04-81d2-3b199d88b717")
+	)
+	(wire
+		(pts
+			(xy 217.17 78.74) (xy 217.17 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fd4fa6-3a74-415f-9d32-005cec9df0a6")
 	)
 	(wire
 		(pts
@@ -5141,6 +5412,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c066ee58-0717-440f-9a3e-6266d632606b")
+	)
+	(wire
+		(pts
 			(xy 172.72 171.45) (xy 175.26 171.45)
 		)
 		(stroke
@@ -5188,16 +5469,6 @@
 			(type default)
 		)
 		(uuid "c3c3fdf3-8848-4453-b025-0b6bab240d96")
-	)
-	(wire
-		(pts
-			(xy 217.17 90.17) (xy 217.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b8aaf9-1f2f-4d36-8cc6-80dead97521a")
 	)
 	(wire
 		(pts
@@ -5311,13 +5582,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 57.15) (xy 217.17 57.15)
+			(xy 129.54 95.25) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cce11c27-076e-433a-94a7-8939913627df")
+		(uuid "cd0c0e59-68a1-4615-a11c-8f8bc2579dc3")
 	)
 	(wire
 		(pts
@@ -5511,6 +5782,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 81.28) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f9890a-5ad1-4b77-8863-b078b0550668")
+	)
+	(wire
+		(pts
+			(xy 140.97 104.14) (xy 140.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92a32ff-a3dc-442c-bee2-78ee0728020a")
+	)
+	(wire
+		(pts
 			(xy 292.1 71.12) (xy 312.42 71.12)
 		)
 		(stroke
@@ -5701,6 +5992,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 73.66) (xy 147.32 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19b6f39-faea-4ad8-bd16-0a1e22a4a5aa")
+	)
+	(wire
+		(pts
 			(xy 214.63 190.5) (xy 210.82 190.5)
 		)
 		(stroke
@@ -5858,6 +6159,16 @@
 			(type default)
 		)
 		(uuid "ff66c107-3fec-4307-b898-d5c5e27f5754")
+	)
+	(wire
+		(pts
+			(xy 214.63 71.12) (xy 214.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbd93f1-c725-4149-9b38-f64ce90973df")
 	)
 	(text "PLL refclk always comes from an external source\nThe source will have 50Ω series resistance already\nNo additional termination required"
 		(exclude_from_sim no)
@@ -6035,16 +6346,27 @@
 		)
 		(uuid "16cbe449-5366-466f-92a0-d52852bcb195")
 	)
-	(label "reset"
-		(at 217.17 88.9 90)
+	(label "reset_chip"
+		(at 214.63 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "17ed778b-1e9c-4e57-82ab-59770ce8ce78")
+	)
+	(label "reset_fmc"
+		(at 262.89 69.85 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e9f58b7-0f91-4809-9bd1-67da948fc779")
 	)
 	(label "fpga_gpio_3"
 		(at 163.83 96.52 90)
@@ -6134,6 +6456,17 @@
 		)
 		(uuid "3f80370a-1ba4-4af9-9250-5c16f1fd7623")
 	)
+	(label "reset_button"
+		(at 132.08 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4efe0bed-c6bb-408c-9d01-6962c4cdcac2")
+	)
 	(label "uart_rx_ftdi_3v3"
 		(at 138.43 176.53 0)
 		(fields_autoplaced yes)
@@ -6189,6 +6522,17 @@
 		)
 		(uuid "639ff351-fe55-4d01-88ae-d0c239262d5e")
 	)
+	(label "reset_button"
+		(at 148.59 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f8c52b7-7206-4c07-997c-d3660607ddc2")
+	)
 	(label "fpga_fmc_clock_out"
 		(at 261.62 229.87 180)
 		(fields_autoplaced yes)
@@ -6232,6 +6576,17 @@
 			(justify left bottom)
 		)
 		(uuid "7a8b8643-8fb8-4ee5-92c8-f10aa9244331")
+	)
+	(label "reset_fmc"
+		(at 148.59 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a67e347-f7ad-4b0b-9887-d4cc8b281180")
 	)
 	(label "serial_tl_out_0"
 		(at 186.69 97.79 90)
@@ -6343,6 +6698,17 @@
 		)
 		(uuid "b0fd215a-42f7-48e7-bac7-7a1ecc78b859")
 	)
+	(label "reset_chip"
+		(at 148.59 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b11f1b8e-096c-4e5f-b7f2-17d4855fa4ff")
+	)
 	(label "uart_tx_ftdi_1v2"
 		(at 142.24 137.16 0)
 		(fields_autoplaced yes)
@@ -6397,6 +6763,17 @@
 			(justify left bottom)
 		)
 		(uuid "cac419ae-c7f1-410a-9f39-24ac3cd7645f")
+	)
+	(label "reset_chip"
+		(at 138.43 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb0647e6-9399-4d5d-ac2f-aff23fc1bd36")
 	)
 	(label "uart_tx_chip"
 		(at 125.73 127 0)
@@ -7187,6 +7564,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 217.17 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d33ae86-c3de-4235-8e8b-6a1520642fbe")
+		(property "Reference" "R26"
+			(at 219.71 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 219.71 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 218.186 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C95177"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RC0603JR-070RL"
+			(at 207.772 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2147670d-e77d-4dfd-910e-ae652d3472fe")
+		)
+		(pin "2"
+			(uuid "63fd3b69-65b4-4e80-9b11-26c9eb02805e")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 35.56 157.48 90)
 		(unit 1)
@@ -7510,6 +7973,92 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 129.54 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16bbbdaa-e558-41a0-8a20-3f048d875753")
+		(property "Reference" "R25"
+			(at 132.08 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 132.08 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.556 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "0603WAF1001T5E"
+			(at 127 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21190"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b07b63f-9811-4d9a-ae21-200cfca79fac")
+		)
+		(pin "2"
+			(uuid "e36c9be6-b2be-4a99-b367-65401367ffde")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10057,6 +10606,161 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 142.24 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66afe5b6-14f5-4f00-9458-8fc50be325ee")
+		(property "Reference" "J19"
+			(at 139.7 72.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 69.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:AMPHENOL_68001-103HLF"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C598608"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "68001-103HLF"
+			(at 132.334 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d386b125-6649-4c89-a92c-0e63fc7d5846")
+		)
+		(pin "2"
+			(uuid "1b7ea51e-6c5f-465e-a06d-35df1fbc9442")
+		)
+		(pin "1"
+			(uuid "445498b4-ade7-44df-8f80-dd347633cfab")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "maveric-parts:VDDV")
+		(at 129.54 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66ec8357-06b7-40c8-a257-6513175ab59a")
+		(property "Reference" "#PWR0118"
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDV"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip IO Voltage"
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ef9a7a5-8b2b-4921-8ddd-1b5e31128737")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Probe")
 		(at 36.83 147.32 90)
 		(unit 1)
@@ -10748,6 +11452,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f67db57-6e94-4830-8510-486bfb3326da")
+		(property "Reference" "SW1"
+			(at 130.81 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 130.81 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7e14098-032e-4603-a6bf-56010a285000")
+		)
+		(pin "2"
+			(uuid "1e5dea91-aa2e-4561-a174-a881b0c26c0e")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 179.07 63.5 0)
 		(unit 1)
@@ -10892,6 +11666,92 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8437e605-64c9-4083-83da-61616be21cdd")
+		(property "Reference" "C35"
+			(at 141.732 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 141.986 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 141.9352 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CC0603KRX7R9BB104"
+			(at 148.59 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b5fe021-08eb-4553-83c2-2f89b6fc5fca")
+		)
+		(pin "2"
+			(uuid "c0d6d404-01bf-4ec9-bf56-f88d4c811c58")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -13038,6 +13898,72 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbf190ca-34c2-4c7c-9ed4-c43b3a2bc952")
+		(property "Reference" "#PWR0119"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c218192-9cea-43da-8408-001c7ac01cfb")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)

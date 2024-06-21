@@ -337,9 +337,14 @@ Also noting stock from JLCPCB.
 - [x] Fix chip IO mappings [d:6/19]
   - Refer to [this spreadsheet](https://docs.google.com/spreadsheets/d/1MSgKrY-m9DyHcFtSvew053FMCg2KrU9-J1SnmbLqwV8/edit#gid=0)
   - Delete all the garbage docs that confuse everyone
+- [ ] Revalidate socket symbol [d:6/20]
+  - Validate all the package coordinate to logical signal net mappings from the Intel schematic
+  - I already found one error
+- [ ] Import socket 3d model [d:6/21]
 - [ ] Add 3-pin header for reset selection + button [d:6/19]
     - For the button path: pull down (1k || 100nF), button will pull reset high to VDDV
     - For the FPGA path: FPGA drives reset directly via FMC
+    - [ ] Add the switch 3d model + footprint
 - [ ] Add a 6-pin female header for plugging in the USBUART Pmod [d:6/19]
 - [ ] Add ground probe points around the PCB [d:6/19]
   - [ ] Add 4x hook-style probes to GND around the board
@@ -349,6 +354,7 @@ Also noting stock from JLCPCB.
 - [ ] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
 - [x] Modify stackup to use one more layer for signal routing [d:6/19]
 - [ ] Add mounting holes next to FMC connector [d:6/19]
+- [ ] Reannotate schematic and push to layout [d:6/21]
 
 ## Layout
 
@@ -358,6 +364,8 @@ Also noting stock from JLCPCB.
 - [x] JLCPCB constraints and design rules [d:6/16]
 - [x] Import from schematic + placement [d:6/16]
 - [x] Sketch edge cuts + standoff holes [d:6/16]
+- [ ] Verify 3d model placement of FMC
+- [ ] Verify rotation and mounting of FMC
 
 ### Routing
 

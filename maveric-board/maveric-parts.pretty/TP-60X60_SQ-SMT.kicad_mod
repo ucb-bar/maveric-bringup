@@ -1,4 +1,4 @@
-(footprint "TP-60X60/SQ-SMT"
+(footprint "TP-60X60_SQ-SMT"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")

@@ -415,7 +415,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "b51d9cf6-d079-4e1d-8d8f-0724df638bb5")
 	)
-	(model "${KIPRJMOD}/67996-220HLF.step"
+	(model "${KIPRJMOD}/3d_models/67996-220HLF.step"
 		(offset
 			(xyz 0 0 0)
 		)

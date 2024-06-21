@@ -5,12 +5,12 @@
 	(layer "F.Cu")
 	(descr "0805 LED")
 	(property "Reference" "REF**"
-		(at 0.6 -2.05 0)
+		(at 0 -1.75 0)
 		(layer "F.SilkS")
 		(uuid "f53b498a-f54d-4632-818e-4e8183aabb17")
 		(effects
 			(font
-				(size 1.4 1.4)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -201,7 +201,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "9a78d544-bb82-43df-b2ff-1cac7d24dd8d")
 	)
-	(model "${KIPRJMOD}/APT2012LZGCK.step"
+	(model "${KIPRJMOD}/3d_models/APT2012LZGCK.step"
 		(offset
 			(xyz 0 0 0)
 		)

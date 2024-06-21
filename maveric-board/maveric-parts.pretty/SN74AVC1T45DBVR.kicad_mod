@@ -313,7 +313,7 @@
 		(solder_mask_margin 0.07)
 		(uuid "e6425719-431b-4fe4-b2f7-d2de135a9ca4")
 	)
-	(model "${KIPRJMOD}/SN74AVC1T45DBVR.step"
+	(model "${KIPRJMOD}/3d_models/SN74AVC1T45DBVR.step"
 		(offset
 			(xyz 0 0 0)
 		)

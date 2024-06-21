@@ -1759,9 +1759,9 @@
 		(solder_paste_margin 0.127)
 		(uuid "8b5ebb92-3bc7-4b99-96a0-d7a3fd8809af")
 	)
-	(model "${KIPRJMOD}/ASP-134604-01.stp"
+	(model "${KIPRJMOD}/3d_models/ASP-134604-01.stp"
 		(offset
-			(xyz 0 0 2)
+			(xyz 0 0 2.5)
 		)
 		(scale
 			(xyz 1 1 1)

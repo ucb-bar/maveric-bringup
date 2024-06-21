@@ -215,7 +215,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "c28ff0ee-b595-4888-b30a-7088e2cd00ab")
 	)
-	(model "${KIPRJMOD}/DMN2005K-7.step"
+	(model "${KIPRJMOD}/3d_models/DMN2005K-7.step"
 		(offset
 			(xyz 0 0 0)
 		)
