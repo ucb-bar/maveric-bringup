@@ -1,8 +1,9 @@
-(footprint "TP-100X100/SQ-SMT"
+(footprint "TP-100X100_SQ-SMT"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "100x100 mil testpoint")
 	(property "Reference" "REF**"
 		(at 0 -2.1859 0)
 		(layer "F.SilkS")

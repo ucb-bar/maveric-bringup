@@ -337,14 +337,12 @@ Also noting stock from JLCPCB.
 - [x] Fix chip IO mappings [d:6/19]
   - Refer to [this spreadsheet](https://docs.google.com/spreadsheets/d/1MSgKrY-m9DyHcFtSvew053FMCg2KrU9-J1SnmbLqwV8/edit#gid=0)
   - Delete all the garbage docs that confuse everyone
-- [ ] Revalidate socket symbol [d:6/20]
-  - Validate all the package coordinate to logical signal net mappings from the Intel schematic
-  - I already found one error
-- [ ] Import socket 3d model [d:6/21]
-- [ ] Add 3-pin header for reset selection + button [d:6/19]
+- [x] Import socket 3d model [d:6/21]
+- [x] Fix reset circuit [d:6/21]
+    - Add 3-pin header for reset selection + button
     - For the button path: pull down (1k || 100nF), button will pull reset high to VDDV
     - For the FPGA path: FPGA drives reset directly via FMC
-    - [ ] Add the switch 3d model + footprint
+    - [x] Add the switch 3d model + footprint
 - [ ] Add a 6-pin female header for plugging in the USBUART Pmod [d:6/19]
 - [ ] Add ground probe points around the PCB [d:6/19]
   - [ ] Add 4x hook-style probes to GND around the board
@@ -354,7 +352,15 @@ Also noting stock from JLCPCB.
 - [ ] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
 - [x] Modify stackup to use one more layer for signal routing [d:6/19]
 - [ ] Add mounting holes next to FMC connector [d:6/19]
+- [ ] Reimport all symbols [d:6/21]
 - [ ] Reannotate schematic and push to layout [d:6/21]
+- [ ] Reexamine extended parts [d:6/21]
+    - Try to convert to JLCPCB Basic parts if possible
+
+- [ ] Validate socket symbol [d:6/23]
+  - Validate all the package coordinate to logical signal net mappings from the Intel schematic
+  - I already found one error
+  - We sent a mail to Brian casper on 6/21, let's see. I don't trust anything hand drawn unless I have the source.
 
 ## Layout
 

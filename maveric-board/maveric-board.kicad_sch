@@ -11459,10 +11459,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f67db57-6e94-4830-8510-486bfb3326da")
 		(property "Reference" "SW1"
-			(at 130.81 87.6299 90)
+			(at 130.81 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11470,7 +11469,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" ""
 			(at 130.81 90.1699 90)
 			(effects
 				(font
@@ -11479,7 +11478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:SW-SMD_L6.1-W3.6-LS7.9"
 			(at 124.46 88.9 0)
 			(effects
 				(font
@@ -11499,6 +11498,23 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" " TS-1007S-AR02516"
+			(at 139.954 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C720381"
+			(at 129.54 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
