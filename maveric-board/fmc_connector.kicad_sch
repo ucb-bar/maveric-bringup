@@ -3863,10 +3863,6 @@
 		(uuid "19bc6bcb-e02a-4892-80d7-46c074821b7a")
 	)
 	(no_connect
-		(at 96.52 86.36)
-		(uuid "1a86756a-1224-45cc-9a49-3775ef0536ab")
-	)
-	(no_connect
 		(at 96.52 35.56)
 		(uuid "1de63abb-387d-495e-aafb-c53a65e21f86")
 	)
@@ -3987,10 +3983,6 @@
 		(uuid "876d7831-2278-4661-aa12-ee4fa135b1dd")
 	)
 	(no_connect
-		(at 96.52 93.98)
-		(uuid "8bd1bb2a-95cf-4eee-9523-66fed0ccff4b")
-	)
-	(no_connect
 		(at 45.72 83.82)
 		(uuid "8d9a6c69-2081-42c0-a937-12d2a703dc2e")
 	)
@@ -4005,10 +3997,6 @@
 	(no_connect
 		(at 147.32 86.36)
 		(uuid "a038a26b-1340-4de7-9213-4e6bdc3629ec")
-	)
-	(no_connect
-		(at 96.52 91.44)
-		(uuid "a2775184-d1b8-492c-8935-a409403360cb")
 	)
 	(no_connect
 		(at 45.72 43.18)
@@ -4041,10 +4029,6 @@
 	(no_connect
 		(at 198.12 66.04)
 		(uuid "c907cdf3-215f-49ed-b389-506b3cbcbf68")
-	)
-	(no_connect
-		(at 96.52 83.82)
-		(uuid "cce5aa2e-19e9-469d-9d66-126f5e821155")
 	)
 	(no_connect
 		(at 96.52 111.76)
@@ -5594,6 +5578,18 @@
 		)
 		(uuid "2fb77d9a-5e58-4586-93ff-e0018e860449")
 	)
+	(hierarchical_label "jtag_tms"
+		(shape output)
+		(at 96.52 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "335b210f-e14f-4aa7-9929-c201da84c9fb")
+	)
 	(hierarchical_label "serial_tl_out_ready"
 		(shape output)
 		(at 96.52 53.34 180)
@@ -5714,6 +5710,18 @@
 		)
 		(uuid "761e58a9-eb34-4044-8eb7-6f872825416c")
 	)
+	(hierarchical_label "jtag_tck"
+		(shape output)
+		(at 96.52 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "762ccae5-337d-499c-97e4-e072c9a4de80")
+	)
 	(hierarchical_label "serial_tl_out_bits_0"
 		(shape input)
 		(at 96.52 60.96 180)
@@ -5798,6 +5806,18 @@
 		)
 		(uuid "bf763b89-deb3-4c26-9b94-c676cd877d83")
 	)
+	(hierarchical_label "jtag_tdi"
+		(shape output)
+		(at 96.52 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db13ad21-6b17-43a3-83ff-f8095cf8e78f")
+	)
 	(hierarchical_label "serial_tl_in_valid"
 		(shape output)
 		(at 147.32 50.8 180)
@@ -5833,6 +5853,30 @@
 			(justify right)
 		)
 		(uuid "ec66a3ed-39ec-4b52-9be4-aae2c9c93559")
+	)
+	(hierarchical_label "jtag_tdo"
+		(shape input)
+		(at 96.52 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4242ccb-421d-4d87-b00b-de68ec27ed3a")
+	)
+	(hierarchical_label "jtag_tms"
+		(shape output)
+		(at 27.94 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6f849e9-eb2a-4928-b7e3-b77b2b0df6ee")
 	)
 	(hierarchical_label "fpga_gpio_3"
 		(shape bidirectional)

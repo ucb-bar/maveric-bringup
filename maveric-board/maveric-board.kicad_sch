@@ -3587,6 +3587,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 201.93) (xy 265.43 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b465138-44af-4c4d-9d32-3c31bf6865a6")
+	)
+	(wire
+		(pts
 			(xy 166.37 203.2) (xy 166.37 187.96)
 		)
 		(stroke
@@ -5607,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 204.47) (xy 265.43 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6013e12-1218-43ff-82f0-ae978cc14935")
+	)
+	(wire
+		(pts
 			(xy 234.95 111.76) (xy 237.49 111.76)
 		)
 		(stroke
@@ -5784,6 +5804,16 @@
 			(type default)
 		)
 		(uuid "be62dc4c-27f0-4fe7-8dc0-c2af181cd64e")
+	)
+	(wire
+		(pts
+			(xy 262.89 199.39) (xy 265.43 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7870a0-349d-4055-9e4a-f3f676df3b67")
 	)
 	(wire
 		(pts
@@ -6347,6 +6377,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 207.01) (xy 265.43 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c594bb-6e4e-4be9-95a6-632a0937d9ba")
+	)
+	(wire
+		(pts
 			(xy 147.32 170.18) (xy 147.32 173.99)
 		)
 		(stroke
@@ -6745,6 +6785,17 @@
 		)
 		(uuid "f938cd15-9c08-43f5-832e-bc55b119cf9b")
 	)
+	(label "jtag_tdi"
+		(at 125.73 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "044b4330-5fa5-4768-9674-a3f536976e6c")
+	)
 	(label "uart_rx_ftdi_1v2"
 		(at 143.51 125.73 0)
 		(fields_autoplaced yes)
@@ -6755,6 +6806,17 @@
 			(justify left bottom)
 		)
 		(uuid "0a92a3bb-98ae-4bcd-8452-371dca7f2170")
+	)
+	(label "jtag_tdo"
+		(at 262.89 201.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d4b1fce-315a-4d8a-b5b4-224d66f9584d")
 	)
 	(label "serial_tl_in_bits_2"
 		(at 227.33 88.9 90)
@@ -6932,6 +6994,28 @@
 		)
 		(uuid "3f80370a-1ba4-4af9-9250-5c16f1fd7623")
 	)
+	(label "jtag_tdo"
+		(at 125.73 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45849ed8-9bb3-4016-a417-24ad3d0a0558")
+	)
+	(label "jtag_tck"
+		(at 125.73 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48c21fc6-f8ec-4d95-ad03-212ccf4b7a6b")
+	)
 	(label "reset_button"
 		(at 132.08 95.25 0)
 		(fields_autoplaced yes)
@@ -6953,6 +7037,17 @@
 			(justify left bottom)
 		)
 		(uuid "4f914046-1ba4-4821-a0ee-407370ee9231")
+	)
+	(label "jtag_tms"
+		(at 262.89 204.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "511fc20e-7359-4d7b-b311-76a5128e89eb")
 	)
 	(label "fpga_gpio_0"
 		(at 299.72 68.58 0)
@@ -7075,6 +7170,17 @@
 		)
 		(uuid "8e84e454-f461-4c7a-ab81-7abbabb52375")
 	)
+	(label "jtag_tms"
+		(at 125.73 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9083005f-4df6-4d68-be17-944276727436")
+	)
 	(label "VDDV_EXT"
 		(at 81.28 168.91 0)
 		(fields_autoplaced yes)
@@ -7141,6 +7247,17 @@
 		)
 		(uuid "9d60fca9-a087-4403-be44-a17fbf67cc04")
 	)
+	(label "jtag_tck"
+		(at 262.89 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e879946-ce00-446c-a5a8-61c1b6786758")
+	)
 	(label "serial_tl_in_bits_1"
 		(at 246.38 93.98 90)
 		(fields_autoplaced yes)
@@ -7195,6 +7312,17 @@
 			(justify left bottom)
 		)
 		(uuid "bd31c803-565f-4b8a-b2fe-4318d1f24ad2")
+	)
+	(label "jtag_tdi"
+		(at 262.89 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd764189-c9f0-4716-b2e8-646289c19134")
 	)
 	(label "uart_tx_ftdi_1v2"
 		(at 142.24 137.16 0)
@@ -17863,6 +17991,46 @@
 				(justify left)
 			)
 			(uuid "b7bd7e47-eab4-4afb-8481-f5dc403dc759")
+		)
+		(pin "jtag_tdi" output
+			(at 265.43 199.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73a97de3-0685-4c2e-a157-6d37ae0a46ed")
+		)
+		(pin "jtag_tdo" input
+			(at 265.43 201.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0a9a877-38db-414a-bc9b-d631acd72a0b")
+		)
+		(pin "jtag_tms" output
+			(at 265.43 204.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "196af737-52d8-45af-89ca-70106c930689")
+		)
+		(pin "jtag_tck" output
+			(at 265.43 207.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60a75c05-8dfe-42a4-beb4-32aa6f8d2ac2")
 		)
 		(instances
 			(project "maveric-board"

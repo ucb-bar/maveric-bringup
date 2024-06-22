@@ -254,6 +254,10 @@ Also noting stock from JLCPCB.
 | fpga_gpio\[2\]            | LA_25_P       | G27     | 82.45                         | 15            | J15       | to header + LED |
 | fpga_gpio\[3\]            | LA_25_N       | G28     | 82.46                         | 15            | J16       | to header + LED |
 | fpga_refclk               | CLK0_M2C_P    | H4      | 82.74                         | 15            | E18       | for locking FPGA PLL to external clock source |
+| jtag_tdi                  | LA_23_P       | D23     | 81.08                         | 16            | F14       |       |
+| jtag_tdo                  | LA_23_N       | D24     | 81.09                         | 16            | F13       |       |
+| jtag_tms                  | LA_26_P       | D26     | 79.86                         | 16            | C9        |       |
+| jtag_tck                  | LA_26_N       | D27     | 79.82                         | 16            | B9        |       |
 
 #### Extra Things to Buy
 
@@ -350,7 +354,7 @@ Also noting stock from JLCPCB.
     - Just make sure every probe point has a ground pin nearby
 - [x] Replace the supply probes header pins with hook-style probes [d:6/19]
 - [x] Modify stackup to use one more layer for signal routing [d:6/19]
-- [ ] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
+- [x] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
 - [ ] Add mounting holes next to FMC connector [d:6/19]
 - [ ] Reimport all symbols [d:6/21]
 - [ ] Reannotate schematic and push to layout [d:6/21]
