@@ -9933,92 +9933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 226.06 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d2646af-da9b-41e7-90ab-1fa83e231952")
-		(property "Reference" "C10"
-			(at 229.87 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 229.87 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 227.0252 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 226.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C85864"
-			(at 226.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" "GCM188R71H104KA57D"
-			(at 222.25 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d89cb53d-45ff-4fb6-a2a4-4e55c30594ca")
-		)
-		(pin "1"
-			(uuid "c3e1c417-75b4-4dda-9509-d7910208fdba")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "maveric-parts:VDDV")
 		(at 177.8 203.2 0)
 		(unit 1)
@@ -10462,92 +10376,6 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5affc543-89ac-41eb-b3a0-6b375897197d")
-		(property "Reference" "C9"
-			(at 204.47 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 204.47 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 201.6252 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C85864"
-			(at 200.66 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" "GCM188R71H104KA57D"
-			(at 197.104 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7c78adc5-8187-4d0f-b99d-99d5d5f14620")
-		)
-		(pin "1"
-			(uuid "31d8d50a-6248-4ae8-a53d-4f13e434da4d")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11038,6 +10866,92 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 226.06 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61fe85d5-1110-4691-bd6b-1a27c3cbabc0")
+		(property "Reference" "C10"
+			(at 229.87 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 229.87 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 227.0252 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 226.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 226.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CC0603KRX7R9BB104"
+			(at 221.996 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a98d3195-9eb4-4e28-8df6-3cc4774ab3f9")
+		)
+		(pin "1"
+			(uuid "dca9a6b6-addc-4eda-8249-c45e79815e3e")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11591,7 +11505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maveric-parts:HDR-TH_6P-P2.54-H-F-W5.7"
 			(at 203.2 121.92 0)
 			(effects
 				(font
@@ -11806,92 +11720,6 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 165.1 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72f1bac2-ef89-4f7d-bf04-cb2bd5873e7c")
-		(property "Reference" "C8"
-			(at 168.91 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 168.91 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.0652 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 165.1 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C85864"
-			(at 165.1 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" "GCM188R71H104KA57D"
-			(at 160.782 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c5f75501-af84-402b-aacf-7e4da7f62f2c")
-		)
-		(pin "1"
-			(uuid "7a442241-ee30-42a1-a332-ea4a8302ef3f")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13920,7 +13748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 143.51 158.7499 0)
 			(effects
 				(font
@@ -13956,7 +13784,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C85864"
+		(property "JLCPCB Part #" "C14663"
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -13965,7 +13793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "GCM188R71H104KA57D"
+		(property "Mfr Part #" "CC0603KRX7R9BB104"
 			(at 135.636 157.48 90)
 			(effects
 				(font
@@ -15136,6 +14964,92 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d80b7f29-97c7-460f-89fb-25ba56189471")
+		(property "Reference" "C8"
+			(at 168.91 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 168.91 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 166.0652 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CC0603KRX7R9BB104"
+			(at 161.036 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "987d3d50-e2c7-4332-ad99-4ad8ce69c036")
+		)
+		(pin "1"
+			(uuid "5e6ba264-2cc1-453d-8ec4-1b7b0f23b244")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17029,6 +16943,92 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffbc4b27-08aa-4c77-a49f-843344cb9c97")
+		(property "Reference" "C9"
+			(at 204.47 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 204.47 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 201.6252 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 200.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "CC0603KRX7R9BB104"
+			(at 196.596 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34e09797-f384-4755-93df-1e27223f5985")
+		)
+		(pin "1"
+			(uuid "8d9d1827-68a6-4c86-ac9a-e271aa033e1d")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "C9")
 					(unit 1)
 				)
 			)

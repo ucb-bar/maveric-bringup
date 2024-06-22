@@ -360,7 +360,6 @@ Also noting stock from JLCPCB.
     - Try to convert to JLCPCB Basic parts if possible
 - [ ] Reimport all symbols [d:6/21]
 - [ ] Reannotate schematic and push to layout [d:6/21]
-
 - [ ] Validate socket symbol [d:6/23]
   - Validate all the package coordinate to logical signal net mappings from the Intel schematic
   - I already found one error
@@ -375,7 +374,7 @@ Also noting stock from JLCPCB.
 - [x] Import from schematic + placement [d:6/16]
 - [x] Sketch edge cuts + standoff holes [d:6/16]
 - [ ] Verify 3d model placement of FMC
-- [ ] Verify rotation and mounting of FMC
+- [ ] Verify rotation and mounting and holes of FMC
 
 ### Routing
 

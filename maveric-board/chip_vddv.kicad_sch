@@ -33949,7 +33949,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 91.44 91.4399 0)
 			(effects
 				(font
@@ -33985,7 +33985,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C95839"
+		(property "JLCPCB Part #" "C19702"
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -33994,7 +33994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "CL10A106KQ8NNNC"
+		(property "Mfr Part #" "CL10A106KP8NNNC"
 			(at 100.584 93.98 0)
 			(effects
 				(font
@@ -34035,7 +34035,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 19.05 91.4399 0)
 			(effects
 				(font
@@ -34071,7 +34071,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C95839"
+		(property "JLCPCB Part #" "C19702"
 			(at 15.24 90.17 0)
 			(effects
 				(font
@@ -34080,7 +34080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "CL10A106KQ8NNNC"
+		(property "Mfr Part #" "CL10A106KP8NNNC"
 			(at 28.194 93.98 0)
 			(effects
 				(font
@@ -34319,7 +34319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 21.59 31.7499 0)
 			(effects
 				(font
@@ -34355,7 +34355,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C95839"
+		(property "JLCPCB Part #" "C19702"
 			(at 17.78 30.48 0)
 			(effects
 				(font
@@ -34364,7 +34364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "CL10A106KQ8NNNC"
+		(property "Mfr Part #" "CL10A106KP8NNNC"
 			(at 30.734 34.29 0)
 			(effects
 				(font
@@ -34405,7 +34405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 189.23 31.7499 0)
 			(effects
 				(font
@@ -34441,7 +34441,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C95839"
+		(property "JLCPCB Part #" "C19702"
 			(at 185.42 30.48 0)
 			(effects
 				(font
@@ -34450,7 +34450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "CL10A106KQ8NNNC"
+		(property "Mfr Part #" "CL10A106KP8NNNC"
 			(at 198.374 34.29 0)
 			(effects
 				(font
@@ -39818,7 +39818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 93.98 31.7499 0)
 			(effects
 				(font
@@ -39854,7 +39854,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C95839"
+		(property "JLCPCB Part #" "C19702"
 			(at 90.17 30.48 0)
 			(effects
 				(font
@@ -39863,7 +39863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "CL10A106KQ8NNNC"
+		(property "Mfr Part #" "CL10A106KP8NNNC"
 			(at 103.124 34.29 0)
 			(effects
 				(font
@@ -50558,7 +50558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 116.84 91.4399 0)
 			(effects
 				(font
@@ -50594,7 +50594,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C95839"
+		(property "JLCPCB Part #" "C19702"
 			(at 113.03 90.17 0)
 			(effects
 				(font
@@ -50603,7 +50603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "CL10A106KQ8NNNC"
+		(property "Mfr Part #" "CL10A106KP8NNNC"
 			(at 125.984 93.98 0)
 			(effects
 				(font
@@ -55971,7 +55971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 118.11 31.7499 0)
 			(effects
 				(font
@@ -56007,7 +56007,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C95839"
+		(property "JLCPCB Part #" "C19702"
 			(at 114.3 30.48 0)
 			(effects
 				(font
@@ -56016,7 +56016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "CL10A106KQ8NNNC"
+		(property "Mfr Part #" "CL10A106KP8NNNC"
 			(at 127.254 34.29 0)
 			(effects
 				(font
@@ -56255,7 +56255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 187.96 91.4399 0)
 			(effects
 				(font
@@ -56291,7 +56291,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C95839"
+		(property "JLCPCB Part #" "C19702"
 			(at 184.15 90.17 0)
 			(effects
 				(font
@@ -56300,7 +56300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "CL10A106KQ8NNNC"
+		(property "Mfr Part #" "CL10A106KP8NNNC"
 			(at 197.104 93.98 0)
 			(effects
 				(font
