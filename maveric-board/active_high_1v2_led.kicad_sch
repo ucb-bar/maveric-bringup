@@ -1044,7 +1044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604bbac0-fdaa-43c8-9e06-71ca5538577e")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0116"
 			(at 45.72 74.93 0)
 			(effects
 				(font
@@ -1094,23 +1094,23 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "#PWR0111")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
-					(reference "#PWR0113")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
-					(reference "#PWR0115")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
-					(reference "#PWR0109")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "#PWR0117")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -1152,7 +1152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -1257,7 +1257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b8eeb1c-c1fc-4375-a41e-f60e9da36bb7")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 48.26 26.6699 0)
 			(effects
 				(font
@@ -1284,7 +1284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -1328,23 +1328,23 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
 					(reference "R20")
 					(unit 1)
 				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
 					(reference "R22")
 					(unit 1)
 				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
+					(reference "R24")
+					(unit 1)
+				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1360,7 +1360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2dcda95-1d97-4e85-8e70-e3c8ba7db60d")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0115"
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -1410,23 +1410,23 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "#PWR0110")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
-					(reference "#PWR0112")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
-					(reference "#PWR0114")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
-					(reference "#PWR0108")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "#PWR0116")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -1441,7 +1441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbde946d-70d0-4157-97b1-a9dff8ab7db4")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 34.29 58.4199 0)
 			(effects
 				(font
@@ -1468,7 +1468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -1512,23 +1512,23 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/04d5a329-5af7-4fa0-b263-ed8b9ef94f0b"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
 					(reference "R19")
 					(unit 1)
 				)
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/07de628d-3b41-4acd-98a7-6b7c73c5b4dd"
 					(reference "R21")
 					(unit 1)
 				)
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154/482467b2-b94e-4ec7-a3c4-312d002b6711"
+					(reference "R23")
+					(unit 1)
+				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/9dce5c8c-15df-41df-971c-7c9355dface0"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154/d720b503-5d41-4e8c-a69b-3a22cbc341eb"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1570,7 +1570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 45.72 39.37 0)
 			(effects
 				(font

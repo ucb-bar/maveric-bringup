@@ -4317,7 +4317,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 201.93) (xy 43.18 204.47)
+			(xy 40.64 201.93) (xy 40.64 204.47)
 		)
 		(stroke
 			(width 0)
@@ -4617,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 201.93) (xy 83.82 204.47)
+			(xy 81.28 201.93) (xy 81.28 204.47)
 		)
 		(stroke
 			(width 0)
@@ -4727,7 +4727,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 201.93) (xy 22.86 204.47)
+			(xy 20.32 201.93) (xy 20.32 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5037,7 +5037,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 201.93) (xy 63.5 204.47)
+			(xy 60.96 201.93) (xy 60.96 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5217,7 +5217,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 181.61) (xy 22.86 184.15)
+			(xy 19.05 181.61) (xy 19.05 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5307,7 +5307,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 181.61) (xy 64.77 184.15)
+			(xy 60.96 181.61) (xy 60.96 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6247,7 +6247,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 181.61) (xy 44.45 184.15)
+			(xy 40.64 181.61) (xy 40.64 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6397,7 +6397,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 181.61) (xy 83.82 186.69)
+			(xy 80.01 181.61) (xy 80.01 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7303,7 +7303,7 @@
 		(uuid "b11f1b8e-096c-4e5f-b7f2-17d4855fa4ff")
 	)
 	(label "VADJ"
-		(at 83.82 186.69 0)
+		(at 80.01 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7543,7 +7543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01b76ceb-cd66-48a4-a093-db8971291e26")
-		(property "Reference" "TP6"
+		(property "Reference" "TP10"
 			(at 83.82 131.7624 0)
 			(effects
 				(font
@@ -7570,7 +7570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 85.09 134.62 0)
 			(effects
 				(font
@@ -7594,7 +7594,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP6")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02dd6bfa-2364-43c8-ad71-946887192135")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 222.25 62.2299 0)
 			(effects
 				(font
@@ -7636,7 +7636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 219.71 63.5 0)
 			(effects
 				(font
@@ -7680,7 +7680,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7695,7 +7695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0502e07a-8606-4583-a722-e56b7ae5b929")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 254 62.2299 0)
 			(effects
 				(font
@@ -7722,7 +7722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 251.46 63.5 0)
 			(effects
 				(font
@@ -7766,7 +7766,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7806,7 +7806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 22.86 114.3 0)
 			(effects
 				(font
@@ -7869,7 +7869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a75d427-e141-4abe-add2-9ad3f8af6f62")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 85.09 228.6 0)
 			(effects
 				(font
@@ -7919,7 +7919,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7934,7 +7934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cb57988-3efa-4ec0-87fd-76d780eb086b")
-		(property "Reference" "J17"
+		(property "Reference" "J16"
 			(at 229.87 230.8469 0)
 			(effects
 				(font
@@ -7961,7 +7961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 233.68 229.87 0)
 			(effects
 				(font
@@ -8005,7 +8005,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "J17")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -8020,7 +8020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d33ae86-c3de-4235-8e8b-6a1520642fbe")
-		(property "Reference" "R26"
+		(property "Reference" "R9"
 			(at 219.71 83.8199 0)
 			(effects
 				(font
@@ -8047,7 +8047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 217.17 85.09 0)
 			(effects
 				(font
@@ -8091,7 +8091,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R26")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8107,7 +8107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d6fcaeb-3864-4357-87e4-43dbe1324372")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 39.37 157.48 0)
 			(effects
 				(font
@@ -8158,7 +8158,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8174,7 +8174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e31818a-11e9-4202-bb30-c278dd04963b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -8224,7 +8224,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8240,7 +8240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11224560-03dc-4c21-b105-311e672ceeb6")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 148.59 276.86 0)
 			(effects
 				(font
@@ -8290,7 +8290,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8306,7 +8306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11cfe361-d903-44a9-ac94-67698c74aba6")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR051"
 			(at 240.03 228.6 0)
 			(effects
 				(font
@@ -8356,7 +8356,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR046")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8372,7 +8372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "120c2050-5f1d-4a58-8ecb-b309a75b8a5a")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 46.99 259.0799 0)
 			(effects
 				(font
@@ -8420,7 +8420,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8435,7 +8435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16bbbdaa-e558-41a0-8a20-3f048d875753")
-		(property "Reference" "R25"
+		(property "Reference" "R2"
 			(at 132.08 99.0599 0)
 			(effects
 				(font
@@ -8506,7 +8506,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R25")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8522,7 +8522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19d8e155-f919-4b9a-bca4-3d2ffe594fe0")
-		(property "Reference" "TP5"
+		(property "Reference" "TP11"
 			(at 83.82 136.8424 0)
 			(effects
 				(font
@@ -8549,7 +8549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 85.09 139.7 0)
 			(effects
 				(font
@@ -8573,7 +8573,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP5")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -8589,7 +8589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b92f326-66b7-4e12-af6b-df1621e0005a")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 181.61 171.45 0)
 			(effects
 				(font
@@ -8639,7 +8639,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8654,7 +8654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fd453d8-fc13-4191-a916-771be9fda955")
-		(property "Reference" "TP7"
+		(property "Reference" "TP5"
 			(at 31.496 150.622 90)
 			(effects
 				(font
@@ -8679,7 +8679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 36.83 148.59 0)
 			(effects
 				(font
@@ -8703,7 +8703,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP7")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8851,7 +8851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21550cd5-9379-4d96-8b93-b6822c4b3957")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR043"
 			(at 200.66 187.96 0)
 			(effects
 				(font
@@ -8901,7 +8901,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR036")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8917,7 +8917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2360dc23-5eb5-4b2b-86bf-7e1dca7aed94")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 25.4 228.6 0)
 			(effects
 				(font
@@ -8967,7 +8967,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9047,7 +9047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26da96af-8d9b-440d-b7df-5fbda13f3499")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 39.37 161.29 0)
 			(effects
 				(font
@@ -9098,7 +9098,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9140,7 +9140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 162.56 134.62 0)
 			(effects
 				(font
@@ -9229,7 +9229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 78.74 231.14 0)
 			(effects
 				(font
@@ -9288,7 +9288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36d48f37-f4b6-4692-9958-99dc5e8fd4d9")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 234.95 62.2299 0)
 			(effects
 				(font
@@ -9315,7 +9315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 232.41 63.5 0)
 			(effects
 				(font
@@ -9359,7 +9359,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9367,7 +9367,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 204.47 0)
+		(at 81.28 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9375,8 +9375,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b8c18f8-c051-4064-b2fd-213ec1c16a7b")
-		(property "Reference" "#PWR0122"
-			(at 83.82 210.82 0)
+		(property "Reference" "#PWR023"
+			(at 81.28 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9385,7 +9385,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 209.55 0)
+			(at 81.28 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,7 +9393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 204.47 0)
+			(at 81.28 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +9402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 204.47 0)
+			(at 81.28 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 204.47 0)
+			(at 81.28 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,7 +9425,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR0122")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9465,7 +9465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -9527,7 +9527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "447d917e-ce38-45ff-b9b7-4c57c0d37c98")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 241.3 62.2299 0)
 			(effects
 				(font
@@ -9554,7 +9554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 238.76 63.5 0)
 			(effects
 				(font
@@ -9598,7 +9598,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9678,7 +9678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48222e4e-0e08-498a-8e16-b0a9b3647f36")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 147.32 163.83 0)
 			(effects
 				(font
@@ -9728,7 +9728,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9736,7 +9736,7 @@
 	)
 	(symbol
 		(lib_id "maveric-parts:VDDV")
-		(at 44.45 184.15 180)
+		(at 40.64 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9744,8 +9744,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49b85372-d72e-4c65-9b3d-9cd12c3dcb3b")
-		(property "Reference" "#PWR07"
-			(at 44.45 184.15 0)
+		(property "Reference" "#PWR010"
+			(at 40.64 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,7 +9754,7 @@
 			)
 		)
 		(property "Value" "VDDV"
-			(at 44.45 189.23 0)
+			(at 40.64 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +9762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 184.15 0)
+			(at 40.64 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +9771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 184.15 0)
+			(at 40.64 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +9780,7 @@
 			)
 		)
 		(property "Description" "Chip IO Voltage"
-			(at 44.45 184.15 0)
+			(at 40.64 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,7 +9794,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9809,7 +9809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b47f8ae-83ba-4ec5-a53d-bf831d164ec4")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR035"
 			(at 151.13 226.06 0)
 			(effects
 				(font
@@ -9859,7 +9859,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR029")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9875,7 +9875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d116f11-4970-4300-a673-698e8c60927a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR024"
 			(at 82.55 114.3 0)
 			(effects
 				(font
@@ -9926,7 +9926,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR010")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9942,7 +9942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d4072d7-c8ff-48cb-bb45-ad16d2804088")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 177.8 203.2 0)
 			(effects
 				(font
@@ -9992,7 +9992,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10151,15 +10151,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 83.82 181.61 0)
+		(at 80.01 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "561544c2-a7fc-4095-a245-a4bac37d2387")
-		(property "Reference" "TP13"
-			(at 91.44 178.9429 0)
+		(property "Reference" "TP15"
+			(at 87.63 178.9429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10168,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 91.44 181.4829 0)
+			(at 87.63 181.4829 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +10177,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 88.9 181.61 0)
+			(at 85.09 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +10186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 181.61 0)
+			(at 85.09 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +10195,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 83.82 181.61 0)
+			(at 80.01 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,7 +10204,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 83.82 181.61 0)
+			(at 80.01 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,7 +10213,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 96.266 181.102 0)
+			(at 92.456 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10226,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP13")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -10242,7 +10242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57065d42-fc9c-4c74-96b1-a1cf6231f3f4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 25.4 243.84 0)
 			(effects
 				(font
@@ -10292,7 +10292,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10300,15 +10300,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 64.77 181.61 0)
+		(at 60.96 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "58d45c54-e9c0-4961-a1e5-9471a5e5274b")
-		(property "Reference" "TP12"
-			(at 72.39 178.9429 0)
+		(property "Reference" "TP8"
+			(at 68.58 178.9429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10317,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 72.39 181.4829 0)
+			(at 68.58 181.4829 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10326,7 +10326,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 69.85 181.61 0)
+			(at 66.04 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +10335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 181.61 0)
+			(at 66.04 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,7 +10344,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 64.77 181.61 0)
+			(at 60.96 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,7 +10353,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 64.77 181.61 0)
+			(at 60.96 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +10362,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 77.216 181.102 0)
+			(at 73.406 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,7 +10375,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP12")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -10390,7 +10390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d639a45-ff5d-4702-9329-01bbb6b93bfa")
-		(property "Reference" "J16"
+		(property "Reference" "J15"
 			(at 228.6 257.5169 0)
 			(effects
 				(font
@@ -10417,7 +10417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 232.41 256.54 0)
 			(effects
 				(font
@@ -10461,7 +10461,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "J16")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -10477,7 +10477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ed3a8e7-694f-42d6-be0a-8c031a2782d8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR031"
 			(at 139.7 170.18 0)
 			(effects
 				(font
@@ -10527,7 +10527,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10543,7 +10543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f5e4814-bc46-4d4b-b95f-da3e84caa847")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 236.22 167.64 0)
 			(effects
 				(font
@@ -10593,7 +10593,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10609,7 +10609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fe8c715-b4f2-4f9f-8799-f01fbeb47875")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 69.85 72.39 0)
 			(effects
 				(font
@@ -10659,7 +10659,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10701,7 +10701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -10815,7 +10815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61915125-f570-4643-8166-a76d83bae6f5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 170.18 243.84 0)
 			(effects
 				(font
@@ -10865,7 +10865,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10880,7 +10880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61fe85d5-1110-4691-bd6b-1a27c3cbabc0")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 229.87 170.1799 0)
 			(effects
 				(font
@@ -10907,7 +10907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 226.06 171.45 0)
 			(effects
 				(font
@@ -10951,7 +10951,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10967,7 +10967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62bda3a2-74c2-44da-8f88-44ee0eba6838")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR046"
 			(at 210.82 171.45 0)
 			(effects
 				(font
@@ -11017,7 +11017,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR038")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11059,7 +11059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 127 234.95 0)
 			(effects
 				(font
@@ -11118,7 +11118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66afe5b6-14f5-4f00-9458-8fc50be325ee")
-		(property "Reference" "J19"
+		(property "Reference" "J6"
 			(at 139.7 72.3901 0)
 			(effects
 				(font
@@ -11145,7 +11145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -11192,7 +11192,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "J19")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -11208,7 +11208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66ec8357-06b7-40c8-a257-6513175ab59a")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR029"
 			(at 129.54 81.28 0)
 			(effects
 				(font
@@ -11258,7 +11258,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR0118")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11273,7 +11273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67c0367b-4263-43ea-a800-958407fb5118")
-		(property "Reference" "TP8"
+		(property "Reference" "TP4"
 			(at 31.496 144.272 90)
 			(effects
 				(font
@@ -11298,7 +11298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 36.83 142.24 0)
 			(effects
 				(font
@@ -11322,7 +11322,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP8")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -11338,7 +11338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67cc80b0-30a0-4a06-9149-2225be4d9c7c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR045"
 			(at 207.01 182.88 0)
 			(effects
 				(font
@@ -11388,7 +11388,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR037")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11403,7 +11403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69c0e919-d0e9-4850-b7b3-eedf12fac595")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 228.6 62.2299 0)
 			(effects
 				(font
@@ -11430,7 +11430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 226.06 63.5 0)
 			(effects
 				(font
@@ -11474,7 +11474,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11489,7 +11489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c768620-c4e3-4ce3-97db-06c58465737d")
-		(property "Reference" "J20"
+		(property "Reference" "J13"
 			(at 204.47 118.11 90)
 			(effects
 				(font
@@ -11570,7 +11570,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "J20")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -11586,7 +11586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f4e2617-06b7-4ab2-b388-a93a098169bb")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR044"
 			(at 201.93 135.89 0)
 			(effects
 				(font
@@ -11636,7 +11636,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR0120")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11644,15 +11644,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 44.45 181.61 0)
+		(at 40.64 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6f65ec83-4ab3-4d25-9233-acf7f0f51474")
-		(property "Reference" "TP11"
-			(at 52.07 178.9429 0)
+		(property "Reference" "TP6"
+			(at 48.26 178.9429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11661,7 +11661,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 52.07 181.4829 0)
+			(at 48.26 181.4829 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11670,7 +11670,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 49.53 181.61 0)
+			(at 45.72 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11679,7 +11679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 181.61 0)
+			(at 45.72 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +11688,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 44.45 181.61 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +11697,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 44.45 181.61 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +11706,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 56.896 181.102 0)
+			(at 53.086 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11719,7 +11719,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP11")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11734,7 +11734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73f8c8aa-6481-49e2-9f32-2cfb409adae3")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 173.99 62.2299 0)
 			(effects
 				(font
@@ -11761,7 +11761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 171.45 63.5 0)
 			(effects
 				(font
@@ -11805,7 +11805,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11904,7 +11904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7de4bd54-a427-4caa-82bf-9df1eb477159")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 189.23 62.2299 0)
 			(effects
 				(font
@@ -11931,7 +11931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 186.69 63.5 0)
 			(effects
 				(font
@@ -11975,7 +11975,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12142,7 +12142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "828b58fe-8011-403c-a8d3-72f74486819d")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 181.61 62.2299 0)
 			(effects
 				(font
@@ -12169,7 +12169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 63.5 0)
 			(effects
 				(font
@@ -12213,7 +12213,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12229,7 +12229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83842d2f-9707-4396-8163-b9908b5883ab")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 27.94 269.2399 0)
 			(effects
 				(font
@@ -12277,7 +12277,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12292,7 +12292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8437e605-64c9-4083-83da-61616be21cdd")
-		(property "Reference" "C35"
+		(property "Reference" "C8"
 			(at 141.732 98.044 0)
 			(effects
 				(font
@@ -12363,7 +12363,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "C35")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12379,7 +12379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8448c406-9fca-4232-afb7-675d6b8a21b1")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR042"
 			(at 198.12 128.27 0)
 			(effects
 				(font
@@ -12429,7 +12429,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR0121")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12444,7 +12444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84c7488a-7a80-4197-8647-7d5ea20717f4")
-		(property "Reference" "TP9"
+		(property "Reference" "TP3"
 			(at 31.496 137.922 90)
 			(effects
 				(font
@@ -12469,7 +12469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 36.83 135.89 0)
 			(effects
 				(font
@@ -12493,7 +12493,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP9")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12509,7 +12509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a0cd75-f108-4461-ba2f-f0ea5dcd1206")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 238.76 255.27 0)
 			(effects
 				(font
@@ -12559,7 +12559,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12671,7 +12671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9323c01e-a47d-450e-b958-209440bc8567")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 175.26 144.78 0)
 			(effects
 				(font
@@ -12721,7 +12721,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12729,7 +12729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 204.47 0)
+		(at 60.96 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12737,8 +12737,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5916d1-fc1a-4f0e-82d7-bcf7591bfcb2")
-		(property "Reference" "#PWR045"
-			(at 63.5 210.82 0)
+		(property "Reference" "#PWR016"
+			(at 60.96 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12747,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 209.55 0)
+			(at 60.96 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12755,7 +12755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 204.47 0)
+			(at 60.96 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12764,7 +12764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 204.47 0)
+			(at 60.96 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 204.47 0)
+			(at 60.96 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +12787,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR045")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12803,7 +12803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc9de19-75fa-4a20-af11-9b74faca40bd")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 175.26 119.38 0)
 			(effects
 				(font
@@ -12853,7 +12853,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12869,7 +12869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9caaf2eb-6b2d-4ea2-8d11-1dafd70b9e89")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 81.28 67.31 0)
 			(effects
 				(font
@@ -12919,7 +12919,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12961,7 +12961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 148.59 262.89 0)
 			(effects
 				(font
@@ -13087,7 +13087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acde7056-3c9e-4ee4-8548-ba1a5fcdfff4")
-		(property "Reference" "TP2"
+		(property "Reference" "TP14"
 			(at 83.82 152.0824 0)
 			(effects
 				(font
@@ -13114,7 +13114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 85.09 154.94 0)
 			(effects
 				(font
@@ -13138,7 +13138,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP2")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -13146,15 +13146,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 43.18 201.93 0)
+		(at 40.64 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ae5488b5-d656-49ed-95e0-c2eab444b5df")
-		(property "Reference" "TP15"
-			(at 50.8 199.2629 0)
+		(property "Reference" "TP7"
+			(at 48.26 199.2629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +13163,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 50.8 201.8029 0)
+			(at 48.26 201.8029 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +13172,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 48.26 201.93 0)
+			(at 45.72 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +13181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 201.93 0)
+			(at 45.72 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13190,7 +13190,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 43.18 201.93 0)
+			(at 40.64 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13199,7 +13199,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 43.18 201.93 0)
+			(at 40.64 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +13208,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 55.626 201.422 0)
+			(at 53.086 201.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13221,7 +13221,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP15")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -13369,7 +13369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b268a95b-d346-40c2-9bef-2c9ae2c4a9af")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 81.28 157.48 0)
 			(effects
 				(font
@@ -13420,7 +13420,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13435,7 +13435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b71b45a4-47c1-4226-b3b1-89a74631284e")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 203.2 62.2299 0)
 			(effects
 				(font
@@ -13462,7 +13462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 63.5 0)
 			(effects
 				(font
@@ -13506,7 +13506,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13522,7 +13522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7ebca70-c29e-4cfe-8a8c-ff7a317c8d9f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 165.1 163.83 0)
 			(effects
 				(font
@@ -13572,7 +13572,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13588,7 +13588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9cd228a-98db-471f-a68a-8c312f44f16a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR052"
 			(at 241.3 182.88 0)
 			(effects
 				(font
@@ -13638,7 +13638,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR047")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -13653,7 +13653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbc46cfa-273f-45fd-aee0-b046eaa7c054")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 247.65 62.2299 0)
 			(effects
 				(font
@@ -13680,7 +13680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 245.11 63.5 0)
 			(effects
 				(font
@@ -13724,7 +13724,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13766,7 +13766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -13826,7 +13826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bec5db9d-85f8-4914-805e-6e8275919248")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR048"
 			(at 228.6 118.11 0)
 			(effects
 				(font
@@ -13876,7 +13876,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR041")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -13918,7 +13918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 228.6 0)
 			(effects
 				(font
@@ -14004,7 +14004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 19.05 231.14 0)
 			(effects
 				(font
@@ -14064,7 +14064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c61b300e-594a-452c-9ce9-7f39c2b71c84")
-		(property "Reference" "TP4"
+		(property "Reference" "TP12"
 			(at 83.82 141.9224 0)
 			(effects
 				(font
@@ -14091,7 +14091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 85.09 144.78 0)
 			(effects
 				(font
@@ -14115,7 +14115,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP4")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -14157,7 +14157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 62.23 231.14 0)
 			(effects
 				(font
@@ -14217,7 +14217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7567f2b-6b09-4452-a1b0-5997d06715ba")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 69.85 83.82 0)
 			(effects
 				(font
@@ -14267,7 +14267,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -14309,7 +14309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 31.75 231.14 0)
 			(effects
 				(font
@@ -14368,7 +14368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca70863e-304f-460e-834e-370bb47a2656")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 166.37 62.2299 0)
 			(effects
 				(font
@@ -14395,7 +14395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -14439,7 +14439,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14455,7 +14455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbf190ca-34c2-4c7c-9ed4-c43b3a2bc952")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR030"
 			(at 129.54 114.3 0)
 			(effects
 				(font
@@ -14505,7 +14505,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR0119")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14521,7 +14521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc05991e-0baf-49a2-ba8f-1df7ea3ddd33")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR028"
 			(at 127 246.38 0)
 			(effects
 				(font
@@ -14571,7 +14571,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -14579,15 +14579,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 63.5 201.93 0)
+		(at 60.96 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4768b26-8982-4ef1-999e-0b4cef33a670")
-		(property "Reference" "TP16"
-			(at 71.12 199.2629 0)
+		(property "Reference" "TP9"
+			(at 68.58 199.2629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +14596,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 71.12 201.8029 0)
+			(at 68.58 201.8029 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +14605,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 68.58 201.93 0)
+			(at 66.04 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14614,7 +14614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 201.93 0)
+			(at 66.04 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14623,7 +14623,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 63.5 201.93 0)
+			(at 60.96 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14632,7 +14632,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 63.5 201.93 0)
+			(at 60.96 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14641,7 +14641,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 75.946 201.422 0)
+			(at 73.406 201.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14654,7 +14654,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP16")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -14696,7 +14696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 163.83 208.28 0)
 			(effects
 				(font
@@ -14809,7 +14809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d60a0755-f0ab-4115-a525-20601ebd8878")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 196.85 62.2299 0)
 			(effects
 				(font
@@ -14836,7 +14836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 194.31 63.5 0)
 			(effects
 				(font
@@ -14880,7 +14880,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14888,15 +14888,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 83.82 201.93 0)
+		(at 81.28 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d65243fd-e0e2-4998-80eb-f8b01de772fe")
-		(property "Reference" "TP17"
-			(at 91.44 199.2629 0)
+		(property "Reference" "TP16"
+			(at 88.9 199.2629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14905,7 +14905,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 91.44 201.8029 0)
+			(at 88.9 201.8029 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14914,7 +14914,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 88.9 201.93 0)
+			(at 86.36 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14923,7 +14923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 201.93 0)
+			(at 86.36 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14932,7 +14932,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 83.82 201.93 0)
+			(at 81.28 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14941,7 +14941,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 83.82 201.93 0)
+			(at 81.28 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14950,7 +14950,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 96.266 201.422 0)
+			(at 93.726 201.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14963,7 +14963,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP17")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -14978,7 +14978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d80b7f29-97c7-460f-89fb-25ba56189471")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 168.91 149.8599 0)
 			(effects
 				(font
@@ -15005,7 +15005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 165.1 151.13 0)
 			(effects
 				(font
@@ -15049,7 +15049,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -15091,7 +15091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 162.56 123.19 0)
 			(effects
 				(font
@@ -15146,7 +15146,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 22.86 184.15 180)
+		(at 19.05 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15154,8 +15154,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d83b52ac-fd7d-4502-84e6-4fbd4ebb4ecb")
-		(property "Reference" "#PWR039"
-			(at 22.86 180.34 0)
+		(property "Reference" "#PWR01"
+			(at 19.05 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15164,7 +15164,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 22.86 189.23 0)
+			(at 19.05 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15172,7 +15172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 184.15 0)
+			(at 19.05 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15181,7 +15181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 184.15 0)
+			(at 19.05 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15190,7 +15190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 22.86 184.15 0)
+			(at 19.05 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15204,7 +15204,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR039")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -15212,7 +15212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 204.47 0)
+		(at 40.64 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15220,8 +15220,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf90c22-bab5-4d1a-ab7d-22fe240726ee")
-		(property "Reference" "#PWR042"
-			(at 43.18 210.82 0)
+		(property "Reference" "#PWR011"
+			(at 40.64 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15230,7 +15230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 209.55 0)
+			(at 40.64 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15238,7 +15238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 204.47 0)
+			(at 40.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15247,7 +15247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 204.47 0)
+			(at 40.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15256,7 +15256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 204.47 0)
+			(at 40.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15270,7 +15270,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR042")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -15312,7 +15312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 91.44 231.14 0)
 			(effects
 				(font
@@ -15364,15 +15364,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 22.86 181.61 0)
+		(at 19.05 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e02218e6-ccd0-406d-891b-b9474dacf58c")
-		(property "Reference" "TP10"
-			(at 30.48 178.9429 0)
+		(property "Reference" "TP1"
+			(at 26.67 178.9429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15381,7 +15381,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 30.48 181.4829 0)
+			(at 26.67 181.4829 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15390,7 +15390,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 27.94 181.61 0)
+			(at 24.13 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15399,7 +15399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 181.61 0)
+			(at 24.13 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15408,7 +15408,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 22.86 181.61 0)
+			(at 19.05 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15417,7 +15417,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 22.86 181.61 0)
+			(at 19.05 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15426,7 +15426,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 35.306 181.102 0)
+			(at 31.496 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +15439,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP10")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15447,7 +15447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 204.47 0)
+		(at 20.32 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15455,8 +15455,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e025c0b6-5542-4a55-a248-468e1796b1f3")
-		(property "Reference" "#PWR011"
-			(at 22.86 210.82 0)
+		(property "Reference" "#PWR02"
+			(at 20.32 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15465,7 +15465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 209.55 0)
+			(at 20.32 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15473,7 +15473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 204.47 0)
+			(at 20.32 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15482,7 +15482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 204.47 0)
+			(at 20.32 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15491,7 +15491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 204.47 0)
+			(at 20.32 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15505,7 +15505,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR011")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -15513,7 +15513,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 64.77 184.15 180)
+		(at 60.96 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15521,8 +15521,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0612681-08ef-4c8f-ac14-d39e2e6d931f")
-		(property "Reference" "#PWR08"
-			(at 64.77 180.34 0)
+		(property "Reference" "#PWR015"
+			(at 60.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15531,7 +15531,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 64.77 189.23 0)
+			(at 60.96 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,7 +15539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 184.15 0)
+			(at 60.96 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15548,7 +15548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 184.15 0)
+			(at 60.96 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15557,7 +15557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 64.77 184.15 0)
+			(at 60.96 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15571,7 +15571,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR08")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15671,7 +15671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2c6e8f0-c335-423b-8adc-0097526e683d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 151.13 153.67 0)
 			(effects
 				(font
@@ -15721,7 +15721,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15802,7 +15802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7d51545-eaef-4143-a180-455298e6d975")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 261.62 62.2299 0)
 			(effects
 				(font
@@ -15829,7 +15829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 259.08 63.5 0)
 			(effects
 				(font
@@ -15873,7 +15873,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -15889,7 +15889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8d2d030-f697-4412-8bf9-b9b5ad351d7a")
-		(property "Reference" "TP3"
+		(property "Reference" "TP13"
 			(at 83.82 147.0024 0)
 			(effects
 				(font
@@ -15916,7 +15916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 85.09 149.86 0)
 			(effects
 				(font
@@ -15940,7 +15940,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP3")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -15982,7 +15982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 229.87 104.14 0)
 			(effects
 				(font
@@ -16122,7 +16122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 49.53 231.14 0)
 			(effects
 				(font
@@ -16174,15 +16174,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 22.86 201.93 0)
+		(at 20.32 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f270bcf8-a409-4a66-b30d-5bd4429541a8")
-		(property "Reference" "TP14"
-			(at 30.48 199.2629 0)
+		(property "Reference" "TP2"
+			(at 27.94 199.2629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16191,7 +16191,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 30.48 201.8029 0)
+			(at 27.94 201.8029 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16200,7 +16200,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 27.94 201.93 0)
+			(at 25.4 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16209,7 +16209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 201.93 0)
+			(at 25.4 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16218,7 +16218,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 22.86 201.93 0)
+			(at 20.32 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16227,7 +16227,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 22.86 201.93 0)
+			(at 20.32 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16236,7 +16236,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 35.306 201.422 0)
+			(at 32.766 201.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16249,7 +16249,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP14")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -16493,7 +16493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f57bb0e8-06d4-489c-9072-f3a6bed53c32")
-		(property "Reference" "TP1"
+		(property "Reference" "TP17"
 			(at 335.28 31.4324 0)
 			(effects
 				(font
@@ -16520,7 +16520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 336.55 34.29 0)
 			(effects
 				(font
@@ -16544,7 +16544,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "TP1")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -16560,7 +16560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f61c4264-9de5-4f9d-9a1d-5d91a5553108")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -16610,7 +16610,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16626,7 +16626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6a66e0d-34d9-4990-b86c-4adc66ead143")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR047"
 			(at 226.06 182.88 0)
 			(effects
 				(font
@@ -16676,7 +16676,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR040")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -16692,7 +16692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f73517ee-4ae5-4337-a4dd-673e11798772")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 77.47 161.29 0)
 			(effects
 				(font
@@ -16743,7 +16743,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16759,7 +16759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8c18d4a-cce3-405b-948d-3c7669e96fda")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 85.09 243.84 0)
 			(effects
 				(font
@@ -16809,7 +16809,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -16825,7 +16825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb661325-1f35-464e-8d31-1fd01d7ddaf2")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 33.02 72.39 0)
 			(effects
 				(font
@@ -16875,7 +16875,7 @@
 		(instances
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -16891,7 +16891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcad89e3-fc66-4ba9-a7d1-a7058105cdc6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 39.37 165.1 0)
 			(effects
 				(font
@@ -16942,7 +16942,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16957,7 +16957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffbc4b27-08aa-4c77-a49f-843344cb9c97")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 204.47 173.9899 0)
 			(effects
 				(font
@@ -16984,7 +16984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 175.26 0)
 			(effects
 				(font
@@ -17028,7 +17028,7 @@
 		(instances
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)

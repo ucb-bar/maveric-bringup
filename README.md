@@ -356,7 +356,7 @@ Also noting stock from JLCPCB.
 - [x] Modify stackup to use one more layer for signal routing [d:6/19]
 - [x] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
 - [x] Add mounting holes next to FMC connector [d:6/19]
-- [ ] Reexamine extended parts [d:6/21]
+- [x] Reexamine extended parts [d:6/21]
     - Try to convert to JLCPCB Basic parts if possible
 - [ ] Reimport all symbols [d:6/21]
 - [ ] Reannotate schematic and push to layout [d:6/21]
