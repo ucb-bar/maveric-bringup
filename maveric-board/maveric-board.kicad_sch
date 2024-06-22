@@ -178,6 +178,120 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint_Flag"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 3.429 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Flag"
+				(at 3.302 4.191 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative flag-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Flag_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.889 2.794)
+					(end 5.842 0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Flag_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint_Probe"
 			(pin_numbers hide)
 			(pin_names
@@ -2972,7 +3086,7 @@
 		)
 	)
 	(junction
-		(at 25.4 213.36)
+		(at 25.4 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04519931-61f5-4140-952d-2c98f9d90899")
@@ -3092,7 +3206,7 @@
 		(uuid "5d2d29f6-ac10-4e44-b2b9-6b551f3d8091")
 	)
 	(junction
-		(at 25.4 223.52)
+		(at 25.4 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "640ac9f6-bc0e-4702-8554-76b02e2cb181")
@@ -3134,7 +3248,7 @@
 		(uuid "7dcf5386-2fe5-4a82-a9fc-423a2eb0500b")
 	)
 	(junction
-		(at 85.09 213.36)
+		(at 85.09 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e641603-a8b5-4fec-9d55-1c05cd210765")
@@ -3158,7 +3272,7 @@
 		(uuid "93ef6358-fa5e-4e34-9a60-c2792acdbd46")
 	)
 	(junction
-		(at 55.88 223.52)
+		(at 55.88 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95d8cc24-d737-4ee8-9f78-bc014d8f226a")
@@ -3170,7 +3284,7 @@
 		(uuid "968442e4-793d-48ed-afc5-889e7232ecec")
 	)
 	(junction
-		(at 85.09 223.52)
+		(at 85.09 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d939c39-2269-466b-be5e-5344bd052aa5")
@@ -3302,7 +3416,7 @@
 		(uuid "f10a09d2-1044-4813-85cc-1f107d891b8d")
 	)
 	(junction
-		(at 55.88 213.36)
+		(at 55.88 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff92fd89-535b-4e6d-a006-3f33baeeba94")
@@ -3543,7 +3657,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 220.98) (xy 78.74 223.52)
+			(xy 78.74 234.95) (xy 78.74 237.49)
 		)
 		(stroke
 			(width 0)
@@ -3673,7 +3787,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 223.52) (xy 25.4 223.52)
+			(xy 19.05 237.49) (xy 25.4 237.49)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +4177,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 213.36) (xy 91.44 213.36)
+			(xy 85.09 227.33) (xy 91.44 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4093,7 +4207,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 213.36) (xy 31.75 213.36)
+			(xy 25.4 227.33) (xy 31.75 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4153,7 +4267,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 220.98) (xy 49.53 223.52)
+			(xy 49.53 234.95) (xy 49.53 237.49)
 		)
 		(stroke
 			(width 0)
@@ -4190,6 +4304,16 @@
 			(type default)
 		)
 		(uuid "4c3011b0-9b79-4e68-9308-7409dcbe7c69")
+	)
+	(wire
+		(pts
+			(xy 43.18 201.93) (xy 43.18 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1e08bc-94cc-4e4c-a2b2-0afd21d6d6f6")
 	)
 	(wire
 		(pts
@@ -4243,7 +4367,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 210.82) (xy 55.88 213.36)
+			(xy 55.88 224.79) (xy 55.88 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4283,7 +4407,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 223.52) (xy 55.88 223.52)
+			(xy 49.53 237.49) (xy 55.88 237.49)
 		)
 		(stroke
 			(width 0)
@@ -4413,17 +4537,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 184.15) (xy 53.34 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c66aebc-f3cc-44ef-bda4-f506df06a654")
-	)
-	(wire
-		(pts
-			(xy 25.4 213.36) (xy 19.05 213.36)
+			(xy 25.4 227.33) (xy 19.05 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4493,6 +4607,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 201.93) (xy 83.82 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6564d3a0-e42b-4077-972c-8a9a673dd17b")
+	)
+	(wire
+		(pts
 			(xy 168.91 182.88) (xy 124.46 182.88)
 		)
 		(stroke
@@ -4503,7 +4627,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 210.82) (xy 25.4 213.36)
+			(xy 25.4 224.79) (xy 25.4 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4593,6 +4717,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 201.93) (xy 22.86 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cbf897f-e8c2-49eb-8df9-5029d45e2608")
+	)
+	(wire
+		(pts
 			(xy 171.45 113.03) (xy 173.99 113.03)
 		)
 		(stroke
@@ -4600,16 +4734,6 @@
 			(type default)
 		)
 		(uuid "6d8a0d0f-247e-4246-a1c6-bd8f0ec896f2")
-	)
-	(wire
-		(pts
-			(xy 58.42 184.15) (xy 62.23 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e18a15b-f905-4258-b3f3-4a2b44098dee")
 	)
 	(wire
 		(pts
@@ -4623,7 +4747,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 210.82) (xy 85.09 213.36)
+			(xy 85.09 224.79) (xy 85.09 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4753,7 +4877,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 213.36) (xy 49.53 213.36)
+			(xy 55.88 227.33) (xy 49.53 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4833,17 +4957,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 180.34) (xy 55.88 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd67e15-5758-4dd3-8932-2424f397e224")
-	)
-	(wire
-		(pts
-			(xy 55.88 223.52) (xy 62.23 223.52)
+			(xy 55.88 237.49) (xy 62.23 237.49)
 		)
 		(stroke
 			(width 0)
@@ -4913,7 +5027,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 220.98) (xy 31.75 223.52)
+			(xy 63.5 201.93) (xy 63.5 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e36df3-fe08-40c7-83e7-99f713de5c93")
+	)
+	(wire
+		(pts
+			(xy 31.75 234.95) (xy 31.75 237.49)
 		)
 		(stroke
 			(width 0)
@@ -4953,7 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 220.98) (xy 62.23 223.52)
+			(xy 62.23 234.95) (xy 62.23 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5033,7 +5157,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 213.36) (xy 62.23 213.36)
+			(xy 55.88 227.33) (xy 62.23 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5083,6 +5207,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 181.61) (xy 22.86 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921da1c3-f890-4508-9516-cc3f32962d5a")
+	)
+	(wire
+		(pts
 			(xy 127 238.76) (xy 127 240.03)
 		)
 		(stroke
@@ -5113,7 +5247,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 213.36) (xy 78.74 213.36)
+			(xy 85.09 227.33) (xy 78.74 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5133,7 +5267,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 223.52) (xy 85.09 223.52)
+			(xy 78.74 237.49) (xy 85.09 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5160,6 +5294,16 @@
 			(type default)
 		)
 		(uuid "98fad247-5b0b-4b8f-b0ce-de2e26a656dd")
+	)
+	(wire
+		(pts
+			(xy 64.77 181.61) (xy 64.77 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99536411-3088-4ab5-a1af-5514ff97ba62")
 	)
 	(wire
 		(pts
@@ -5393,7 +5537,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 223.52) (xy 31.75 223.52)
+			(xy 25.4 237.49) (xy 31.75 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5403,7 +5547,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 223.52) (xy 91.44 223.52)
+			(xy 85.09 237.49) (xy 91.44 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5483,7 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 220.98) (xy 19.05 223.52)
+			(xy 19.05 234.95) (xy 19.05 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5613,7 +5757,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 220.98) (xy 91.44 223.52)
+			(xy 91.44 234.95) (xy 91.44 237.49)
 		)
 		(stroke
 			(width 0)
@@ -6073,6 +6217,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 181.61) (xy 44.45 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4d536c-5518-4f04-9c40-40791390a98c")
+	)
+	(wire
+		(pts
 			(xy 292.1 71.12) (xy 312.42 71.12)
 		)
 		(stroke
@@ -6200,6 +6354,16 @@
 			(type default)
 		)
 		(uuid "ea620f56-bd4e-457e-9d01-2244b7ae6e4c")
+	)
+	(wire
+		(pts
+			(xy 83.82 181.61) (xy 83.82 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4f1f5e-28e9-4edc-8634-d80d0829ae31")
 	)
 	(wire
 		(pts
@@ -6491,9 +6655,19 @@
 		)
 		(uuid "2980e36b-e8c8-493e-9402-bbd71a2f1d14")
 	)
+	(text "Ground probe points (distribute across board)"
+		(exclude_from_sim no)
+		(at 56.896 214.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ef24bce-b6ae-4dfe-8e00-c1ecde4371c2")
+	)
 	(text "Bulk decap"
 		(exclude_from_sim no)
-		(at 56.134 232.664 0)
+		(at 56.134 246.634 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6531,6 +6705,16 @@
 		)
 		(uuid "7e715202-004e-4e52-b167-37efb836c66d")
 	)
+	(text "Open pad probes"
+		(exclude_from_sim no)
+		(at 57.15 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8419f82c-5947-41d4-a5de-30e295042461")
+	)
 	(text "Wiring is for a 20-pin ARM JTAG connector"
 		(exclude_from_sim no)
 		(at 201.168 209.296 0)
@@ -6551,9 +6735,9 @@
 		)
 		(uuid "eb0566e6-7a2a-4f2a-8979-f2e440b60d4d")
 	)
-	(text "Power supply probe header"
+	(text "Open-ring SMT probe points (place anywhere)"
 		(exclude_from_sim no)
-		(at 56.134 195.834 0)
+		(at 56.388 193.294 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7000,6 +7184,17 @@
 			(justify left bottom)
 		)
 		(uuid "b11f1b8e-096c-4e5f-b7f2-17d4855fa4ff")
+	)
+	(label "VADJ"
+		(at 83.82 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd31c803-565f-4b8a-b2fe-4318d1f24ad2")
 	)
 	(label "uart_tx_ftdi_1v2"
 		(at 142.24 137.16 0)
@@ -7538,7 +7733,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 85.09 210.82 0)
+		(at 85.09 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7547,7 +7742,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a75d427-e141-4abe-add2-9ad3f8af6f62")
 		(property "Reference" "#PWR021"
-			(at 85.09 214.63 0)
+			(at 85.09 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7751,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 85.09 205.74 0)
+			(at 85.09 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7564,7 +7759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 210.82 0)
+			(at 85.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,7 +7768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 210.82 0)
+			(at 85.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +7777,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 85.09 210.82 0)
+			(at 85.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +8236,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 44.45 241.3 0)
+		(at 44.45 260.35 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8050,7 +8245,7 @@
 		(fields_autoplaced yes)
 		(uuid "120c2050-5f1d-4a58-8ecb-b309a75b8a5a")
 		(property "Reference" "H2"
-			(at 46.99 240.0299 0)
+			(at 46.99 259.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8254,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 46.99 242.5699 0)
+			(at 46.99 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8263,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 44.45 241.3 0)
+			(at 44.45 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +8272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 241.3 0)
+			(at 44.45 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8281,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 44.45 241.3 0)
+			(at 44.45 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +8781,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 25.4 210.82 0)
+		(at 25.4 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8595,7 +8790,7 @@
 		(fields_autoplaced yes)
 		(uuid "2360dc23-5eb5-4b2b-86bf-7e1dca7aed94")
 		(property "Reference" "#PWR01"
-			(at 25.4 214.63 0)
+			(at 25.4 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,7 +8799,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 25.4 205.74 0)
+			(at 25.4 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 210.82 0)
+			(at 25.4 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 210.82 0)
+			(at 25.4 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 25.4 210.82 0)
+			(at 25.4 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +8847,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 25.4 241.3 0)
+		(at 25.4 260.35 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8661,7 +8856,7 @@
 		(fields_autoplaced yes)
 		(uuid "268eaa85-7693-4e0e-b15b-ab42c244bd94")
 		(property "Reference" "H1"
-			(at 27.94 240.0299 0)
+			(at 27.94 259.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,7 +8865,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 27.94 242.5699 0)
+			(at 27.94 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +8874,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 25.4 241.3 0)
+			(at 25.4 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8688,7 +8883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 241.3 0)
+			(at 25.4 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8697,7 +8892,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 25.4 241.3 0)
+			(at 25.4 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,7 +9067,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 217.17 0)
+		(at 78.74 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8880,7 +9075,7 @@
 		(dnp no)
 		(uuid "3665b9c6-c2b0-4570-9db4-425eab085506")
 		(property "Reference" "C5"
-			(at 82.55 215.8999 0)
+			(at 82.55 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +9084,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 82.55 218.4399 0)
+			(at 82.55 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +9093,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 79.7052 220.98 0)
+			(at 79.7052 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +9102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 217.17 0)
+			(at 78.74 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +9111,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 217.17 0)
+			(at 78.74 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +9120,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15008"
-			(at 78.74 217.17 0)
+			(at 78.74 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8934,7 +9129,7 @@
 			)
 		)
 		(property "Mfr Part #" "CL31A107MQHNNNE"
-			(at 75.438 217.17 90)
+			(at 75.438 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9037,6 +9232,72 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b8c18f8-c051-4064-b2fd-213ec1c16a7b")
+		(property "Reference" "#PWR0122"
+			(at 83.82 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90c3ccaa-b64c-43a6-9c07-c6ad9150fea4")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -9217,7 +9478,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 44.45 251.46 0)
+		(at 44.45 270.51 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9226,7 +9487,7 @@
 		(fields_autoplaced yes)
 		(uuid "46d23bed-8fe5-4d49-a4f5-19d7fc4572bd")
 		(property "Reference" "H4"
-			(at 46.99 250.1899 0)
+			(at 46.99 269.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9235,7 +9496,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 46.99 252.7299 0)
+			(at 46.99 271.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9244,7 +9505,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 44.45 251.46 0)
+			(at 44.45 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9253,7 +9514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 251.46 0)
+			(at 44.45 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +9523,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 44.45 251.46 0)
+			(at 44.45 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,6 +9601,72 @@
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "maveric-parts:VDDV")
+		(at 44.45 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49b85372-d72e-4c65-9b3d-9cd12c3dcb3b")
+		(property "Reference" "#PWR07"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDV"
+			(at 44.45 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip IO Voltage"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "236c1e2f-57ee-4a10-af2f-fb4255a89123")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9781,8 +10108,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 83.82 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "561544c2-a7fc-4095-a245-a4bac37d2387")
+		(property "Reference" "TP13"
+			(at 91.44 178.9429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 181.4829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RH-5019"
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5199800"
+			(at 96.266 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cbf4452-e356-40dd-a44c-4a745f7c00c8")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 25.4 223.52 0)
+		(at 25.4 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9791,7 +10201,7 @@
 		(fields_autoplaced yes)
 		(uuid "57065d42-fc9c-4c74-96b1-a1cf6231f3f4")
 		(property "Reference" "#PWR02"
-			(at 25.4 229.87 0)
+			(at 25.4 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9800,7 +10210,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 228.6 0)
+			(at 25.4 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +10218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 223.52 0)
+			(at 25.4 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +10227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 223.52 0)
+			(at 25.4 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +10236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 223.52 0)
+			(at 25.4 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9841,6 +10251,89 @@
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 64.77 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58d45c54-e9c0-4961-a1e5-9471a5e5274b")
+		(property "Reference" "TP12"
+			(at 72.39 178.9429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 181.4829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
+			(at 69.85 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 64.77 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RH-5019"
+			(at 64.77 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5199800"
+			(at 77.216 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47fab7e9-dfb8-4e2e-a2b2-d4e31fae923a")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10575,73 +11068,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 62.23 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "652b11ee-4d63-4743-881b-afa8bd50170a")
-		(property "Reference" "#PWR011"
-			(at 68.58 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 184.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aca57059-4312-4d8b-9aff-d8c686dc28a9")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 142.24 71.12 180)
 		(unit 1)
@@ -11029,7 +11455,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 204.47 115.57 90)
 			(effects
 				(font
@@ -11169,6 +11595,89 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 44.45 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f65ec83-4ab3-4d25-9233-acf7f0f51474")
+		(property "Reference" "TP11"
+			(at 52.07 178.9429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 181.4829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
+			(at 49.53 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RH-5019"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5199800"
+			(at 56.896 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c36cc2a8-9846-4b42-9217-c55a25f52637")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -11341,73 +11850,6 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 49.53 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "774cd9a6-cb11-4b4a-b24a-d30fb68d947b")
-		(property "Reference" "#PWR08"
-			(at 53.34 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 45.72 184.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 49.53 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd353244-1172-4f19-a2f5-0fe3d68a9d7a")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11823,7 +12265,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 25.4 251.46 0)
+		(at 25.4 270.51 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11832,7 +12274,7 @@
 		(fields_autoplaced yes)
 		(uuid "83842d2f-9707-4396-8163-b9908b5883ab")
 		(property "Reference" "H3"
-			(at 27.94 250.1899 0)
+			(at 27.94 269.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11841,7 +12283,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 27.94 252.7299 0)
+			(at 27.94 271.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11850,7 +12292,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 25.4 251.46 0)
+			(at 25.4 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,7 +12301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 251.46 0)
+			(at 25.4 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11868,7 +12310,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 25.4 251.46 0)
+			(at 25.4 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,72 +12610,6 @@
 		)
 	)
 	(symbol
-		(lib_id "maveric-parts:VDDV")
-		(at 55.88 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c90cce0-e5fc-4ef2-bb7e-66d3d8b7ec2f")
-		(property "Reference" "#PWR07"
-			(at 55.88 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDV"
-			(at 55.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Chip IO Voltage"
-			(at 55.88 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbb67c07-e0cd-4b65-8ca2-8a073f37b834")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "maveric-parts:SN74AVC1T45DBVR")
 		(at 154.94 168.91 0)
 		(unit 1)
@@ -12390,6 +12766,72 @@
 			(project ""
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b5916d1-fc1a-4f0e-82d7-bcf7591bfcb2")
+		(property "Reference" "#PWR045"
+			(at 63.5 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61eabe97-748e-43ef-be34-ea0bd81fb320")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12680,93 +13122,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 55.88 189.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "acc63451-ef8f-4be0-a6ff-a8c0bf3e7932")
-		(property "Reference" "J6"
-			(at 50.292 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 49.53 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "maveric-parts:AMPHENOL_68001-103HLF"
-			(at 55.88 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 55.88 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C598608"
-			(at 55.88 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" "68001-103HLF"
-			(at 56.134 192.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "dad3878d-0de2-4d0c-9686-6bf0ebadae1a")
-		)
-		(pin "2"
-			(uuid "7a727a8a-8b40-4a81-90fe-5a26d20758db")
-		)
-		(pin "1"
-			(uuid "7e3f91c3-8431-43fb-a094-b3420480d274")
-		)
-		(instances
-			(project "maveric-board"
-				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Probe")
 		(at 80.01 154.94 0)
 		(unit 1)
@@ -12834,8 +13189,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 43.18 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae5488b5-d656-49ed-95e0-c2eab444b5df")
+		(property "Reference" "TP15"
+			(at 50.8 199.2629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 201.8029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
+			(at 48.26 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 43.18 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RH-5019"
+			(at 43.18 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5199800"
+			(at 55.626 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afc9fa93-2185-4833-8c44-11014b0199f9")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 55.88 223.52 0)
+		(at 55.88 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12844,7 +13282,7 @@
 		(fields_autoplaced yes)
 		(uuid "aee0cd7d-3801-45da-834d-070a4bd35d73")
 		(property "Reference" "#PWR013"
-			(at 55.88 229.87 0)
+			(at 55.88 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12853,7 +13291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 228.6 0)
+			(at 55.88 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12861,7 +13299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 223.52 0)
+			(at 55.88 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12870,7 +13308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 223.52 0)
+			(at 55.88 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12879,7 +13317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 223.52 0)
+			(at 55.88 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13576,7 +14014,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 19.05 217.17 0)
+		(at 19.05 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13584,7 +14022,7 @@
 		(dnp no)
 		(uuid "c3222fa8-66d5-41bd-aec1-da2832358582")
 		(property "Reference" "C1"
-			(at 22.86 215.8999 0)
+			(at 22.86 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13593,7 +14031,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 22.86 218.4399 0)
+			(at 22.86 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,7 +14040,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 20.0152 220.98 0)
+			(at 20.0152 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,7 +14049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 217.17 0)
+			(at 19.05 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13620,7 +14058,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 19.05 217.17 0)
+			(at 19.05 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13629,7 +14067,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15008"
-			(at 19.05 217.17 0)
+			(at 19.05 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13638,7 +14076,7 @@
 			)
 		)
 		(property "Mfr Part #" "CL31A107MQHNNNE"
-			(at 15.494 216.408 90)
+			(at 15.494 230.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13729,7 +14167,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 217.17 0)
+		(at 62.23 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13737,7 +14175,7 @@
 		(dnp no)
 		(uuid "c63aadf9-c6d7-4191-8d06-911b4d538539")
 		(property "Reference" "C4"
-			(at 66.04 215.8999 0)
+			(at 66.04 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13746,7 +14184,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 66.04 218.4399 0)
+			(at 66.04 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13755,7 +14193,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 63.1952 220.98 0)
+			(at 63.1952 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13764,7 +14202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 217.17 0)
+			(at 62.23 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13773,7 +14211,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 217.17 0)
+			(at 62.23 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13782,7 +14220,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15008"
-			(at 62.23 217.17 0)
+			(at 62.23 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13791,7 +14229,7 @@
 			)
 		)
 		(property "Mfr Part #" "CL31A107MQHNNNE"
-			(at 59.182 217.17 90)
+			(at 59.182 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13881,7 +14319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 217.17 0)
+		(at 31.75 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13889,7 +14327,7 @@
 		(dnp no)
 		(uuid "ca0a9d09-a0eb-483e-b105-a2bdf68e70f6")
 		(property "Reference" "C2"
-			(at 35.56 215.8999 0)
+			(at 35.56 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13898,7 +14336,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 35.56 218.4399 0)
+			(at 35.56 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13907,7 +14345,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 32.7152 220.98 0)
+			(at 32.7152 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13916,7 +14354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 217.17 0)
+			(at 31.75 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13925,7 +14363,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 33.528 220.726 0)
+			(at 33.528 234.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13934,7 +14372,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15008"
-			(at 31.75 217.17 0)
+			(at 31.75 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13943,7 +14381,7 @@
 			)
 		)
 		(property "Mfr Part #" "CL31A107MQHNNNE"
-			(at 28.702 216.916 90)
+			(at 28.702 230.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14184,6 +14622,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 63.5 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4768b26-8982-4ef1-999e-0b4cef33a670")
+		(property "Reference" "TP16"
+			(at 71.12 199.2629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 71.12 201.8029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
+			(at 68.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 63.5 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RH-5019"
+			(at 63.5 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5199800"
+			(at 75.946 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab73603a-a658-4277-bd63-a1215b8ac30d")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
 		(at 163.83 208.28 270)
 		(unit 1)
@@ -14410,6 +14931,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 83.82 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d65243fd-e0e2-4998-80eb-f8b01de772fe")
+		(property "Reference" "TP17"
+			(at 91.44 199.2629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 201.8029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
+			(at 88.9 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 83.82 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RH-5019"
+			(at 83.82 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5199800"
+			(at 96.266 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bd2b93b-b041-4418-b8d8-5218ec0bd0f8")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 162.56 123.19 0)
 		(unit 1)
@@ -14499,34 +15103,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 91.44 217.17 0)
+		(lib_id "power:VDD")
+		(at 22.86 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de8e0e7b-07a2-4404-b01b-348f49f9ebca")
-		(property "Reference" "C6"
-			(at 95.25 215.8999 0)
+		(fields_autoplaced yes)
+		(uuid "d83b52ac-fd7d-4502-84e6-4fbd4ebb4ecb")
+		(property "Reference" "#PWR039"
+			(at 22.86 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "100u"
-			(at 95.25 218.4399 0)
+		(property "Value" "VDD"
+			(at 22.86 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 92.4052 220.98 0)
+		(property "Footprint" ""
+			(at 22.86 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14535,7 +15139,139 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 217.17 0)
+			(at 22.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 22.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9dff111-b915-4eef-b6e1-48bc9274d122")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddf90c22-bab5-4d1a-ab7d-22fe240726ee")
+		(property "Reference" "#PWR042"
+			(at 43.18 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e993db7c-31dc-450d-adc1-ee95525e01a8")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 91.44 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de8e0e7b-07a2-4404-b01b-348f49f9ebca")
+		(property "Reference" "C6"
+			(at 95.25 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 95.25 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 92.4052 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14544,7 +15280,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 217.17 0)
+			(at 91.44 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14553,7 +15289,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15008"
-			(at 91.44 217.17 0)
+			(at 91.44 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14562,7 +15298,7 @@
 			)
 		)
 		(property "Mfr Part #" "CL31A107MQHNNNE"
-			(at 88.392 217.17 90)
+			(at 88.392 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14579,6 +15315,221 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 22.86 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e02218e6-ccd0-406d-891b-b9474dacf58c")
+		(property "Reference" "TP10"
+			(at 30.48 178.9429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 30.48 181.4829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 22.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RH-5019"
+			(at 22.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5199800"
+			(at 35.306 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb973413-a17f-4cbd-b7fc-07d2333cf47a")
+		)
+		(instances
+			(project ""
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e025c0b6-5542-4a55-a248-468e1796b1f3")
+		(property "Reference" "#PWR011"
+			(at 22.86 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1009c997-2af4-4eae-bf11-10444f3771d8")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 64.77 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0612681-08ef-4c8f-ac14-d39e2e6d931f")
+		(property "Reference" "#PWR08"
+			(at 64.77 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 64.77 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 64.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f76c159c-336d-4935-87d9-484563d88350")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14736,7 +15687,7 @@
 	)
 	(symbol
 		(lib_id "maveric-parts:VDDV")
-		(at 55.88 210.82 0)
+		(at 55.88 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14745,7 +15696,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6b6f20e-b766-4b61-a484-242410646e2d")
 		(property "Reference" "#PWR012"
-			(at 55.88 210.82 0)
+			(at 55.88 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14754,7 +15705,7 @@
 			)
 		)
 		(property "Value" "VDDV"
-			(at 55.88 205.74 0)
+			(at 55.88 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14762,7 +15713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 210.82 0)
+			(at 55.88 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14771,7 +15722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 210.82 0)
+			(at 55.88 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14780,7 +15731,7 @@
 			)
 		)
 		(property "Description" "Chip IO Voltage"
-			(at 55.88 210.82 0)
+			(at 55.88 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15095,7 +16046,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 217.17 0)
+		(at 49.53 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15103,7 +16054,7 @@
 		(dnp no)
 		(uuid "ee05356e-49f0-478f-aa16-ccdca8c472db")
 		(property "Reference" "C3"
-			(at 53.34 215.8999 0)
+			(at 53.34 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15112,7 +16063,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 53.34 218.4399 0)
+			(at 53.34 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15121,7 +16072,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 50.4952 220.98 0)
+			(at 50.4952 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15130,7 +16081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 217.17 0)
+			(at 49.53 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15139,7 +16090,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 217.17 0)
+			(at 49.53 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15148,7 +16099,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15008"
-			(at 49.53 217.17 0)
+			(at 49.53 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15157,7 +16108,7 @@
 			)
 		)
 		(property "Mfr Part #" "CL31A107MQHNNNE"
-			(at 46.228 216.662 90)
+			(at 46.228 230.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15174,6 +16125,89 @@
 			(project "maveric-board"
 				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 22.86 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f270bcf8-a409-4a66-b30d-5bd4429541a8")
+		(property "Reference" "TP14"
+			(at 30.48 199.2629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 30.48 201.8029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
+			(at 27.94 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 22.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RH-5019"
+			(at 22.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5199800"
+			(at 35.306 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c5c185c-c10b-4184-8fa1-da54986a7478")
+		)
+		(instances
+			(project "maveric-board"
+				(path "/ae861d46-65fb-4872-932f-ad48addb0154"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -15675,7 +16709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 223.52 0)
+		(at 85.09 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15684,7 +16718,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8c18d4a-cce3-405b-948d-3c7669e96fda")
 		(property "Reference" "#PWR022"
-			(at 85.09 229.87 0)
+			(at 85.09 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15693,7 +16727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 228.6 0)
+			(at 85.09 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,7 +16735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 223.52 0)
+			(at 85.09 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15710,7 +16744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 223.52 0)
+			(at 85.09 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15719,7 +16753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 223.52 0)
+			(at 85.09 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

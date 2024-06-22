@@ -344,13 +344,13 @@ Also noting stock from JLCPCB.
     - For the FPGA path: FPGA drives reset directly via FMC
     - [x] Add the switch 3d model + footprint
 - [x] Add a 6-pin female header for plugging in the USBUART Pmod [d:6/19]
-- [ ] Add ground probe points around the PCB [d:6/19]
-  - [ ] Add 4x hook-style probes to GND around the board
-  - [ ] Sprinkle ground pins near every signal that can be probed
+- [x] Add ground probe points around the PCB [d:6/19]
+  - [x] Add 4x hook-style probes to GND around the board
+  - [x] Sprinkle ground pins near every signal that can be probed
     - Just make sure every probe point has a ground pin nearby
-- [ ] Replace the supply probes header pins with hook-style probes [d:6/19]
-- [ ] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
+- [x] Replace the supply probes header pins with hook-style probes [d:6/19]
 - [x] Modify stackup to use one more layer for signal routing [d:6/19]
+- [ ] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
 - [ ] Add mounting holes next to FMC connector [d:6/19]
 - [ ] Reimport all symbols [d:6/21]
 - [ ] Reannotate schematic and push to layout [d:6/21]
