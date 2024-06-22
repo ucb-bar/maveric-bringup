@@ -18462,7 +18462,7 @@
 		)
 		(fp_arc
 			(start 9.0231 22.61261)
-			(mid 9.383893 22.665816)
+			(mid 9.383895 22.665812)
 			(end 9.713973 22.820897)
 			(stroke
 				(width 0.0254)
@@ -18517,7 +18517,7 @@
 		)
 		(fp_arc
 			(start 12.339824 -22.61261)
-			(mid 11.978902 -22.665787)
+			(mid 11.978895 -22.665776)
 			(end 11.648697 -22.820897)
 			(stroke
 				(width 0.0254)
@@ -18561,7 +18561,7 @@
 		)
 		(fp_arc
 			(start 22.61261 12.33957)
-			(mid 22.665824 11.978781)
+			(mid 22.665812 11.978774)
 			(end 22.820897 11.648697)
 			(stroke
 				(width 0.0254)
@@ -43552,7 +43552,7 @@
 		(at 76.255 103.225)
 		(descr "SOT23-6 Bidirectional Level Translator")
 		(property "Reference" "U2"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "B.SilkS")
 			(uuid "05887f1f-d81d-475d-8671-0cbdd05a45a3")
 			(effects
@@ -43564,7 +43564,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -0.05 -2.7 360)
+			(at -0.05 -2.7 0)
 			(layer "B.Fab")
 			(uuid "1fac671b-0d81-4e00-85c2-287545c6820d")
 			(effects
@@ -43576,7 +43576,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:SN74AVC1T45DBVR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "503c14cc-91ec-4d5e-b78f-26304ccccbdc")
@@ -43589,7 +43589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "99579966-1abe-414f-9ecf-aba980c025d3")
@@ -43602,7 +43602,7 @@
 			)
 		)
 		(property "Description" "Bidirectional Level Shifter (1.2-3.6V)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "efd1429e-d812-46fc-ab97-5800db6c83de")
@@ -44180,7 +44180,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 2 0 360)
+			(at 2 0 0)
 			(layer "B.SilkS")
 			(uuid "482b0099-9eed-4d1f-8a14-9fd00f062745")
 			(effects
@@ -45168,7 +45168,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 2 0 360)
+			(at 2 0 0)
 			(layer "B.SilkS")
 			(uuid "78288b60-81e1-4464-bf4a-d20749587bb6")
 			(effects
@@ -45415,7 +45415,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 1.775 0 360)
+			(at 1.775 0 0)
 			(layer "B.SilkS")
 			(uuid "e091ef54-ac5b-4a30-8d3d-160b27406764")
 			(effects
@@ -47391,7 +47391,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 2 -0.255 360)
+			(at 2 -0.255 0)
 			(layer "B.SilkS")
 			(uuid "1712f9a2-5224-47c1-83d2-d668375bfdd7")
 			(effects
@@ -48378,7 +48378,7 @@
 		(at 68 103.225)
 		(descr "SOT23-6 Bidirectional Level Translator")
 		(property "Reference" "U1"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "B.SilkS")
 			(uuid "a0376324-1e16-4ac2-8a00-af8d7754401e")
 			(effects
@@ -48390,7 +48390,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -0.05 -2.7 360)
+			(at -0.05 -2.7 0)
 			(layer "B.Fab")
 			(uuid "7d2d0c63-af0f-425f-88cf-7a6b2c168739")
 			(effects
@@ -48402,7 +48402,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:SN74AVC1T45DBVR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9c3c41fa-255f-494f-ae35-b30e7b580cbd")
@@ -48415,7 +48415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2a88a4bf-9635-4c8a-b98b-73d865a94e83")
@@ -48428,7 +48428,7 @@
 			)
 		)
 		(property "Description" "Bidirectional Level Shifter (1.2-3.6V)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "48872d57-209f-4162-8dc3-63feeffb4c43")
@@ -50630,7 +50630,7 @@
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 39 42 0)
+		(at 41 41 0)
 		(layer "F.SilkS")
 		(uuid "717254f3-41e6-4887-9fd5-c830133a69e2")
 		(effects

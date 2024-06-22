@@ -355,11 +355,11 @@ Also noting stock from JLCPCB.
 - [x] Replace the supply probes header pins with hook-style probes [d:6/19]
 - [x] Modify stackup to use one more layer for signal routing [d:6/19]
 - [x] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
-- [ ] Add mounting holes next to FMC connector [d:6/19]
-- [ ] Reimport all symbols [d:6/21]
-- [ ] Reannotate schematic and push to layout [d:6/21]
+- [x] Add mounting holes next to FMC connector [d:6/19]
 - [ ] Reexamine extended parts [d:6/21]
     - Try to convert to JLCPCB Basic parts if possible
+- [ ] Reimport all symbols [d:6/21]
+- [ ] Reannotate schematic and push to layout [d:6/21]
 
 - [ ] Validate socket symbol [d:6/23]
   - Validate all the package coordinate to logical signal net mappings from the Intel schematic
