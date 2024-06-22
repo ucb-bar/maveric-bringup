@@ -343,7 +343,7 @@ Also noting stock from JLCPCB.
     - For the button path: pull down (1k || 100nF), button will pull reset high to VDDV
     - For the FPGA path: FPGA drives reset directly via FMC
     - [x] Add the switch 3d model + footprint
-- [ ] Add a 6-pin female header for plugging in the USBUART Pmod [d:6/19]
+- [x] Add a 6-pin female header for plugging in the USBUART Pmod [d:6/19]
 - [ ] Add ground probe points around the PCB [d:6/19]
   - [ ] Add 4x hook-style probes to GND around the board
   - [ ] Sprinkle ground pins near every signal that can be probed
