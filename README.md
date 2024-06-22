@@ -358,6 +358,10 @@ Also noting stock from JLCPCB.
 - [x] Add mounting holes next to FMC connector [d:6/19]
 - [x] Reexamine extended parts [d:6/21]
     - Try to convert to JLCPCB Basic parts if possible
+    - There are 12 extended parts left
+      - For SMT: level shifter, switch button, SMT testpoint, LED, FMC terminal, LED MOSFET driver
+      - For through-hole (hand-soldered): black banana plug, red banana plug, 3 pin header, SMA connector, 20 pin header, 6 pin female header right-angle
+      - 12 x \$2/extended part = \$24 assembly part fee
 - [x] Reimport all symbols [d:6/21]
 - [x] Reannotate schematic and push to layout [d:6/21]
 - [ ] Validate socket symbol [d:6/23]
