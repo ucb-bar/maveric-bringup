@@ -358,8 +358,8 @@ Also noting stock from JLCPCB.
 - [x] Add mounting holes next to FMC connector [d:6/19]
 - [x] Reexamine extended parts [d:6/21]
     - Try to convert to JLCPCB Basic parts if possible
-- [ ] Reimport all symbols [d:6/21]
-- [ ] Reannotate schematic and push to layout [d:6/21]
+- [x] Reimport all symbols [d:6/21]
+- [x] Reannotate schematic and push to layout [d:6/21]
 - [ ] Validate socket symbol [d:6/23]
   - Validate all the package coordinate to logical signal net mappings from the Intel schematic
   - I already found one error
@@ -375,6 +375,7 @@ Also noting stock from JLCPCB.
 - [x] Sketch edge cuts + standoff holes [d:6/16]
 - [ ] Verify 3d model placement of FMC
 - [ ] Verify rotation and mounting and holes of FMC
+- [ ] Reimport from schematic
 
 ### Routing
 
