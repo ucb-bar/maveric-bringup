@@ -377,16 +377,20 @@ Also noting stock from JLCPCB.
 - [x] JLCPCB constraints and design rules [d:6/16]
 - [x] Import from schematic + placement [d:6/16]
 - [x] Sketch edge cuts + standoff holes [d:6/16]
-- [ ] Verify 3d model placement of FMC
-- [ ] Verify rotation and mounting and holes of FMC
-- [ ] Reimport from schematic
+- [x] Verify 3d model placement of FMC [d:6/22]
+  - FMC terminal footprint: https://suddendocs.samtec.com/prints/seam-xx-xx.x-xx-xx-x-a-xx-footprint.pdf
+  - FMC terminal mechanical drawing: https://suddendocs.samtec.com/prints/seam-xx-xx.x-xxx-xx-x-a-xx-k-xr-mkt.pdf
+  - Indeed the single tab is on the side of pin 1 and the double tabs are on the side of pin 40
+- [x] Verify rotation and mounting and holes of FMC [d:6/22]
+  - The mounting holes are biased towards the later letters as expected. Things look right.
+- [ ] Reimport from schematic [d:6/22]
 
 ### Routing
 
-- [ ] Route 3.3V
-- [ ] Route VADJ
-- [ ] Route VDD_EXT
-- [ ] Route VDDV_EXT
+- [ ] Route 3.3V [d:6/22]
+- [x] Route VADJ
+- [x] Route VDD_EXT
+- [x] Route VDDV_EXT
 - [ ] Route all power probe pins
 - [ ] Route all 50Ohm traces
 - [ ] Route all UART circuits
