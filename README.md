@@ -383,7 +383,7 @@ Also noting stock from JLCPCB.
   - Indeed the single tab is on the side of pin 1 and the double tabs are on the side of pin 40
 - [x] Verify rotation and mounting and holes of FMC [d:6/22]
   - The mounting holes are biased towards the later letters as expected. Things look right.
-- [ ] Reimport from schematic [d:6/22]
+- [x] Reimport from schematic [d:6/22]
 
 ### Routing
 
