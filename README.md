@@ -247,8 +247,8 @@ Also noting stock from JLCPCB.
 | serial_tl_out_bits\[3\]   | LA_15_N       | H20     | 79.74                         | 15            | K17       |       |
 | clock                     | LA_01_P_CC    | D8      | 79.68                         | 15            | G17       | via SMA cable jumper |
 | reset                     | LA_21_P       | H25     | 80.45                         | 15            | G15       |       |
-| uart_rx                   | LA_20_P       | G21     | 81.48                         | 15            | L17       | via selection jumper |
-| uart_tx                   | LA_20_N       | G22     | 81.48                         | 15            | K18       | via selection jumper |
+| uart_rx                   | LA_02_P       | H7      | 83.66                         | 15            | G19       | via selection jumper |
+| uart_tx                   | LA_02_N       | H8      | 83.65                         | 15            | F20       | via selection jumper |
 | fpga_refclk               | CLK0_M2C_P    | H4      | 82.74                         | 15            | E18       | for locking FPGA PLL to external clock source |
 | fpga_gpio\[0\]            | LA_14_P       | C18     | 77.23                         | 15            | H16       | to header + LED |
 | fpga_gpio\[1\]            | LA_14_N       | C19     | 77.24                         | 15            | G16       | to header + LED |

@@ -3895,10 +3895,6 @@
 		(uuid "3d81df28-c878-4907-bb62-96a2405a9d9c")
 	)
 	(no_connect
-		(at 198.12 43.18)
-		(uuid "4ea22c84-87f1-4488-9846-adaf57ad7af8")
-	)
-	(no_connect
 		(at 198.12 114.3)
 		(uuid "53316788-3673-4eb3-9211-f896af67bdd8")
 	)
@@ -3959,12 +3955,12 @@
 		(uuid "73afe32a-4ad9-48cb-8a7a-9510de5a0fd1")
 	)
 	(no_connect
-		(at 198.12 83.82)
-		(uuid "808c561e-930f-4237-a78f-13c777c5cdf4")
+		(at 147.32 81.28)
+		(uuid "80668a5e-13ce-48cd-b2e1-f472b7287d69")
 	)
 	(no_connect
-		(at 198.12 45.72)
-		(uuid "8213ac8d-1ffa-48ed-ae30-e4a1ac6c8b3c")
+		(at 198.12 83.82)
+		(uuid "808c561e-930f-4237-a78f-13c777c5cdf4")
 	)
 	(no_connect
 		(at 96.52 71.12)
@@ -4001,6 +3997,10 @@
 	(no_connect
 		(at 45.72 43.18)
 		(uuid "a3fdd060-963f-400d-bd08-7772f8e2c8fe")
+	)
+	(no_connect
+		(at 147.32 78.74)
+		(uuid "a99348f7-1191-449f-88e1-c01ed2e1dad7")
 	)
 	(no_connect
 		(at 198.12 121.92)
@@ -5556,7 +5556,7 @@
 	)
 	(hierarchical_label "uart_rx"
 		(shape output)
-		(at 147.32 78.74 180)
+		(at 198.12 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5580,7 +5580,7 @@
 	)
 	(hierarchical_label "uart_tx"
 		(shape input)
-		(at 147.32 81.28 180)
+		(at 198.12 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
