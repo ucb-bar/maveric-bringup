@@ -4317,7 +4317,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 201.93) (xy 40.64 204.47)
+			(xy 39.37 201.93) (xy 39.37 204.47)
 		)
 		(stroke
 			(width 0)
@@ -4617,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 201.93) (xy 81.28 204.47)
+			(xy 80.01 201.93) (xy 80.01 204.47)
 		)
 		(stroke
 			(width 0)
@@ -4727,7 +4727,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 201.93) (xy 20.32 204.47)
+			(xy 19.05 201.93) (xy 19.05 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5037,7 +5037,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 201.93) (xy 60.96 204.47)
+			(xy 59.69 201.93) (xy 59.69 204.47)
 		)
 		(stroke
 			(width 0)
@@ -9367,7 +9367,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 204.47 0)
+		(at 80.01 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9376,7 +9376,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b8c18f8-c051-4064-b2fd-213ec1c16a7b")
 		(property "Reference" "#PWR023"
-			(at 81.28 210.82 0)
+			(at 80.01 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9385,7 +9385,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 209.55 0)
+			(at 80.01 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,7 +9393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 204.47 0)
+			(at 80.01 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +9402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 204.47 0)
+			(at 80.01 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 204.47 0)
+			(at 80.01 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +12729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 204.47 0)
+		(at 59.69 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12738,7 +12738,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b5916d1-fc1a-4f0e-82d7-bcf7591bfcb2")
 		(property "Reference" "#PWR016"
-			(at 60.96 210.82 0)
+			(at 59.69 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12747,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 209.55 0)
+			(at 59.69 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12755,7 +12755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 204.47 0)
+			(at 59.69 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12764,7 +12764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 204.47 0)
+			(at 59.69 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 204.47 0)
+			(at 59.69 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +13146,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 40.64 201.93 0)
+		(at 39.37 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13154,7 +13154,7 @@
 		(dnp no)
 		(uuid "ae5488b5-d656-49ed-95e0-c2eab444b5df")
 		(property "Reference" "TP7"
-			(at 48.26 199.2629 0)
+			(at 46.99 199.2629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +13163,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 48.26 201.8029 0)
+			(at 46.99 201.8029 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +13172,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 45.72 201.93 0)
+			(at 44.45 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +13181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 201.93 0)
+			(at 44.45 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13190,7 +13190,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 40.64 201.93 0)
+			(at 39.37 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13199,7 +13199,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 40.64 201.93 0)
+			(at 39.37 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +13208,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 53.086 201.422 0)
+			(at 51.816 201.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14579,7 +14579,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 60.96 201.93 0)
+		(at 59.69 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14587,7 +14587,7 @@
 		(dnp no)
 		(uuid "d4768b26-8982-4ef1-999e-0b4cef33a670")
 		(property "Reference" "TP9"
-			(at 68.58 199.2629 0)
+			(at 67.31 199.2629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +14596,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 68.58 201.8029 0)
+			(at 67.31 201.8029 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +14605,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 66.04 201.93 0)
+			(at 64.77 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14614,7 +14614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 201.93 0)
+			(at 64.77 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14623,7 +14623,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 60.96 201.93 0)
+			(at 59.69 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14632,7 +14632,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 60.96 201.93 0)
+			(at 59.69 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14641,7 +14641,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 73.406 201.422 0)
+			(at 72.136 201.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,7 +14888,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 81.28 201.93 0)
+		(at 80.01 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14896,7 +14896,7 @@
 		(dnp no)
 		(uuid "d65243fd-e0e2-4998-80eb-f8b01de772fe")
 		(property "Reference" "TP16"
-			(at 88.9 199.2629 0)
+			(at 87.63 199.2629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14905,7 +14905,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 88.9 201.8029 0)
+			(at 87.63 201.8029 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14914,7 +14914,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 86.36 201.93 0)
+			(at 85.09 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14923,7 +14923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 201.93 0)
+			(at 85.09 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14932,7 +14932,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 81.28 201.93 0)
+			(at 80.01 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14941,7 +14941,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 81.28 201.93 0)
+			(at 80.01 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14950,7 +14950,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 93.726 201.422 0)
+			(at 92.456 201.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15212,7 +15212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 204.47 0)
+		(at 39.37 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15221,7 +15221,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddf90c22-bab5-4d1a-ab7d-22fe240726ee")
 		(property "Reference" "#PWR011"
-			(at 40.64 210.82 0)
+			(at 39.37 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15230,7 +15230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 209.55 0)
+			(at 39.37 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15238,7 +15238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 204.47 0)
+			(at 39.37 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15247,7 +15247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 204.47 0)
+			(at 39.37 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15256,7 +15256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 204.47 0)
+			(at 39.37 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15447,7 +15447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 204.47 0)
+		(at 19.05 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15456,7 +15456,7 @@
 		(fields_autoplaced yes)
 		(uuid "e025c0b6-5542-4a55-a248-468e1796b1f3")
 		(property "Reference" "#PWR02"
-			(at 20.32 210.82 0)
+			(at 19.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15465,7 +15465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 209.55 0)
+			(at 19.05 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15473,7 +15473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 204.47 0)
+			(at 19.05 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15482,7 +15482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 204.47 0)
+			(at 19.05 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15491,7 +15491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 204.47 0)
+			(at 19.05 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16174,7 +16174,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 20.32 201.93 0)
+		(at 19.05 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16182,7 +16182,7 @@
 		(dnp no)
 		(uuid "f270bcf8-a409-4a66-b30d-5bd4429541a8")
 		(property "Reference" "TP2"
-			(at 27.94 199.2629 0)
+			(at 26.67 199.2629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16191,7 +16191,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 27.94 201.8029 0)
+			(at 26.67 201.8029 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16200,7 +16200,7 @@
 			)
 		)
 		(property "Footprint" "maveric-parts:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
-			(at 25.4 201.93 0)
+			(at 24.13 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16209,7 +16209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 201.93 0)
+			(at 24.13 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16218,7 +16218,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 20.32 201.93 0)
+			(at 19.05 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16227,7 +16227,7 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 20.32 201.93 0)
+			(at 19.05 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16236,7 +16236,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
-			(at 32.766 201.422 0)
+			(at 31.496 201.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17390,7 +17390,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b6ee1a75-95b9-4253-bea7-e151c2254d7b")
-		(property "Sheetname" "Clocking diagram"
+		(property "Sheetname" "Clocking Diagram"
 			(at 50.8 26.2124 0)
 			(effects
 				(font

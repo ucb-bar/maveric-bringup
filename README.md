@@ -249,11 +249,11 @@ Also noting stock from JLCPCB.
 | reset                     | LA_21_P       | H25     | 80.45                         | 15            | G15       |       |
 | uart_rx                   | LA_20_P       | G21     | 81.48                         | 15            | L17       | via selection jumper |
 | uart_tx                   | LA_20_N       | G22     | 81.48                         | 15            | K18       | via selection jumper |
-| fpga_gpio\[0\]            | LA_13_P       | D17     | 81.70                         | 15            | E15       | to header + LED |
-| fpga_gpio\[1\]            | LA_13_N       | D18     | 81.70                         | 15            | E16       | to header + LED |
-| fpga_gpio\[2\]            | LA_25_P       | G27     | 82.45                         | 15            | J15       | to header + LED |
-| fpga_gpio\[3\]            | LA_25_N       | G28     | 82.46                         | 15            | J16       | to header + LED |
 | fpga_refclk               | CLK0_M2C_P    | H4      | 82.74                         | 15            | E18       | for locking FPGA PLL to external clock source |
+| fpga_gpio\[0\]            | LA_14_P       | C18     | 77.23                         | 15            | H16       | to header + LED |
+| fpga_gpio\[1\]            | LA_14_N       | C19     | 77.24                         | 15            | G16       | to header + LED |
+| fpga_gpio\[2\]            | LA_27_P       | C26     | 77.01                         | 16            | D9        | to header + LED |
+| fpga_gpio\[3\]            | LA_27_N       | C27     | 77.10                         | 16            | D8        | to header + LED |
 | jtag_tdi                  | LA_23_P       | D23     | 81.08                         | 16            | F14       |       |
 | jtag_tdo                  | LA_23_N       | D24     | 81.09                         | 16            | F13       |       |
 | jtag_tms                  | LA_26_P       | D26     | 79.86                         | 16            | C9        |       |

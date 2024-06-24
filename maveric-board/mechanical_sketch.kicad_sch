@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 132.588 38.1)
-		(end 146.558 40.64)
+		(start 137.922 38.1)
+		(end 151.892 40.64)
 		(stroke
 			(width 0)
 			(type default)
@@ -60,6 +60,18 @@
 		(uuid 2cb1307b-76cb-41d0-8592-3bbce9a335f2)
 	)
 	(rectangle
+		(start 133.35 43.18)
+		(end 134.62 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 384c4dac-e1f2-4114-a6b7-ede39312116e)
+	)
+	(rectangle
 		(start 107.95 44.45)
 		(end 115.57 48.26)
 		(stroke
@@ -82,6 +94,19 @@
 			(type none)
 		)
 		(uuid 792b5fdf-a0eb-4fb4-b083-ffc982726cb2)
+	)
+	(rectangle
+		(start 111.76 43.18)
+		(end 113.03 48.26)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 915f3ff0-ade4-4895-9203-675a2b1477ab)
 	)
 	(rectangle
 		(start 154.94 43.18)
@@ -127,6 +152,18 @@
 		)
 		(uuid "29e43216-5594-4d38-8596-d591c8a15d67")
 	)
+	(text "2x FMC mounting standoffs"
+		(exclude_from_sim no)
+		(at 126.746 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+			(justify right)
+		)
+		(uuid "527b1991-9e0e-462a-8956-f981a624e056")
+	)
 	(text "XEM7350"
 		(exclude_from_sim no)
 		(at 58.166 46.228 0)
@@ -139,7 +176,7 @@
 	)
 	(text "FMC\n10mm mating height"
 		(exclude_from_sim no)
-		(at 106.68 45.212 0)
+		(at 106.426 45.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -148,9 +185,9 @@
 		)
 		(uuid "848a091a-cbfc-439c-a5ac-4ef38df6a425")
 	)
-	(text "2x 2.70mm hole"
+	(text "4x 2.70mm hole"
 		(exclude_from_sim no)
-		(at 145.542 46.482 0)
+		(at 144.78 46.736 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -160,7 +197,7 @@
 	)
 	(text "UNI2 Socket"
 		(exclude_from_sim no)
-		(at 139.446 36.83 0)
+		(at 144.78 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -170,7 +207,7 @@
 	)
 	(text "4x 2.70mm hole"
 		(exclude_from_sim no)
-		(at 76.708 58.42 0)
+		(at 78.486 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -180,7 +217,7 @@
 	)
 	(text "Standoffs > 6.5mm height"
 		(exclude_from_sim no)
-		(at 76.708 55.626 0)
+		(at 67.056 54.356 0)
 		(effects
 			(font
 				(size 1.27 1.27)

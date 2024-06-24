@@ -3895,10 +3895,6 @@
 		(uuid "3d81df28-c878-4907-bb62-96a2405a9d9c")
 	)
 	(no_connect
-		(at 45.72 71.12)
-		(uuid "439254bd-0771-46bb-9167-87a097662c2f")
-	)
-	(no_connect
 		(at 198.12 43.18)
 		(uuid "4ea22c84-87f1-4488-9846-adaf57ad7af8")
 	)
@@ -3933,10 +3929,6 @@
 	(no_connect
 		(at 45.72 40.64)
 		(uuid "6b28552f-b28f-412e-a528-84376e903ab0")
-	)
-	(no_connect
-		(at 45.72 73.66)
-		(uuid "6b5c4446-df49-4459-a377-a6d3319a7269")
 	)
 	(no_connect
 		(at 147.32 43.18)
@@ -3975,6 +3967,10 @@
 		(uuid "8213ac8d-1ffa-48ed-ae30-e4a1ac6c8b3c")
 	)
 	(no_connect
+		(at 96.52 71.12)
+		(uuid "82af6de7-b345-41cf-bf61-f1b848ee2ebc")
+	)
+	(no_connect
 		(at 198.12 96.52)
 		(uuid "873bb2c4-72d3-4e8d-9948-571ac2358f66")
 	)
@@ -3989,6 +3985,10 @@
 	(no_connect
 		(at 147.32 71.12)
 		(uuid "909a15f1-b668-4c5c-be8a-676dbf50b60b")
+	)
+	(no_connect
+		(at 147.32 96.52)
+		(uuid "953c097d-d276-4aa9-bda9-f59d89082602")
 	)
 	(no_connect
 		(at 198.12 27.94)
@@ -4035,12 +4035,12 @@
 		(uuid "cf8f1648-4762-4c7f-b9cf-49fa7e3cde17")
 	)
 	(no_connect
-		(at 45.72 93.98)
-		(uuid "d0e57c51-18f4-47fe-9997-c13188191941")
-	)
-	(no_connect
 		(at 147.32 33.02)
 		(uuid "d5e032f8-b2cc-4583-bde4-29e2631cdc2d")
+	)
+	(no_connect
+		(at 147.32 93.98)
+		(uuid "d99da206-82e5-48d9-a990-ea8c47711c64")
 	)
 	(no_connect
 		(at 198.12 68.58)
@@ -4059,12 +4059,12 @@
 		(uuid "ee02de41-dd9f-400a-9504-2beafc31ad53")
 	)
 	(no_connect
-		(at 45.72 91.44)
-		(uuid "f1a225ba-6d9f-474d-9c32-674a707ca1a1")
-	)
-	(no_connect
 		(at 45.72 81.28)
 		(uuid "f28d3940-6bc9-4b75-8424-79b964f140e0")
+	)
+	(no_connect
+		(at 96.52 68.58)
+		(uuid "f2a7feee-44f0-4575-a06a-63da7f72f068")
 	)
 	(no_connect
 		(at 147.32 30.48)
@@ -5566,6 +5566,18 @@
 		)
 		(uuid "01e30a97-13d7-4b4b-8500-3110098263d0")
 	)
+	(hierarchical_label "fpga_gpio_1"
+		(shape bidirectional)
+		(at 45.72 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "182330ae-3286-4cd9-9252-17acc2e3f410")
+	)
 	(hierarchical_label "uart_tx"
 		(shape input)
 		(at 147.32 81.28 180)
@@ -5676,7 +5688,7 @@
 	)
 	(hierarchical_label "fpga_gpio_2"
 		(shape bidirectional)
-		(at 147.32 93.98 180)
+		(at 45.72 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5684,7 +5696,7 @@
 			)
 			(justify right)
 		)
-		(uuid "67a14206-a732-4b58-b68b-0fb3a5950cee")
+		(uuid "659130ec-39a0-4848-9cdd-96a502012fcf")
 	)
 	(hierarchical_label "serial_tl_in_bits_0"
 		(shape output)
@@ -5697,18 +5709,6 @@
 			(justify right)
 		)
 		(uuid "6b156fa2-b5b5-4d25-aac7-f2692227cc0f")
-	)
-	(hierarchical_label "fpga_gpio_0"
-		(shape bidirectional)
-		(at 96.52 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "761e58a9-eb34-4044-8eb7-6f872825416c")
 	)
 	(hierarchical_label "jtag_tck"
 		(shape output)
@@ -5770,18 +5770,6 @@
 		)
 		(uuid "a7ffab42-83cd-4d46-bd74-70ac39ea7a0a")
 	)
-	(hierarchical_label "fpga_gpio_1"
-		(shape bidirectional)
-		(at 96.52 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a83d36b3-19e0-4fc8-8f49-b49a412cc1f5")
-	)
 	(hierarchical_label "fpga_refclk"
 		(shape input)
 		(at 198.12 35.56 180)
@@ -5806,6 +5794,18 @@
 		)
 		(uuid "bf763b89-deb3-4c26-9b94-c676cd877d83")
 	)
+	(hierarchical_label "fpga_gpio_3"
+		(shape bidirectional)
+		(at 45.72 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da6538c8-f0d7-489e-8ab6-07ed8bc31870")
+	)
 	(hierarchical_label "jtag_tdi"
 		(shape output)
 		(at 96.52 83.82 180)
@@ -5817,6 +5817,18 @@
 			(justify right)
 		)
 		(uuid "db13ad21-6b17-43a3-83ff-f8095cf8e78f")
+	)
+	(hierarchical_label "fpga_gpio_0"
+		(shape bidirectional)
+		(at 45.72 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7223a4f-3632-4ec9-9213-daf29c671ca1")
 	)
 	(hierarchical_label "serial_tl_in_valid"
 		(shape output)
@@ -5865,18 +5877,6 @@
 			(justify right)
 		)
 		(uuid "f4242ccb-421d-4d87-b00b-de68ec27ed3a")
-	)
-	(hierarchical_label "fpga_gpio_3"
-		(shape bidirectional)
-		(at 147.32 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa321186-3da5-4efb-9997-81e3aafe7a74")
 	)
 	(hierarchical_label "serial_tl_out_valid"
 		(shape input)
