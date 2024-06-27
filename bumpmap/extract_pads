@@ -1,0 +1,99 @@
+#!/usr/bin/env python
+
+import argparse
+from pathlib import Path
+from typing import List, Optional, Any, Dict
+from dataclasses import dataclass
+import csv
+
+from sexpdata import Symbol, loads
+
+
+@dataclass
+class Pad:
+    x: float
+    y: float
+    pad_name: str = ""
+    net_name: str = ""
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Extract pads with coordinates and symbol net names from a KiCad symbol + footprint"
+    )
+    parser.add_argument("--footprint", required=True)
+    parser.add_argument("--symbol-lib", required=True)
+    parser.add_argument("--symbol-name", required=True)
+    parser.add_argument("--reference-csv", required=True)
+    args = parser.parse_args()
+
+    footprint: List[Any]
+    with Path(args.footprint).open("r") as f:
+        lines = f.readlines()
+        footprint = loads("\n".join(lines))
+
+    pads: Dict[str, Pad] = {}
+    for item in footprint:
+        if item[0] == Symbol("pad"):
+            pad_name = item[1]
+            if item[2] == Symbol("smd"):
+                assert item[3] == Symbol("circle")
+                position = item[4]
+                assert position[0] == Symbol("at")
+                x = (
+                    position[1] - 0.375
+                )  # the BGA pads on the socket are shifted right by 0.375mm so we undo this offset
+                y = position[2]
+                pads[pad_name] = Pad(x, y, pad_name)
+            elif item[2] == Symbol("np_thru_hole"):
+                # These are just alignment holes
+                continue
+            else:
+                raise RuntimeError("Encountered a pad with unknown type")
+
+    symbol_lib: List[Any]
+    with Path(args.symbol_lib).open("r") as f:
+        lines = f.readlines()
+        symbol_lib = loads("\n".join(lines))
+
+    symbol: Optional[List[Any]] = None
+    for s in symbol_lib:
+        if s[0] == Symbol("symbol") and s[1] == args.symbol_name:
+            symbol = s
+            break
+    assert symbol is not None
+    # This symbol has sub-symbols which have pins, which have names and numbers
+    for x in symbol:
+        if x[0] == Symbol("symbol"):
+            for item in x:
+                if item[0] == Symbol("pin"):
+                    pin_type = item[1]
+                    pin_form = item[2]
+                    pin_net = item[5][1]
+                    pin_number = item[6][1]
+                    pads[pin_number].net_name = pin_net
+    assert all([p.net_name != "" for p in pads.values()])
+
+    reference_pads: List[Pad] = []
+    with Path(args.reference_csv).open("r") as f:
+        csv_reader = csv.reader(f)
+        header = next(csv_reader, None)
+        for row in csv_reader:
+            x = float(row[1])
+            y = float(row[2])
+            # Perform the first transformation from the package rotation
+            x = -x
+            y = -y
+            # Perform the second transformation from the coordinate axes flip
+            y = -y
+            reference_pads.append(Pad(net_name=row[0], x=x, y=y))
+
+    # Now here is the checking logic
+    # For every pad in [reference_pads], find the matching pad in [pads]
+    # Then make sure the net names match
+    for ref_pad in reference_pads:
+        for p in pads.values():
+            if abs(p.x - ref_pad.x) < 0.01 and abs(p.y - ref_pad.y) < 0.01:
+                if ref_pad.net_name != p.net_name:
+                    print("MISMATCH!!!!!!")
+                    print(ref_pad, p)
