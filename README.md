@@ -364,10 +364,11 @@ Also noting stock from JLCPCB.
       - 12 x \$2/extended part = \$24 assembly part fee
 - [x] Reimport all symbols [d:6/21]
 - [x] Reannotate schematic and push to layout [d:6/21]
-- [ ] Validate socket symbol [d:6/23]
+- [x] Validate socket symbol [d:6/23]
   - Validate all the package coordinate to logical signal net mappings from the Intel schematic
   - I already found one error
   - We sent a mail to Brian casper on 6/21, let's see. I don't trust anything hand drawn unless I have the source.
+  - Turns out there is no error. Assuming that `UNI2 ball map.csv` is golden, then the footprint + symbol are also perfect.
 
 ## Layout
 

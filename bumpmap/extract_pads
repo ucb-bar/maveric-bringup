@@ -50,6 +50,7 @@ if __name__ == "__main__":
                 continue
             else:
                 raise RuntimeError("Encountered a pad with unknown type")
+    print(f"Extracted {len(pads)} pads from the footprint")
 
     symbol_lib: List[Any]
     with Path(args.symbol_lib).open("r") as f:
@@ -73,6 +74,7 @@ if __name__ == "__main__":
                     pin_number = item[6][1]
                     pads[pin_number].net_name = pin_net
     assert all([p.net_name != "" for p in pads.values()])
+    print("Added net names to each pad from the symbol")
 
     reference_pads: List[Pad] = []
     with Path(args.reference_csv).open("r") as f:
@@ -87,13 +89,27 @@ if __name__ == "__main__":
             # Perform the second transformation from the coordinate axes flip
             y = -y
             reference_pads.append(Pad(net_name=row[0], x=x, y=y))
+    print(f"Found {len(reference_pads)} pads in the reference csv")
 
     # Now here is the checking logic
     # For every pad in [reference_pads], find the matching pad in [pads]
     # Then make sure the net names match
+    matched_pads = 0
     for ref_pad in reference_pads:
+        found_pad = False
         for p in pads.values():
-            if abs(p.x - ref_pad.x) < 0.01 and abs(p.y - ref_pad.y) < 0.01:
+            if abs(p.x - ref_pad.x) < 0.1 and abs(p.y - ref_pad.y) < 0.1:
+                found_pad = True
                 if ref_pad.net_name != p.net_name:
                     print("MISMATCH!!!!!!")
                     print(ref_pad, p)
+                else:
+                    matched_pads += 1
+                break
+        if not found_pad:
+            print("MISSING PAD!!!!!")
+            print(ref_pad)
+
+    print(
+        f"{matched_pads} pads were matched from the reference csv to the socket footprint + symbol"
+    )
