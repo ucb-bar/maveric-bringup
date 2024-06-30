@@ -388,17 +388,20 @@ Also noting stock from JLCPCB.
 
 ### Routing
 
-- [ ] Route 3.3V [d:6/22]
+- [x] Route 3.3V [d:6/22]
 - [x] Route VADJ
 - [x] Route VDD_EXT
 - [x] Route VDDV_EXT
-- [ ] Route all power probe pins
-- [ ] Route all 50Ohm traces
-- [ ] Route all UART circuits
-- [ ] Route all JTAG pins
-- [ ] Route chip signal traces to FMC
-- [ ] Route chip signal probes via jumpers
-- [ ] Pour VDD and VDDV and GND
+- [x] Route all 50Ohm traces
+- [x] Route all UART circuits
+- [x] Route all JTAG pins
+- [x] Route chip signal traces to FMC
+- [ ] Place and route decap [d:6/29]
+- [ ] Place Q3 vias [d:6/29]
+- [ ] Place all power/gnd vias [d:6/29]
+- [ ] Route chip signal probes via jumpers [d:6/29]
+- [ ] Pour GND and route [d:6/29]
+- [ ] Pour VDD + VDDV [d:6/29]
 
 ### Finalization
 
@@ -406,3 +409,6 @@ Also noting stock from JLCPCB.
 - [ ] Add stiching vias for ground planes
 - [ ] Add board name + chip + people silk
 - [ ] Add fun silk
+- [ ] Clean all silks
+  - Placement, overlap, and text
+- [ ] Check DRC and connectivity
