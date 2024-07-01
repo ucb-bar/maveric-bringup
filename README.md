@@ -396,6 +396,7 @@ Also noting stock from JLCPCB.
 - [x] Route all UART circuits
 - [x] Route all JTAG pins
 - [x] Route chip signal traces to FMC
+- [x] Rip up 0.15mm vias [d:7/1]
 - [ ] Place and route decap [d:6/29]
 - [ ] Place Q3 vias [d:6/29]
 - [ ] Place all power/gnd vias [d:6/29]
