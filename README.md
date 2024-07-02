@@ -400,13 +400,15 @@ Also noting stock from JLCPCB.
 - [x] Place and route decap [d:6/29]
 - [x] Place Q3 vias [d:6/29]
 - [x] Place all power/gnd vias [d:6/29]
-- [ ] Route chip signal probes via jumpers [d:6/29]
+- [ ] Route chip signal probes [d:6/29]
 - [ ] Pour GND and route [d:6/29]
 - [ ] Pour VDD + VDDV [d:6/29]
 
 ### Finalization
 
 - [x] Add JLC silk
+- [ ] Look at G25
+  - Use for routing VDDV around sma_clock
 - [ ] Add stiching vias for ground planes
 - [ ] Add board name + chip + people silk
 - [ ] Add fun silk
