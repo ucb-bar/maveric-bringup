@@ -400,7 +400,7 @@ Also noting stock from JLCPCB.
 - [x] Place and route decap [d:6/29]
 - [x] Place Q3 vias [d:6/29]
 - [x] Place all power/gnd vias [d:6/29]
-- [ ] Route chip signal probes [d:6/29]
+- [x] Route chip signal probes [d:6/29]
 - [ ] Pour GND and route [d:6/29]
 - [ ] Pour VDD + VDDV [d:6/29]
 
