@@ -404,6 +404,8 @@ Also noting stock from JLCPCB.
 - [x] Pour GND and route [d:6/29]
 - [x] Pour VDD + VDDV [d:6/29]
 - [ ] Finish final routing + placement [d:7/1]
+  - Route all remaining nets
+  - Add mounting holes
 
 ### Finalization
 
