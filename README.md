@@ -401,17 +401,21 @@ Also noting stock from JLCPCB.
 - [x] Place Q3 vias [d:6/29]
 - [x] Place all power/gnd vias [d:6/29]
 - [x] Route chip signal probes [d:6/29]
-- [ ] Pour GND and route [d:6/29]
+- [x] Pour GND and route [d:6/29]
 - [ ] Pour VDD + VDDV [d:6/29]
 
 ### Finalization
 
 - [x] Add JLC silk
-- [ ] Look at G25
+- ~~[ ] Look at G25~~
   - Use for routing VDDV around sma_clock
+  - Actually I just rerouted sma_clock slightly to avoid this problem
+- [ ] Length match serial TL traces
 - [ ] Add stiching vias for ground planes
 - [ ] Add board name + chip + people silk
 - [ ] Add fun silk
 - [ ] Clean all silks
   - Placement, overlap, and text
 - [ ] Check DRC and connectivity
+- [ ] Final check of LED current limit resistor
+- [ ] Check bottom clearance with 3D socket model
