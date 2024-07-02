@@ -398,8 +398,8 @@ Also noting stock from JLCPCB.
 - [x] Route chip signal traces to FMC
 - [x] Rip up 0.15mm vias [d:7/1]
 - [x] Place and route decap [d:6/29]
-- [ ] Place Q3 vias [d:6/29]
-- [ ] Place all power/gnd vias [d:6/29]
+- [x] Place Q3 vias [d:6/29]
+- [x] Place all power/gnd vias [d:6/29]
 - [ ] Route chip signal probes via jumpers [d:6/29]
 - [ ] Pour GND and route [d:6/29]
 - [ ] Pour VDD + VDDV [d:6/29]
