@@ -402,7 +402,8 @@ Also noting stock from JLCPCB.
 - [x] Place all power/gnd vias [d:6/29]
 - [x] Route chip signal probes [d:6/29]
 - [x] Pour GND and route [d:6/29]
-- [ ] Pour VDD + VDDV [d:6/29]
+- [x] Pour VDD + VDDV [d:6/29]
+- [ ] Finish final routing + placement [d:7/1]
 
 ### Finalization
 
