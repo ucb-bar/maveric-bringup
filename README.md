@@ -403,9 +403,16 @@ Also noting stock from JLCPCB.
 - [x] Route chip signal probes [d:6/29]
 - [x] Pour GND and route [d:6/29]
 - [x] Pour VDD + VDDV [d:6/29]
-- [ ] Finish final routing + placement [d:7/1]
+- [x] Finish final routing + placement [d:7/1]
   - Route all remaining nets
-  - Add mounting holes
+- [ ] Finalize holes [d:7/2]
+  - [x] Convert M2.5 mounting holes to plated
+  - [x] Convert FMC standoff holes to plated
+    - Not going to convert the alignment holes - I think those are fine
+  - [x] Convert socket holes to plated
+  - [ ] Import from symbols + import from schematic + place mounting holes
+  - [ ] Make sure no thermal reliefs on grounded holes
+- [ ] Adjust board dimensions and lock [d:7/2]
 
 ### Finalization
 
@@ -415,6 +422,9 @@ Also noting stock from JLCPCB.
   - Actually I just rerouted sma_clock slightly to avoid this problem
 - [ ] Length match serial TL traces
 - [ ] Add stiching vias for ground planes
+  - Throughout board
+  - On edge of board
+- [ ] Pull back power planes from board edge
 - [ ] Add board name + chip + people silk
 - [ ] Add fun silk
 - [ ] Clean all silks
@@ -422,3 +432,13 @@ Also noting stock from JLCPCB.
 - [ ] Check DRC and connectivity
 - [ ] Final check of LED current limit resistor
 - [ ] Check bottom clearance with 3D socket model
+
+## Layout Review
+
+### Questions
+
+- Check silkscreen positions
+- Are plated thru-holes on the socket footprint OK? I tried to make all holes plated and grounded
+- Is the decap sufficient and placed correctly?
+- Check thermal reliefs on pours
+- Check continuity and metal area on power pours
