@@ -468,6 +468,8 @@ Also noting stock from JLCPCB.
 - [ ] Clean all silks [d:7/3]
   - Placement, overlap, and text
   - DRC should be fully clean
+- [ ] Check that front assembly views exist for all footprints
+  - The 3 pin header doesn't seem to have an assembly view
 - [ ] Length match serial TL traces [d:7/3]
 - [ ] Add stiching vias for ground planes [d:7/3]
   - Throughout board
