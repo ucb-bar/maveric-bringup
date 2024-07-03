@@ -97,6 +97,36 @@ See the `README.md` in that folder for details.
 - Short all grounds together (FMC + banana plug ground)
 - Headers for Vadj, VDD, GND, all FMC provided supplies
 
+#### JTAG Pull-ups(downs)
+
+Here is what all the various vendors have to say about JTAG pullup / pulldown resistors on JTAG nets from the target side.
+
+- Xilinx
+  - TDI + TMS pullup to VCC via 4.7k
+  - TCK + TDO floating
+- Altera
+  - TDI + TMS weak pullup via 10k (TDI optional)
+  - TCK weak pulldown via 1k
+  - TDO floating
+- ARM
+  - TMS + TDI + TDO + nSRST + nTRST pullup
+  - TCK pulldown
+  - TRCK pulldown
+  - All resistors should be 10k, except 4.7k for nSRST
+- Lattice
+  - TMS + TDI + TDO pullup via 4.7k
+  - TCK pulldown via 4.7l
+  - 100nF cap between VREF and GND near JTAG header
+
+OK, after looking at all this conflicting information, I have made a decision.
+
+- TMS + TDI + TDO pullup via 4.7k
+- TCK pulldown via 4.7k
+- RTCK floating
+- TTRST_N + TSRST_N pullup via 4.7k (not going to chip, just in case the adapter wants to see these nets, this might be overkill and stupid)
+- 100nF cap near connector on VREF
+- Make sure all of these are easy to desolder if necessary
+
 ##### Decap
 
 - Same strategy as hyperscale chip
@@ -425,14 +455,15 @@ Also noting stock from JLCPCB.
 - [x] Separation between power planes [d:7/3]
   - Pull back power planes from board edge too
   - OK I performed some additional continuity hacking too, seems good
-- [ ] JTAG debugging help [d:7/3]
-  - [ ] Add extra 3-pin headers for VDD and VDDV
-  - [ ] Add pullup/pulldown resistor footprints (0603, DNP) on JTAG nets
-  - [ ] Add 0ohm jumpers for the JTAG FPGA traces to isolate FPGA if necessary
-- [ ] UART debugging help [d:7/3]
+- [x] UART debugging help [d:7/3]
   - Ideally we should be able to test the level shifter and USB-UART Pmod without having the chip in place or even having a FMC connection to a FPGA
   - The only thing we need for that is to power VDDV and +3.3V
-  - [ ] Add extra header pins for 3.3V so we can drive it
+  - [x] Add extra header pins for 3.3V so we can drive it
+- [x] JTAG debugging help [d:7/3]
+  - [x] Add extra 3-pin headers for VDD and VDDV we can use for breadboarding hacks
+  - [x] Add 0ohm jumpers for the JTAG FPGA traces to isolate FPGA if necessary
+  - [x] Add pullup/pulldown resistor footprints (0603, DNP) on JTAG nets
+  - [x] Recheck JTAG connector pinout (T vs R TCK)
 - [ ] Resync PCB with schematic and fix up layout [d:7/3]
 - [ ] Clean all silks [d:7/3]
   - Placement, overlap, and text
