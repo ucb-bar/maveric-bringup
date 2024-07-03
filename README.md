@@ -414,31 +414,50 @@ Also noting stock from JLCPCB.
   - [x] Make sure no thermal reliefs on grounded holes
 - [x] Adjust board dimensions and lock [d:7/2]
 
-### Finalization
+## Finalization
 
 - [x] Add JLC silk
 - ~~[ ] Look at G25~~
   - Use for routing VDDV around sma_clock
   - Actually I just rerouted sma_clock slightly to avoid this problem
-- [ ] Length match serial TL traces
-- [ ] Add stiching vias for ground planes
+- [x] Check DRC and connectivity
+- [x] Check bottom clearance with 3D socket model
+- [x] Separation between power planes [d:7/3]
+  - Pull back power planes from board edge too
+  - OK I performed some additional continuity hacking too, seems good
+- [ ] JTAG debugging help [d:7/3]
+  - [ ] Add extra 3-pin headers for VDD and VDDV
+  - [ ] Add pullup/pulldown resistor footprints (0603, DNP) on JTAG nets
+  - [ ] Add 0ohm jumpers for the JTAG FPGA traces to isolate FPGA if necessary
+- [ ] UART debugging help [d:7/3]
+  - Ideally we should be able to test the level shifter and USB-UART Pmod without having the chip in place or even having a FMC connection to a FPGA
+  - The only thing we need for that is to power VDDV and +3.3V
+  - [ ] Add extra header pins for 3.3V so we can drive it
+- [ ] Resync PCB with schematic and fix up layout [d:7/3]
+- [ ] Clean all silks [d:7/3]
+  - Placement, overlap, and text
+  - DRC should be fully clean
+- [ ] Length match serial TL traces [d:7/3]
+- [ ] Add stiching vias for ground planes [d:7/3]
   - Throughout board
   - On edge of board
-- [ ] Pull back power planes from board edge
-- [ ] Add board name + chip + people silk
+- [ ] Pull back power planes from board edge [d:7/3]
+- [ ] Final check of LED current limit resistor [d:7/3]
 - [ ] Add fun silk
-- [ ] Clean all silks
-  - Placement, overlap, and text
-- [ ] Check DRC and connectivity
-- [ ] Final check of LED current limit resistor
-- [ ] Check bottom clearance with 3D socket model
 
 ## Layout Review
 
 ### Questions
 
 - Check silkscreen positions
-- Are plated thru-holes on the socket footprint OK? I tried to make all holes plated and grounded
+- Check routing of critical nets
+  - Clocks, serial TL
+- Are plated thru-holes on the socket footprint OK?
 - Is the decap sufficient and placed correctly?
 - Check thermal reliefs on pours
 - Check continuity and metal area on power pours
+
+## For Next Time
+
+- Instead of using horizontal banana plug connectors, maybe use vertical ones instead
+  - https://www.reddit.com/r/ECE/comments/9wkrt6/where_to_buy_banana_jack_pcb_sockets/
