@@ -574,7 +574,7 @@
 		(start -23.75 -23.75)
 		(end -5 -5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(fill none)
