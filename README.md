@@ -405,14 +405,14 @@ Also noting stock from JLCPCB.
 - [x] Pour VDD + VDDV [d:6/29]
 - [x] Finish final routing + placement [d:7/1]
   - Route all remaining nets
-- [ ] Finalize holes [d:7/2]
+- [x] Finalize holes [d:7/2]
   - [x] Convert M2.5 mounting holes to plated
   - [x] Convert FMC standoff holes to plated
     - Not going to convert the alignment holes - I think those are fine
   - [x] Convert socket holes to plated
   - [x] Import from symbols + import from schematic + place mounting holes
-  - [ ] Make sure no thermal reliefs on grounded holes
-- [ ] Adjust board dimensions and lock [d:7/2]
+  - [x] Make sure no thermal reliefs on grounded holes
+- [x] Adjust board dimensions and lock [d:7/2]
 
 ### Finalization
 
