@@ -410,7 +410,7 @@ Also noting stock from JLCPCB.
   - [x] Convert FMC standoff holes to plated
     - Not going to convert the alignment holes - I think those are fine
   - [x] Convert socket holes to plated
-  - [ ] Import from symbols + import from schematic + place mounting holes
+  - [x] Import from symbols + import from schematic + place mounting holes
   - [ ] Make sure no thermal reliefs on grounded holes
 - [ ] Adjust board dimensions and lock [d:7/2]
 
