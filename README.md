@@ -464,7 +464,7 @@ Also noting stock from JLCPCB.
   - [x] Add 0ohm jumpers for the JTAG FPGA traces to isolate FPGA if necessary
   - [x] Add pullup/pulldown resistor footprints (0603, DNP) on JTAG nets
   - [x] Recheck JTAG connector pinout (T vs R TCK)
-- [ ] Resync PCB with schematic and fix up layout [d:7/3]
+- [x] Resync PCB and layout [d:7/3]
 - [ ] Clean all silks [d:7/3]
   - Placement, overlap, and text
   - DRC should be fully clean
