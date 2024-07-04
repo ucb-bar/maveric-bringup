@@ -465,12 +465,12 @@ Also noting stock from JLCPCB.
   - [x] Add pullup/pulldown resistor footprints (0603, DNP) on JTAG nets
   - [x] Recheck JTAG connector pinout (T vs R TCK)
 - [x] Resync PCB and layout [d:7/3]
-- [ ] Clean all silks [d:7/3]
+- [x] Clean all silks [d:7/3]
   - Placement, overlap, and text
   - DRC should be fully clean
-- [ ] Check that front assembly views exist for all footprints
-  - The 3 pin header doesn't seem to have an assembly view
-- [ ] Length match serial TL traces [d:7/3]
+- [x] Check that front assembly views exist for all footprints [d:7/3]
+  - ~~The 3 pin header doesn't seem to have an assembly view~~ - actually scratch that, seems fine
+- [x] Length match serial TL traces [d:7/3]
 - [ ] Add stiching vias for ground planes [d:7/3]
   - Throughout board
   - On edge of board
