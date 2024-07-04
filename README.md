@@ -471,11 +471,13 @@ Also noting stock from JLCPCB.
 - [x] Check that front assembly views exist for all footprints [d:7/3]
   - ~~The 3 pin header doesn't seem to have an assembly view~~ - actually scratch that, seems fine
 - [x] Length match serial TL traces [d:7/3]
-- [ ] Add stiching vias for ground planes [d:7/3]
+- [x] Add stiching vias for ground planes [d:7/3]
   - Throughout board
   - On edge of board
   - Around critical nets like clocks
-- [ ] Final check of LED current limit resistor [d:7/3]
+  - Around 3.6k vias, under 4k via limit, will incur small extra charge due to drill density
+- [x] Final check of LED current limit resistor [d:7/3]
+  - Yeah looks good, why did Intel pick such a large resistor?
 - [ ] Add fun silk
 
 ## Layout Review
