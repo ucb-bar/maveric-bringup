@@ -474,7 +474,7 @@ Also noting stock from JLCPCB.
 - [ ] Add stiching vias for ground planes [d:7/3]
   - Throughout board
   - On edge of board
-- [ ] Pull back power planes from board edge [d:7/3]
+  - Around critical nets like clocks
 - [ ] Final check of LED current limit resistor [d:7/3]
 - [ ] Add fun silk
 
