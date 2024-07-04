@@ -479,6 +479,7 @@ Also noting stock from JLCPCB.
 - [x] Final check of LED current limit resistor [d:7/3]
   - Yeah looks good, why did Intel pick such a large resistor?
 - [ ] Add fun silk
+- [ ] Get quote [d:7/4]
 
 ## Layout Review
 
