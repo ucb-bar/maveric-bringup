@@ -45021,7 +45021,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 314.96 20.32 0)
 			(effects
 				(font
@@ -50282,7 +50282,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 234.95 20.32 0)
 			(effects
 				(font
@@ -55543,7 +55543,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 275.59 21.59 0)
 			(effects
 				(font
@@ -60804,7 +60804,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 77.47 20.32 0)
 			(effects
 				(font
@@ -66263,7 +66263,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 116.84 21.59 0)
 			(effects
 				(font
@@ -71854,7 +71854,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 193.04 21.59 0)
 			(effects
 				(font
@@ -77115,7 +77115,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 154.94 20.32 0)
 			(effects
 				(font
@@ -82508,7 +82508,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 33.02 20.32 0)
 			(effects
 				(font
@@ -87769,7 +87769,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 355.6 20.32 0)
 			(effects
 				(font

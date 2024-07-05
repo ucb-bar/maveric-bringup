@@ -32383,7 +32383,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 134.62 21.59 0)
 			(effects
 				(font
@@ -37644,7 +37644,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 54.61 21.59 0)
 			(effects
 				(font
@@ -42905,7 +42905,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 134.62 107.95 0)
 			(effects
 				(font
@@ -48166,7 +48166,7 @@
 				)
 			)
 		)
-		(property "Value" "Socket"
+		(property "Value" "Testchip socket"
 			(at 222.25 21.59 0)
 			(effects
 				(font

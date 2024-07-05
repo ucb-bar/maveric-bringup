@@ -478,8 +478,10 @@ Also noting stock from JLCPCB.
   - Around 3.6k vias, under 4k via limit, will incur small extra charge due to drill density
 - [x] Final check of LED current limit resistor [d:7/3]
   - Yeah looks good, why did Intel pick such a large resistor?
+- [x] Get quote [d:7/4]
+- [x] Cleanup schematic [d:7/4]
+- [x] Redo models for banana plugs with easyeda models [d:7/4]
 - [ ] Add fun silk
-- [ ] Get quote [d:7/4]
 
 ## Layout Review
 

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 1.65,
-          "width": 1.65
+          "drill": 1.999996,
+          "height": 3.0,
+          "width": 3.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -526,8 +526,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/vighnesh/80-temp/board_files/",
-      "pos_files": "",
+      "plot": "fabrication_outputs/",
+      "pos_files": "fabrication_outputs/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -537,7 +537,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "fabrication_outputs/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -554,13 +554,13 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Value",
+          "label": "Comment",
           "name": "Value",
           "show": true
         },
@@ -571,7 +571,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -580,10 +580,10 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -602,7 +602,7 @@
         },
         {
           "group_by": true,
-          "label": "JLCPCB Part #",
+          "label": "LCSC Part Number",
           "name": "JLCPCB Part #",
           "show": true
         },
@@ -634,7 +634,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",

@@ -6438,8 +6438,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 55.626 23.368 0)
+		(property "Value" "FMC LPC terminal"
+			(at 57.658 20.828 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -7008,8 +7008,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 157.988 23.368 0)
+		(property "Value" "FMC LPC terminal"
+			(at 159.258 20.828 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -7644,8 +7644,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 107.442 23.114 0)
+		(property "Value" "FMC LPC terminal"
+			(at 109.22 20.574 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -8281,8 +8281,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 208.788 23.368 0)
+		(property "Value" "FMC LPC terminal"
+			(at 211.582 20.828 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)

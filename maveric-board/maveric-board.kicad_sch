@@ -8051,7 +8051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 222.25 64.7699 0)
 			(effects
 				(font
@@ -8137,7 +8137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 254 64.7699 0)
 			(effects
 				(font
@@ -8222,8 +8222,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 22.86 107.95 0)
+		(property "Value" "3-pin header"
+			(at 31.496 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,8 +8376,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 229.87 254.9769 0)
+		(property "Value" "SMA jack"
+			(at 229.87 252.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,7 +8462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 219.71 86.3599 0)
 			(effects
 				(font
@@ -9032,7 +9032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 257.8099 191.77 0)
 			(effects
 				(font
@@ -9779,8 +9779,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 182.88 147.32 0)
+		(property "Value" "3-pin header"
+			(at 191.77 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,8 +9933,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 165.1 135.8899 0)
+		(property "Value" "3-pin header"
+			(at 165.1 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10174,7 +10174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 234.95 64.7699 0)
 			(effects
 				(font
@@ -10392,8 +10392,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 66.04 107.95 0)
+		(property "Value" "3-pin header"
+			(at 74.93 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,7 +10546,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 241.3 64.7699 0)
 			(effects
 				(font
@@ -11180,15 +11180,15 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 24.13 91.44 0)
+		(property "Value" "Banana jack (red)"
+			(at 35.052 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "maveric-parts:24.243.1"
+		(property "Footprint" "maveric-parts:24.243.1_Red_Banana_Jack"
 			(at 20.32 92.71 0)
 			(effects
 				(font
@@ -11332,8 +11332,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 87.63 181.4829 0)
+		(property "Value" "SMD testpoint"
+			(at 87.376 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,12 +11369,11 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 80.01 181.61 0)
+			(at 91.948 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
@@ -11383,6 +11382,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11481,8 +11481,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 68.58 181.4829 0)
+		(property "Value" "SMD testpoint"
+			(at 68.58 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,12 +11518,11 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 60.96 181.61 0)
+			(at 73.152 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
@@ -11532,6 +11531,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11631,8 +11631,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 229.87 267.6769 0)
+		(property "Value" "SMA jack"
+			(at 229.616 266.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,8 +11915,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 161.29 107.9499 90)
+		(property "Value" "20-pin header"
+			(at 161.29 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,8 +12445,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 139.7 69.8501 0)
+		(property "Value" "3-pin header"
+			(at 139.7 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12730,7 +12730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 228.6 64.7699 0)
 			(effects
 				(font
@@ -12815,8 +12815,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 193.04 116.84 90)
+		(property "Value" "6-pin female header"
+			(at 192.024 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12978,8 +12978,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 48.26 181.4829 0)
+		(property "Value" "SMD testpoint"
+			(at 48.26 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13015,12 +13015,11 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 40.64 181.61 0)
+			(at 52.832 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
@@ -13029,6 +13028,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13060,8 +13060,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 215.9 201.93 0)
+		(property "Value" "3-pin header"
+			(at 224.79 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13148,7 +13148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 173.99 64.7699 0)
 			(effects
 				(font
@@ -13319,15 +13319,15 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 24.13 59.69 0)
+		(property "Value" "Banana jack (black)"
+			(at 35.56 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "maveric-parts:24.243.2"
+		(property "Footprint" "maveric-parts:24.243.2_Black_Banana_Jack"
 			(at 20.32 60.96 0)
 			(effects
 				(font
@@ -13404,7 +13404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 189.23 64.7699 0)
 			(effects
 				(font
@@ -13556,8 +13556,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 130.81 90.1699 90)
+		(property "Value" "Push button switch"
+			(at 130.302 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13642,7 +13642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 181.61 64.7699 0)
 			(effects
 				(font
@@ -13728,7 +13728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 257.8099 201.93 0)
 			(effects
 				(font
@@ -14295,8 +14295,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 156.21 167.64 0)
+		(property "Value" "Level shifter"
+			(at 163.83 165.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14722,8 +14722,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 152.4 261.9133 0)
+		(property "Value" "SMA jack"
+			(at 152.4 260.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15094,8 +15094,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 46.99 201.8029 0)
+		(property "Value" "SMD testpoint"
+			(at 46.99 203.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15131,12 +15131,11 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 39.37 201.93 0)
+			(at 51.562 201.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
@@ -15145,6 +15144,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15510,7 +15510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 203.2 64.7699 0)
 			(effects
 				(font
@@ -15728,7 +15728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 247.65 64.7699 0)
 			(effects
 				(font
@@ -15966,8 +15966,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 165.1 241.5933 0)
+		(property "Value" "SMA jack"
+			(at 165.1 239.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16443,7 +16443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 166.37 64.7699 0)
 			(effects
 				(font
@@ -16728,8 +16728,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 67.31 201.8029 0)
+		(property "Value" "SMD testpoint"
+			(at 67.31 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16765,12 +16765,11 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 59.69 201.93 0)
+			(at 71.882 201.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
@@ -16779,6 +16778,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16811,8 +16811,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 140.97 210.8199 90)
+		(property "Value" "20-pin header"
+			(at 140.462 212.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16951,7 +16951,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 196.85 64.7699 0)
 			(effects
 				(font
@@ -17037,8 +17037,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 87.63 201.8029 0)
+		(property "Value" "SMD testpoint"
+			(at 87.63 203.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17074,12 +17074,11 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 80.01 201.93 0)
+			(at 92.202 201.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
@@ -17088,6 +17087,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17206,8 +17206,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 165.1 124.4599 0)
+		(property "Value" "3-pin header"
+			(at 165.1 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17711,8 +17711,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 26.67 181.4829 0)
+		(property "Value" "SMD testpoint"
+			(at 26.67 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17748,12 +17748,11 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 19.05 181.61 0)
+			(at 31.242 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
@@ -17762,6 +17761,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17925,15 +17925,15 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 24.13 76.2 0)
+		(property "Value" "Banana jack (red)"
+			(at 34.798 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "maveric-parts:24.243.1"
+		(property "Footprint" "maveric-parts:24.243.1_Red_Banana_Jack"
 			(at 20.32 77.47 0)
 			(effects
 				(font
@@ -18208,8 +18208,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 215.9 185.42 0)
+		(property "Value" "3-pin header"
+			(at 224.79 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18296,7 +18296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 261.62 64.7699 0)
 			(effects
 				(font
@@ -18449,8 +18449,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 214.63 106.6799 90)
+		(property "Value" "20-pin header"
+			(at 214.63 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18589,7 +18589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 257.8099 181.61 0)
 			(effects
 				(font
@@ -18847,8 +18847,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 26.67 201.8029 0)
+		(property "Value" "SMD testpoint"
+			(at 26.67 203.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18884,12 +18884,11 @@
 			)
 		)
 		(property "Mfr Part #" "RH-5019"
-			(at 19.05 201.93 0)
+			(at 31.242 201.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB Part #" "C5199800"
@@ -18898,6 +18897,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18929,8 +18929,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 234.95 167.64 0)
+		(property "Value" "Level shifter"
+			(at 242.316 165.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19443,7 +19443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0Ω"
 			(at 257.8099 212.09 0)
 			(effects
 				(font

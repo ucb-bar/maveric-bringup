@@ -1134,8 +1134,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 49.53 54.6099 0)
+		(property "Value" "NMOS"
+			(at 49.53 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,8 +1552,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 49.53 42.2274 90)
+		(property "Value" "LED"
+			(at 49.53 44.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
