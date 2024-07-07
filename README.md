@@ -481,7 +481,7 @@ Also noting stock from JLCPCB.
 - [x] Get quote [d:7/4]
 - [x] Cleanup schematic [d:7/4]
 - [x] Redo models for banana plugs with easyeda models [d:7/4]
-- [ ] Add fun silk
+- [x] Add fun silk
 
 ## Layout Review
 
