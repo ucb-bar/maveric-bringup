@@ -499,3 +499,7 @@ Also noting stock from JLCPCB.
 
 - Instead of using horizontal banana plug connectors, maybe use vertical ones instead
   - https://www.reddit.com/r/ECE/comments/9wkrt6/where_to_buy_banana_jack_pcb_sockets/
+  - Actually better to just use screw terminals (https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ500V_5_083P/C72334) that will save lots of board area
+  - The highest stock Amphenol screw terminal: https://jlcpcb.com/partdetail/AmphenolIcc-YO0301500000G/C2683167 (but it isn't in stock anywhere)
+  - A preferred extended part: https://jlcpcb.com/partdetail/Weco-930_DS02/C2974856
+  - Another good option: https://jlcpcb.com/partdetail/PhoenixContact-1717732/C90080
