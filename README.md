@@ -482,6 +482,10 @@ Also noting stock from JLCPCB.
 - [x] Cleanup schematic [d:7/4]
 - [x] Redo models for banana plugs with easyeda models [d:7/4]
 - [x] Add fun silk
+- [ ] Hide JLC silk under component [d:7/9]
+- [ ] Move J13 flush to board edge [d:7/9]
+- [ ] Nudge U2 away from hole [d:7/9]
+- [ ] Nudge C6 away from hole [d:7/9]
 
 ## Layout Review
 
