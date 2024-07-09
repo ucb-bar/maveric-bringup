@@ -260,34 +260,34 @@ Also noting stock from JLCPCB.
 
 - Use [XEM7350 Pins](https://pins.opalkelly.com/pin_list/XEM7350#) as reference for length matching. Keep all pins on the same FPGA IO bank ideally. We can choose from IO banks 15 or 16. We should keep to trace lengths (FMC socket to FPGA) around 80mm (78-82mm).
 
-| Signal                    | FMC Net Name  | FMC Pin | Trace Length on XEM7350 (mm)  | FPGA IO Bank  | FPGA Pin  | Notes |
-| ---                       | ---           | ---     | ---                           | ---           | ---       | ---   |
-| serial_tl_clock           | LA_00_P_CC    | G6      | 79.41                         | 15            | H17       |       |
-| serial_tl_in_ready        | LA_03_P       | G9      | 79.53                         | 15            | A18       |       |
-| serial_tl_in_valid        | LA_03_N       | G10     | 79.51                         | 15            | A19       |       |
-| serial_tl_in_bits\[0\]    | LA_06_P       | C10     | 79.61                         | 15            | C19       |       |
-| serial_tl_in_bits\[1\]    | LA_06_N       | C11     | 79.65                         | 15            | B19       |       |
-| serial_tl_in_bits\[2\]    | LA_10_P       | C14     | 79.66                         | 15            | B17       |       |
-| serial_tl_in_bits\[3\]    | LA_10_N       | C15     | 79.65                         | 15            | A17       |       |
-| serial_tl_out_ready       | LA_05_P       | D11     | 78.61                         | 15            | C17       |       |
-| serial_tl_out_valid       | LA_05_N       | D12     | 78.63                         | 15            | C18       |       |
-| serial_tl_out_bits\[0\]   | LA_09_P       | D14     | 79.63                         | 15            | L19       |       |
-| serial_tl_out_bits\[1\]   | LA_09_N       | D15     | 79.63                         | 15            | L20       |       |
-| serial_tl_out_bits\[2\]   | LA_15_P       | H19     | 79.79                         | 15            | K16       |       |
-| serial_tl_out_bits\[3\]   | LA_15_N       | H20     | 79.74                         | 15            | K17       |       |
-| clock                     | LA_01_P_CC    | D8      | 79.68                         | 15            | G17       | via SMA cable jumper |
-| reset                     | LA_21_P       | H25     | 80.45                         | 15            | G15       |       |
-| uart_rx                   | LA_02_P       | H7      | 83.66                         | 15            | G19       | via selection jumper |
-| uart_tx                   | LA_02_N       | H8      | 83.65                         | 15            | F20       | via selection jumper |
-| fpga_refclk               | CLK0_M2C_P    | H4      | 82.74                         | 15            | E18       | for locking FPGA PLL to external clock source |
-| fpga_gpio\[0\]            | LA_14_P       | C18     | 77.23                         | 15            | H16       | to header + LED |
-| fpga_gpio\[1\]            | LA_14_N       | C19     | 77.24                         | 15            | G16       | to header + LED |
-| fpga_gpio\[2\]            | LA_27_P       | C26     | 77.01                         | 16            | D9        | to header + LED |
-| fpga_gpio\[3\]            | LA_27_N       | C27     | 77.10                         | 16            | D8        | to header + LED |
-| jtag_tdi                  | LA_23_P       | D23     | 81.08                         | 16            | F14       |       |
-| jtag_tdo                  | LA_23_N       | D24     | 81.09                         | 16            | F13       |       |
-| jtag_tms                  | LA_26_P       | D26     | 79.86                         | 16            | C9        |       |
-| jtag_tck                  | LA_26_N       | D27     | 79.82                         | 16            | B9        |       |
+| Signal                    | FMC Net Name  | FMC Pin | Trace Length on XEM7350 (mm)  | FPGA IO Bank (XEM 7350) | FPGA Pin (XEM 7350) | FPGA Pin (Nexys Video)  | Notes |
+| ---                       | ---           | ---     | ---                           | ---                     | ---                 | ---                     | ---   |
+| serial_tl_clock           | LA_00_P_CC    | G6      | 79.41                         | 15                      | H17                 | K18                     |       |
+| serial_tl_in_ready        | LA_03_P       | G9      | 79.53                         | 15                      | A18                 | N18                     |       |
+| serial_tl_in_valid        | LA_03_N       | G10     | 79.51                         | 15                      | A19                 | N19                     |       |
+| serial_tl_in_bits\[0\]    | LA_06_P       | C10     | 79.61                         | 15                      | C19                 | N22                     |       |
+| serial_tl_in_bits\[1\]    | LA_06_N       | C11     | 79.65                         | 15                      | B19                 | M22                     |       |
+| serial_tl_in_bits\[2\]    | LA_10_P       | C14     | 79.66                         | 15                      | B17                 | K21                     |       |
+| serial_tl_in_bits\[3\]    | LA_10_N       | C15     | 79.65                         | 15                      | A17                 | K22                     |       |
+| serial_tl_out_ready       | LA_05_P       | D11     | 78.61                         | 15                      | C17                 | M21                     |       |
+| serial_tl_out_valid       | LA_05_N       | D12     | 78.63                         | 15                      | C18                 | L21                     |       |
+| serial_tl_out_bits\[0\]   | LA_09_P       | D14     | 79.63                         | 15                      | L19                 | H20                     |       |
+| serial_tl_out_bits\[1\]   | LA_09_N       | D15     | 79.63                         | 15                      | L20                 | G20                     |       |
+| serial_tl_out_bits\[2\]   | LA_15_P       | H19     | 79.79                         | 15                      | K16                 | L16                     |       |
+| serial_tl_out_bits\[3\]   | LA_15_N       | H20     | 79.74                         | 15                      | K17                 | K16                     |       |
+| clock                     | LA_01_P_CC    | D8      | 79.68                         | 15                      | G17                 | J20                     | via SMA cable jumper |
+| reset                     | LA_21_P       | H25     | 80.45                         | 15                      | G15                 | E19                     |       |
+| uart_rx                   | LA_02_P       | H7      | 83.66                         | 15                      | G19                 | M18                     | via selection jumper |
+| uart_tx                   | LA_02_N       | H8      | 83.65                         | 15                      | F20                 | L18                     | via selection jumper |
+| fpga_refclk               | CLK0_M2C_P    | H4      | 82.74                         | 15                      | E18                 | J19                     | to lock FPGA PLL to external clock source |
+| fpga_gpio\[0\]            | LA_14_P       | C18     | 77.23                         | 15                      | H16                 | J22                     | to header + LED |
+| fpga_gpio\[1\]            | LA_14_N       | C19     | 77.24                         | 15                      | G16                 | H22                     | to header + LED |
+| fpga_gpio\[2\]            | LA_27_P       | C26     | 77.01                         | 16                      | D9                  | B20                     | to header + LED |
+| fpga_gpio\[3\]            | LA_27_N       | C27     | 77.10                         | 16                      | D8                  | A20                     | to header + LED |
+| jtag_tdi                  | LA_23_P       | D23     | 81.08                         | 16                      | F14                 | B21                     |       |
+| jtag_tdo                  | LA_23_N       | D24     | 81.09                         | 16                      | F13                 | A21                     |       |
+| jtag_tms                  | LA_26_P       | D26     | 79.86                         | 16                      | C9                  | F18                     |       |
+| jtag_tck                  | LA_26_N       | D27     | 79.82                         | 16                      | B9                  | E18                     |       |
 
 #### Extra Things to Buy
 
