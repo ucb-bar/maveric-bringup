@@ -503,3 +503,31 @@ Also noting stock from JLCPCB.
   - The highest stock Amphenol screw terminal: https://jlcpcb.com/partdetail/AmphenolIcc-YO0301500000G/C2683167 (but it isn't in stock anywhere)
   - A preferred extended part: https://jlcpcb.com/partdetail/Weco-930_DS02/C2974856
   - Another good option: https://jlcpcb.com/partdetail/PhoenixContact-1717732/C90080
+
+## FPGA Bringup Design
+
+### My Initial Lookover
+
+- Using inout at FPGA top level is a very bad practice, makes it easy to make directionality mistakes
+  - there are several mistakes, e.g. serial_tl_in_valid on the FPGA side is an *input*, but it is connected as an output
+  - serial tl in/out need to be crossed!
+  - but it won't affect pin mapping check, so it's likely ok for this check
+- IOB packing (missing)
+- ODDR for clock forwarding (chip clock + serial TL clock) (right now, there is no chip clock at all being generated from the FPGA)
+- FPGA pll lock status (either as LED, or ideally as GPIO, + host MMIO reg)
+- Reset synchronization is missing
+- How is the TL serial clock divide ratio selected?
+- UART TSI dropped is critical, we need to be sure it never goes high (use sticky register)
+  - UART to TSI/TL state machine is less relevant
+- Serial TSI interface is quite iffy
+  - Switch to opposite edge clocking, need to add input/output delays for serial TL IOs
+  - Need to pack all IOs in IOBs for good performance (you can often see electrical problems due to bad slewing if this isn't done)
+  - No synchronization to the digital logic?
+  - What clock is this block running at? It isn't oversampling (I think), so it must be running on the divided clock. Bad practice. Vivado isn't inferring the divided clock.
+- Timing problems
+  - Numerous problems related to CDC and missing / wrong constraints
+  - MIG refclk seems wrong... maybe, at least Vivado reports a max period violation
+    - Timing violations within MIG, not so marginal, would probably fail intermittently at least
+  - Several unsynchronized CDC paths exist... particularly at MIG / ChipTop AXI boundary
+  - FMC timing paths appear to be unconstrained, need to set bus_skew constraint or place all these signals on the same clock, Vivado isn't resolving this correctly
+  - PLL clock feedback path unconstrained
