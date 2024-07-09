@@ -495,6 +495,15 @@ Also noting stock from JLCPCB.
 - Check thermal reliefs on pours
 - Check continuity and metal area on power pours
 
+## Fab
+
+- [ ] Generate fresh fab files [d:7/10]
+  - Check Gerbers locally again
+- [ ] Upload + get quote [d:7/10]
+  - Make sure 3d render on JLCPCB side is perfect now
+- [ ] Get approval from PIs [d:7/10]
+- [ ] Purchase [d:7/11]
+
 ## For Next Time
 
 - Instead of using horizontal banana plug connectors, maybe use vertical ones instead
