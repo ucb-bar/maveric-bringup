@@ -504,14 +504,18 @@ Also noting stock from JLCPCB.
 
 ## Fab
 
-- [ ] Generate fresh fab files [d:7/10]
+- [x] Generate fresh fab files [d:7/10]
   - Check Gerbers locally again, BOM + CPL too
   - Commit to repo
-  - [ ] Commit copper/silk PDFs [d:7/9]
-  - [ ] Commit schematic [d:7/9]
-- [ ] Upload + get quote [d:7/10]
+  - [x] Commit copper/silk PDFs [d:7/9]
+  - [x] Commit schematic [d:7/9]
+- [x] Upload + get quote [d:7/10]
   - Make sure 3d render on JLCPCB side is perfect now
-- [ ] Get approval from PIs [d:7/10]
+  - There are a few issues I think they will fix
+    - U1/U2 are rotated 180deg
+    - Q1-Q5 are not on their pads (also rotated 180deg)
+    - Diodes look good
+- [x] Get approval from PIs [d:7/10]
 - [ ] Purchase [d:7/11]
 
 ## For Next Time
