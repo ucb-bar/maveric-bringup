@@ -486,10 +486,9 @@ Also noting stock from JLCPCB.
 - [x] Move J13 flush to board edge [d:7/9]
 - [x] Nudge U2 away from hole [d:7/9]
 - [x] Nudge C6 away from hole [d:7/9]
-- [ ] Check vertical clearance on XEM [d:7/9]
-- [ ] Check vertical clearance on Nexys Video [d:7/9]
-- [ ] Commit copper/silk PDFs [d:7/9]
-- [ ] Commit schematic [d:7/9]
+- [x] Check vertical clearance on XEM [d:7/9]
+- [x] Check vertical clearance on Nexys Video [d:7/9]
+  - Checked against Nexys Video step model, there is 5mm vertical clearance above PMOD connectors, horizontal clearance to the buttons is sufficient too
 
 ## Layout Review
 
@@ -508,6 +507,8 @@ Also noting stock from JLCPCB.
 - [ ] Generate fresh fab files [d:7/10]
   - Check Gerbers locally again, BOM + CPL too
   - Commit to repo
+  - [ ] Commit copper/silk PDFs [d:7/9]
+  - [ ] Commit schematic [d:7/9]
 - [ ] Upload + get quote [d:7/10]
   - Make sure 3d render on JLCPCB side is perfect now
 - [ ] Get approval from PIs [d:7/10]
