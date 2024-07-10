@@ -482,10 +482,14 @@ Also noting stock from JLCPCB.
 - [x] Cleanup schematic [d:7/4]
 - [x] Redo models for banana plugs with easyeda models [d:7/4]
 - [x] Add fun silk
-- [ ] Hide JLC silk under component [d:7/9]
-- [ ] Move J13 flush to board edge [d:7/9]
-- [ ] Nudge U2 away from hole [d:7/9]
-- [ ] Nudge C6 away from hole [d:7/9]
+- [x] Hide JLC silk under component [d:7/9]
+- [x] Move J13 flush to board edge [d:7/9]
+- [x] Nudge U2 away from hole [d:7/9]
+- [x] Nudge C6 away from hole [d:7/9]
+- [ ] Check vertical clearance on XEM [d:7/9]
+- [ ] Check vertical clearance on Nexys Video [d:7/9]
+- [ ] Commit copper/silk PDFs [d:7/9]
+- [ ] Commit schematic [d:7/9]
 
 ## Layout Review
 
@@ -502,7 +506,8 @@ Also noting stock from JLCPCB.
 ## Fab
 
 - [ ] Generate fresh fab files [d:7/10]
-  - Check Gerbers locally again
+  - Check Gerbers locally again, BOM + CPL too
+  - Commit to repo
 - [ ] Upload + get quote [d:7/10]
   - Make sure 3d render on JLCPCB side is perfect now
 - [ ] Get approval from PIs [d:7/10]
