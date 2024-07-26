@@ -1,5 +1,17 @@
 # Maveric Bringup
 
+## Timeline
+
+- 7/12 5pm: submitted order
+- 7/12 7pm: review done
+- 7/12 8pm: production files sent, confirmed
+- 7/14 2am: parts placement sent, confirmed
+- 7/18 7pm: board fab done
+- 7/20 1am: board assembly done
+- 7/21 8pm: shipped
+- 7/23 2pm: delivered to BWRC
+- Collaterals from JLCPCB are in `maveric-board/07_22_2024-jlcpcb`
+
 ## Test Plan
 
 ### FPGA Devboard
@@ -52,7 +64,7 @@ See the `README.md` in that folder for details.
 - **UART**
   1. Wire through FMC if we want to use the FPGA to drive chip UART
   2. Break out to headers to jump into the [Digilent Pmod USBUART](https://digilent.com/reference/pmod/pmodusbuart/reference-manual?redirect=1)
-    - Requires level translation from 1.2V to 3.3V
+  - Requires level translation from 1.2V to 3.3V
   - Use jumpers to select between the 1) and 2) options for interacting with the chip via UART
     - Use standard 0.1" pitch 3x1 male headers and a shorting jumper for each wire (RX/TX)
     - [Shorting jumper - Digikey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262)
@@ -245,13 +257,13 @@ I would avoid tin-lead parts just because JLCPCB uses non-leaded solderpaste, an
 Also noting stock from JLCPCB.
 
 - 8.5mm, lead-free, HPC: ASP-134602-01
-    - 0 stock, $24.63 / part
+  - 0 stock, $24.63 / part
 - 8.5mm, lead-free, LPC: ASP-134606-01
-    - 0 stock, $22.24 / part
+  - 0 stock, $22.24 / part
 - 10mm, lead-free, HPC: ASP-134488-01
-    - 0 stock, listed as unavailable
+  - 0 stock, listed as unavailable
 - 10mm, lead-free, LPC: ASP-134604-01
-    - 9 stock, $15.30 / part, still requires pre-order
+  - 9 stock, $15.30 / part, still requires pre-order
 
 - C2M = FPGA to motherboard = connector outputs
 - M2C = motherboard to FPGA = connector inputs
@@ -373,10 +385,10 @@ Also noting stock from JLCPCB.
   - Delete all the garbage docs that confuse everyone
 - [x] Import socket 3d model [d:6/21]
 - [x] Fix reset circuit [d:6/21]
-    - Add 3-pin header for reset selection + button
-    - For the button path: pull down (1k || 100nF), button will pull reset high to VDDV
-    - For the FPGA path: FPGA drives reset directly via FMC
-    - [x] Add the switch 3d model + footprint
+  - Add 3-pin header for reset selection + button
+  - For the button path: pull down (1k || 100nF), button will pull reset high to VDDV
+  - For the FPGA path: FPGA drives reset directly via FMC
+  - [x] Add the switch 3d model + footprint
 - [x] Add a 6-pin female header for plugging in the USBUART Pmod [d:6/19]
 - [x] Add ground probe points around the PCB [d:6/19]
   - [x] Add 4x hook-style probes to GND around the board
@@ -387,11 +399,11 @@ Also noting stock from JLCPCB.
 - [x] Bring JTAG signals onto the FPGA via FMC too [d:6/19]
 - [x] Add mounting holes next to FMC connector [d:6/19]
 - [x] Reexamine extended parts [d:6/21]
-    - Try to convert to JLCPCB Basic parts if possible
-    - There are 12 extended parts left
-      - For SMT: level shifter, switch button, SMT testpoint, LED, FMC terminal, LED MOSFET driver
-      - For through-hole (hand-soldered): black banana plug, red banana plug, 3 pin header, SMA connector, 20 pin header, 6 pin female header right-angle
-      - 12 x \$2/extended part = \$24 assembly part fee
+  - Try to convert to JLCPCB Basic parts if possible
+  - There are 12 extended parts left
+    - For SMT: level shifter, switch button, SMT testpoint, LED, FMC terminal, LED MOSFET driver
+    - For through-hole (hand-soldered): black banana plug, red banana plug, 3 pin header, SMA connector, 20 pin header, 6 pin female header right-angle
+    - 12 x \$2/extended part = \$24 assembly part fee
 - [x] Reimport all symbols [d:6/21]
 - [x] Reannotate schematic and push to layout [d:6/21]
 - [x] Validate socket symbol [d:6/23]
@@ -409,8 +421,8 @@ Also noting stock from JLCPCB.
 - [x] Import from schematic + placement [d:6/16]
 - [x] Sketch edge cuts + standoff holes [d:6/16]
 - [x] Verify 3d model placement of FMC [d:6/22]
-  - FMC terminal footprint: https://suddendocs.samtec.com/prints/seam-xx-xx.x-xx-xx-x-a-xx-footprint.pdf
-  - FMC terminal mechanical drawing: https://suddendocs.samtec.com/prints/seam-xx-xx.x-xxx-xx-x-a-xx-k-xr-mkt.pdf
+  - FMC terminal footprint: <https://suddendocs.samtec.com/prints/seam-xx-xx.x-xx-xx-x-a-xx-footprint.pdf>
+  - FMC terminal mechanical drawing: <https://suddendocs.samtec.com/prints/seam-xx-xx.x-xxx-xx-x-a-xx-k-xr-mkt.pdf>
   - Indeed the single tab is on the side of pin 1 and the double tabs are on the side of pin 40
 - [x] Verify rotation and mounting and holes of FMC [d:6/22]
   - The mounting holes are biased towards the later letters as expected. Things look right.
@@ -516,16 +528,21 @@ Also noting stock from JLCPCB.
     - Q1-Q5 are not on their pads (also rotated 180deg)
     - Diodes look good
 - [x] Get approval from PIs [d:7/10]
-- [ ] Purchase [d:7/11]
+- [x] Purchase [d:7/11]
+- [ ] File for reimbursement [d:7/15]
 
 ## For Next Time
 
 - Instead of using horizontal banana plug connectors, maybe use vertical ones instead
-  - https://www.reddit.com/r/ECE/comments/9wkrt6/where_to_buy_banana_jack_pcb_sockets/
-  - Actually better to just use screw terminals (https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ500V_5_083P/C72334) that will save lots of board area
-  - The highest stock Amphenol screw terminal: https://jlcpcb.com/partdetail/AmphenolIcc-YO0301500000G/C2683167 (but it isn't in stock anywhere)
-  - A preferred extended part: https://jlcpcb.com/partdetail/Weco-930_DS02/C2974856
-  - Another good option: https://jlcpcb.com/partdetail/PhoenixContact-1717732/C90080
+  - <https://www.reddit.com/r/ECE/comments/9wkrt6/where_to_buy_banana_jack_pcb_sockets/>
+  - Actually better to just use screw terminals (<https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ500V_5_083P/C72334>) that will save lots of board area
+  - The highest stock Amphenol screw terminal: <https://jlcpcb.com/partdetail/AmphenolIcc-YO0301500000G/C2683167> (but it isn't in stock anywhere)
+  - A preferred extended part: <https://jlcpcb.com/partdetail/Weco-930_DS02/C2974856>
+  - Another good option: <https://jlcpcb.com/partdetail/PhoenixContact-1717732/C90080>
+- Don't pre-assign the FMC pins, length matching isn't that important
+  - Assign pins for ease of routing as we are routing them
+  - Q3 header pins should be on top-side of board rather than bottom side
+  - When doing hyperscale respin, Q4 debug pins should be on bottom side
 
 ## FPGA Bringup Design
 
