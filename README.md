@@ -1,5 +1,7 @@
 # Maveric Bringup
 
+![Maveric Board](https://github.com/ucb-bar/maveric-bringup/blob/master/maveric-board.jpg?raw=true)
+
 ## Timeline
 
 - 7/12 5pm: submitted order
@@ -529,7 +531,15 @@ Also noting stock from JLCPCB.
     - Diodes look good
 - [x] Get approval from PIs [d:7/10]
 - [x] Purchase [d:7/11]
-- [ ] File for reimbursement [d:7/15]
+- [x] File for reimbursement [d:7/15]
+- [ ] Check on reimbursement [d:8/13]
+  - Approved as of 8/11, not yet disbursed
+- [ ] Purchase heatsink + fan for xem7350 [d:8/12/2024]
+  - We have the EXX revision
+  - https://opalkelly.com/products/#tab-accessories (FANSINK-30X30) which is $40 and is good
+  - https://www.digikey.com/en/products/detail/molex/0878311420/662449 (just 1 quantity)
+  - https://digilent.com/shop/jtag-hs2-programming-cable/
+- [ ] Begin bringup design for xem7350
 
 ## For Next Time
 
