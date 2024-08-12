@@ -19,6 +19,13 @@
 ### FPGA Devboard
 
 - Things to consider: cost, FPGA type, host interface, DRAM, connector + voltages, form factor
+- Desires
+  - Low cost (< $3k)
+  - Small FPGA (fast bitstream generation and programming)
+  - High bandwidth host interface (but NO PCIe / Ethernet, UART is OK but USB-FIFO is ideal)
+  - Some DRAM, just 512 MiB is enough
+  - FMC connector with board acting as carrier (FMC+ is OK, backwards compatible with FMC) (FMC-LPC is sufficient), 1.2V VADJ is necessary
+  - Small board form factor
 - [Xilinx VCU118](https://www.xilinx.com/products/boards-and-kits/vcu118.html)
   - $9k
   - Virtex Ultrascale+
