@@ -539,9 +539,11 @@ Also noting stock from JLCPCB.
 - [x] Get approval from PIs [d:7/10]
 - [x] Purchase [d:7/11]
 - [x] File for reimbursement [d:7/15]
-- [ ] Check on reimbursement [d:8/13]
+- [x] Check on reimbursement [d:9/1]
   - Approved as of 8/11, not yet disbursed
-- [ ] Purchase heatsink + fan for xem7350 [d:8/12/2024]
+  - Approved still on 8/21, still not yet disbursed
+  - On 8/25, still nothing, bumped via email
+- [x] Purchase heatsink + fan for xem7350 [d:8/15]
   - We have the EXX revision
   - https://opalkelly.com/products/#tab-accessories (FANSINK-30X30) which is $40 and is good
   - https://www.digikey.com/en/products/detail/molex/0878311420/662449 (just 1 quantity)
