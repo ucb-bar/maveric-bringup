@@ -1,0 +1,3 @@
+[submodule "maveric-board/kicad-parts"]
+	path = maveric-board/kicad-parts
+	url = git@github.com:ucb-bar/kicad-parts.git

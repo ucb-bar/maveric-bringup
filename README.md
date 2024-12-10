@@ -548,7 +548,10 @@ Also noting stock from JLCPCB.
   - https://opalkelly.com/products/#tab-accessories (FANSINK-30X30) which is $40 and is good
   - https://www.digikey.com/en/products/detail/molex/0878311420/662449 (just 1 quantity)
   - https://digilent.com/shop/jtag-hs2-programming-cable/
-- [ ] Begin bringup design for xem7350
+
+## XEM7350 Bringup
+
+- [ ] Get Chipyard setup w/ metals working
 
 ## For Next Time
 
