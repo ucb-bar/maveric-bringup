@@ -1,0 +1,65 @@
+/dts-v1/;
+
+/ {
+	#address-cells = <1>;
+	#size-cells = <1>;
+	compatible = "ucb-bar,chipyard-dev";
+	model = "ucb-bar,chipyard";
+	L15: cpus {
+		#address-cells = <1>;
+		#size-cells = <0>;
+		timebase-frequency = <1000000>;
+	};
+	L17: htif {
+		compatible = "ucb,htif0";
+	};
+	L8: memory@80000000 {
+		device_type = "memory";
+		reg = <0x80000000 0x20000000>;
+	};
+	L14: soc {
+		#address-cells = <1>;
+		#size-cells = <1>;
+		compatible = "ucb-bar,chipyard-soc", "simple-bus";
+		ranges;
+		L11: lbwif-readwrite@0 {
+			reg = <0x0 0x80000000>;
+		};
+		L4: subsystem_cbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <25000000>;
+			clock-output-names = "subsystem_cbus_clock";
+			compatible = "fixed-clock";
+		};
+		L3: subsystem_fbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <25000000>;
+			clock-output-names = "subsystem_fbus_clock";
+			compatible = "fixed-clock";
+		};
+		L6: subsystem_l2_clock {
+			#clock-cells = <0>;
+			clock-frequency = <25000000>;
+			clock-output-names = "subsystem_l2_clock";
+			compatible = "fixed-clock";
+		};
+		L5: subsystem_mbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <25000000>;
+			clock-output-names = "subsystem_mbus_clock";
+			compatible = "fixed-clock";
+		};
+		L2: subsystem_pbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <25000000>;
+			clock-output-names = "subsystem_pbus_clock";
+			compatible = "fixed-clock";
+		};
+		L1: subsystem_sbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <25000000>;
+			clock-output-names = "subsystem_sbus_clock";
+			compatible = "fixed-clock";
+		};
+	};
+};
